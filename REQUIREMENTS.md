@@ -10,6 +10,9 @@ This document outlines the requirements for developing a Pinescript indicator th
 - Automated detection of price delivery patterns
 - Customizable visualization and alert system
 
+**Document Structure:**
+This requirements document is designed to be reviewed and understood by both technical and non-technical stakeholders. All algorithm flows, calculation processes, and system behaviors are explained in plain English with step-by-step procedures. Technical implementation details are presented as clear, narrative explanations that describe "what happens" and "how it works" rather than "how to code it." This ensures that the customer can fully understand the indicator's mechanics and verify that all requirements are met.
+
 ---
 
 ## 2. Inputs & Parameters
@@ -1262,48 +1265,73 @@ This framework helps identify critical turning points and aligns with the fracta
 
 ### 4.2 Setup Failure Conditions - Detailed
 
-**Failure Detection Algorithm:**
+**Failure Detection Process - Step by Step:**
 
-```pseudocode
-For each active setup:
-    If setup is Bullish:
-        Initial_Low = min(CISD_Low, C2_Low)
-        Current_Price_Low = lowest price since setup formation
-        
-        If Current_Price_Low <= Initial_Low:
-            Check HTF_Swing_Low:
-                Previous_HTF_Low = HTF low from previous HTF candle
-                Current_HTF_Low = HTF low from current HTF candle
-                
-                If Current_HTF_Low < Previous_HTF_Low:
-                    HTF_Swing_Low_Formed = true
-                Else:
-                    HTF_Swing_Low_Formed = false
-            
-            If NOT HTF_Swing_Low_Formed:
-                Setup_Failed = true
-                Change_Labels_To_Red()
-                Stop_Plotting_Projections()
-    
-    If setup is Bearish:
-        Initial_High = max(CISD_High, C2_High)
-        Current_Price_High = highest price since setup formation
-        
-        If Current_Price_High >= Initial_High:
-            Check HTF_Swing_High:
-                Previous_HTF_High = HTF high from previous HTF candle
-                Current_HTF_High = HTF high from current HTF candle
-                
-                If Current_HTF_High > Previous_HTF_High:
-                    HTF_Swing_High_Formed = true
-                Else:
-                    HTF_Swing_High_Formed = false
-            
-            If NOT HTF_Swing_High_Formed:
-                Setup_Failed = true
-                Change_Labels_To_Red()
-                Stop_Plotting_Projections()
-```
+**For Bullish Setups:**
+
+1. **Identify the Initial Low Point:**
+   - Look at both the CISD low price and the C2 low price
+   - Take whichever is lower - this becomes the "Initial Low"
+   - This is the lowest point where the bullish setup began
+
+2. **Monitor Current Price Action:**
+   - Track the lowest price that has occurred since the setup was formed
+   - This is called the "Current Price Low"
+
+3. **Check if Price Returned to Initial Low:**
+   - Compare: Has the Current Price Low gone back down to or below the Initial Low?
+   - If NO → Setup is still valid, continue monitoring
+   - If YES → Proceed to step 4
+
+4. **Check Higher Timeframe Structure:**
+   - Look at the previous Higher Timeframe candle's low price
+   - Look at the current Higher Timeframe candle's low price
+   - Compare: Is the current HTF low LOWER than the previous HTF low?
+   - If YES → A new HTF swing low has formed (structure maintained at higher level)
+   - If NO → No new HTF swing low formed
+
+5. **Determine Setup Failure:**
+   - If price returned to Initial Low (step 3) AND no HTF swing low formed (step 4):
+     - **Setup has FAILED**
+     - Change all labels (C2, C3, C4) to RED color
+     - Stop displaying all projections, equilibrium lines, liquidity sweeps, and T-spots
+     - Keep the labels visible but in red (for learning purposes)
+   - If price returned BUT an HTF swing low DID form:
+     - Setup may still be valid (structure maintained at higher timeframe)
+     - Continue monitoring
+
+**For Bearish Setups:**
+
+1. **Identify the Initial High Point:**
+   - Look at both the CISD high price and the C2 high price
+   - Take whichever is higher - this becomes the "Initial High"
+   - This is the highest point where the bearish setup began
+
+2. **Monitor Current Price Action:**
+   - Track the highest price that has occurred since the setup was formed
+   - This is called the "Current Price High"
+
+3. **Check if Price Returned to Initial High:**
+   - Compare: Has the Current Price High gone back up to or above the Initial High?
+   - If NO → Setup is still valid, continue monitoring
+   - If YES → Proceed to step 4
+
+4. **Check Higher Timeframe Structure:**
+   - Look at the previous Higher Timeframe candle's high price
+   - Look at the current Higher Timeframe candle's high price
+   - Compare: Is the current HTF high HIGHER than the previous HTF high?
+   - If YES → A new HTF swing high has formed (structure maintained at higher level)
+   - If NO → No new HTF swing high formed
+
+5. **Determine Setup Failure:**
+   - If price returned to Initial High (step 3) AND no HTF swing high formed (step 4):
+     - **Setup has FAILED**
+     - Change all labels (C2, C3, C4) to RED color
+     - Stop displaying all projections, equilibrium lines, liquidity sweeps, and T-spots
+     - Keep the labels visible but in red (for learning purposes)
+   - If price returned BUT an HTF swing high DID form:
+     - Setup may still be valid (structure maintained at higher timeframe)
+     - Continue monitoring
 
 **Key Points:**
 - Failure requires BOTH conditions: Price return AND no HTF swing formation
@@ -1313,31 +1341,52 @@ For each active setup:
 
 ### 4.3 Consolidation Detection - Detailed
 
-**Consolidation Detection Algorithm:**
+**Consolidation Detection Process - Step by Step:**
 
-```pseudocode
-For each active setup (with Gray labels):
-    Wait for HTF candle closure (setup formation period complete)
-    
-    If setup is Bullish:
-        Progress_Check = Has price made significant new highs?
-        Range_Check = Is price moving in a range?
-        
-        If NOT Progress_Check AND Range_Check:
-            Consolidation_Detected = true
-    
-    If setup is Bearish:
-        Progress_Check = Has price made significant new lows?
-        Range_Check = Is price moving in a range?
-        
-        If NOT Progress_Check AND Range_Check:
-            Consolidation_Detected = true
-    
-    If Consolidation_Detected:
-        Change_Labels_To_Orange()
-        Keep_All_Projections_Active()  // Unlike failure
-        Setup_Still_Valid = true  // Unlike failure
-```
+**For Each Active Setup (with Gray Labels):**
+
+1. **Wait for Setup Formation Period to Complete:**
+   - The setup needs time to develop - wait for the Higher Timeframe candle to close
+   - This is the candle period during which the setup was forming
+   - Once this HTF candle closes, we can evaluate if consolidation occurred
+
+2. **For Bullish Setups - Check Progress:**
+   - **Progress Check:** Has the price made significant new highs since the setup formed?
+     - Look at the highest price reached since setup formation
+     - Compare to the setup's initial high point
+     - If price made substantially higher highs → Progress is good
+     - If price hasn't made new highs → No progress
+   
+   - **Range Check:** Is the price moving sideways in a range?
+     - Look at recent price action
+     - Is price bouncing between similar high and low levels?
+     - If yes → Price is range-bound
+     - If no → Price is trending
+
+3. **For Bearish Setups - Check Progress:**
+   - **Progress Check:** Has the price made significant new lows since the setup formed?
+     - Look at the lowest price reached since setup formation
+     - Compare to the setup's initial low point
+     - If price made substantially lower lows → Progress is good
+     - If price hasn't made new lows → No progress
+   
+   - **Range Check:** Is the price moving sideways in a range?
+     - Look at recent price action
+     - Is price bouncing between similar high and low levels?
+     - If yes → Price is range-bound
+     - If no → Price is trending
+
+4. **Determine Consolidation:**
+   - If BOTH conditions are true:
+     - NO significant progress (price hasn't moved in expected direction)
+     - AND price is moving in a range (sideways movement)
+   - Then: **Consolidation is Detected**
+
+5. **Actions When Consolidation Detected:**
+   - Change all labels (C2, C3, C4) to ORANGE color
+   - **Keep all projections active** (unlike failure where they stop)
+   - **Setup remains valid** (unlike failure where it's invalidated)
+   - Orange color signals: "Setup is still good, but momentum has paused"
 
 **Consolidation vs. Failure:**
 - **Consolidation (Orange):** Setup still valid, just paused. All projections remain active.
@@ -1380,33 +1429,49 @@ For each active setup (with Gray labels):
 
 **Purpose:** Specify a timeframe threshold below which time filters will be applied. This prevents time filters from being applied on higher timeframes where they become less relevant.
 
-**Detailed Logic:**
-```pseudocode
-// Get current chart timeframe in minutes
-current_chart_timeframe_minutes = convert_timeframe_to_minutes(current_chart_timeframe)
+**How Time Filter Threshold Works - Step by Step:**
 
-// Get threshold timeframe in minutes
-threshold_timeframe_minutes = convert_timeframe_to_minutes(time_filter_threshold_input)
+1. **Convert Timeframes to Minutes:**
+   - Take the current chart timeframe (e.g., 5 minutes, 1 hour, 4 hours)
+   - Convert it to total minutes:
+     - 1 minute = 1 minute
+     - 5 minutes = 5 minutes
+     - 15 minutes = 15 minutes
+     - 1 hour = 60 minutes
+     - 4 hours = 240 minutes
+     - 1 day = 1,440 minutes
+   
+   - Take the threshold timeframe setting (e.g., "1H")
+   - Convert it to total minutes (e.g., 1H = 60 minutes)
 
-// Determine if time filters should be active
-if current_chart_timeframe_minutes <= threshold_timeframe_minutes:
-    time_filters_active = true
-    // Time filters will be applied to setup detection
-else:
-    time_filters_active = false
-    // Time filters will be ignored, all setups shown regardless of time
+2. **Compare the Two Timeframes:**
+   - Compare: Is the current chart timeframe LESS THAN OR EQUAL TO the threshold?
+   - If YES → Time filters are ACTIVE (they will be applied)
+   - If NO → Time filters are IGNORED (all setups shown regardless of time)
 
-// Example scenarios:
-// Scenario 1: Chart = 5m, Threshold = 1H (60 minutes)
-//   5 <= 60 → time_filters_active = true ✓
+3. **Example Scenarios:**
 
-// Scenario 2: Chart = 1H, Threshold = 1H (60 minutes)
-//   60 <= 60 → time_filters_active = true ✓
+   **Scenario 1: 5-Minute Chart with 1-Hour Threshold**
+   - Chart timeframe: 5 minutes
+   - Threshold: 1 hour (60 minutes)
+   - Comparison: 5 ≤ 60? YES
+   - Result: Time filters are ACTIVE ✓
+   - Meaning: Setups will only show during your specified time windows
 
-// Scenario 3: Chart = 4H, Threshold = 1H (60 minutes)
-//   240 <= 60 → time_filters_active = false ✗
-//   (Time filters ignored on 4H chart)
-```
+   **Scenario 2: 1-Hour Chart with 1-Hour Threshold**
+   - Chart timeframe: 1 hour (60 minutes)
+   - Threshold: 1 hour (60 minutes)
+   - Comparison: 60 ≤ 60? YES
+   - Result: Time filters are ACTIVE ✓
+   - Meaning: Setups will only show during your specified time windows
+
+   **Scenario 3: 4-Hour Chart with 1-Hour Threshold**
+   - Chart timeframe: 4 hours (240 minutes)
+   - Threshold: 1 hour (60 minutes)
+   - Comparison: 240 ≤ 60? NO
+   - Result: Time filters are IGNORED ✗
+   - Meaning: All setups will show regardless of time of day
+   - Reason: On higher timeframes, time of day becomes less relevant than market structure
 
 **Rationale:**
 - Time filters are most useful on lower timeframes (1m, 5m, 15m)
@@ -1434,75 +1499,67 @@ time_filter_2 = {enabled: false, start: "08:00", end: "11:00", timezone: -5}
 time_filter_3 = {enabled: false, start: "14:00", end: "17:00", timezone: -5}
 ```
 
-**Time Filter Application Logic:**
-```pseudocode
-// When detecting a new setup, check if it falls within active time filters
-function should_show_setup_based_on_time_filters(setup_timestamp):
-    // If time filters are not active (threshold check), show all setups
-    if time_filters_active == false:
-        return true  // Show setup
-    
-    // Get current time in specified timezone
-    current_time_utc = get_current_time_utc()
-    current_time_local = convert_timezone(current_time_utc, custom_timezone_offset)
-    current_hour_minute = extract_hour_minute(current_time_local)
-    
-    // Check if current time falls within any enabled time filter
-    setup_time_valid = false
-    
-    // Check Time Filter 1
-    if time_filter_1.enabled:
-        if is_time_in_window(current_hour_minute, time_filter_1.start, time_filter_1.end):
-            setup_time_valid = true
-    
-    // Check Time Filter 2
-    if time_filter_2.enabled:
-        if is_time_in_window(current_hour_minute, time_filter_2.start, time_filter_2.end):
-            setup_time_valid = true
-    
-    // Check Time Filter 3
-    if time_filter_3.enabled:
-        if is_time_in_window(current_hour_minute, time_filter_3.start, time_filter_3.end):
-            setup_time_valid = true
-    
-    // If at least one filter is enabled, setup must fall within a window
-    if any_filter_enabled:
-        return setup_time_valid
-    else:
-        // No filters enabled, show all setups
-        return true
+**How Time Filters Are Applied - Step by Step:**
 
-// Helper function to check if time is within window
-function is_time_in_window(check_time, window_start, window_end):
-    // Handle normal case (start < end)
-    if window_start < window_end:
-        if check_time >= window_start AND check_time < window_end:
-            return true
-    
-    // Handle wrap-around case (e.g., 22:00 to 02:00)
-    else:  // window_start > window_end (crosses midnight)
-        if check_time >= window_start OR check_time < window_end:
-            return true
-    
-    return false
+**When a New Setup is Detected:**
 
-// Example: Time Filter 1: 02:00 to 05:00
-// - 01:59 → false (before window)
-// - 02:00 → true (start of window)
-// - 03:30 → true (within window)
-// - 04:59 → true (within window)
-// - 05:00 → false (end of window, exclusive)
-// - 05:01 → false (after window)
+1. **Check if Time Filters Are Active:**
+   - First, check the threshold setting (see previous section)
+   - If time filters are NOT active (chart timeframe is too high):
+     - Show the setup regardless of time
+     - Skip the rest of this process
+   - If time filters ARE active:
+     - Continue to step 2
 
-// Example: Time Filter with wrap-around: 22:00 to 02:00
-// - 21:59 → false (before window)
-// - 22:00 → true (start of window)
-// - 23:30 → true (within window)
-// - 00:00 → true (within window, after midnight)
-// - 01:59 → true (within window)
-// - 02:00 → false (end of window, exclusive)
-// - 02:01 → false (after window)
-```
+2. **Get Current Time in Your Timezone:**
+   - The system gets the current time in UTC (Coordinated Universal Time)
+   - It then converts this to your custom timezone setting
+   - For example: If it's 10:00 AM UTC and your timezone is -5 hours (Eastern Time):
+     - Your local time = 10:00 - 5 hours = 5:00 AM
+   - Extract just the hour and minute (e.g., "05:00")
+
+3. **Check Each Enabled Time Filter:**
+   - The system checks if the current time falls within any of your enabled time windows
+   - It checks Time Filter 1, then Time Filter 2, then Time Filter 3
+   - If the current time falls within ANY enabled filter → Setup is valid
+   - If the current time does NOT fall within any enabled filter → Setup is hidden
+
+4. **Normal Time Window (Start Time < End Time):**
+   - Example: Time Filter 1 is set to 02:00 to 05:00
+   - The window includes the start time but excludes the end time
+   - **01:59** → Before window, setup NOT shown
+   - **02:00** → Start of window, setup IS shown ✓
+   - **03:30** → Within window, setup IS shown ✓
+   - **04:59** → Within window, setup IS shown ✓
+   - **05:00** → End of window (excluded), setup NOT shown
+   - **05:01** → After window, setup NOT shown
+
+5. **Wrap-Around Time Window (Crosses Midnight):**
+   - Example: Time Filter is set to 22:00 to 02:00 (overnight)
+   - This window crosses midnight, so it includes late evening and early morning
+   - **21:59** → Before window, setup NOT shown
+   - **22:00** → Start of window, setup IS shown ✓
+   - **23:30** → Within window, setup IS shown ✓
+   - **00:00** → After midnight, still within window, setup IS shown ✓
+   - **01:59** → Still within window, setup IS shown ✓
+   - **02:00** → End of window (excluded), setup NOT shown
+   - **02:01** → After window, setup NOT shown
+
+6. **Multiple Time Filters:**
+   - If you have multiple time filters enabled (e.g., Filter 1 AND Filter 2):
+   - The setup is shown if it falls within ANY of the enabled filters
+   - Example:
+     - Filter 1: 02:00-05:00 (enabled)
+     - Filter 2: 08:00-11:00 (enabled)
+     - Filter 3: 14:00-17:00 (disabled)
+   - Setup at 03:00 → Shown (within Filter 1) ✓
+   - Setup at 09:30 → Shown (within Filter 2) ✓
+   - Setup at 15:00 → NOT shown (Filter 3 disabled, not in Filter 1 or 2)
+   - Setup at 06:00 → NOT shown (not in any enabled filter)
+
+7. **No Filters Enabled:**
+   - If none of the three time filters are enabled:
+   - All setups are shown regardless of time
 
 **Multiple Time Filter Logic:**
 ```pseudocode
@@ -1771,110 +1828,81 @@ function validate_smt_pair(pair_info):
 
 **Divergence Detection Algorithm:**
 ```pseudocode
-// Get price data for both markets in the SMT pair
-// Data must be synchronized to the same timeframe and time periods
+**SMT Divergence Detection Process - Step by Step:**
 
-// Request data for Pair 1 (typically the charted symbol or related market)
-pair_1_data = request_multi_timeframe_data(
-    symbol = smt_pair_1_symbol,
-    timeframe = current_chart_timeframe,  // Use same timeframe as chart
-    data_fields = [CLOSE_PRICE, HIGH_PRICE, LOW_PRICE],
-    lookahead_mode = DISABLED,
-    bar_count = SMT_LOOKBACK_PERIOD  // e.g., 50-100 bars for analysis
-)
+1. **Get Price Data for Both Markets:**
+   - The system requests price data for Pair 1 (the charted symbol or related market)
+   - The system requests price data for Pair 2 (the correlated market)
+   - Both use the same timeframe as your current chart
+   - The system looks back at the last 50-100 price bars for analysis
+   - It collects: closing prices, high prices, and low prices for both markets
 
-// Request data for Pair 2 (correlated market)
-pair_2_data = request_multi_timeframe_data(
-    symbol = smt_pair_2_symbol,
-    timeframe = current_chart_timeframe,
-    data_fields = [CLOSE_PRICE, HIGH_PRICE, LOW_PRICE],
-    lookahead_mode = DISABLED,
-    bar_count = SMT_LOOKBACK_PERIOD
-)
+2. **Validate Data Availability:**
+   - Check if data is available for both Pair 1 and Pair 2
+   - If data is missing for either market:
+     - Show a warning message: "SMT data unavailable"
+     - Disable the SMT divergence feature
+     - Stop the process here
+   - If data is available for both:
+     - Continue to step 3
 
-// Validate data availability
-if pair_1_data == NULL OR pair_2_data == NULL:
-    show_warning("SMT data unavailable")
-    disable_smt_divergence()
-    return
+3. **Handle Inverse Correlation (if enabled):**
+   - Inverse correlation means: When Pair 1 goes up, Pair 2 goes down (and vice versa)
+   - This only applies if you're using Manual mode (Auto mode already knows the correlation type)
+   - If inverse correlation is enabled:
+     - The system finds a "base price" for Pair 2 (like an average or starting value)
+     - For each price point in Pair 2:
+       - Calculate how far it is from the base price
+       - Flip it to the opposite side of the base price
+       - Example: If price is 2 points above base, flip it to 2 points below base
+     - This allows the system to compare markets that move in opposite directions
 
-// Handle inverse correlation if specified
-// Inverse correlation means when Pair 1 goes up, Pair 2 goes down (and vice versa)
-if inverse_correlation_enabled AND auto_smt_mode == false:
-    // Invert Pair 2 data for comparison
-    // Method: Use a base price and invert around it
-    base_price = calculate_base_price(pair_2_data)  // e.g., average or first value
-    
-    for each price_point in pair_2_data:
-        // Invert: distance from base becomes distance in opposite direction
-        distance_from_base = price_point - base_price
-        inverted_price = base_price - distance_from_base
-        pair_2_data[price_point.index] = inverted_price
-    
-    // Note: If Auto SMT mode is enabled, inverse setting is ignored
-    // because auto mode already determines correlation type
+4. **Calculate Trends for Both Markets:**
+   - **For Pair 1:**
+     - Look at the most recent period (e.g., last 20 bars)
+     - Find the highest price and lowest price in that period
+     - Look at the more recent half of that period (e.g., last 10 bars)
+     - Find the highest and lowest in that recent half
+     - Compare:
+       - If recent highs are higher AND recent lows are higher → Trend is "Bullish"
+       - If recent highs are lower AND recent lows are lower → Trend is "Bearish"
+       - Otherwise → Trend is "Neutral"
+   
+   - **For Pair 2:**
+     - Do the same analysis as Pair 1
+     - Determine if trend is Bullish, Bearish, or Neutral
 
-// Detect divergence
-function detect_divergence(pair_1, pair_2, lookback_period=20):
-    // Calculate recent trends
-    pair_1_trend = calculate_trend(pair_1, lookback_period)
-    pair_2_trend = calculate_trend(pair_2, lookback_period)
-    
-    // Bullish Divergence:
-    // Pair 1 making lower lows, but Pair 2 making higher lows
-    if pair_1_trend == "bearish" AND pair_2_trend == "bullish":
-        divergence_type = "bullish_divergence"
-        return true
-    
-    // Bearish Divergence:
-    // Pair 1 making higher highs, but Pair 2 making lower highs
-    if pair_1_trend == "bullish" AND pair_2_trend == "bearish":
-        divergence_type = "bearish_divergence"
-        return true
-    
-    return false
+5. **Detect Divergence:**
+   - **Bullish Divergence:**
+     - Pair 1 is making lower lows (Bearish trend)
+     - BUT Pair 2 is making higher lows (Bullish trend)
+     - This means: Pair 1 is weakening, but Pair 2 is strengthening
+     - This can signal a potential reversal upward in Pair 1
+   
+   - **Bearish Divergence:**
+     - Pair 1 is making higher highs (Bullish trend)
+     - BUT Pair 2 is making lower highs (Bearish trend)
+     - This means: Pair 1 is strengthening, but Pair 2 is weakening
+     - This can signal a potential reversal downward in Pair 1
+   
+   - **No Divergence:**
+     - Both markets are moving in the same direction
+     - Or both are neutral
+     - No divergence detected
 
-// Calculate trend
-function calculate_trend(price_data, period):
-    recent_highs = highest(price_data, period)
-    recent_lows = lowest(price_data, period)
-    
-    current_high = highest(price_data, period/2)  // More recent
-    current_low = lowest(price_data, period/2)
-    
-    if current_high > recent_highs AND current_low > recent_lows:
-        return "bullish"
-    elif current_high < recent_highs AND current_low < recent_lows:
-        return "bearish"
-    else:
-        return "neutral"
-```
-
-**Divergence Visualization:**
-```pseudocode
-// Draw lines connecting divergence points
-if divergence_detected:
-    // Draw line on Pair 1 (current chart)
-    plot_smt_line(
-        x1 = divergence_start_bar,
-        y1 = pair_1_price_at_start,
-        x2 = current_bar,
-        y2 = pair_1_price_current,
-        color = divergence_color,
-        style = smt_line_style,
-        width = smt_line_width
-    )
-    
-    // Draw label
-    if show_smt_labels:
-        plot_smt_label(
-            x = current_bar,
-            y = current_price,
-            text = divergence_type,  // "Bullish Divergence" or "Bearish Divergence"
-            size = smt_label_size,
-            color = smt_label_color
-        )
-```
+6. **Display Divergence on Chart:**
+   - If divergence is detected:
+     - Draw a line on your chart showing the divergence
+     - The line connects:
+       - Start point: Where the divergence began (earlier bar)
+       - End point: Current bar (where divergence is confirmed)
+     - Use the color, style, and width you specified in settings
+   
+   - If labels are enabled:
+     - Display a text label showing the divergence type
+     - Text will say either "Bullish Divergence" or "Bearish Divergence"
+     - Place it at the current price level
+     - Use the label size and color you specified
 
 ### 7.3 Integration with Fractal Model
 
@@ -1910,147 +1938,116 @@ if divergence_detected:
 **Information Displayed:**
 
 **1. Fractal Pairing Information:**
-```pseudocode
-// Display current HTF-LTF relationship
-fractal_pairing_text = "Fractal: " + ltf_timeframe + " / " + htf_timeframe
-// Example: "Fractal: 5m / 1H"
-
-// If automatic mode:
-if fractal_pairing_mode == "Automatic":
-    pairing_text += " (Auto)"
-```
+   - The system displays the current Higher Timeframe and Lower Timeframe relationship
+   - Format: "Fractal: [LTF] / [HTF]"
+   - Example: "Fractal: 5m / 1H" means you're analyzing 5-minute structure within 1-hour candles
+   - If you're using Automatic mode, it adds "(Auto)" to show the pairing was selected automatically
+   - Example with Auto: "Fractal: 5m / 1H (Auto)"
 
 **2. Time Until Next HTF Candle Close:**
-```pseudocode
-// Calculate time remaining
-current_time = time  // Current bar time
-htf_candle_end_time = calculate_htf_candle_end_time(current_time, htf_timeframe)
-time_remaining = htf_candle_end_time - current_time
-
-// Format display
-hours = floor(time_remaining / 3600000)  // Convert ms to hours
-minutes = floor((time_remaining % 3600000) / 60000)
-seconds = floor((time_remaining % 60000) / 1000)
-
-time_to_close_text = "Time to Close: " + str(hours) + "h " + str(minutes) + "m " + str(seconds) + "s"
-// Example: "Time to Close: 0h 23m 45s"
-```
+   - The system calculates how much time remains until the current Higher Timeframe candle closes
+   - Process:
+     1. Get the current time (right now)
+     2. Calculate when the current HTF candle period will end
+     3. Subtract current time from end time to get time remaining
+     4. Convert the time remaining into hours, minutes, and seconds
+     5. Display in format: "Time to Close: [X]h [Y]m [Z]s"
+   - Example: "Time to Close: 0h 23m 45s" means 23 minutes and 45 seconds until the HTF candle closes
+   - This updates in real-time, counting down as time passes
+   - Useful for timing entries/exits relative to HTF structure
 
 **3. Current Bias:**
-```pseudocode
-bias_text = "Bias: " + bias_selection
-// Examples:
-// "Bias: Neutral"
-// "Bias: Bullish"
-// "Bias: Bearish"
-// "Bias: Auto Bias 1"
-// "Bias: Auto Bias 2"
-```
+   - The system displays your current bias setting
+   - Shows exactly what you selected in the Bias Selection dropdown
+   - Examples:
+     - "Bias: Neutral" - Showing both bullish and bearish setups
+     - "Bias: Bullish" - Only showing bullish setups
+     - "Bias: Bearish" - Only showing bearish setups
+     - "Bias: Auto Bias 1" - Bias automatically determined from one timeframe higher
+     - "Bias: Auto Bias 2" - Bias automatically determined from two timeframes higher
 
 **4. Time Filter Status:**
-```pseudocode
-time_filter_text = "Time Filters: "
-if time_filter_1_enable:
-    time_filter_text += "[" + time_filter_1_start + "-" + time_filter_1_end + "] "
-if time_filter_2_enable:
-    time_filter_text += "[" + time_filter_2_start + "-" + time_filter_2_end + "] "
-if time_filter_3_enable:
-    time_filter_text += "[" + time_filter_3_start + "-" + time_filter_3_end + "] "
-if not any_time_filters_enabled:
-    time_filter_text += "None"
-
-// Example: "Time Filters: [02:00-05:00] [08:00-11:00]"
-```
+   - The system shows which time filters are currently active
+   - Process:
+     1. Start with text: "Time Filters: "
+     2. If Time Filter 1 is enabled, add its window: "[02:00-05:00] "
+     3. If Time Filter 2 is enabled, add its window: "[08:00-11:00] "
+     4. If Time Filter 3 is enabled, add its window: "[14:00-17:00] "
+     5. If no filters are enabled, show: "None"
+   - Example with multiple filters: "Time Filters: [02:00-05:00] [08:00-11:00]"
+   - Example with no filters: "Time Filters: None"
+   - This helps you quickly see which time windows are active
 
 **5. Warning Messages:**
-```pseudocode
-// Display warnings if applicable
-if current_timeframe > ltf_timeframe:
-    warning_text = "⚠ LTF analysis unavailable"
-    display_warning(warning_text, color = color.orange)
-
-if invalid_pairing:
-    warning_text = "⚠ Invalid timeframe pairing"
-    display_warning(warning_text, color = color.red)
-```
+   - The system displays warnings if there are issues with your settings
+   - **Warning 1 - LTF Analysis Unavailable:**
+     - Triggered when: Your current chart timeframe is higher than the Lower Timeframe
+     - Example: Viewing a 15-minute chart when using 5m-1H pairing
+     - Message: "⚠ LTF analysis unavailable"
+     - Color: Orange (warning, not error)
+     - Meaning: HTF candles still work, but LTF features (CISD, LTF projections) won't display
+   
+   - **Warning 2 - Invalid Timeframe Pairing:**
+     - Triggered when: Higher Timeframe is not greater than Lower Timeframe
+     - Example: Trying to use 5m as HTF and 15m as LTF (backwards)
+     - Message: "⚠ Invalid timeframe pairing"
+     - Color: Red (error)
+     - Meaning: The indicator cannot function with this pairing
 
 **6. Active Setup Count:**
-```pseudocode
-active_setups_count = array.size(active_setups)
-setups_text = "Active Setups: " + str(active_setups_count)
-```
+   - The system counts how many setups are currently active on your chart
+   - This includes all setups within your History Setups setting (0 to 40)
+   - Format: "Active Setups: [number]"
+   - Example: "Active Setups: 3" means there are 3 setups currently displayed
+   - This helps you see how many setups the indicator is tracking
+
+**How the Info Table is Built and Displayed:**
 
 **Table Structure:**
-```pseudocode
-// Info table layout
-table_data = [
-    ["Fractal Pairing", fractal_pairing_text],
-    ["Time to Close", time_to_close_text],
-    ["Bias", bias_text],
-    ["Time Filters", time_filter_text],
-    ["Active Setups", setups_text]
-]
+1. **Collect Information Items:**
+   - The system gathers all the information pieces described above:
+     - Fractal Pairing information
+     - Time to Close countdown
+     - Current Bias setting
+     - Time Filter status
+     - Active Setup count
+   - Each item has two parts: a label (like "Fractal Pairing") and a value (like "5m / 1H")
+   - If there are any warnings, those are added to the list as well
 
-// Add warnings if present
-if warnings_exist:
-    table_data.append(["⚠ Warnings", warning_text])
-```
+2. **Create the Table:**
+   - The system creates a table with 2 columns:
+     - Column 1: Information labels (left side)
+     - Column 2: Information values (right side)
+   - Number of rows equals the number of information items you've enabled
+   - Table background color uses your setting
+   - If borders are enabled, grid lines separate each cell
+   - If borders are disabled, it's a clean look without lines
 
-**Table Rendering:**
-```pseudocode
-// Create table object
-if show_info_table:
-    info_table = table.new(
-        position = table_position,  // top_left, top_right, etc.
-        columns = 2,
-        rows = table_data.length,
-        bgcolor = table_bg_color,
-        border_width = if show_table_borders then 1 else 0,
-        border_color = table_border_color
-    )
-    
-    // Populate table
-    for i = 0 to table_data.length - 1:
-        // Header column
-        table.cell(
-            table_id = info_table,
-            column = 0,
-            row = i,
-            text = table_data[i][0],
-            text_color = header_text_color,
-            bgcolor = header_bg_color
-        )
-        
-        // Value column
-        table.cell(
-            table_id = info_table,
-            column = 1,
-            row = i,
-            text = table_data[i][1],
-            text_color = value_text_color,
-            bgcolor = value_bg_color
-        )
-```
+3. **Position the Table:**
+   - The system places the table based on your position setting:
+     - **Top Left:** Upper left corner of chart
+     - **Top Right:** Upper right corner of chart
+     - **Top Center:** Top center of chart
+     - **Bottom Left:** Lower left corner of chart
+     - **Bottom Right:** Lower right corner of chart
+     - **Bottom Center:** Bottom center of chart
+     - **On Chart:** Displayed directly on the price chart (see alternative below)
 
-**On-Chart Display Option:**
-```pseudocode
-// Alternative: Display below HTF candles
-if info_table_position == "On Chart":
-    // Calculate position below HTF candles
-    chart_y_position = calculate_chart_y_position()
-    
-    // Display as text labels or table below candles
-    for each info_item in table_data:
-        label.new(
-            x = bar_index,
-            y = chart_y_position,
-            text = info_item[0] + ": " + info_item[1],
-            style = label.style_label_left,
-            size = info_table_size,
-            color = info_text_color
-        )
-        chart_y_position -= label_spacing
-```
+4. **Fill in the Table:**
+   - For each row in the table:
+     - Left cell shows the information label (e.g., "Fractal Pairing")
+     - Right cell shows the information value (e.g., "5m / 1H")
+     - Uses the colors and sizes you specified in settings
+
+**Alternative: On-Chart Display:**
+   - If you select "On Chart" as the position:
+     - Instead of a table in a corner, information is displayed directly on the price chart
+     - The system calculates a position below the Higher Timeframe candles
+     - Each information item is shown as a text label
+     - Format: "[Label]: [Value]" (e.g., "Fractal Pairing: 5m / 1H")
+     - Labels are stacked vertically, one below the other
+     - Uses the text size and color you specified
+   - This keeps the information visible while viewing price action
 
 **Customization Options:**
 
@@ -2198,263 +2195,282 @@ All visual elements must support:
 
 **Implementation Requirements:**
 
-**1. HTF Data Request:**
-```pseudocode
-// CRITICAL: Request HTF data with non-repainting settings
-// The data request function must be configured to prevent lookahead bias
-// Lookahead bias occurs when the system uses future data that wasn't available
-// at the time the bar was forming, causing historical values to change
+**1. How Higher Timeframe Data is Requested (Non-Repainting):**
 
-// Correct approach (non-repainting):
-htf_data = request_multi_timeframe_data(
-    symbol = current_symbol,
-    timeframe = htf_timeframe,
-    data_fields = [open, high, low, close, volume],
-    lookahead_mode = DISABLED  // CRITICAL: Prevents repainting
-)
+**The Problem of Repainting:**
+- Repainting occurs when an indicator uses information that wasn't available when a bar was forming
+- For example: Using data from a bar that hasn't closed yet to calculate something on a previous bar
+- This causes historical values to change as new bars form, making the indicator unreliable
+- You might see a setup appear, then disappear, or projections that shift around
 
-// The lookahead_mode parameter controls whether the system can use
-// data from bars that haven't closed yet. When DISABLED:
-// - Only confirmed (closed) HTF candles are used
-// - Historical values remain stable
-// - No forward-looking bias
+**The Solution - Non-Repainting Data Requests:**
+1. **Request Only Confirmed Data:**
+   - When requesting Higher Timeframe data, the system must ONLY use candles that have already closed
+   - It cannot use data from a HTF candle that is still forming
+   - This ensures that once a bar is in the past, its data never changes
 
-// NEVER use lookahead_mode = ENABLED
-// This would cause repainting where:
-// - Historical setups could change
-// - Projections could shift
-// - Labels could move
-// - The indicator would be unreliable for backtesting
-```
+2. **What Data is Requested:**
+   - For each Higher Timeframe candle, the system requests:
+     - Open price (where the candle started)
+     - High price (highest point reached)
+     - Low price (lowest point reached)
+     - Close price (where the candle ended)
+     - Volume (optional, if needed)
 
-**2. Confirmed Candle Logic:**
-```pseudocode
-// The indicator must distinguish between:
-// 1. Confirmed (closed) bars - historical data, stable
-// 2. Unconfirmed (forming) bars - real-time data, may change
+3. **Critical Setting - Lookahead Mode:**
+   - The system must be configured with "Lookahead Mode = DISABLED"
+   - This means: "Do not look ahead to future data"
+   - When DISABLED:
+     - Only confirmed (closed) HTF candles are used
+     - Historical values remain stable and never change
+     - No forward-looking bias
+     - The indicator is reliable for backtesting
 
-// Bar state detection:
-current_bar_state = get_bar_state()
+4. **What Happens if Lookahead is Enabled (WRONG):**
+   - Historical setups could change as new bars form
+   - Projections could shift around
+   - Labels could move to different positions
+   - The indicator would be unreliable
+   - You couldn't trust backtesting results
+   - **This must NEVER happen**
 
-// Check if current bar is confirmed (closed)
-if current_bar_state == BAR_CONFIRMED:
-    // This bar has closed and will not change
-    // Safe to:
-    // - Detect new setups
-    // - Calculate projections
-    // - Update labels
-    // - Store setup data permanently
-    
-    process_setup_detection()
-    calculate_projections()
-    update_labels()
-    store_setup_data()
+**2. How the System Handles Different Bar States:**
 
-// Check if current bar is the last (real-time) bar
-else if current_bar_state == BAR_LAST:
-    // This is the currently forming bar
-    // May update in real-time
-    // Can show:
-    // - Real-time HTF candle development
-    // - Live projection updates
-    // - Current setup status
-    
-    update_real_time_display()
-    show_live_htf_candle()
-    
-// All other bars are historical (confirmed)
-else:
-    // Historical bars are always confirmed
-    // Process normally
-    process_historical_bar()
-```
+**Understanding Bar States:**
+The indicator must distinguish between two types of bars:
 
-**3. Setup State Persistence:**
-```pseudocode
-// Store setup state in persistent data structures (non-repainting)
-// These structures maintain setup information across bar updates
+1. **Confirmed (Closed) Bars:**
+   - These are bars that have finished forming
+   - They are in the past and will never change
+   - Their open, high, low, and close prices are final
+   - These are safe to use for permanent calculations
 
-// Initialize persistent storage (only once, when indicator loads)
-if indicator_initialized == false:
-    setup_storage = create_persistent_storage()
-    setup_storage.prices = create_array()
-    setup_storage.bar_indices = create_array()
-    setup_states = create_array()
-    setup_directions = create_array()  // "bullish" or "bearish"
-    setup_c2_prices = create_array()
-    setup_c3_prices = create_array()
-    setup_c4_prices = create_array()
-    setup_cisd_prices = create_array()
-    indicator_initialized = true
+2. **Unconfirmed (Forming) Bars:**
+   - This is the current bar that is still forming
+   - It updates in real-time as new price data comes in
+   - Its prices can change until it closes
+   - This is the "live" bar you see updating
 
-// Once setup is confirmed (on closed bar), store it permanently
-if setup_confirmed == true AND current_bar_state == BAR_CONFIRMED:
-    // Store all setup data
-    add_to_array(setup_storage.prices, setup_reference_price)
-    add_to_array(setup_storage.bar_indices, confirmed_bar_index)
-    add_to_array(setup_states, "gray")  // Initial state
-    add_to_array(setup_directions, setup_direction)
-    add_to_array(setup_c2_prices, c2_price)
-    
-    if c3_exists:
-        add_to_array(setup_c3_prices, c3_price)
-    else:
-        add_to_array(setup_c3_prices, NULL)
-    
-    if c4_exists:
-        add_to_array(setup_c4_prices, c4_price)
-    else:
-        add_to_array(setup_c4_prices, NULL)
-    
-    add_to_array(setup_cisd_prices, cisd_price)
-    
-    // Mark setup as stored
-    setup_stored = true
-    
-    // CRITICAL: This setup data will NEVER change for this bar
-    // Even if new bars form, this historical setup remains fixed
-    // Only the state (gray/red/orange) may change based on future price action
-```
+**How the System Processes Each Bar:**
 
-**4. Label Positioning and Management:**
-```pseudocode
-// Labels must be placed at confirmed bar indices
-// Never use current bar index for historical labels
-// Labels represent fixed points in time that cannot move
+**For Confirmed (Closed) Bars:**
+1. The system detects that a bar has closed
+2. This bar's data is now final and will never change
+3. The system can safely:
+   - Detect new setups based on this confirmed data
+   - Calculate projection levels (these will be permanent)
+   - Update labels (positions are now fixed)
+   - Store setup data permanently in memory
+4. All calculations based on this bar are final
 
-// For each stored setup:
-for each setup in setup_storage:
-    // Get confirmed bar index (fixed, never changes)
-    label_x_position = setup.bar_index  // This is the bar where setup was confirmed
-    
-    // Get setup price level (fixed, never changes)
-    label_y_position = setup.c2_price  // Or c3_price, c4_price depending on label
-    
-    // Label text is fixed
-    label_text = determine_label_text(setup)  // "C2", "C3", or "C4"
-    
-    // Label color can change based on setup state
-    // But the change only occurs when new bars confirm state change
-    if setup.state == "gray":
-        label_color = COLOR_GRAY  // Valid setup
-    else if setup.state == "red":
-        label_color = COLOR_RED  // Failed setup
-    else if setup.state == "orange":
-        label_color = COLOR_ORANGE  // Consolidation
-    
-    // Create or update label
-    if setup.label_id == NULL:
-        // Create new label
-        setup.label_id = create_label(
-            x = label_x_position,
-            y = label_y_position,
-            text = label_text,
-            color = label_color,
-            size = label_size_setting
-        )
-    else:
-        // Update existing label (only color may change)
-        update_label(
-            label_id = setup.label_id,
-            color = label_color  // Only color updates, position never changes
-        )
-    
-    // CRITICAL RULES:
-    // - Label x-position (bar index) NEVER changes
-    // - Label y-position (price) NEVER changes
-    // - Label text NEVER changes
-    // - Only label color can change (gray -> red -> orange)
-    // - Color change only happens on new confirmed bars
-```
+**For the Current (Forming) Bar:**
+1. The system detects this is the bar currently forming
+2. This bar's data may still change as price moves
+3. The system can show:
+   - Real-time Higher Timeframe candle development (as it forms)
+   - Live projection updates (if price reaches a level)
+   - Current setup status (whether a setup is forming)
+4. However, it does NOT:
+   - Create permanent setups (waits for bar to close)
+   - Store final projection levels (waits for confirmation)
+   - Move historical labels (those are fixed)
 
-**5. Projection Calculation and Rendering:**
-```pseudocode
-// Projections are calculated from confirmed reference points
-// Projection levels are fixed values that do not change
-// Only the visual line extends to show current price position
+**For All Historical Bars:**
+- All bars in the past are confirmed
+- They are processed normally using their final, confirmed data
+- Their setups, projections, and labels never change
 
-// For each valid setup (state == "gray"):
-for each setup in setup_storage:
-    if setup.state == "gray":  // Only plot projections for valid setups
-        // Get confirmed reference price (fixed, never changes)
-        reference_price = setup.c2_price  // Primary reference
-        
-        // Get confirmed HTF body size (fixed, from the HTF candle when setup formed)
-        confirmed_body_size = setup.htf_body_size
-        
-        // Get confirmed HTF range (fixed)
-        confirmed_htf_range = setup.htf_range
-        
-        // Calculate each enabled projection level
-        for each projection in enabled_projections:
-            multiplier = projection.multiplier  // e.g., -1, -2, -2.5, -4, -4.5
-            
-            // Calculate projection level (fixed value)
-            if projection.type == "body":
-                if setup.direction == "bullish":
-                    // Bullish: Projections extend downward
-                    projection_level = reference_price - (confirmed_body_size × abs(multiplier))
-                else:  // bearish
-                    // Bearish: Projections extend upward
-                    projection_level = reference_price + (confirmed_body_size × abs(multiplier))
-            
-            else if projection.type == "wick":
-                if setup.direction == "bullish":
-                    // Use HTF low as reference
-                    projection_level = setup.htf_low - (confirmed_htf_range × abs(multiplier))
-                else:  // bearish
-                    // Use HTF high as reference
-                    projection_level = setup.htf_high + (confirmed_htf_range × abs(multiplier))
-            
-            // CRITICAL: projection_level is a FIXED value
-            // It is calculated once when setup is confirmed
-            // It never changes, even as new bars form
-            
-            // Create or update projection line
-            if setup.projection_line_ids[projection.id] == NULL:
-                // Create new line
-                line_id = create_line(
-                    x1 = setup.bar_index,  // Start at setup bar (fixed)
-                    y1 = projection_level,  // Fixed level
-                    x2 = current_bar_index,  // Extends to current bar (updates)
-                    y2 = projection_level,  // Same level
-                    style = projection_line_style,
-                    width = projection_line_width,
-                    color = projection_line_color
-                )
-                setup.projection_line_ids[projection.id] = line_id
-            else:
-                // Update existing line (only extend x2, y2 stays same)
-                update_line(
-                    line_id = setup.projection_line_ids[projection.id],
-                    x2 = current_bar_index,  // Extend to current bar
-                    y2 = projection_level  // Level never changes
-                )
-            
-            // Add label if enabled
-            if show_projection_labels:
-                label_text = format_multiplier(multiplier)  // e.g., "-1", "-2.5"
-                if setup.projection_label_ids[projection.id] == NULL:
-                    label_id = create_label(
-                        x = setup.bar_index,
-                        y = projection_level,
-                        text = label_text,
-                        color = projection_label_color,
-                        size = projection_label_size
-                    )
-                    setup.projection_label_ids[projection.id] = label_id
-```
+**3. How Setup Information is Stored (Permanent Storage):**
 
-**6. Testing Non-Repainting:**
-```pseudocode
-// Test procedure:
-// 1. Load indicator on chart
-// 2. Note position of labels and levels
-// 3. Let chart update (new bars form)
-// 4. Historical labels/levels should NOT move
-// 5. Only new setups should appear
-// 6. Failed setups (red) should remain red, not change back
-```
+**Initialization (When Indicator First Loads):**
+1. When the indicator is first added to your chart, it creates storage areas in memory
+2. These storage areas will hold information about all your setups
+3. The system creates separate storage for:
+   - Setup prices (where each setup is located)
+   - Bar indices (which bar each setup was confirmed on)
+   - Setup states (gray, red, or orange)
+   - Setup directions (bullish or bearish)
+   - C2 prices (first structural point)
+   - C3 prices (second structural point, if it exists)
+   - C4 prices (third structural point, if it exists)
+   - CISD prices (change in state of delivery point)
+4. This initialization happens only once when the indicator loads
+
+**Storing a New Setup (When Setup is Confirmed):**
+1. **Wait for Confirmation:**
+   - The system waits until a bar closes (becomes confirmed)
+   - It does NOT store setups on bars that are still forming
+
+2. **Check if Setup is Valid:**
+   - The system checks if a valid setup has been detected
+   - If yes, proceed to store it
+
+3. **Store All Setup Information:**
+   - The system saves all the important details about this setup:
+     - The reference price (where the setup is based)
+     - The bar number where it was confirmed (this never changes)
+     - Initial state: "gray" (valid setup)
+     - Direction: "bullish" or "bearish"
+     - C2 price level
+     - C3 price level (if C3 was formed)
+     - C4 price level (if C4 was formed)
+     - CISD price level
+   - All this information is saved permanently
+
+4. **Critical Rule - Data Never Changes:**
+   - Once a setup is stored for a specific bar, that setup's data NEVER changes
+   - Even as new bars form in the future, this historical setup remains exactly the same
+   - The bar index stays the same
+   - The price levels stay the same
+   - The only thing that CAN change is the state (gray → red or gray → orange)
+   - But even state changes only happen when new bars confirm the change
+   - This ensures the indicator is non-repainting and reliable
+
+**4. How Labels Are Positioned and Managed:**
+
+**Critical Rules for Labels:**
+- Labels represent fixed points in time that cannot move
+- They mark specific bars and specific price levels
+- Once placed, their position never changes
+
+**For Each Stored Setup, the System:**
+
+1. **Determines Label Position:**
+   - **Horizontal Position (X):** Uses the bar number where the setup was confirmed
+     - This bar number is fixed and never changes
+     - Example: If setup was confirmed on bar #100, label stays at bar #100 forever
+   
+   - **Vertical Position (Y):** Uses the price level of the structural point
+     - For C2 label: Uses the C2 price level
+     - For C3 label: Uses the C3 price level
+     - For C4 label: Uses the C4 price level
+     - This price level is fixed and never changes
+
+2. **Determines Label Text:**
+   - The text is simply "C2", "C3", or "C4" depending on which point it marks
+   - This text never changes
+
+3. **Determines Label Color:**
+   - The color depends on the setup's current state:
+     - **Gray:** Setup is valid and active
+     - **Red:** Setup has failed
+     - **Orange:** Setup is in consolidation
+   - Color CAN change, but only when new bars confirm a state change
+   - Color does NOT change on every bar update, only when state actually changes
+
+4. **Creates or Updates the Label:**
+   - **If label doesn't exist yet:**
+     - Create a new label at the fixed position
+     - Use the determined text and color
+     - Save the label's ID for future updates
+   
+   - **If label already exists:**
+     - Only update the color (if state changed)
+     - Position and text never change
+     - The label stays exactly where it was originally placed
+
+**Important Guarantees:**
+- Label horizontal position (which bar) NEVER changes
+- Label vertical position (which price) NEVER changes  
+- Label text ("C2", "C3", "C4") NEVER changes
+- Only label color can change (gray → red or gray → orange)
+- Color change only happens when new confirmed bars prove the state change
+
+**5. How Projections Are Calculated and Displayed:**
+
+**Key Principle:**
+- Projections are calculated from confirmed, fixed reference points
+- Once calculated, the projection level (price) never changes
+- Only the visual line extends forward to show where the projection is
+
+**For Each Valid Setup (Gray State Only):**
+
+1. **Get Fixed Reference Data:**
+   - **Reference Price:** The C2 price level (where the setup began)
+     - This price is fixed and never changes
+   
+   - **HTF Body Size:** The size of the Higher Timeframe candle body when the setup formed
+     - This is measured once when the setup is confirmed
+     - It never changes
+   
+   - **HTF Range:** The full range (high to low) of the HTF candle when setup formed
+     - This is measured once when the setup is confirmed
+     - It never changes
+
+2. **Calculate Each Projection Level:**
+   - For each projection you have enabled (e.g., -1, -2, -2.5, -4, -4.5):
+   
+   **For Body Projections:**
+   - **Bullish Setup:**
+     - Projections extend downward (opposite direction)
+     - Formula: Projection Level = C2 Price - (Body Size × Multiplier)
+     - Example: C2 = 100, Body = 2, Multiplier = -1
+     - Calculation: 100 - (2 × 1) = 98
+   
+   - **Bearish Setup:**
+     - Projections extend upward (opposite direction)
+     - Formula: Projection Level = C2 Price + (Body Size × Multiplier)
+     - Example: C2 = 100, Body = 2, Multiplier = -1
+     - Calculation: 100 + (2 × 1) = 102
+   
+   **For Wick Projections:**
+   - **Bullish Setup:**
+     - Use HTF Low as the reference point
+     - Formula: Projection Level = HTF Low - (HTF Range × Multiplier)
+   
+   - **Bearish Setup:**
+     - Use HTF High as the reference point
+     - Formula: Projection Level = HTF High + (HTF Range × Multiplier)
+
+3. **Critical Rule - Projection Level is Fixed:**
+   - Each projection level is calculated ONCE when the setup is confirmed
+   - The price level never changes, even as new bars form
+   - This ensures projections are reliable and non-repainting
+
+4. **Display the Projection Line:**
+   - **Create the Line:**
+     - Start point: The bar where setup was confirmed (fixed)
+     - Start price: The calculated projection level (fixed)
+     - End point: Current bar (this extends forward as new bars form)
+     - End price: Same projection level (never changes)
+     - Style: Uses your settings (solid, dotted, dashed)
+     - Width: Uses your setting
+     - Color: Uses your setting
+   
+   - **Update the Line:**
+     - As new bars form, only the end point extends forward
+     - The start point and price level never change
+     - The line grows longer but stays at the same price level
+
+5. **Add Projection Label (if enabled):**
+   - Create a text label showing the multiplier (e.g., "-1", "-2.5")
+   - Place it at the setup bar and projection level
+   - This helps you identify which projection is which
+   - The label position never changes
+
+**6. How to Test That the Indicator is Non-Repainting:**
+
+**Simple Test Procedure:**
+1. **Load the indicator** on your chart
+2. **Note the positions** of labels and projection levels
+   - Write down: Which bars have labels, what prices the projections are at
+3. **Let the chart update** - allow several new bars to form
+4. **Check historical elements:**
+   - Historical labels should NOT have moved
+   - Historical projection levels should NOT have changed
+   - Only new setups should appear (if any)
+5. **Check failed setups:**
+   - If a setup turned red (failed), it should stay red
+   - It should NOT change back to gray or orange
+6. **If anything moved or changed:**
+   - This indicates repainting (a problem)
+   - The indicator should be fixed
+
+**What You Should See:**
+- Labels stay exactly where they were placed
+- Projection lines extend forward but their price levels don't change
+- New setups appear only when new bars confirm them
+- Failed setups (red) remain red permanently
 
 ### 12.2 Multi-Timeframe Handling - Detailed
 
@@ -2487,46 +2503,41 @@ function validate_timeframe_pairing(current_tf, htf_tf, ltf_tf):
     return true
 ```
 
-**Timeframe Conversion:**
-```pseudocode
-// Convert timeframe strings to minutes
-function timeframe_to_minutes(tf_string):
-    if tf_string == "1":
-        return 1
-    elif tf_string == "5":
-        return 5
-    elif tf_string == "15":
-        return 15
-    elif tf_string == "60":
-        return 60
-    elif tf_string == "240":
-        return 240
-    elif tf_string == "D":
-        return 1440  // 24 hours
-    // ... etc
-    
-// Calculate ratio
-htf_minutes = timeframe_to_minutes(htf_timeframe)
-ltf_minutes = timeframe_to_minutes(ltf_timeframe)
-current_minutes = timeframe_to_minutes(current_timeframe)
+**How Timeframes Are Converted and Compared:**
 
-ratio = htf_minutes / ltf_minutes  // Should be 3-12 typically
-```
+**Timeframe to Minutes Conversion:**
+The system converts all timeframes to minutes for easy comparison:
+- 1 minute = 1 minute
+- 5 minutes = 5 minutes
+- 15 minutes = 15 minutes
+- 30 minutes = 30 minutes
+- 1 hour = 60 minutes
+- 4 hours = 240 minutes
+- 1 day = 1,440 minutes (24 hours × 60)
+- 1 week = 10,080 minutes (7 days × 1,440)
 
-**Warning Display:**
-```pseudocode
-// Display warning in info table
-if current_minutes > ltf_minutes:
-    warning_message = "⚠ LTF analysis unavailable (Chart > LTF)"
-    display_in_info_table(warning_message, color = color.orange)
-    
-    // HTF candles still work
-    plot_htf_candles()  // Continue
-    
-    // LTF features disabled
-    disable_cisd_detection()
-    disable_ltf_projections()
-```
+**Calculate Timeframe Relationships:**
+1. Convert Higher Timeframe to minutes (e.g., 1H = 60 minutes)
+2. Convert Lower Timeframe to minutes (e.g., 5m = 5 minutes)
+3. Convert current chart timeframe to minutes (e.g., 15m = 15 minutes)
+4. Calculate the ratio: HTF minutes ÷ LTF minutes
+   - Example: 60 ÷ 5 = 12 (1H is 12 times larger than 5m)
+   - This ratio should typically be between 3 and 12 for proper fractal relationships
+
+**How Warnings Are Displayed:**
+
+**When Chart Timeframe is Too High:**
+1. The system compares: Current chart timeframe vs. Lower Timeframe
+2. If current chart timeframe is HIGHER than LTF:
+   - Display warning in info table: "⚠ LTF analysis unavailable (Chart > LTF)"
+   - Warning color: Orange (it's a limitation, not an error)
+3. What Still Works:
+   - Higher Timeframe candles still display correctly
+   - HTF structure analysis continues
+4. What Doesn't Work:
+   - Lower Timeframe CISD detection is disabled (can't analyze LTF on higher timeframe)
+   - Lower Timeframe projections are disabled
+   - The system shows the warning so you know why these features aren't working
 
 ### 12.3 Performance Considerations - Optimization Strategies
 
@@ -3082,463 +3093,457 @@ for each scenario in test_scenarios:
 
 ### 13.1 HTF Candle Calculation - Detailed Implementation
 
-**Data Request Process:**
-```pseudocode
-// Request higher timeframe data from the charting platform
-// This function retrieves data from a different timeframe than the current chart
+**How Higher Timeframe Data is Requested:**
 
-// Function signature:
-htf_data = request_multi_timeframe_data(
-    symbol = current_chart_symbol,  // The symbol being charted
-    target_timeframe = htf_timeframe,  // e.g., "60" for 1H, "240" for 4H
-    data_fields = [
-        OPEN_PRICE,    // O_HTF - Opening price of HTF candle
-        HIGH_PRICE,    // H_HTF - Highest price in HTF candle
-        LOW_PRICE,     // L_HTF - Lowest price in HTF candle
-        CLOSE_PRICE,   // C_HTF - Closing price of HTF candle
-        VOLUME         // V_HTF - Volume (optional, may not be used)
-    ],
-    lookahead_mode = DISABLED,  // CRITICAL: Prevents repainting
-    gaps_handling = GAPS_NONE  // How to handle gaps in data
-)
+1. **Request Data from Platform:**
+   - The system asks the charting platform for data from a different timeframe than your current chart
+   - It requests the following information for the Higher Timeframe candle:
+     - **Open Price:** Where the HTF candle started
+     - **High Price:** Highest price reached in the HTF candle
+     - **Low Price:** Lowest price reached in the HTF candle
+     - **Close Price:** Where the HTF candle ended
+     - **Volume:** Trading volume (optional, may not always be used)
+   - **Critical Setting:** Lookahead mode must be DISABLED to prevent repainting
+   - This ensures only confirmed (closed) HTF candles are used
 
-// The function returns an array where:
-// htf_data[0] = O_HTF (open)
-// htf_data[1] = H_HTF (high)
-// htf_data[2] = L_HTF (low)
-// htf_data[3] = C_HTF (close)
-// htf_data[4] = V_HTF (volume, if requested)
+2. **How Data is Aligned:**
+   - The data is matched to your current bar's time
+   - Example: If you're viewing a 5-minute chart at 10:30 AM, and HTF is 1 hour:
+     - The system returns the 1-hour candle that contains 10:30 AM
+     - This would be the 10:00 AM - 11:00 AM hourly candle
+   - If the HTF candle hasn't closed yet, it returns data from the previous closed HTF candle
 
-// Important considerations:
-// 1. The data is aligned to the current bar's time
-//    - If current bar is at 10:30 on 5m chart
-//    - And HTF is 1H, it returns the 1H candle that contains 10:30
-// 2. Data is only from confirmed (closed) HTF candles when lookahead_mode = DISABLED
-// 3. If HTF candle hasn't closed yet, returns data from previous closed HTF candle
-// 4. Multiple calls should be batched when possible for performance
-```
+3. **What the System Receives:**
+   - The platform returns all the requested data in order:
+     - Position 1: Open price
+     - Position 2: High price
+     - Position 3: Low price
+     - Position 4: Close price
+     - Position 5: Volume (if requested)
 
-**HTF Candle Metrics Calculation:**
-```pseudocode
-// Extract HTF candle data
-O_HTF = htf_data[0]  // Open
-H_HTF = htf_data[1]  // High
-L_HTF = htf_data[2]  // Low
-C_HTF = htf_data[3]  // Close
+**How HTF Candle Metrics are Calculated:**
 
-// Calculate derived metrics
-HTF_Body_Size = abs(C_HTF - O_HTF)
-HTF_Range = H_HTF - L_HTF
-HTF_Body_Midpoint = (O_HTF + C_HTF) / 2
-HTF_Range_Midpoint = (H_HTF + L_HTF) / 2  // Equilibrium
+1. **Extract Basic Data:**
+   - Open (O_HTF) = First value received
+   - High (H_HTF) = Second value received
+   - Low (L_HTF) = Third value received
+   - Close (C_HTF) = Fourth value received
 
-// Body percentage (strength indicator)
-HTF_Body_Percentage = (HTF_Body_Size / HTF_Range) × 100
+2. **Calculate Derived Measurements:**
+   - **Body Size:** The difference between close and open prices
+     - Formula: Absolute value of (Close - Open)
+     - Example: If close is 102 and open is 100, body size = 2
+   
+   - **Range:** The full price movement from low to high
+     - Formula: High - Low
+     - Example: If high is 103 and low is 99, range = 4
+   
+   - **Body Midpoint:** The center of the candle body
+     - Formula: (Open + Close) ÷ 2
+     - Example: (100 + 102) ÷ 2 = 101
+   
+   - **Range Midpoint (Equilibrium):** The center of the entire candle
+     - Formula: (High + Low) ÷ 2
+     - Example: (103 + 99) ÷ 2 = 101
+     - This is the 50% level used for premium/discount zones
 
-// Candle direction
-HTF_Is_Bullish = C_HTF > O_HTF
-HTF_Is_Bearish = C_HTF < O_HTF
-HTF_Is_Doji = abs(C_HTF - O_HTF) < (HTF_Range × 0.1)  // Body < 10% of range
-```
+3. **Calculate Candle Strength:**
+   - **Body Percentage:** How much of the range is body vs. wicks
+     - Formula: (Body Size ÷ Range) × 100
+     - Example: If body is 2 and range is 4, body percentage = 50%
+     - Higher percentage = stronger candle (more body, less wick)
 
-**HTF Candle Plotting Logic:**
-```pseudocode
-// Determine which LTF candles belong to current HTF candle
-Current_HTF_Time = time in HTF timeframe
-HTF_Candle_Start_Time = start of current HTF candle period
-HTF_Candle_End_Time = end of current HTF candle period
+4. **Determine Candle Direction:**
+   - **Bullish Candle:** Close is higher than open
+     - Example: Open = 100, Close = 102 → Bullish
+   
+   - **Bearish Candle:** Close is lower than open
+     - Example: Open = 102, Close = 100 → Bearish
+   
+   - **Doji Candle:** Open and close are very close together
+     - Body is less than 10% of the total range
+     - Example: If range is 4, body must be less than 0.4 to be a doji
+     - Doji candles often signal potential reversals
 
-// For each LTF bar:
-If LTF_bar_time >= HTF_Candle_Start_Time AND LTF_bar_time < HTF_Candle_End_Time:
-    This LTF bar belongs to current HTF candle
-    Plot HTF candle with:
-        x_position = current_bar_index + offset
-        open = O_HTF
-        high = H_HTF
-        low = L_HTF
-        close = C_HTF
-        width = candle_size
-        colors = based on bullish/bearish
-```
+**How HTF Candles are Plotted on Your Chart:**
 
-**HTF Candle Offset Calculation:**
-```pseudocode
-// Offset shifts HTF candles left/right
-offset_bars = user_input_offset  // -50 to +50
+1. **Determine Which Lower Timeframe Bars Belong to Each HTF Candle:**
+   - The system looks at the time period for each HTF candle
+   - Example: If HTF is 1 hour, one HTF candle covers 10:00 AM to 11:00 AM
+   - It then identifies all LTF bars (e.g., 5-minute bars) that fall within that time period
+   - All 5-minute bars from 10:00 to 10:55 belong to that 1-hour HTF candle
 
-// Calculate x-coordinate for HTF candle
-htf_candle_x = current_bar_index + offset_bars
+2. **Plot the HTF Candle:**
+   - For each LTF bar that belongs to an HTF candle:
+     - Draw the HTF candle showing:
+       - Open price (where it started)
+       - High price (top of the wick)
+       - Low price (bottom of the wick)
+       - Close price (where it ended)
+     - Position it at the current bar location (plus any offset you set)
+     - Use the candle size you specified
+     - Color it based on whether it's bullish (green/blue) or bearish (red)
 
-// Ensure offset doesn't go beyond chart boundaries
-if htf_candle_x < 0:
-    htf_candle_x = 0
-if htf_candle_x > last_bar_index:
-    htf_candle_x = last_bar_index
-```
+**How HTF Candle Offset Works:**
 
-**HTF Lookback History:**
-```pseudocode
-// Limit number of HTF candles plotted
-max_htf_candles = user_input_lookback_history  // 1 to 100
+1. **Apply User Offset Setting:**
+   - You can shift HTF candles left or right using the offset setting
+   - Offset range: -50 to +50 bars
+   - Positive offset: Shifts candles to the right (forward in time)
+   - Negative offset: Shifts candles to the left (backward in time)
 
-// Calculate how many HTF candles to plot
-htf_candles_to_plot = min(max_htf_candles, available_htf_candles)
+2. **Calculate Final Position:**
+   - Start with the current bar's position
+   - Add (or subtract) the offset value
+   - Example: Bar #100 with offset +5 = Position at bar #105
 
-// Plot only the most recent N HTF candles
-for i = 0 to htf_candles_to_plot - 1:
-    htf_candle_index = current_htf_index - i
-    if htf_candle_index >= 0:
-        plot_htf_candle(htf_candle_index)
-```
+3. **Boundary Checking:**
+   - The system ensures candles don't go off the chart
+   - If calculated position is before the first bar: Use first bar position
+   - If calculated position is after the last bar: Use last bar position
+   - This keeps all HTF candles visible on your chart
+
+**How HTF Lookback History Limits Work:**
+
+1. **Get Your Setting:**
+   - The system reads how many HTF candles you want to see (1 to 100)
+   - This is your "lookback history" setting
+
+2. **Calculate How Many to Show:**
+   - Compare your setting to how many HTF candles are actually available
+   - Use whichever is smaller
+   - Example: You set 50, but only 30 are available → Show 30
+   - Example: You set 20, and 100 are available → Show 20
+
+3. **Display Only Recent Candles:**
+   - The system shows only the most recent N HTF candles (where N is your setting)
+   - It counts backward from the current HTF candle
+   - Example: If you set 20, it shows the 20 most recent HTF candles
+   - Older candles beyond your setting are not displayed (keeps chart clean)
 
 ### 13.2 CISD Detection Logic - Detailed Algorithm
 
-**Bullish CISD Detection:**
-```pseudocode
-// Monitor LTF candles within current HTF candle
-ltf_candles_in_htf = get_ltf_candles_in_htf_period()
+**How Bullish CISD (Change in State of Delivery) is Detected:**
 
-// Identify bearish sequence (making significant low)
-bearish_sequence = []
-for each ltf_candle in ltf_candles_in_htf:
-    if ltf_candle.close < ltf_candle.open:  // Bearish candle
-        bearish_sequence.append(ltf_candle)
-    else:
-        // Check if we've established a significant low
-        if length(bearish_sequence) >= 2:  // At least 2 bearish candles
-            significant_low = min(low for all candles in bearish_sequence)
-            
-            // Look for CISD confirmation
-            if ltf_candle.close > ltf_candle.open:  // Bullish close
-                // This is the CISD candle
-                cisd_candle = ltf_candle
-                cisd_price = significant_low  // Or cisd_candle.low
-                cisd_confirmed = true
-                break
+1. **Monitor Lower Timeframe Candles:**
+   - The system watches all the LTF candles that are forming within the current HTF candle
+   - Example: If HTF is 1 hour and LTF is 5 minutes, it watches all 5-minute candles in that hour
 
-// Mark CISD on chart
-if cisd_confirmed:
-    plot_cisd_marker(
-        x = cisd_candle.bar_index,
-        y = cisd_price,
-        color = bullish_cisd_color,
-        style = cisd_line_style,
-        width = cisd_line_width
-    )
-```
+2. **Identify Bearish Sequence:**
+   - Look for a series of bearish LTF candles (where close is below open)
+   - These candles should be making lower lows, showing bearish momentum
+   - Need at least 2 bearish candles to establish a significant low
+   - Track the lowest price reached during this bearish sequence
+   - This becomes the "significant low" point
 
-**Bearish CISD Detection:**
-```pseudocode
-// Monitor LTF candles within current HTF candle
-ltf_candles_in_htf = get_ltf_candles_in_htf_period()
+3. **Wait for CISD Confirmation:**
+   - After the bearish sequence, watch for the first LTF candle that closes ABOVE its open
+   - This is the key signal: A close above open after a bearish sequence
+   - This candle is the "CISD candle" - it marks the change from bearish to bullish delivery
 
-// Identify bullish sequence (making significant high)
-bullish_sequence = []
-for each ltf_candle in ltf_candles_in_htf:
-    if ltf_candle.close > ltf_candle.open:  // Bullish candle
-        bullish_sequence.append(ltf_candle)
-    else:
-        // Check if we've established a significant high
-        if length(bullish_sequence) >= 2:  // At least 2 bullish candles
-            significant_high = max(high for all candles in bullish_sequence)
-            
-            // Look for CISD confirmation
-            if ltf_candle.close < ltf_candle.open:  // Bearish close
-                // This is the CISD candle
-                cisd_candle = ltf_candle
-                cisd_price = significant_high  // Or cisd_candle.high
-                cisd_confirmed = true
-                break
+4. **Mark the CISD:**
+   - The CISD price level is typically the significant low (or the low of the CISD candle itself)
+   - Draw a marker on the chart at:
+     - The bar where the CISD candle occurred
+     - The CISD price level
+   - Use the bullish CISD color (usually green or blue)
+   - Use the line style and width you specified
 
-// Mark CISD on chart
-if cisd_confirmed:
-    plot_cisd_marker(
-        x = cisd_candle.bar_index,
-        y = cisd_price,
-        color = bearish_cisd_color,
-        style = cisd_line_style,
-        width = cisd_line_width
-    )
-```
+**How Bearish CISD is Detected:**
 
-**Early CISD Detection:**
-```pseudocode
-// Similar to above but with less strict criteria
-// First sign of potential orderflow change
+1. **Monitor Lower Timeframe Candles:**
+   - Same as above - watch all LTF candles within the current HTF candle
 
-// For Bullish Early CISD:
-if first_ltf_candle.close > first_ltf_candle.open after bearish_sequence:
-    early_cisd_detected = true
-    plot_early_cisd_marker(
-        color = early_cisd_color,  // Distinct from confirmed
-        style = dotted_line  // Different style
-    )
+2. **Identify Bullish Sequence:**
+   - Look for a series of bullish LTF candles (where close is above open)
+   - These candles should be making higher highs, showing bullish momentum
+   - Need at least 2 bullish candles to establish a significant high
+   - Track the highest price reached during this bullish sequence
+   - This becomes the "significant high" point
 
-// Early CISD becomes confirmed when full criteria met
-```
+3. **Wait for CISD Confirmation:**
+   - After the bullish sequence, watch for the first LTF candle that closes BELOW its open
+   - This is the key signal: A close below open after a bullish sequence
+   - This candle is the "CISD candle" - it marks the change from bullish to bearish delivery
+
+4. **Mark the CISD:**
+   - The CISD price level is typically the significant high (or the high of the CISD candle itself)
+   - Draw a marker on the chart at:
+     - The bar where the CISD candle occurred
+     - The CISD price level
+   - Use the bearish CISD color (usually red)
+   - Use the line style and width you specified
+
+**How Early CISD Detection Works:**
+
+1. **Less Strict Criteria:**
+   - Early CISD uses similar logic but with less strict requirements
+   - It looks for the first sign of potential orderflow change
+
+2. **For Bullish Early CISD:**
+   - After a bearish sequence, if the first LTF candle closes above its open
+   - This is flagged as "Early CISD" (not yet confirmed)
+   - It's marked with a distinct color (different from confirmed CISD)
+   - It's shown with a different line style (often dotted) to indicate it's early
+
+3. **Confirmation:**
+   - Early CISD becomes confirmed CISD when the full criteria are met
+   - Once confirmed, it uses the regular CISD color and style
+   - This gives you an earlier warning of potential setup formation
 
 ### 13.3 Equilibrium Calculation - Detailed
 
-**Current HTF Equilibrium:**
-```pseudocode
-// Simple midpoint calculation
-current_htf_eq = (H_HTF + L_HTF) / 2
+**How Current HTF Equilibrium is Calculated:**
 
-// Plot equilibrium line
-plot_equilibrium_line(
-    y = current_htf_eq,
-    style = equilibrium_line_style,
-    width = equilibrium_line_width,
-    color = equilibrium_color,
-    extend = extend_right  // Extend across HTF candle period
-)
-```
+1. **Simple Midpoint Formula:**
+   - Take the HTF candle's high price and low price
+   - Add them together
+   - Divide by 2
+   - Formula: (High + Low) ÷ 2
+   - Example: If high is 103 and low is 99, equilibrium = (103 + 99) ÷ 2 = 101
 
-**Previous HTF Equilibrium:**
-```pseudocode
-// Get previous HTF candle data
-previous_htf_data = request.security(symbol, htf_timeframe, [
-    high[1],  // Previous HTF high
-    low[1]    // Previous HTF low
-], lookahead=barmerge.lookahead_off)
+2. **Display the Equilibrium Line:**
+   - Draw a horizontal line at the equilibrium price level
+   - Extend it across the entire HTF candle period
+   - Use the line style, width, and color you specified in settings
+   - This line marks the 50% midpoint of the HTF range
 
-previous_htf_high = previous_htf_data[0]
-previous_htf_low = previous_htf_data[1]
+**How Previous HTF Equilibrium is Calculated:**
 
-previous_htf_eq = (previous_htf_high + previous_htf_low) / 2
+1. **Get Previous HTF Candle Data:**
+   - Request data from the previous (already closed) HTF candle
+   - Get its high price and low price
+   - Use only confirmed data (non-repainting)
 
-// Plot previous equilibrium
-if show_previous_candle_eq:
-    plot_equilibrium_line(
-        y = previous_htf_eq,
-        style = previous_eq_line_style,
-        width = previous_eq_line_width,
-        color = previous_eq_color,
-        extend = extend_right
-    )
-```
+2. **Calculate Previous Equilibrium:**
+   - Use the same formula: (Previous High + Previous Low) ÷ 2
+   - This gives you the equilibrium of the previous HTF candle
 
-**Premium and Discount Zones:**
-```pseudocode
-// Premium zone (upper 50% of HTF range)
-premium_zone_top = H_HTF
-premium_zone_bottom = current_htf_eq
+3. **Display Previous Equilibrium (if enabled):**
+   - If you have "Show Previous Candle EQ" enabled:
+     - Draw a horizontal line at the previous equilibrium level
+     - Use a different style/color to distinguish it from current equilibrium
+     - This provides reference for premium/discount zones from the previous structure
 
-// Discount zone (lower 50% of HTF range)
-discount_zone_top = current_htf_eq
-discount_zone_bottom = L_HTF
+**How Premium and Discount Zones Work:**
 
-// Conceptual rule:
-// Best short setups form in premium zone
-// Best long setups form in discount zone
-```
+1. **Premium Zone (Upper 50%):**
+   - **Top:** HTF candle high price
+   - **Bottom:** Current HTF equilibrium (midpoint)
+   - This is the "expensive" part of the range
+   - **Trading Rule:** Best short setups form in the premium zone
+   - Concept: "Sell when it's expensive"
+
+2. **Discount Zone (Lower 50%):**
+   - **Top:** Current HTF equilibrium (midpoint)
+   - **Bottom:** HTF candle low price
+   - This is the "cheap" part of the range
+   - **Trading Rule:** Best long setups form in the discount zone
+   - Concept: "Buy when it's cheap"
+
+3. **Why This Matters:**
+   - The equilibrium line divides the HTF range into two equal halves
+   - Price action above equilibrium = premium zone (favor shorts)
+   - Price action below equilibrium = discount zone (favor longs)
+   - This helps you align your trades with the HTF structure
 
 ### 13.4 Projection Calculation - Detailed Formulas
 
-**Body Projections - Bullish Setup:**
-```pseudocode
-// Reference point: C2 price (low of C2)
-reference_point = C2_Price
+**How Body Projections are Calculated for Bullish Setups:**
 
-// HTF body size
-body_size = abs(C_HTF - O_HTF)
+1. **Identify Reference Point:**
+   - Use the C2 price level as the starting point
+   - This is the first structural point in the bullish setup
 
-// For each enabled projection level:
-for each projection in enabled_projections:
-    multiplier = projection.multiplier  // e.g., -1, -2, -2.5, -4, -4.5
-    
-    // Bullish setup: Projections extend downward (opposite direction)
-    // Negative multiplier means extend in opposite direction
-    projection_level = reference_point - (body_size × abs(multiplier))
-    
-    // Example:
-    // C2 = 100, Body = 2, Multiplier = -1
-    // Projection = 100 - (2 × 1) = 98
-    
-    // C2 = 100, Body = 2, Multiplier = -2
-    // Projection = 100 - (2 × 2) = 96
-    
-    plot_projection_line(
-        y = projection_level,
-        label = multiplier,
-        style = projection_line_style,
-        width = projection_line_width,
-        color = projection_line_color
-    )
-```
+2. **Get HTF Body Size:**
+   - Calculate the size of the HTF candle body
+   - Formula: Absolute value of (Close - Open)
+   - Example: If close is 102 and open is 100, body size = 2
 
-**Body Projections - Bearish Setup:**
-```pseudocode
-// Reference point: C2 price (high of C2)
-reference_point = C2_Price
+3. **Calculate Each Projection Level:**
+   - For each projection you have enabled (e.g., -1, -2, -2.5, -4, -4.5):
+     - Take the multiplier value (ignore the negative sign for calculation)
+     - Formula: Projection Level = C2 Price - (Body Size × Multiplier)
+     - **Why subtract?** Because in bullish setups, projections extend downward (opposite direction)
+   
+   **Example Calculations:**
+   - C2 = 100, Body = 2, Multiplier = -1
+     - Projection = 100 - (2 × 1) = 98
+   - C2 = 100, Body = 2, Multiplier = -2
+     - Projection = 100 - (2 × 2) = 96
+   - C2 = 100, Body = 2, Multiplier = -2.5
+     - Projection = 100 - (2 × 2.5) = 95
 
-// HTF body size
-body_size = abs(C_HTF - O_HTF)
+4. **Display the Projection:**
+   - Draw a horizontal line at each calculated projection level
+   - Label it with the multiplier value (e.g., "-1", "-2")
+   - Use your specified line style, width, and color
 
-// For each enabled projection level:
-for each projection in enabled_projections:
-    multiplier = projection.multiplier  // e.g., -1, -2, -2.5, -4, -4.5
-    
-    // Bearish setup: Projections extend upward (opposite direction)
-    // Negative multiplier means extend in opposite direction
-    projection_level = reference_point + (body_size × abs(multiplier))
-    
-    // Example:
-    // C2 = 100, Body = 2, Multiplier = -1
-    // Projection = 100 + (2 × 1) = 102
-    
-    // C2 = 100, Body = 2, Multiplier = -2
-    // Projection = 100 + (2 × 2) = 104
-    
-    plot_projection_line(
-        y = projection_level,
-        label = multiplier,
-        style = projection_line_style,
-        width = projection_line_width,
-        color = projection_line_color
-    )
-```
+**How Body Projections are Calculated for Bearish Setups:**
 
-**Wick Projections - Bullish Setup:**
-```pseudocode
-// Reference point: HTF Low (wick extreme)
-reference_point = L_HTF
+1. **Identify Reference Point:**
+   - Use the C2 price level as the starting point
+   - This is the first structural point in the bearish setup
 
-// HTF range
-htf_range = H_HTF - L_HTF
+2. **Get HTF Body Size:**
+   - Same calculation: Absolute value of (Close - Open)
 
-// For each enabled projection level:
-for each projection in enabled_projections:
-    multiplier = projection.multiplier  // e.g., -1, -2, -2.5, -4, -4.5
-    
-    // Bullish setup: Projections extend downward from HTF low
-    projection_level = reference_point - (htf_range × abs(multiplier))
-    
-    // Example:
-    // HTF Low = 98, Range = 4, Multiplier = -1
-    // Projection = 98 - (4 × 1) = 94
-    
-    plot_projection_line(
-        y = projection_level,
-        label = "W" + multiplier,  // "W" prefix for wick
-        style = projection_line_style,
-        width = projection_line_width,
-        color = projection_line_color
-    )
-```
+3. **Calculate Each Projection Level:**
+   - For each enabled projection:
+     - Formula: Projection Level = C2 Price + (Body Size × Multiplier)
+     - **Why add?** Because in bearish setups, projections extend upward (opposite direction)
+   
+   **Example Calculations:**
+   - C2 = 100, Body = 2, Multiplier = -1
+     - Projection = 100 + (2 × 1) = 102
+   - C2 = 100, Body = 2, Multiplier = -2
+     - Projection = 100 + (2 × 2) = 104
 
-**Wick Projections - Bearish Setup:**
-```pseudocode
-// Reference point: HTF High (wick extreme)
-reference_point = H_HTF
+4. **Display the Projection:**
+   - Same as bullish: Draw line, add label, use your settings
 
-// HTF range
-htf_range = H_HTF - L_HTF
+**How Wick Projections are Calculated for Bullish Setups:**
 
-// For each enabled projection level:
-for each projection in enabled_projections:
-    multiplier = projection.multiplier  // e.g., -1, -2, -2.5, -4, -4.5
-    
-    // Bearish setup: Projections extend upward from HTF high
-    projection_level = reference_point + (htf_range × abs(multiplier))
-    
-    // Example:
-    // HTF High = 102, Range = 4, Multiplier = -1
-    // Projection = 102 + (4 × 1) = 106
-    
-    plot_projection_line(
-        y = projection_level,
-        label = "W" + multiplier,  // "W" prefix for wick
-        style = projection_line_style,
-        width = projection_line_width,
-        color = projection_line_color
-    )
-```
+1. **Identify Reference Point:**
+   - Use the HTF Low (the bottom wick extreme) as the starting point
+   - This is the lowest price reached in the HTF candle
 
-**Projection Reference Point Selection:**
-```pseudocode
-// Priority order for reference points:
-// 1. C2 (primary reference - always used)
-// 2. C3 (secondary - if exists and setup advanced)
-// 3. C4 (tertiary - if exists and setup advanced)
-// 4. CISD (fallback - if C2 not yet formed)
+2. **Get HTF Range:**
+   - Calculate the full range: High - Low
+   - Example: If high is 103 and low is 99, range = 4
 
-if C2_exists:
-    reference_point = C2_Price
-else if CISD_exists:
-    reference_point = CISD_Price
-else:
-    // No valid reference yet, skip projections
-    skip_projections = true
-```
+3. **Calculate Each Projection Level:**
+   - For each enabled projection:
+     - Formula: Projection Level = HTF Low - (HTF Range × Multiplier)
+     - Projections extend downward from the HTF low
+   
+   **Example Calculations:**
+   - HTF Low = 98, Range = 4, Multiplier = -1
+     - Projection = 98 - (4 × 1) = 94
+   - HTF Low = 98, Range = 4, Multiplier = -2
+     - Projection = 98 - (4 × 2) = 90
+
+4. **Display the Projection:**
+   - Draw line and label with "W" prefix (e.g., "W-1", "W-2") to indicate it's a wick projection
+
+**How Wick Projections are Calculated for Bearish Setups:**
+
+1. **Identify Reference Point:**
+   - Use the HTF High (the top wick extreme) as the starting point
+
+2. **Get HTF Range:**
+   - Same calculation: High - Low
+
+3. **Calculate Each Projection Level:**
+   - For each enabled projection:
+     - Formula: Projection Level = HTF High + (HTF Range × Multiplier)
+     - Projections extend upward from the HTF high
+   
+   **Example Calculations:**
+   - HTF High = 102, Range = 4, Multiplier = -1
+     - Projection = 102 + (4 × 1) = 106
+
+4. **Display the Projection:**
+   - Same as above with "W" prefix
+
+**How the System Chooses Reference Points for Projections:**
+
+**Priority Order:**
+1. **C2 Price** - Primary reference (always used if available)
+   - This is the first structural point, so it's the most reliable reference
+
+2. **C3 Price** - Secondary reference (if C3 exists and setup has advanced)
+   - Used as alternative if setup has progressed
+
+3. **C4 Price** - Tertiary reference (if C4 exists and setup has advanced)
+   - Used if setup has progressed further
+
+4. **CISD Price** - Fallback reference (if C2 not yet formed)
+   - Used only if C2 hasn't been identified yet
+   - Once C2 forms, it becomes the primary reference
+
+**If No Valid Reference:**
+- If neither C2 nor CISD exists yet, projections are skipped
+- The system waits until a valid reference point is established
+- This ensures projections are always based on confirmed structural points
 
 ### 13.5 T-Spot Calculation - Detailed Methodology
 
-**T-Spot Algorithm (General Approach):**
-```pseudocode
-// T-Spot projects where HTF candle wick is likely to form
-// Based on TTrades' methodology combining:
-// 1. Previous structure analysis
-// 2. Current momentum
-// 3. Fibonacci relationships (potentially)
-// 4. Orderflow patterns
+**How T-Spot is Calculated (General Approach):**
 
-// For Bullish Setup:
-if setup_is_bullish:
-    // Analyze previous HTF candle wick formation
-    previous_htf_wick_high = previous_H_HTF
-    previous_htf_body_top = max(previous_O_HTF, previous_C_HTF)
-    previous_htf_wick_size = previous_H_HTF - previous_htf_body_top
-    
-    // Consider current momentum
-    current_momentum = calculate_momentum()  // Based on recent LTF candles
-    
-    // Project T-Spot above current price
-    // Typically: Previous wick high + some extension
-    // Or: Current price + (HTF range × extension_factor)
-    
-    t_spot_level = current_price + (htf_range × t_spot_extension_factor)
-    
-    // Alternative calculation (if previous structure method):
-    // t_spot_level = previous_htf_wick_high + (previous_htf_wick_size × factor)
-    
-    // Ensure T-Spot is above current price
-    if t_spot_level <= current_price:
-        t_spot_level = current_price + (htf_range × 0.5)  // Fallback
+**What T-Spot Represents:**
+- T-Spot projects where the Higher Timeframe candle wick is likely to form
+- It's based on TTrades' methodology that combines multiple factors:
+  1. Previous structure analysis (how previous HTF candles formed)
+  2. Current momentum (recent price movement strength)
+  3. Fibonacci relationships (mathematical price relationships)
+  4. Orderflow patterns (how orders are flowing in the market)
 
-// For Bearish Setup:
-if setup_is_bearish:
-    // Similar logic but downward
-    previous_htf_wick_low = previous_L_HTF
-    previous_htf_body_bottom = min(previous_O_HTF, previous_C_HTF)
-    previous_htf_wick_size = previous_htf_body_bottom - previous_L_HTF
-    
-    current_momentum = calculate_momentum()
-    
-    t_spot_level = current_price - (htf_range × t_spot_extension_factor)
-    
-    // Ensure T-Spot is below current price
-    if t_spot_level >= current_price:
-        t_spot_level = current_price - (htf_range × 0.5)  // Fallback
+**For Bullish Setups:**
 
-// Plot T-Spot marker
-plot_t_spot_marker(
-    y = t_spot_level,
-    style = t_spot_marker_style,
-    size = t_spot_marker_size,
-    color = t_spot_color
-)
-```
+1. **Analyze Previous HTF Candle:**
+   - Look at the previous HTF candle's wick formation
+   - Identify the previous HTF high (top of the wick)
+   - Identify the previous HTF body top (higher of open or close)
+   - Calculate previous wick size: Previous High - Previous Body Top
+   - This shows how the previous candle's wick formed
 
-**T-Spot Extension Factor:**
-```pseudocode
-// Typical extension factors (to be refined):
-// Conservative: 0.382 (Fibonacci)
-// Moderate: 0.5 (50% of range)
-// Aggressive: 0.618 (Fibonacci) or 1.0 (full range)
+2. **Consider Current Momentum:**
+   - Analyze recent Lower Timeframe candles
+   - Measure how strong the current price movement is
+   - Strong momentum may extend the wick further
 
-t_spot_extension_factor = 0.5  // Default, may be adjustable
-```
+3. **Calculate T-Spot Level:**
+   - **Method 1 (Momentum-based):**
+     - Formula: Current Price + (HTF Range × Extension Factor)
+     - Example: Current price = 100, HTF range = 4, Factor = 0.5
+     - T-Spot = 100 + (4 × 0.5) = 102
+   
+   - **Method 2 (Structure-based):**
+     - Formula: Previous Wick High + (Previous Wick Size × Factor)
+     - Uses previous structure to project forward
+   
+   - The system uses whichever method is more appropriate
+
+4. **Safety Check:**
+   - Ensure T-Spot is above current price (for bullish setups)
+   - If calculation puts it below current price, use fallback:
+     - Fallback: Current Price + (HTF Range × 0.5)
+   - This ensures T-Spot is always in the expected direction
+
+**For Bearish Setups:**
+
+1. **Analyze Previous HTF Candle:**
+   - Look at the previous HTF candle's lower wick
+   - Identify the previous HTF low (bottom of the wick)
+   - Identify the previous HTF body bottom (lower of open or close)
+   - Calculate previous wick size: Previous Body Bottom - Previous Low
+
+2. **Consider Current Momentum:**
+   - Same momentum analysis as bullish
+
+3. **Calculate T-Spot Level:**
+   - **Method 1:** Current Price - (HTF Range × Extension Factor)
+   - **Method 2:** Previous Wick Low - (Previous Wick Size × Factor)
+   
+4. **Safety Check:**
+   - Ensure T-Spot is below current price (for bearish setups)
+   - If calculation puts it above current price, use fallback:
+     - Fallback: Current Price - (HTF Range × 0.5)
+
+**T-Spot Extension Factors:**
+
+The extension factor determines how far the T-Spot projects. Common values:
+- **Conservative (0.382):** Fibonacci level, projects shorter distance
+- **Moderate (0.5):** 50% of range, balanced projection
+- **Aggressive (0.618 or 1.0):** Fibonacci or full range, projects further
+
+**Default Setting:** 0.5 (moderate, 50% of range)
+
+**Display T-Spot:**
+- Draw a marker at the calculated T-Spot level
+- Use the marker style, size, and color you specified
+- This marks the anticipated area where the HTF candle wick will form
 
 **Note on T-Spot Refinement:**
 - Exact T-Spot calculation may require analysis of TTrades' specific methodology
@@ -3551,103 +3556,104 @@ t_spot_extension_factor = 0.5  // Default, may be adjustable
 
 ### 13.6 Formation Liquidity Calculation
 
-**Previous HTF Candles Identification:**
-```pseudocode
-// Get previous N HTF candles for formation liquidity marking
-// These candles provide context for where price may seek liquidity
+**How Previous HTF Candles are Identified for Liquidity Marking:**
 
-// Configuration
-num_previous_candles = 3  // Typically 2-5 candles, configurable
-// More candles = more liquidity zones but more chart clutter
-// Fewer candles = cleaner chart but less context
+1. **Configuration:**
+   - The system typically looks at the previous 2-5 HTF candles
+   - More candles = more liquidity zones marked (but more chart clutter)
+   - Fewer candles = cleaner chart (but less context)
+   - Default: 3 previous candles
 
-// Initialize storage for previous HTF candles
-previous_htf_candles = create_array()
+2. **Request Previous HTF Data:**
+   - The system requests data for the previous N HTF candles in one batch (for efficiency)
+   - For each previous candle, it gets:
+     - High price
+     - Low price
+   - Uses only confirmed data (non-repainting)
 
-// Request data for previous HTF candles
-// Use batched request for efficiency
-previous_htf_data = request_multi_timeframe_data(
-    symbol = current_symbol,
-    timeframe = htf_timeframe,
-    data_fields = [HIGH_PRICE, LOW_PRICE],
-    lookahead_mode = DISABLED,
-    bar_offsets = [1, 2, 3]  // Previous 3 HTF candles
-)
+3. **Process Each Previous Candle:**
+   - For each previous HTF candle:
+     - Store its high price
+     - Store its low price
+     - Calculate its range (high - low)
+     - Calculate its midpoint (high + low) ÷ 2
+     - Record when it occurred
+   - Organize them from most recent to oldest
 
-// Process and store previous HTF candle data
-for i = 0 to num_previous_candles - 1:
-    previous_candle = {
-        bar_offset: i + 1,  // 1 = most recent previous, 2 = second previous, etc.
-        high: previous_htf_data[i * 2],      // High price
-        low: previous_htf_data[i * 2 + 1],   // Low price
-        range: previous_htf_data[i * 2] - previous_htf_data[i * 2 + 1],
-        midpoint: (previous_htf_data[i * 2] + previous_htf_data[i * 2 + 1]) / 2,
-        timestamp: get_htf_candle_timestamp(htf_timeframe, current_time - (i + 1) * htf_period)
-    }
-    
-    add_to_array(previous_htf_candles, previous_candle)
+4. **Validate Data:**
+   - Check that data is available for all requested candles
+   - If some candles are missing data:
+     - Show a warning: "Insufficient historical HTF data for liquidity marking"
+     - Reduce the number of candles to mark (use only those with valid data)
+   - This ensures only reliable liquidity zones are marked
 
-// Validate data availability
-for each candle in previous_htf_candles:
-    if candle.high == NULL OR candle.low == NULL:
-        show_warning("Insufficient historical HTF data for liquidity marking")
-        // Reduce number of candles to mark
-        num_previous_candles = get_valid_candle_count(previous_htf_candles)
-        break
-```
+**How Liquidity Zones are Marked:**
 
-**Liquidity Zone Marking:**
-```pseudocode
-// For Bullish Setup:
-// Mark previous HTF highs as liquidity above (resistance)
-for each previous_htf_high:
-    plot_liquidity_marker(
-        y = previous_htf_high,
-        type = "resistance",
-        style = formation_liquidity_line_style,
-        width = formation_liquidity_line_width,
-        color = formation_liquidity_color
-    )
+**For Bullish Setups:**
+1. **Identify Previous HTF Highs:**
+   - Look at each previous HTF candle's high price
+   - These represent resistance levels above current price
 
-// For Bearish Setup:
-// Mark previous HTF lows as liquidity below (support)
-for each previous_htf_low:
-    plot_liquidity_marker(
-        y = previous_htf_low,
-        type = "support",
-        style = formation_liquidity_line_style,
-        width = formation_liquidity_line_width,
-        color = formation_liquidity_color
-    )
-```
+2. **Mark as Liquidity Zones:**
+   - Draw horizontal lines at each previous HTF high
+   - These mark "engineered liquidity pools" where price may seek stops
+   - Use your specified line style, width, and color
+   - These zones represent areas where sell stops may be located
 
-### 13.7 Candle 1 Liquidity Sweep Calculation
+**For Bearish Setups:**
+1. **Identify Previous HTF Lows:**
+   - Look at each previous HTF candle's low price
+   - These represent support levels below current price
 
-**Candle 1 Identification:**
-```pseudocode
-// Candle 1 is the initial swing point in the formation
-// For Bullish: First significant low (C2 or CISD low, whichever is first)
-// For Bearish: First significant high (C2 or CISD high, whichever is first)
+2. **Mark as Liquidity Zones:**
+   - Draw horizontal lines at each previous HTF low
+   - These mark "engineered liquidity pools" where price may seek stops
+   - Use your specified line style, width, and color
+   - These zones represent areas where buy stops may be located
 
-if setup_is_bullish:
-    candle_1_level = min(CISD_Low, C2_Low)
-    candle_1_type = "support"
-else:
-    candle_1_level = max(CISD_High, C2_High)
-    candle_1_type = "resistance"
-```
+**Why This Matters:**
+- Price often seeks liquidity at previous swing points
+- These marked zones show where price might "sweep" stops before continuing
+- Helps identify potential reversal or continuation areas
 
-**Liquidity Sweep Marker:**
-```pseudocode
-// Draw horizontal ray marking Candle 1 level
-plot_candle_1_sweep(
-    y = candle_1_level,
-    style = candle_1_sweep_line_style,
-    width = candle_1_sweep_line_width,
-    color = candle_1_sweep_color,
-    extend = extend_right  // Ray extends to right
-)
-```
+### 13.7 How Candle 1 Liquidity Sweep is Calculated
+
+**How Candle 1 is Identified:**
+
+1. **What is Candle 1:**
+   - Candle 1 is the initial swing point in the formation
+   - It's the first significant structural point where the setup begins
+
+2. **For Bullish Setups:**
+   - Candle 1 is the first significant low
+   - Compare: CISD low vs. C2 low
+   - Use whichever is lower (the first/lower one)
+   - This marks the initial support level
+   - Type: "Support" (price support level)
+
+3. **For Bearish Setups:**
+   - Candle 1 is the first significant high
+   - Compare: CISD high vs. C2 high
+   - Use whichever is higher (the first/higher one)
+   - This marks the initial resistance level
+   - Type: "Resistance" (price resistance level)
+
+**How the Liquidity Sweep Marker is Displayed:**
+
+1. **Draw the Marker:**
+   - Draw a horizontal line (ray) at the Candle 1 price level
+   - This line extends to the right (forward in time)
+   - It marks the initial liquidity level
+
+2. **Styling:**
+   - Use the line style you specified (solid, dotted, dashed)
+   - Use the line width you specified
+   - Use the color you specified (typically yellow or orange)
+
+3. **Purpose:**
+   - Marks the first important liquidity level in the formation
+   - Shows where price initially established the setup structure
+   - Helps identify the starting point for the fractal formation
 
 ---
 
