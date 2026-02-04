@@ -1657,20 +1657,21 @@ This framework helps identify critical turning points and aligns with the fracta
   6. All setups outside this window will be filtered out
 
 **Time Filter Window Structure:**
-```pseudocode
-// Each time filter consists of:
-time_filter = {
-    enabled: boolean,           // Whether this filter is active
-    start_time: time,          // Start time (HH:MM format)
-    end_time: time,            // End time (HH:MM format)
-    timezone_offset: integer   // UTC offset in hours
-}
 
-// Up to three time filters can be defined
-time_filter_1 = {enabled: false, start: "02:00", end: "05:00", timezone: -5}
-time_filter_2 = {enabled: false, start: "08:00", end: "11:00", timezone: -5}
-time_filter_3 = {enabled: false, start: "14:00", end: "17:00", timezone: -5}
-```
+Each time filter consists of four pieces of information:
+
+1. **Enabled Status:** Whether this filter is currently active (on or off)
+2. **Start Time:** The beginning of the time window (in HH:MM format, e.g., "02:00" or "08:00")
+3. **End Time:** The end of the time window (in HH:MM format, e.g., "05:00" or "11:00")
+4. **Timezone Offset:** The UTC offset in hours (e.g., -5 for Eastern Time, +2 for Central European Time)
+
+**Up to Three Time Filters:**
+- You can define up to three separate time filters
+- Each filter operates independently
+- Example configurations:
+  - **Time Filter 1:** Enabled = OFF, Start = 02:00, End = 05:00, Timezone = -5
+  - **Time Filter 2:** Enabled = OFF, Start = 08:00, End = 11:00, Timezone = -5
+  - **Time Filter 3:** Enabled = OFF, Start = 14:00, End = 17:00, Timezone = -5
 
 **How Time Filters Are Applied - Step by Step:**
 
@@ -1734,90 +1735,82 @@ time_filter_3 = {enabled: false, start: "14:00", end: "17:00", timezone: -5}
    - If none of the three time filters are enabled:
    - All setups are shown regardless of time
 
-**Multiple Time Filter Logic:**
-```pseudocode
-// When multiple time filters are enabled:
-// Setup is shown if it falls within ANY of the enabled filters (OR logic)
+**How Multiple Time Filters Work Together:**
 
-// Example:
-// Filter 1: 02:00-05:00 (enabled)
-// Filter 2: 08:00-11:00 (enabled)
-// Filter 3: 14:00-17:00 (disabled)
+When multiple time filters are enabled, the system uses "OR" logic:
+- A setup is shown if it falls within **ANY** of the enabled filters
+- You don't need to be in ALL filters - just ONE is enough
 
-// Setup at 03:00 → Show (within Filter 1)
-// Setup at 09:30 → Show (within Filter 2)
-// Setup at 15:00 → Don't show (Filter 3 disabled, not in Filter 1 or 2)
-// Setup at 06:00 → Don't show (not in any enabled filter)
-```
+**Example with Multiple Filters:**
+- Filter 1: 02:00-05:00 (enabled)
+- Filter 2: 08:00-11:00 (enabled)
+- Filter 3: 14:00-17:00 (disabled)
 
-**Custom Timezone Handling:**
-```pseudocode
-// Timezone conversion for time filters
-custom_timezone_offset = user_input_timezone  // e.g., -5 for EST, +2 for CET
+**Results:**
+- Setup at 03:00 → **Shown** (within Filter 1) ✓
+- Setup at 09:30 → **Shown** (within Filter 2) ✓
+- Setup at 15:00 → **NOT shown** (Filter 3 is disabled, and 15:00 is not in Filter 1 or 2)
+- Setup at 06:00 → **NOT shown** (not in any enabled filter)
 
-// Convert UTC time to custom timezone
-function convert_to_custom_timezone(utc_timestamp, timezone_offset):
-    // Add timezone offset (in hours)
-    local_timestamp = utc_timestamp + (timezone_offset × 3600 seconds)
-    return local_timestamp
+**How Timezone Conversion Works:**
 
-// Example: New York Eastern Time (UTC-5)
-// UTC time: 10:00
-// Custom timezone: -5 hours
-// Local time: 05:00 (5:00 AM)
+1. **Get Your Timezone Setting:**
+   - You specify your timezone offset (e.g., -5 for Eastern Time, +2 for Central European Time)
+   - This tells the system how many hours to adjust from UTC
 
-// Example: London Time (UTC+0 in winter, UTC+1 in summer)
-// UTC time: 10:00
-// Custom timezone: +0 hours (winter) or +1 hour (summer)
-// Local time: 10:00 (winter) or 11:00 (summer)
+2. **Convert UTC to Your Local Time:**
+   - The system gets the current time in UTC (Coordinated Universal Time)
+   - It adds your timezone offset to convert to your local time
+   - Formula: Local Time = UTC Time + Timezone Offset
+   
+   **Example 1 - New York Eastern Time (UTC-5):**
+   - UTC time: 10:00
+   - Your timezone: -5 hours
+   - Calculation: 10:00 + (-5) = 05:00
+   - Your local time: 5:00 AM
+   
+   **Example 2 - London Time:**
+   - UTC time: 10:00
+   - In winter: Timezone = +0 hours (GMT)
+     - Local time: 10:00 (same as UTC)
+   - In summer: Timezone = +1 hour (BST - British Summer Time)
+     - Local time: 11:00 (one hour ahead)
 
-// Daylight Saving Time (DST) handling:
-// User may need to adjust timezone offset manually for DST
-// Or system may automatically detect DST based on date
-if auto_dst_detection_enabled:
-    current_date = get_current_date()
-    if is_dst_period(current_date, timezone_location):
-        timezone_offset = base_timezone_offset + 1  // Add 1 hour for DST
-    else:
-        timezone_offset = base_timezone_offset
-```
+3. **Daylight Saving Time (DST) Handling:**
+   - Some timezones change by 1 hour during DST periods
+   - The system may automatically detect DST based on the current date
+   - If automatic detection is enabled:
+     - During DST period: Add 1 hour to base timezone offset
+     - Outside DST period: Use base timezone offset
+   - Alternatively, you may need to manually adjust your timezone setting when DST changes occur
+   - Example: Eastern Time is UTC-5 in winter, but UTC-4 in summer (during DST)
 
-**Time Filter Use Cases:**
-```pseudocode
-// Common trading session filters:
+**Common Trading Session Filter Examples:**
 
-// London Session (European markets open)
-london_filter = {
-    enabled: true,
-    start: "08:00",  // 8:00 AM London time
-    end: "12:00",    // 12:00 PM London time
-    timezone: 0      // UTC+0 (GMT)
-}
+**London Session (European Markets Open):**
+- Start: 08:00 (8:00 AM London time)
+- End: 12:00 (12:00 PM London time)
+- Timezone: UTC+0 (GMT) or UTC+1 (BST in summer)
+- Purpose: Focus on European market hours
 
-// New York Session (US markets open)
-new_york_filter = {
-    enabled: true,
-    start: "13:30",  // 1:30 PM London time (8:30 AM EST)
-    end: "20:00",    // 8:00 PM London time (3:00 PM EST)
-    timezone: -5     // UTC-5 (EST)
-}
+**New York Session (US Markets Open):**
+- Start: 13:30 (1:30 PM London time, which is 8:30 AM EST)
+- End: 20:00 (8:00 PM London time, which is 3:00 PM EST)
+- Timezone: UTC-5 (EST) or UTC-4 (EDT during DST)
+- Purpose: Focus on US market hours
 
-// Asian Session (Tokyo/Hong Kong)
-asian_filter = {
-    enabled: true,
-    start: "00:00",   // Midnight London time
-    end: "09:00",     // 9:00 AM London time
-    timezone: +9      // UTC+9 (Tokyo time)
-}
+**Asian Session (Tokyo/Hong Kong):**
+- Start: 00:00 (Midnight London time)
+- End: 09:00 (9:00 AM London time)
+- Timezone: UTC+9 (Tokyo time)
+- Purpose: Focus on Asian market hours
 
-// Forex Overlap Periods (highest volatility)
-london_new_york_overlap = {
-    enabled: true,
-    start: "13:30",   // When both sessions are open
-    end: "16:00",
-    timezone: 0
-}
-```
+**Forex Overlap Periods (Highest Volatility):**
+- London-New York Overlap:
+  - Start: 13:30 (When both sessions are open)
+  - End: 16:00
+  - Timezone: UTC+0 or UTC-5 (depending on which session you're tracking)
+  - Purpose: Focus on highest volatility periods when multiple markets are active
 
 ---
 
@@ -1839,176 +1832,154 @@ Detect divergences between correlated or inversely correlated markets directly w
 
 **SMT Pair Selection:**
 
-**Automatic Mode:**
-```pseudocode
-// System automatically selects most relevant SMT pair based on current symbol
-// This requires a database of known correlations between markets
+**How Automatic SMT Pair Selection Works:**
 
-function auto_select_smt_pair(current_symbol):
-    // Normalize symbol for matching
-    symbol_upper = convert_to_uppercase(current_symbol)
-    symbol_clean = remove_special_characters(symbol_upper)
-    
-    // Stock Index Futures Correlations:
-    // S&P 500 related symbols
-    if symbol_contains(symbol_clean, "ES") OR 
-       symbol_contains(symbol_clean, "SPX") OR
-       symbol_contains(symbol_clean, "SP500"):
-        pair_1 = "CME_MINI:ES1!"  // E-mini S&P 500 futures
-        pair_2 = "CME_MINI:YM1!"  // E-mini Dow Jones futures
-        correlation_type = "POSITIVE"  // They typically move together
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: HIGH
-        }
-    
-    // NASDAQ related symbols
-    if symbol_contains(symbol_clean, "NQ") OR 
-       symbol_contains(symbol_clean, "NASDAQ") OR
-       symbol_contains(symbol_clean, "COMP"):
-        pair_1 = "CME_MINI:NQ1!"  // E-mini NASDAQ futures
-        pair_2 = "CME_MINI:ES1!"   // E-mini S&P 500 futures
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: HIGH
-        }
-    
-    // Dow Jones related symbols
-    if symbol_contains(symbol_clean, "YM") OR 
-       symbol_contains(symbol_clean, "DOW") OR
-       symbol_contains(symbol_clean, "DJI"):
-        pair_1 = "CME_MINI:YM1!"  // E-mini Dow futures
-        pair_2 = "CME_MINI:ES1!"   // E-mini S&P 500 futures
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: HIGH
-        }
-    
-    // Russell 2000
-    if symbol_contains(symbol_clean, "RTY") OR 
-       symbol_contains(symbol_clean, "RUT"):
-        pair_1 = "CME_MINI:RTY1!"  // E-mini Russell 2000
-        pair_2 = "CME_MINI:ES1!"   // E-mini S&P 500
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: MEDIUM
-        }
-    
-    // Forex Major Pairs Correlations:
-    // EUR/USD
-    if symbol_contains(symbol_clean, "EURUSD") OR
-       symbol_contains(symbol_clean, "EUR_USD"):
-        pair_1 = "FX:EURUSD"
-        pair_2 = "FX:GBPUSD"  // GBP/USD (often correlated)
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: MEDIUM
-        }
-    
-    // GBP/USD
-    if symbol_contains(symbol_clean, "GBPUSD") OR
-       symbol_contains(symbol_clean, "GBP_USD"):
-        pair_1 = "FX:GBPUSD"
-        pair_2 = "FX:EURUSD"
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: MEDIUM
-        }
-    
-    // USD/JPY
-    if symbol_contains(symbol_clean, "USDJPY") OR
-       symbol_contains(symbol_clean, "USD_JPY"):
-        pair_1 = "FX:USDJPY"
-        pair_2 = "FX:EURUSD"  // Often inversely correlated
-        correlation_type = "NEGATIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: LOW
-        }
-    
-    // Crypto Correlations:
-    if symbol_contains(symbol_clean, "BTC") OR
-       symbol_contains(symbol_clean, "BITCOIN"):
-        pair_1 = "BINANCE:BTCUSDT"
-        pair_2 = "BINANCE:ETHUSDT"  // Ethereum
-        correlation_type = "POSITIVE"
-        return {
-            pair_1: pair_1,
-            pair_2: pair_2,
-            correlation: correlation_type,
-            confidence: MEDIUM
-        }
-    
-    // If no match found:
-    return {
-        pair_1: NULL,
-        pair_2: NULL,
-        correlation: NULL,
-        confidence: NONE,
-        error: "No automatic pair found for symbol: " + current_symbol
-    }
+The system automatically selects the most relevant SMT pair based on your current chart symbol. This requires a built-in database of known correlations between markets.
 
-// Validate that auto-selected pairs are accessible
-function validate_smt_pair(pair_info):
-    if pair_info.pair_1 == NULL:
-        return false
-    
-    // Test if pair_1 data is accessible
-    test_data_1 = request_multi_timeframe_data(
-        symbol = pair_info.pair_1,
-        timeframe = current_timeframe,
-        data_fields = [CLOSE_PRICE],
-        lookahead_mode = DISABLED
-    )
-    
-    if test_data_1 == NULL OR test_data_1[0] == NULL:
-        return false
-    
-    // Test if pair_2 data is accessible
-    test_data_2 = request_multi_timeframe_data(
-        symbol = pair_info.pair_2,
-        timeframe = current_timeframe,
-        data_fields = [CLOSE_PRICE],
-        lookahead_mode = DISABLED
-    )
-    
-    if test_data_2 == NULL OR test_data_2[0] == NULL:
-        return false
-    
-    return true
-```
+**Step-by-Step Process:**
+
+1. **Normalize Your Symbol:**
+   - The system takes your current chart symbol
+   - Converts it to uppercase for matching
+   - Removes special characters to make matching easier
+   - Example: "ES1!" becomes "ES1" for matching
+
+2. **Search for Matching Correlations:**
+   - The system searches through its database of known market correlations
+   - It looks for symbols that match or contain your chart symbol
+   - When it finds a match, it selects the appropriate pair
+
+3. **Stock Index Futures Correlations:**
+
+   **S&P 500 Related Symbols (ES, SPX, SP500):**
+   - If your symbol contains "ES", "SPX", or "SP500":
+     - Pair 1: E-mini S&P 500 futures (CME_MINI:ES1!)
+     - Pair 2: E-mini Dow Jones futures (CME_MINI:YM1!)
+     - Correlation Type: Positive (they typically move together)
+     - Confidence Level: High
+   
+   **NASDAQ Related Symbols (NQ, NASDAQ, COMP):**
+   - If your symbol contains "NQ", "NASDAQ", or "COMP":
+     - Pair 1: E-mini NASDAQ futures (CME_MINI:NQ1!)
+     - Pair 2: E-mini S&P 500 futures (CME_MINI:ES1!)
+     - Correlation Type: Positive
+     - Confidence Level: High
+   
+   **Dow Jones Related Symbols (YM, DOW, DJI):**
+   - If your symbol contains "YM", "DOW", or "DJI":
+     - Pair 1: E-mini Dow futures (CME_MINI:YM1!)
+     - Pair 2: E-mini S&P 500 futures (CME_MINI:ES1!)
+     - Correlation Type: Positive
+     - Confidence Level: High
+   
+   **Russell 2000 (RTY, RUT):**
+   - If your symbol contains "RTY" or "RUT":
+     - Pair 1: E-mini Russell 2000 (CME_MINI:RTY1!)
+     - Pair 2: E-mini S&P 500 (CME_MINI:ES1!)
+     - Correlation Type: Positive
+     - Confidence Level: Medium
+
+4. **Forex Major Pairs Correlations:**
+
+   **EUR/USD:**
+   - If your symbol contains "EURUSD" or "EUR_USD":
+     - Pair 1: EUR/USD (FX:EURUSD)
+     - Pair 2: GBP/USD (FX:GBPUSD) - often correlated
+     - Correlation Type: Positive
+     - Confidence Level: Medium
+   
+   **GBP/USD:**
+   - If your symbol contains "GBPUSD" or "GBP_USD":
+     - Pair 1: GBP/USD (FX:GBPUSD)
+     - Pair 2: EUR/USD (FX:EURUSD)
+     - Correlation Type: Positive
+     - Confidence Level: Medium
+   
+   **USD/JPY:**
+   - If your symbol contains "USDJPY" or "USD_JPY":
+     - Pair 1: USD/JPY (FX:USDJPY)
+     - Pair 2: EUR/USD (FX:EURUSD) - often inversely correlated
+     - Correlation Type: Negative (inverse)
+     - Confidence Level: Low
+
+5. **Crypto Correlations:**
+
+   **Bitcoin (BTC):**
+   - If your symbol contains "BTC" or "BITCOIN":
+     - Pair 1: Bitcoin (BINANCE:BTCUSDT)
+     - Pair 2: Ethereum (BINANCE:ETHUSDT)
+     - Correlation Type: Positive
+     - Confidence Level: Medium
+
+6. **If No Match Found:**
+   - The system cannot find a suitable automatic pair
+   - Returns an error: "No automatic pair found for symbol: [your symbol]"
+   - You'll need to use Manual mode instead
+
+**How the System Validates Auto-Selected Pairs:**
+
+1. **Check if Pair 1 Data is Accessible:**
+   - The system tries to request price data for Pair 1
+   - Uses the same timeframe as your current chart
+   - Requests closing price data
+   - If data is unavailable or invalid:
+     - Validation fails
+     - SMT feature is disabled
+   
+2. **Check if Pair 2 Data is Accessible:**
+   - Same process as Pair 1
+   - Tries to request price data for Pair 2
+   - If data is unavailable or invalid:
+     - Validation fails
+     - SMT feature is disabled
+
+3. **If Both Pairs Are Valid:**
+   - SMT divergence feature is enabled
+   - The system can now compare the two markets
 
 **Manual Mode:**
-- User provides two symbol strings
-- System validates symbols are accessible
-- If invalid, display error and disable SMT
 
-**Inverse Correlation:**
-- When enabled, system inverts one market's price action for comparison
-- Formula: `inverted_price = base_price - (current_price - base_price)`
-- Only applies in Manual mode (Auto mode ignores this setting)
+1. **User Provides Symbols:**
+   - You manually enter two symbol strings
+   - Example: Pair 1 = "CME_MINI:ES1!", Pair 2 = "CME_MINI:YM1!"
+   - You can select symbols from the "Change Symbol" tab/interface
+
+2. **System Validates:**
+   - The system checks if both symbols are valid and accessible
+   - Same validation process as automatic mode
+   - If either symbol is invalid:
+     - Display error message
+     - Disable SMT feature
+
+**How Inverse Correlation Works:**
+
+1. **What is Inverse Correlation:**
+   - Some markets move in opposite directions
+   - Example: When EUR/USD goes up, DXY (Dollar Index) goes down
+   - These markets are "inversely correlated"
+
+2. **How the System Handles It:**
+   - When inverse correlation is enabled (Manual mode only):
+     - The system finds a "base price" for Pair 2
+       - This could be an average price or the starting price value
+     - For each price point in Pair 2:
+       - Calculate the distance from the base price
+       - Example: If current price is 2 points above base
+       - Flip it: Make it 2 points below base instead
+       - This inverts the price action
+   
+3. **Why This Matters:**
+   - Allows comparison of markets that normally move in opposite directions
+   - The system can now detect divergence even when markets are inversely correlated
+   - Example: EUR/USD making higher highs while DXY makes lower lows (both showing bullish divergence, but in opposite directions)
+
+4. **Important Note:**
+   - Inverse setting only applies in Manual mode
+   - Auto mode already knows the correlation type (positive or negative)
+   - If Auto mode and Inverse are both enabled, the inverse setting is ignored
 
 **Divergence Detection Algorithm:**
-```pseudocode
+
 **SMT Divergence Detection Process - Step by Step:**
 
 1. **Get Price Data for Both Markets:**
@@ -2655,34 +2626,44 @@ The indicator must distinguish between two types of bars:
 
 ### 12.2 Multi-Timeframe Handling - Detailed
 
-**HTF-LTF Relationship Management:**
-```pseudocode
-// Get current chart timeframe
-current_timeframe = timeframe.period  // e.g., "5", "15", "60", "240"
+**How HTF-LTF Relationships Are Managed:**
 
-// Get HTF timeframe
-htf_timeframe = user_selected_htf  // e.g., "60" for 1H
+**Step 1: Get Current Timeframe Information:**
+1. The system reads the current chart timeframe
+   - Example values: "5" (5 minutes), "15" (15 minutes), "60" (1 hour), "240" (4 hours)
+   - This tells the system what timeframe you're currently viewing
 
-// Get LTF timeframe (from pairing)
-ltf_timeframe = get_ltf_from_pairing(htf_timeframe)  // e.g., "5" for 5m
+2. The system reads the Higher Timeframe setting
+   - Example: "60" for 1 hour
+   - This is what you selected (or what was auto-selected)
 
-// Validate relationship
-function validate_timeframe_pairing(current_tf, htf_tf, ltf_tf):
-    // Check if current timeframe is compatible
-    if current_tf > ltf_tf:
-        // Warning: Cannot analyze LTF structure on higher timeframe
-        show_warning("LTF analysis unavailable. Chart timeframe > LTF.")
-        ltf_analysis_available = false
-    else:
-        ltf_analysis_available = true
-    
-    // Check if HTF > LTF
-    if htf_tf <= ltf_tf:
-        show_error("HTF must be greater than LTF")
-        return false
-    
-    return true
-```
+3. The system determines the Lower Timeframe from the pairing
+   - Example: If HTF is 1H (60 minutes) and pairing is 5m-1H, then LTF is 5 minutes
+   - The LTF is determined by the fractal pairing relationship
+
+**Step 2: Validate the Timeframe Relationship:**
+
+**Check 1: Is Current Timeframe Compatible with LTF?**
+1. Compare: Current chart timeframe vs. Lower Timeframe
+2. If current timeframe is HIGHER than LTF:
+   - **Problem:** Cannot analyze LTF structure when viewing a higher timeframe
+   - **Action:** Show warning message: "LTF analysis unavailable. Chart timeframe > LTF."
+   - **Result:** LTF analysis is disabled (cannot analyze LTF on higher timeframe)
+   - **Note:** This is a warning, not an error - HTF candles still work
+3. If current timeframe is EQUAL TO or LOWER than LTF:
+   - **Result:** LTF analysis is available
+   - The system can properly analyze LTF structure
+
+**Check 2: Is HTF Greater Than LTF?**
+1. Compare: Higher Timeframe vs. Lower Timeframe
+2. If HTF is NOT greater than LTF (HTF ≤ LTF):
+   - **Problem:** Invalid pairing - HTF must always be greater than LTF
+   - **Action:** Show error message: "HTF must be greater than LTF"
+   - **Result:** Return false - pairing is invalid
+   - **Impact:** Indicator cannot function with this pairing
+3. If HTF IS greater than LTF:
+   - **Result:** Return true - pairing is valid
+   - The indicator can proceed with calculations
 
 **How Timeframes Are Converted and Compared:**
 
@@ -2722,331 +2703,536 @@ The system converts all timeframes to minutes for easy comparison:
 
 ### 12.3 Performance Considerations - Optimization Strategies
 
-**1. Array Management and Setup Storage:**
-```pseudocode
-// Use efficient data structures for managing multiple setups
-// The indicator must track up to 40 historical setups simultaneously
+**1. How Setup Storage and Array Management Works:**
 
-// Initialize setup storage structure (persistent across bar updates)
-if setup_storage_initialized == false:
-    // Create main setup array
-    active_setups = create_persistent_array()
-    
-    // Each setup object contains:
-    setup_structure = {
-        bar_index: integer,           // Bar where setup was confirmed
-        setup_id: unique_identifier,   // Unique ID for this setup
-        direction: string,             // "bullish" or "bearish"
-        state: string,                 // "gray", "red", or "orange"
-        c2_price: float,               // C2 price level
-        c3_price: float,               // C3 price level (may be NULL)
-        c4_price: float,               // C4 price level (may be NULL)
-        cisd_price: float,             // CISD price level
-        htf_body_size: float,          // HTF candle body size
-        htf_range: float,              // HTF candle range
-        htf_high: float,               // HTF candle high
-        htf_low: float,                // HTF candle low
-        projection_levels: array,     // Calculated projection levels
-        label_ids: array,              // IDs of labels for this setup
-        line_ids: array,               // IDs of lines for this setup
-        created_timestamp: timestamp    // When setup was created
-    }
-    
-    setup_storage_initialized = true
+**Initialization (When Indicator First Loads):**
 
-// Limit array size based on user input
-max_setups = min(history_setups_input, 40)  // Cap at 40 maximum
+1. **Check if Storage is Initialized:**
+   - When the indicator first loads, it checks if setup storage has been created
+   - If not initialized yet, proceed to create it
 
-// Manage setup array size
-current_setup_count = get_array_size(active_setups)
+2. **Create Main Storage Array:**
+   - The system creates a persistent storage array that will hold all setup information
+   - This array persists across bar updates (doesn't reset when new bars form)
+   - It's designed to track up to 40 historical setups simultaneously
 
-if current_setup_count > max_setups:
-    // Remove oldest setups (FIFO - First In First Out)
-    setups_to_remove = current_setup_count - max_setups
-    
-    for i = 0 to setups_to_remove - 1:
-        oldest_setup = remove_first_element(active_setups)
-        
-        // Clean up associated visual elements
-        delete_all_labels(oldest_setup.label_ids)
-        delete_all_lines(oldest_setup.line_ids)
-        
-        // Free memory
-        destroy_setup_object(oldest_setup)
+3. **Define Setup Structure:**
+   - Each setup stored in the array contains the following information:
+     - **Bar Index:** Which bar number the setup was confirmed on
+     - **Setup ID:** A unique identifier for this specific setup
+     - **Direction:** Whether it's "bullish" or "bearish"
+     - **State:** Current state - "gray" (valid), "red" (failed), or "orange" (consolidation)
+     - **C2 Price:** The C2 price level
+     - **C3 Price:** The C3 price level (may be empty if C3 hasn't formed yet)
+     - **C4 Price:** The C4 price level (may be empty if C4 hasn't formed yet)
+     - **CISD Price:** The CISD price level
+     - **HTF Body Size:** The Higher Timeframe candle body size when setup formed
+     - **HTF Range:** The Higher Timeframe candle range when setup formed
+     - **HTF High:** The Higher Timeframe candle high
+     - **HTF Low:** The Higher Timeframe candle low
+     - **Projection Levels:** All calculated projection levels for this setup
+     - **Label IDs:** References to all labels created for this setup
+     - **Line IDs:** References to all lines created for this setup
+     - **Created Timestamp:** When this setup was first created
 
-// When new setup is confirmed:
-if new_setup_confirmed:
-    // Add to array
-    new_setup = create_setup_object(
-        bar_index = confirmed_bar_index,
-        direction = detected_direction,
-        state = "gray",
-        c2_price = confirmed_c2_price,
-        // ... other setup data
-    )
-    
-    add_to_array(active_setups, new_setup)
-    
-    // Ensure array doesn't exceed limit
-    if get_array_size(active_setups) > max_setups:
-        oldest_setup = remove_first_element(active_setups)
-        cleanup_setup_visuals(oldest_setup)
-```
+4. **Mark as Initialized:**
+   - Once storage is created, mark it as initialized
+   - This prevents recreating it on every bar update
 
-**2. Calculation Caching:**
-```pseudocode
-// Cache expensive calculations
-var float cached_htf_eq = na
-var int cached_htf_bar = na
+**Managing Array Size:**
 
-// Only recalculate when HTF candle closes
-if htf_candle_closed:
-    cached_htf_eq = (H_HTF + L_HTF) / 2
-    cached_htf_bar = bar_index
-else:
-    // Use cached value
-    current_eq = cached_htf_eq
-```
+1. **Determine Maximum Setups:**
+   - Read your History Setups setting (how many setups you want to see)
+   - Compare this to the maximum allowed (40 setups)
+   - Use whichever is smaller
+   - Example: If you set 50, use 40 (the cap). If you set 10, use 10.
 
-**3. Conditional Rendering:**
-```pseudocode
-// Only render visible elements
-if show_htf_candles:
-    plot_htf_candles()
+2. **Check Current Setup Count:**
+   - Count how many setups are currently stored in the array
+   - Compare this to your maximum setting
 
-if show_projections AND setup_state == "gray":
-    plot_projections()
+3. **Remove Old Setups if Needed:**
+   - If current count exceeds your maximum:
+     - Calculate how many setups to remove
+     - Remove the oldest setups first (FIFO - First In First Out)
+     - For each removed setup:
+       - Delete all its labels from the chart
+       - Delete all its lines from the chart
+       - Free up the memory used by that setup
+     - This keeps the array size within your limit
 
-// Don't calculate if not displayed
-if not show_smt:
-    skip_smt_calculations()
-```
+**Adding New Setups:**
 
-**4. Multi-Timeframe Data Request Optimization:**
-```pseudocode
-// Optimize data requests to minimize platform API calls
-// Each request has overhead, so batch requests when possible
+1. **When a New Setup is Confirmed:**
+   - Create a new setup object with all its information:
+     - Bar index where it was confirmed
+     - Direction (bullish or bearish)
+     - Initial state: "gray" (valid)
+     - C2 price and other price levels
+     - All HTF candle data
+     - Timestamp of when it was created
 
-// INEFFICIENT APPROACH (Multiple separate requests):
-// This would make 5 separate API calls:
-O_HTF = request_multi_timeframe_data(symbol, htf, OPEN_PRICE, ...)
-H_HTF = request_multi_timeframe_data(symbol, htf, HIGH_PRICE, ...)
-L_HTF = request_multi_timeframe_data(symbol, htf, LOW_PRICE, ...)
-C_HTF = request_multi_timeframe_data(symbol, htf, CLOSE_PRICE, ...)
-V_HTF = request_multi_timeframe_data(symbol, htf, VOLUME, ...)
+2. **Add to Storage Array:**
+   - Add this new setup to the end of the array
+   - It becomes the most recent setup
 
-// EFFICIENT APPROACH (Single batched request):
-// Make one API call that returns all needed data
-htf_data = request_multi_timeframe_data(
-    symbol = current_symbol,
-    timeframe = htf_timeframe,
-    data_fields = [
-        OPEN_PRICE,
-        HIGH_PRICE,
-        LOW_PRICE,
-        CLOSE_PRICE,
-        VOLUME
-    ],
-    lookahead_mode = DISABLED
-)
+3. **Check Array Size Again:**
+   - After adding, check if array size exceeds your maximum
+   - If it does, remove the oldest setup (same cleanup process as above)
+   - This ensures the array never exceeds your History Setups limit
 
-// Extract all data from single response
-O_HTF = htf_data[0]  // Open price
-H_HTF = htf_data[1]  // High price
-L_HTF = htf_data[2]  // Low price
-C_HTF = htf_data[3]  // Close price
-V_HTF = htf_data[4]  // Volume (if needed)
+**2. How Calculation Caching Works:**
 
-// Additional optimization: Cache previous HTF candle data
-// Only request new data when HTF candle closes
-if htf_candle_closed_since_last_check:
-    // HTF candle just closed, request new data
-    htf_data = request_multi_timeframe_data(...)
-    cache_htf_data(htf_data)
-    update_htf_candle_close_timestamp()
-else:
-    // HTF candle still forming, use cached data
-    htf_data = get_cached_htf_data()
+**Purpose:** Some calculations are expensive (take time and resources). Instead of recalculating them on every bar, the system caches (stores) the results and reuses them until they need to be updated.
 
-// For previous HTF candle (for Previous Candle EQ):
-// Request once and cache
-if previous_htf_data_cached == false:
-    previous_htf_data = request_multi_timeframe_data(
-        symbol = current_symbol,
-        timeframe = htf_timeframe,
-        data_fields = [HIGH_PRICE, LOW_PRICE],
-        bar_offset = 1,  // Previous bar
-        lookahead_mode = DISABLED
-    )
-    cache_previous_htf_data(previous_htf_data)
-    previous_htf_data_cached = true
+**What Gets Cached:**
 
-// Performance benefits:
-// - Reduces API calls by 80% (5 calls -> 1 call)
-// - Faster indicator execution
-// - Lower server load
-// - Better user experience
-```
+1. **HTF Equilibrium Value:**
+   - The equilibrium (50% midpoint) of the Higher Timeframe candle
+   - This value doesn't change until the HTF candle closes
+   - Formula: (HTF High + HTF Low) ÷ 2
 
-**5. Label and Visual Element Management:**
-```pseudocode
-// Efficiently manage visual elements (labels, lines, markers)
-// Charting platforms have limits on the number of visual elements
-// Must balance visual clarity with performance
+2. **HTF Candle Bar Index:**
+   - Which bar the cached equilibrium belongs to
+   - Used to verify the cache is still valid
 
-// Initialize visual element tracking
-if visual_elements_initialized == false:
-    all_label_ids = create_tracking_array()
-    all_line_ids = create_tracking_array()
-    all_marker_ids = create_tracking_array()
-    max_labels_allowed = 500  // Platform limit (adjust based on platform)
-    max_lines_allowed = 1000  // Platform limit
-    visual_elements_initialized = true
+**How Caching Works:**
 
-// Strategy: Use lines instead of labels where possible
-// - Lines are more efficient for drawing levels
-// - Labels are better for text annotations
-// - Markers are good for point identification
+1. **Initialize Cache (First Time):**
+   - Create storage for cached equilibrium value (starts empty)
+   - Create storage for cached bar index (starts empty)
 
-// Label management:
-current_label_count = get_array_size(all_label_ids)
+2. **Check if HTF Candle Has Closed:**
+   - Monitor whether the current HTF candle has closed
+   - If it has closed: Proceed to step 3
+   - If it hasn't closed yet: Proceed to step 4
 
-if current_label_count >= max_labels_allowed:
-    // Remove oldest labels (FIFO)
-    labels_to_remove = current_label_count - max_labels_allowed + 10  // Remove extra for buffer
-    
-    for i = 0 to labels_to_remove - 1:
-        oldest_label_id = remove_first_element(all_label_ids)
-        delete_label(oldest_label_id)
+3. **Recalculate and Update Cache (When HTF Candle Closes):**
+   - Calculate the new HTF equilibrium: (HTF High + HTF Low) ÷ 2
+   - Store this value in the cache
+   - Store the current bar index in the cache
+   - This cache will be used until the next HTF candle closes
 
-// Line management:
-current_line_count = get_array_size(all_line_ids)
+4. **Use Cached Value (When HTF Candle Still Forming):**
+   - The HTF candle hasn't closed yet, so the equilibrium hasn't changed
+   - Use the cached equilibrium value instead of recalculating
+   - This saves processing time and resources
 
-if current_line_count >= max_lines_allowed:
-    // Remove oldest lines
-    lines_to_remove = current_line_count - max_lines_allowed + 50  // Buffer
-    
-    for i = 0 to lines_to_remove - 1:
-        oldest_line_id = remove_first_element(all_line_ids)
-        delete_line(oldest_line_id)
+**Benefits:**
+- Faster indicator execution (doesn't recalculate unnecessarily)
+- Lower resource usage
+- Same accuracy (value only changes when HTF candle closes anyway)
 
-// When creating new visual elements:
-function create_setup_labels(setup):
-    // C2 label
-    c2_label_id = create_label(
-        x = setup.bar_index,
-        y = setup.c2_price,
-        text = "C2",
-        color = get_state_color(setup.state),
-        size = label_size_setting
-    )
-    add_to_array(all_label_ids, c2_label_id)
-    add_to_array(setup.label_ids, c2_label_id)
-    
-    // C3 label (if exists)
-    if setup.c3_price != NULL:
-        c3_label_id = create_label(
-            x = setup.bar_index,
-            y = setup.c3_price,
-            text = "C3",
-            color = get_state_color(setup.state),
-            size = label_size_setting
-        )
-        add_to_array(all_label_ids, c3_label_id)
-        add_to_array(setup.label_ids, c3_label_id)
-    
-    // C4 label (if exists)
-    if setup.c4_price != NULL:
-        c4_label_id = create_label(
-            x = setup.bar_index,
-            y = setup.c4_price,
-            text = "C4",
-            color = get_state_color(setup.state),
-            size = label_size_setting
-        )
-        add_to_array(all_label_ids, c4_label_id)
-        add_to_array(setup.label_ids, c4_label_id)
+**3. How Conditional Rendering Optimizes Performance:**
 
-// When setup is removed, clean up all its visual elements
-function cleanup_setup_visuals(setup):
-    // Delete all labels
-    for each label_id in setup.label_ids:
-        delete_label(label_id)
-        remove_from_array(all_label_ids, label_id)
-    
-    // Delete all lines
-    for each line_id in setup.line_ids:
-        delete_line(line_id)
-        remove_from_array(all_line_ids, line_id)
-    
-    // Delete all markers
-    for each marker_id in setup.marker_ids:
-        delete_marker(marker_id)
-        remove_from_array(all_marker_ids, marker_id)
-```
+**Principle:** The system only calculates and displays what you've enabled. If a feature is turned off, the system skips those calculations entirely, saving processing time and resources.
 
-**6. Performance Testing:**
-```pseudocode
-// Test scenarios:
-// 1. Maximum history (40 setups)
-// 2. All features enabled
-// 3. Multiple timeframe pairings
-// 4. Long chart history (1000+ bars)
-// 5. Real-time updates
+**How It Works:**
 
-// Performance targets:
-// - Chart load time: < 2 seconds
-// - Real-time update: < 100ms
-// - Memory usage: Reasonable (monitor with TradingView tools)
-```
+1. **Check HTF Candle Visibility Setting:**
+   - If "Show HTF Candles" is enabled:
+     - Calculate HTF candle data
+     - Plot HTF candles on the chart
+   - If "Show HTF Candles" is disabled:
+     - Skip HTF candle calculations
+     - Don't plot anything
+     - **Note:** Calculations may still occur in background, but rendering is skipped
+
+2. **Check Projection Settings:**
+   - If "Show Projections" is enabled AND setup state is "gray" (valid):
+     - Calculate projection levels
+     - Plot projection lines on the chart
+   - If projections are disabled OR setup has failed (red) or consolidated (orange):
+     - Skip projection calculations
+     - Don't plot projection lines
+
+3. **Check SMT Divergence Setting:**
+   - If "Show SMT" is disabled:
+     - Skip all SMT divergence calculations
+     - Don't request data for SMT pairs
+     - Don't perform trend analysis
+     - Don't detect divergences
+   - This saves significant processing time since SMT requires data from multiple markets
+
+**Benefits:**
+- Faster indicator execution when features are disabled
+- Lower resource usage
+- Better chart performance
+- Only processes what you actually want to see
+
+**4. How Multi-Timeframe Data Requests Are Optimized:**
+
+**Principle:** Each request to get data from a different timeframe has overhead (takes time and resources). The system minimizes the number of requests by batching them together and caching results.
+
+**Inefficient Approach (What NOT to Do):**
+
+If the system made separate requests for each piece of data, it would need to make 5 separate API calls:
+1. Request HTF Open price
+2. Request HTF High price
+3. Request HTF Low price
+4. Request HTF Close price
+5. Request HTF Volume
+
+**Problem:** Each call has overhead, making 5 calls is slow and inefficient.
+
+**Efficient Approach (What the System Does):**
+
+1. **Batch All Data in One Request:**
+   - Make a single request that asks for all needed data at once:
+     - Symbol: Current chart symbol
+     - Timeframe: Higher Timeframe setting
+     - Data Fields: Open, High, Low, Close, and Volume (all together)
+     - Lookahead Mode: Disabled (for non-repainting)
+   - The platform returns all this data in one response
+
+2. **Extract Data from Single Response:**
+   - From the single response, extract each piece of data:
+     - Open price (first item in response)
+     - High price (second item in response)
+     - Low price (third item in response)
+     - Close price (fourth item in response)
+     - Volume (fifth item in response, if needed)
+
+**Additional Optimization: Cache HTF Data**
+
+1. **Check if HTF Candle Has Closed:**
+   - Monitor whether the HTF candle has closed since the last check
+   - If it just closed: Proceed to step 2
+   - If it's still forming: Proceed to step 3
+
+2. **Request New Data (When HTF Candle Closes):**
+   - The HTF candle just closed, so new data is available
+   - Make a batched request for all HTF data (as described above)
+   - Store this data in cache
+   - Update the timestamp of when the HTF candle closed
+   - This cached data will be used until the next HTF candle closes
+
+3. **Use Cached Data (When HTF Candle Still Forming):**
+   - The HTF candle hasn't closed yet, so the data hasn't changed
+   - Retrieve the cached HTF data instead of making a new request
+   - This saves processing time and API calls
+
+**Optimization for Previous HTF Candle Data:**
+
+1. **Check if Previous HTF Data is Cached:**
+   - The system needs previous HTF candle data for "Previous Candle EQ" calculations
+   - Check if this data has already been requested and cached
+   - If not cached: Proceed to step 2
+   - If already cached: Use cached data (skip step 2)
+
+2. **Request Previous HTF Data (Once):**
+   - Make a request for previous HTF candle data:
+     - Symbol: Current chart symbol
+     - Timeframe: Higher Timeframe setting
+     - Data Fields: High price and Low price (for EQ calculation)
+     - Bar Offset: 1 (previous bar)
+     - Lookahead Mode: Disabled
+   - Store this data in cache
+   - Mark it as cached so it won't be requested again
+
+**Benefits:**
+- Fewer API calls (1 instead of 5+)
+- Faster execution
+- Lower resource usage
+- Better chart performance
+- Data is only requested when it actually changes
+
+**Performance Benefits:**
+- Reduces API calls by 80% (5 calls → 1 call)
+- Faster indicator execution
+- Lower server load
+- Better user experience
+
+**5. How Visual Element Management Works:**
+
+**Principle:** Charting platforms have limits on how many visual elements (labels, lines, markers) can be displayed. The system efficiently manages these elements to stay within limits while maintaining visual clarity.
+
+**Initialization (When Indicator First Loads):**
+
+1. **Check if Visual Element Tracking is Initialized:**
+   - When the indicator first loads, check if tracking arrays have been created
+   - If not initialized yet, proceed to create them
+
+2. **Create Tracking Arrays:**
+   - Create an array to track all label IDs
+   - Create an array to track all line IDs
+   - Create an array to track all marker IDs
+   - Set maximum limits:
+     - Maximum labels allowed: 500 (platform limit, may vary)
+     - Maximum lines allowed: 1000 (platform limit, may vary)
+   - Mark tracking as initialized
+
+**Strategy for Visual Elements:**
+
+The system uses different visual elements for different purposes:
+- **Lines:** More efficient for drawing price levels (projections, EQ levels)
+- **Labels:** Better for text annotations (C2, C3, C4 labels)
+- **Markers:** Good for point identification (T-Spots, liquidity sweeps)
+
+**Label Management:**
+
+1. **Count Current Labels:**
+   - Count how many labels are currently tracked in the array
+   - Compare this to the maximum allowed (500)
+
+2. **Remove Old Labels if Needed:**
+   - If current count is at or exceeds the maximum:
+     - Calculate how many labels to remove
+     - Add a buffer (remove 10 extra labels to create space)
+     - Remove the oldest labels first (FIFO - First In First Out)
+     - For each label to remove:
+       - Get the oldest label ID from the array
+       - Delete that label from the chart
+       - Remove its ID from the tracking array
+     - This keeps the label count below the limit
+
+**Line Management:**
+
+1. **Count Current Lines:**
+   - Count how many lines are currently tracked in the array
+   - Compare this to the maximum allowed (1000)
+
+2. **Remove Old Lines if Needed:**
+   - If current count is at or exceeds the maximum:
+     - Calculate how many lines to remove
+     - Add a buffer (remove 50 extra lines to create space)
+     - Remove the oldest lines first (FIFO)
+     - For each line to remove:
+       - Get the oldest line ID from the array
+       - Delete that line from the chart
+       - Remove its ID from the tracking array
+     - This keeps the line count below the limit
+
+**Creating New Visual Elements for a Setup:**
+
+When a new setup is confirmed, the system creates visual elements:
+
+1. **Create C2 Label:**
+   - Position: At the bar where setup was confirmed, at C2 price level
+   - Text: "C2"
+   - Color: Based on setup state (gray, red, or orange)
+   - Size: Based on your label size setting
+   - Add this label ID to the main tracking array
+   - Add this label ID to the setup's own label tracking array
+
+2. **Create C3 Label (if C3 exists):**
+   - Only create if C3 price level has been identified
+   - Position: At the bar where C3 was identified, at C3 price level
+   - Text: "C3"
+   - Color: Based on setup state
+   - Size: Based on your label size setting
+   - Add to both tracking arrays
+
+3. **Create C4 Label (if C4 exists):**
+   - Only create if C4 price level has been identified
+   - Position: At the bar where C4 was identified, at C4 price level
+   - Text: "C4"
+   - Color: Based on setup state
+   - Size: Based on your label size setting
+   - Add to both tracking arrays
+
+4. **Create Projection Lines (if enabled):**
+   - Create lines for body projections and wick projections
+   - Add line IDs to both tracking arrays
+
+**Benefits:**
+- Prevents exceeding platform limits
+- Maintains chart performance
+- Automatically cleans up old elements
+- Keeps visual clarity while managing resources
+
+**Cleaning Up Visual Elements When Setup is Removed:**
+
+When a setup is removed (because it's too old or exceeded history limit), the system cleans up all its visual elements:
+
+1. **Delete All Labels:**
+   - For each label ID associated with this setup:
+     - Delete the label from the chart
+     - Remove its ID from the main label tracking array
+   - This prevents orphaned labels from cluttering the chart
+
+2. **Delete All Lines:**
+   - For each line ID associated with this setup:
+     - Delete the line from the chart
+     - Remove its ID from the main line tracking array
+   - This prevents orphaned lines from cluttering the chart
+
+3. **Delete All Markers:**
+   - For each marker ID associated with this setup:
+     - Delete the marker from the chart
+     - Remove its ID from the main marker tracking array
+   - This prevents orphaned markers from cluttering the chart
+
+This cleanup ensures the chart stays clean and performance remains optimal.
+
+**6. Performance Testing Requirements:**
+
+**Test Scenarios That Must Be Verified:**
+
+1. **Maximum History Scenario:**
+   - Test with History Setups set to maximum (40 setups)
+   - Verify the indicator loads and functions correctly
+   - Verify all 40 setups display properly
+   - Verify performance remains acceptable
+
+2. **All Features Enabled:**
+   - Enable all features simultaneously:
+     - HTF candles
+     - All projections
+     - SMT divergence
+     - All labels
+     - Info table
+     - Time filters
+   - Verify the indicator functions correctly with everything enabled
+   - Verify performance remains acceptable
+
+3. **Multiple Timeframe Pairings:**
+   - Test different HTF-LTF pairings:
+     - 5m-1H
+     - 15m-4H
+     - 1H-1D
+     - Other valid pairings
+   - Verify the indicator works correctly for each pairing
+   - Verify calculations are accurate for each pairing
+
+4. **Long Chart History:**
+   - Test with charts containing 1000+ bars of history
+   - Verify the indicator loads within acceptable time
+   - Verify all historical setups display correctly
+   - Verify performance remains acceptable
+
+5. **Real-Time Updates:**
+   - Test with live market data
+   - Verify the indicator updates correctly as new bars form
+   - Verify there's no lag or delay in updates
+   - Verify non-repainting behavior works correctly
+
+**Performance Targets:**
+
+1. **Chart Load Time:**
+   - Target: Less than 2 seconds to fully load the indicator
+   - This includes calculating all historical setups
+   - This includes rendering all visual elements
+
+2. **Real-Time Update Speed:**
+   - Target: Less than 100 milliseconds per update
+   - Updates occur when new bars form or existing bars update
+   - Should not cause noticeable lag or delay
+
+3. **Memory Usage:**
+   - Target: Reasonable memory usage
+   - Should not cause browser or platform slowdown
+   - Can be monitored using platform's built-in performance tools
+   - Should scale appropriately with number of setups and history length
 
 ### 12.4 Error Handling & Edge Cases
 
-**1. Invalid Timeframe Pairings:**
-```pseudocode
-function handle_invalid_pairing():
-    if htf_timeframe <= ltf_timeframe:
-        show_error("HTF must be greater than LTF")
-        disable_indicator()
-        return false
-    return true
-```
+**1. How Invalid Timeframe Pairings Are Handled:**
 
-**2. Insufficient Data:**
-```pseudocode
-function check_data_availability():
-    required_bars = calculate_required_bars(htf_timeframe, history_setups)
-    
-    if bar_index < required_bars:
-        show_message("Insufficient data. Need " + str(required_bars) + " bars.")
-        // Show partial indicator or wait
-        return false
-    return true
-```
+**Detection Process:**
+1. The system compares the Higher Timeframe and Lower Timeframe settings
+2. It checks: Is HTF greater than LTF?
+   - If NO (HTF ≤ LTF): This is invalid
+   - If YES (HTF > LTF): This is valid
 
-**3. Market Gaps:**
-```pseudocode
-// Handle gaps in price data
-if na(close) or na(open):
-    // Skip this bar or use previous values
-    use_previous_values()
-```
+**When Invalid Pairing is Detected:**
+1. Display error message: "HTF must be greater than LTF"
+2. Disable the indicator (stop all calculations and plotting)
+3. Show the error clearly so the user knows what's wrong
+4. The indicator will not function until a valid pairing is selected
 
-**4. SMT Pair Unavailability:**
-```pseudocode
-function check_smt_pair_availability():
-    try:
-        test_data = request.security(smt_pair_1, timeframe, close, ...)
-        if na(test_data):
-            show_warning("SMT Pair 1 data unavailable")
-            disable_smt()
-            return false
-    except:
-        show_error("SMT Pair 1 symbol invalid")
-        disable_smt()
-        return false
-    return true
-```
+**When Valid Pairing is Detected:**
+- The indicator continues normally
+- All features work as expected
+
+**2. How Insufficient Data Is Handled:**
+
+**Detection Process:**
+1. The system calculates how many bars are required:
+   - Based on the Higher Timeframe setting
+   - Based on the History Setups setting (how many past setups to show)
+   - Example: If HTF is 1H and you want 10 historical setups, you need many bars of data
+
+2. Compare Required vs. Available:
+   - Count how many bars are currently available on the chart
+   - Compare: Available bars vs. Required bars
+   - If available bars < required bars: Insufficient data
+
+**When Insufficient Data is Detected:**
+1. Display message: "Insufficient data. Need [X] bars."
+   - The message shows exactly how many bars are needed
+2. Options for handling:
+   - Show partial indicator (with limited functionality)
+   - Wait for more data to load
+   - Reduce the history settings to match available data
+3. The indicator may still function but with limited historical context
+
+**When Sufficient Data is Available:**
+- The indicator functions normally
+- All historical setups can be displayed
+
+**3. How Market Gaps Are Handled:**
+
+**What Are Market Gaps:**
+- Gaps occur when there's no trading activity between bars
+- Common in: Forex (weekend gaps), Stocks (overnight gaps), Crypto (occasional gaps)
+- Gaps show as missing price data (no open, high, low, close values)
+
+**Detection Process:**
+1. The system checks each bar for valid price data
+2. It looks for missing values:
+   - If close price is missing (NA/null)
+   - OR if open price is missing (NA/null)
+   - Then this bar has a gap
+
+**Handling Options:**
+1. **Skip the Bar:**
+   - Ignore this bar completely
+   - Don't use it for any calculations
+   - Move to the next valid bar
+
+2. **Use Previous Values:**
+   - Use the previous bar's values as a fallback
+   - Example: If current bar's close is missing, use previous bar's close
+   - This maintains continuity in calculations
+
+**Impact:**
+- Gaps don't break the indicator
+- The system continues functioning despite missing data
+- Calculations remain stable
+
+**4. How SMT Pair Unavailability Is Handled:**
+
+**Detection Process:**
+1. **Test Pair 1 Data:**
+   - The system tries to request price data for SMT Pair 1
+   - Uses the same timeframe as your current chart
+   - Requests closing price data
+   - If the request fails or returns no data:
+     - Pair 1 is unavailable
+
+2. **Test Pair 2 Data:**
+   - Same process for Pair 2
+   - If Pair 2 data is unavailable:
+     - Pair 2 cannot be used
+
+**When Data is Unavailable:**
+1. **If Pair 1 Data is Missing:**
+   - Show warning: "SMT Pair 1 data unavailable"
+   - Disable the SMT divergence feature
+   - Stop the SMT process
+   - The rest of the indicator continues working normally
+
+2. **If Symbol is Invalid:**
+   - Show error: "SMT Pair 1 symbol invalid"
+   - This means the symbol you entered doesn't exist or isn't accessible
+   - Disable the SMT divergence feature
+   - The rest of the indicator continues working normally
+
+**When Both Pairs Are Available:**
+- SMT divergence feature is enabled
+- The system can compare the two markets
+- Divergence detection works normally
 
 ### 12.5 Platform Compatibility & Requirements
 
@@ -3059,214 +3245,235 @@ function check_smt_pair_availability():
 **Required Platform Functions:**
 
 **1. Multi-Timeframe Data Access:**
-```pseudocode
-// Function to request data from different timeframes
-request_multi_timeframe_data(
-    symbol,
-    timeframe,
-    data_fields,
-    lookahead_mode,
-    bar_offset
-)
-// This is essential for HTF candle analysis
-```
+
+The platform must provide a function to request data from different timeframes than the current chart. This function needs to accept:
+- **Symbol:** Which market to get data for
+- **Timeframe:** Which timeframe to request (e.g., 1H, 4H, 1D)
+- **Data Fields:** What data to get (open, high, low, close, volume)
+- **Lookahead Mode:** Whether to use future data (must be disabled for non-repainting)
+- **Bar Offset:** Which historical bar to get (e.g., previous bar = offset 1)
+
+**Why This is Essential:**
+- This is the core function needed for Higher Timeframe candle analysis
+- Without this, the indicator cannot access HTF data
+- Must support non-repainting mode (lookahead disabled)
 
 **2. Array/Collection Management:**
-```pseudocode
-// Functions for managing setup storage
-create_array()
-add_to_array(array, element)
-remove_from_array(array, index)
-get_array_element(array, index)
-get_array_size(array)
-clear_array(array)
-// Required for managing multiple historical setups
-```
+
+The platform must provide functions for managing collections of data (arrays). Required functions:
+- **Create Array:** Create a new empty array to store data
+- **Add to Array:** Add an element to the end of an array
+- **Remove from Array:** Remove an element at a specific position
+- **Get Array Element:** Retrieve an element at a specific position
+- **Get Array Size:** Count how many elements are in the array
+- **Clear Array:** Remove all elements from an array
+
+**Why This is Required:**
+- Needed for managing multiple historical setups (up to 40)
+- Stores setup data, prices, bar indices, states, etc.
+- Essential for non-repainting data storage
 
 **3. Visual Element Creation:**
-```pseudocode
-// Label creation and management
-create_label(x, y, text, color, size, style)
-update_label(label_id, properties)
-delete_label(label_id)
-get_label_properties(label_id)
 
-// Line creation and management
-create_line(x1, y1, x2, y2, color, width, style)
-update_line(line_id, properties)
-delete_line(line_id)
-extend_line(line_id, new_x2, new_y2)
+The platform must provide functions for creating and managing visual elements on the chart.
 
-// Marker/Shape creation
-create_marker(x, y, shape, color, size)
-update_marker(marker_id, properties)
-delete_marker(marker_id)
-```
+**Label Creation and Management:**
+- **Create Label:** Create a text label at a specific position (x, y) with text, color, size, and style
+- **Update Label:** Modify an existing label's properties (color, text, etc.)
+- **Delete Label:** Remove a label from the chart
+- **Get Label Properties:** Retrieve a label's current settings
+
+**Line Creation and Management:**
+- **Create Line:** Draw a line from point (x1, y1) to point (x2, y2) with color, width, and style
+- **Update Line:** Modify an existing line's properties
+- **Delete Line:** Remove a line from the chart
+- **Extend Line:** Extend a line to a new end point (used for projections that extend forward)
+
+**Marker/Shape Creation:**
+- **Create Marker:** Place a marker/shape at a specific position (x, y) with shape type, color, and size
+- **Update Marker:** Modify an existing marker's properties
+- **Delete Marker:** Remove a marker from the chart
 
 **4. Bar State Detection:**
-```pseudocode
-// Functions to determine bar state
-get_bar_state()  // Returns: CONFIRMED, FORMING, REAL_TIME
-is_bar_confirmed(bar_index)
-is_bar_last()
-is_bar_real_time()
-get_current_bar_index()
-get_bar_time(bar_index)
-```
+
+The platform must provide functions to determine the state of bars on the chart.
+
+**Required Functions:**
+- **Get Bar State:** Determine if a bar is CONFIRMED (closed), FORMING (currently updating), or REAL_TIME (live)
+- **Is Bar Confirmed:** Check if a specific bar has closed and is final
+- **Is Bar Last:** Check if this is the last (currently forming) bar
+- **Is Bar Real Time:** Check if this bar is updating in real-time
+- **Get Current Bar Index:** Get the index/number of the current bar
+- **Get Bar Time:** Get the timestamp of when a specific bar occurred
+
+**Why This is Critical:**
+- Essential for non-repainting behavior
+- Determines when to store data permanently vs. show live updates
+- Prevents using unconfirmed data in calculations
 
 **5. Table Creation (for Info Table):**
-```pseudocode
-// Table creation and management
-create_table(position, columns, rows, properties)
-set_table_cell(table_id, column, row, text, properties)
-update_table_cell(table_id, column, row, properties)
-delete_table(table_id)
-```
+
+The platform must provide functions for creating and managing tables on the chart.
+
+**Required Functions:**
+- **Create Table:** Create a new table at a specific position with specified number of columns and rows
+- **Set Table Cell:** Set the text and properties of a specific cell (column, row)
+- **Update Table Cell:** Modify an existing cell's properties
+- **Delete Table:** Remove a table from the chart
+
+**Why This is Needed:**
+- Used for the Info Table that displays fractal pairing, bias, time to close, and filters
+- Provides organized information display
 
 **6. Price Data Access:**
-```pseudocode
-// Access current chart price data
-get_open_price(bar_index)
-get_high_price(bar_index)
-get_low_price(bar_index)
-get_close_price(bar_index)
-get_volume(bar_index)
-get_time(bar_index)
-```
+
+The platform must provide functions to access price data from the current chart.
+
+**Required Functions:**
+- **Get Open Price:** Retrieve the opening price of a specific bar
+- **Get High Price:** Retrieve the highest price of a specific bar
+- **Get Low Price:** Retrieve the lowest price of a specific bar
+- **Get Close Price:** Retrieve the closing price of a specific bar
+- **Get Volume:** Retrieve the trading volume of a specific bar
+- **Get Time:** Retrieve the timestamp of when a specific bar occurred
+
+**Why This is Essential:**
+- Core data needed for all calculations
+- Must be able to access historical bars (not just current)
+- Required for CISD detection, projection calculations, etc.
 
 **Compatibility Testing Requirements:**
 
-**1. Chart Type Compatibility:**
-```pseudocode
-// Test on all available chart types:
-test_chart_types = [
-    "Candlestick",
-    "Line",
-    "Area",
-    "Baseline",
-    "Heikin Ashi",
-    "Renko",
-    "Point & Figure"
-]
+**1. Chart Type Compatibility Testing:**
 
-// The indicator should work correctly on all chart types
-// Visual elements may need adjustment for different chart types
-for each chart_type in test_chart_types:
-    test_indicator_on_chart_type(chart_type)
-    verify_visual_elements_render_correctly()
-    verify_calculations_are_accurate()
-```
+**Test on All Available Chart Types:**
+The indicator must be tested on all chart types the platform supports:
+- Candlestick charts
+- Line charts
+- Area charts
+- Baseline charts
+- Heikin Ashi charts
+- Renko charts
+- Point & Figure charts
 
-**2. Asset Type Compatibility:**
-```pseudocode
-// Test on different asset classes:
-test_assets = [
-    "Stock Indices" (e.g., SPX, NASDAQ),
-    "Stock Futures" (e.g., ES, NQ, YM),
-    "Forex Pairs" (e.g., EURUSD, GBPUSD),
-    "Cryptocurrencies" (e.g., BTC, ETH),
-    "Commodities" (e.g., Gold, Oil),
-    "Bonds" (e.g., 10Y Treasury)
-]
+**Testing Requirements:**
+- The indicator should work correctly on all chart types
+- Visual elements may need adjustment for different chart types
+- For each chart type:
+  - Test that the indicator loads and functions
+  - Verify visual elements render correctly
+  - Verify calculations are accurate
+  - Ensure HTF candles display properly
+  - Check that labels and lines appear correctly
 
-// Each asset class may have different:
-// - Trading hours
-// - Price precision
-// - Volume characteristics
-// - Gap behavior
+**2. Asset Type Compatibility Testing:**
 
-for each asset_class in test_assets:
-    test_indicator_on_asset_class(asset_class)
-    verify_time_filter_handling()
-    verify_price_precision_handling()
-    verify_gap_handling()
-```
+**Test on Different Asset Classes:**
+The indicator must be tested across various asset types:
+- **Stock Indices:** SPX, NASDAQ, etc.
+- **Stock Futures:** ES, NQ, YM, etc.
+- **Forex Pairs:** EURUSD, GBPUSD, etc.
+- **Cryptocurrencies:** BTC, ETH, etc.
+- **Commodities:** Gold, Oil, etc.
+- **Bonds:** 10Y Treasury, etc.
 
-**3. Timeframe Compatibility:**
-```pseudocode
-// Test on all common timeframes:
-test_timeframes = [
-    "1 minute",
-    "5 minutes",
-    "15 minutes",
-    "30 minutes",
-    "1 hour",
-    "4 hours",
-    "1 day",
-    "1 week"
-]
+**Why Different Assets Matter:**
+Each asset class may have different characteristics:
+- **Trading Hours:** Some trade 24/7, others have specific sessions
+- **Price Precision:** Different decimal places (forex vs. stocks)
+- **Volume Characteristics:** Some have volume, others don't
+- **Gap Behavior:** Some have frequent gaps, others don't
 
-// Different timeframes may have:
-// - Different data availability
-// - Different update frequencies
-// - Different precision requirements
+**Testing Requirements:**
+For each asset class:
+- Test that time filters work correctly with that asset's trading hours
+- Verify price precision is handled correctly
+- Verify gap handling works appropriately
+- Ensure all calculations are accurate for that asset type
 
-for each timeframe in test_timeframes:
-    test_indicator_on_timeframe(timeframe)
-    verify_htf_ltf_pairing_works()
-    verify_calculations_are_accurate()
-    verify_performance_is_acceptable()
-```
+**3. Timeframe Compatibility Testing:**
 
-**4. Mobile App Compatibility:**
-```pseudocode
-// If platform has mobile app:
-if platform_has_mobile_app:
-    test_on_mobile_devices = [
-        "iOS iPhone",
-        "iOS iPad",
-        "Android Phone",
-        "Android Tablet"
-    ]
-    
-    for each device in test_on_mobile_devices:
-        test_indicator_on_device(device)
-        verify_visual_elements_display_correctly()
-        verify_touch_interactions_work()
-        verify_performance_is_acceptable()
-        verify_battery_usage_is_reasonable()
-```
+**Test on All Common Timeframes:**
+The indicator must be tested on:
+- 1 minute
+- 5 minutes
+- 15 minutes
+- 30 minutes
+- 1 hour
+- 4 hours
+- 1 day
+- 1 week
 
-**5. Browser Compatibility:**
-```pseudocode
-// Test on different web browsers:
-test_browsers = [
-    "Chrome",
-    "Firefox",
-    "Safari",
-    "Edge"
-]
+**Why Different Timeframes Matter:**
+Different timeframes may have:
+- **Different Data Availability:** Some timeframes have more historical data
+- **Different Update Frequencies:** Lower timeframes update more often
+- **Different Precision Requirements:** Higher timeframes may need different calculations
 
-// Different browsers may have:
-// - Different rendering engines
-// - Different performance characteristics
-// - Different JavaScript implementations
+**Testing Requirements:**
+For each timeframe:
+- Test that HTF-LTF pairing works correctly
+- Verify calculations are accurate
+- Verify performance is acceptable (doesn't slow down chart)
+- Test that all features function properly on that timeframe
 
-for each browser in test_browsers:
-    test_indicator_in_browser(browser)
-    verify_rendering_is_correct()
-    verify_performance_is_acceptable()
-    verify_no_console_errors()
-```
+**4. Mobile App Compatibility Testing:**
 
-**6. Data Availability Edge Cases:**
-```pseudocode
-// Test scenarios with limited data:
-test_scenarios = [
-    "New symbol with limited history",
-    "Symbol with gaps in data",
-    "Symbol with extended market closure",
-    "Symbol with data feed interruption",
-    "Symbol with irregular trading hours"
-]
+**If Platform Has Mobile App:**
+The indicator must be tested on mobile devices:
+- iOS iPhone
+- iOS iPad
+- Android Phone
+- Android Tablet
 
-// Indicator should handle these gracefully:
-for each scenario in test_scenarios:
-    test_indicator_with_scenario(scenario)
-    verify_graceful_degradation()
-    verify_error_messages_are_clear()
-    verify_no_crashes_or_errors()
-```
+**Testing Requirements:**
+For each device:
+- Test that the indicator loads and functions
+- Verify visual elements display correctly (labels, lines, candles)
+- Verify touch interactions work (if applicable)
+- Verify performance is acceptable (doesn't lag or freeze)
+- Verify battery usage is reasonable (doesn't drain battery excessively)
+
+**5. Browser Compatibility Testing:**
+
+**Test on Different Web Browsers:**
+The indicator must be tested on:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+**Why Different Browsers Matter:**
+Different browsers may have:
+- **Different Rendering Engines:** How they display graphics
+- **Different Performance Characteristics:** Some are faster than others
+- **Different JavaScript Implementations:** How they execute code
+
+**Testing Requirements:**
+For each browser:
+- Test that the indicator loads and functions
+- Verify rendering is correct (all visual elements appear properly)
+- Verify performance is acceptable
+- Verify no console errors occur
+- Ensure all features work identically across browsers
+
+**6. Data Availability Edge Cases Testing:**
+
+**Test Scenarios with Limited Data:**
+The indicator must handle these edge cases gracefully:
+- **New Symbol with Limited History:** Symbol that just started trading
+- **Symbol with Gaps in Data:** Missing price data between bars
+- **Symbol with Extended Market Closure:** Long periods without trading
+- **Symbol with Data Feed Interruption:** Temporary loss of data feed
+- **Symbol with Irregular Trading Hours:** Non-standard trading schedule
+
+**Testing Requirements:**
+For each scenario:
+- Test that the indicator handles the situation gracefully
+- Verify it degrades functionality appropriately (shows partial data rather than crashing)
+- Verify error messages are clear and helpful
+- Verify no crashes or errors occur
+- Ensure the indicator recovers when data becomes available again
 
 ---
 
