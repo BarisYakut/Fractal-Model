@@ -9,6 +9,9 @@ This document outlines the requirements for developing a Pinescript indicator th
 - Multi-timeframe analysis (Higher Timeframe / Lower Timeframe pairing)
 - Automated detection of price delivery patterns
 - Customizable visualization and alert system
+- **Complete automation:** Automates the entire fractal model sequence, highlights candle rates, plots the change in state of delivery, and overlays higher timeframe context directly onto lower timeframe charts
+- **Structured tool:** One of the most structured tools for understanding algorithmic delivery
+- **Mechanical structure:** Brings mechanical structure, clarity, and consistency to charting process
 
 **Document Structure:**
 This requirements document is designed to be reviewed and understood by both technical and non-technical stakeholders. All algorithm flows, calculation processes, and system behaviors are explained in plain English with step-by-step procedures. Technical implementation details are presented as clear, narrative explanations that describe "what happens" and "how it works" rather than "how to code it." This ensures that the customer can fully understand the indicator's mechanics and verify that all requirements are met.
@@ -213,14 +216,17 @@ This section details all user-configurable inputs/parameters for the indicator. 
 
 #### 2.2.4 HTF Candle Lookback History
 - **Type:** Integer (slider or input)
-- **Range:** 1 to 100
-- **Default:** 20
+- **Range:** 1 to 40
+- **Default:** 4 (or as specified)
 - **Purpose:** Controls how many HTF candles are plotted on chart
 - **Behavior:** 
   - Lower values: Focus on recent structure
-  - Higher values: More historical context
+  - Higher values: More historical context and extended visibility of swing development
+  - When changed, the indicator plots additional HTF candles and marks vertical lines on the chart
+  - Example: Setting to 4 displays 4 HTF candles; changing to 8 plots 4 additional candles
 - **Impact:** 
   - Affects chart clarity vs. historical depth
+  - Provides equilibrium tracking and cleaner framework recognition
   - Higher values may impact performance
 
 #### 2.2.5 HTF Candle Body Color (Bullish)
@@ -385,12 +391,15 @@ This section details all user-configurable inputs/parameters for the indicator. 
 - **Purpose:** Color for bearish CISD (bullish to bearish change)
 - **Impact:** Visual identification of direction
 
-#### 2.3.12 Show Early CISD
+#### 2.3.12 Show Early CISD (Early C2 CISD)
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
 - **Purpose:** Highlight early CISD within C2 candle for earlier detection
-- **Behavior:** Shows potential CISD before full confirmation
-- **Impact:** Earlier setup identification, may have lower reliability
+- **Behavior:** 
+  - Plots the CISD before the candle has closed, making sure you can see the developing change in state of delivery
+  - Shows potential CISD before full confirmation
+  - Also referred to as "Early C2 CISD" in documentation
+- **Impact:** Earlier setup identification, may have lower reliability, but provides earlier warning of potential setup formation
 
 #### 2.3.13 Early CISD Color
 - **Type:** Color picker
@@ -626,18 +635,21 @@ This section details all user-configurable inputs/parameters for the indicator. 
 - **Impact:** Determines which markets are compared
 
 #### 2.6.3 SMT Pair 1 (Manual Mode)
-- **Type:** String (symbol input)
+- **Type:** String (symbol input) or Symbol Selector
 - **Default:** ""
 - **Purpose:** First market symbol for manual SMT pair
 - **Example:** "CME_MINI:ES1!" (E-mini S&P 500)
+- **Selection Method:** User can select the asset from the "Change Symbol" tab/interface
 - **Validation:** Must be valid TradingView symbol
 - **Impact:** Only used when SMT Mode = "Manual"
 
 #### 2.6.4 SMT Pair 2 (Manual Mode)
-- **Type:** String (symbol input)
+- **Type:** String (symbol input) or Symbol Selector
 - **Default:** ""
 - **Purpose:** Second market symbol for manual SMT pair
 - **Example:** "CME_MINI:YM1!" (E-mini Dow)
+- **Selection Method:** User can select the asset from the "Change Symbol" tab/interface
+- **Note:** It's possible to add and configure a second SMT pair for additional correlation analysis
 - **Validation:** Must be valid TradingView symbol
 - **Impact:** Only used when SMT Mode = "Manual"
 
@@ -818,6 +830,49 @@ The Fractal Model is based on the cyclical nature of price movements, where pric
 
 **Key Insight:** The HTF provides the structural narrative (the "what"), while the LTF provides the execution context (the "when" and "how"). By combining both, traders can identify high-probability expansion setups.
 
+### 2.1.1 The Four-Candle Sequence - Core Algorithm
+
+At the core of the Fractal Model is the idea that **every reversal begins with a three-candle sequence** (extended to four candles for continuation), and each candle has a specific role in the algorithmic delivery process. This behavior is fractal, meaning the same candle process occurs on every timeframe from higher timeframe swings to intraday execution.
+
+**Candle 1 (C1) - Sets the Liquidity:**
+- **Role:** Establishes the engineered liquidity pool
+- **Function:** Forms the high or low that becomes the target for the next candle to trade
+- **Mechanics:** This candle creates the initial swing point (high for bearish setups, low for bullish setups)
+- **Purpose:** Sets up the liquidity level that Candle 2 will target and "sweep"
+- **Visual:** Marked with a horizontal ray showing the liquidity level
+
+**Candle 2 (C2) - Performs the Sweep and Produces CISD:**
+- **Role:** Executes the liquidity sweep and confirms the change in state of delivery
+- **Function:** 
+  - Takes out Candle 1's liquidity (sweeps the high or low established by C1)
+  - Closes back inside the previous range
+  - Produces the CISD (Change in State of Delivery)
+- **Mechanics:** This shift in delivery confirms that a reversal is unfolding
+- **Purpose:** Validates that the reversal sequence has begun
+- **Visual:** Labeled as "C2" and marks the CISD point
+
+**Candle 3 (C3) - The Expansion Phase:**
+- **Role:** Initiates the expansion move away from the reversal point
+- **Function:**
+  - Expands away from the CISD
+  - Targets any remaining liquidity left inside Candle 2 and Candle 1
+- **Mechanics:** This is where the new trend direction gains momentum
+- **Purpose:** Confirms the reversal and begins the expansion phase
+- **Visual:** Labeled as "C3" and shows the expansion direction
+
+**Candle 4 (C4) - The Continuation:**
+- **Role:** Continues the expansion move initiated in Candle 3
+- **Function:** Looks to continue the expansion move, often targeting projection levels
+- **Mechanics:** Extends the trend established in C3
+- **Purpose:** Shows continuation of the new orderflow direction
+- **Visual:** Labeled as "C4" and indicates continuation
+
+**Sequence Development:**
+- The Fractal Model automatically labels the structure as C1, C2, C3, and C4 as the sequence develops
+- Not all setups will have all four candles - some may only develop C1, C2, and C3
+- The sequence can occur on any timeframe, making it truly fractal in nature
+- Higher timeframe swings follow the same pattern as lower timeframe execution
+
 ### 2.2 Timeframe Pairing System
 
 The indicator operates on a **fractal pairing** concept where:
@@ -832,14 +887,17 @@ The indicator operates on a **fractal pairing** concept where:
 
 **Supported Pairings:**
 - **Standard pairings:** Pre-defined common combinations
-  - 1m-5m, 5m-15m, 5m-1H, 15m-1H, 15m-4H, 1H-4H, 4H-1D, 1D-1W
+  - 1m-5m, 3m-30m, 5m-15m, 5m-1H, 15m-1H, 15m-4H, 1H-4H, 1H-1D, 4H-1D, 1D-1W
   - These represent typical fractal relationships where HTF is 3-12x the LTF
+  - Examples from documentation: 3m-30m (10x ratio), 5m-1H (12x ratio), 1H-1D (24x ratio)
 - **Custom pairings:** User-defined HTF-LTF combinations
   - Any valid timeframe combination where HTF > LTF
+  - Examples: 1H-3m, 1D-15m (allows flexibility for personal framework preferences)
   - Must respect TradingView timeframe hierarchy
 - **Automatic pairing:** System automatically selects appropriate HTF based on current chart timeframe
   - Uses predefined rules to select optimal HTF
   - Ensures proper fractal relationship
+  - Can be overridden with custom pairing if desired
 
 **Fractal Relationship Rules:**
 - HTF should typically be 3-12x the LTF timeframe
@@ -883,7 +941,22 @@ This framework helps identify critical turning points and aligns with the fracta
 - **Visibility Toggle**: Option to hide/show HTF candles
 - **Colors**: Customizable body, border, and wick colors
 - **Markers**: Optional open/close markers and high/low lines
-- **Lookback History**: Control how many HTF candles are plotted (NEW feature)
+- **Lookback History**: Control how many HTF candles are plotted (range: 1 to 40)
+  - Increasing the value provides more historical structure and broader view of swing development
+  - Lower values keep focus on the most recent expansion
+  - When changed, the indicator plots additional HTF candles and marks vertical lines on the chart
+
+**Timestamp Labels:**
+- **Time Labels**: Option to display exact timestamps showing when each HTF candle formed
+- When enabled, the indicator plots the exact times at which the HTF candles formed onto the chart
+- Provides additional context in relation to time, helping traders understand when key structural points occurred
+- Example: If viewing 1H HTF candles, labels show "10:00", "11:00", "12:00", etc.
+
+**Vertical Lines:**
+- When HTF candle lookback history is increased, the indicator automatically marks vertical lines on the chart
+- These vertical lines correspond to the HTF candle boundaries
+- Helps visualize the HTF structure and align it with LTF price action
+- Example: If displaying 8 HTF candles, 8 vertical lines mark the boundaries of each HTF candle period
 
 **Previous Candle EQ:**
 - Display equilibrium (50% level) of the previous HTF candle
@@ -897,7 +970,10 @@ This framework helps identify critical turning points and aligns with the fracta
 - Marks the series of candles making up significant highs or lows
 - **CISD Confirmation:** A close beyond the opening price signals a change from bullish to bearish (or vice versa)
 - This confirms a trend reversal and is a form of orderblock
-- **Early CISD (NEW):** Option to highlight early CISD within the C2 candle for earlier detection
+- **Early C2 CISD (NEW):** Option to highlight early CISD within the C2 candle for earlier detection
+  - Plots the CISD before the candle has closed, allowing you to see the developing change in state of delivery
+  - Provides earlier warning of potential setup formation
+  - Becomes confirmed CISD when the candle closes and full criteria are met
 
 **Visual Requirements:**
 - Customizable line style and width
@@ -932,12 +1008,16 @@ This framework helps identify critical turning points and aligns with the fracta
 
 ### 3.4 Candle 1 Liquidity Sweep
 
-**Purpose:** Highlight important liquidity levels at each swing point.
+**Purpose:** Highlight important liquidity levels at each swing point. Candle 1 sets the liquidity and forms the high or low that becomes the target for the next candle to trade. It's the engineered liquidity pool.
 
 **Mechanics:**
-- Horizontal rays mark sweeps of liquidity
+- **Candle 1's Role:** Sets the liquidity that Candle 2 will target and sweep
+- Forms the high (for bearish setups) or low (for bullish setups) that becomes the target
+- This is the engineered liquidity pool - the level where stops are likely located
+- Horizontal rays mark sweeps of liquidity at the C1 level
 - Identifies potential reversal points
 - Marks the initial liquidity marker in the formation
+- **Connection to Formation Liquidity:** Formation liquidity is set at the lower candle at C1, from the swing point
 
 **Customization:**
 - Line type (solid, dotted, dashed)
@@ -977,13 +1057,17 @@ This framework helps identify critical turning points and aligns with the fracta
 - Toggle to enable/disable T-Spot
 - Marker style and appearance options
 
-### 3.7 Projections
+### 3.7 Projections (Standard Deviation Projections)
 
-**Purpose:** Leverage projected levels based on shifts in delivery for future price redelivery, rebalancing, and exhaustion points.
+**Purpose:** Leverage projected levels based on shifts in delivery for future price redelivery, rebalancing, and exhaustion points. These are also referred to as "standard deviation projections" in the documentation.
 
 **Mechanics:**
 - User-defined projection levels based on past orderblock behavior
 - Default projections: [-1, -2, -2.5, -4, -4.5]
+- **Dynamic Addition:** Users can add multiple additional projection levels
+  - Example: Adding -1.5 standard deviation projection
+  - The indicator uploads/plots the new projection level (e.g., minus one and a half standard deviation)
+  - Allows customization beyond the default five levels
 - Two types of projections:
   - **Body Projections:** Based on HTF candle body
   - **Wick Projections:** Based on HTF candle wicks
@@ -992,9 +1076,10 @@ This framework helps identify critical turning points and aligns with the fracta
 - Projections extend from key reference points (likely C2, C3, C4 or CISD points)
 - Multipliers determine distance from reference (e.g., -1 = 1x range, -2 = 2x range)
 - Negative values suggest extension in opposite direction of trend
+- Projections can target order block levels (e.g., second standard deviation projection from the order block)
 
 **Customization:**
-- Add or remove projection levels
+- Add or remove projection levels dynamically
 - Enable/disable projection display
 - Label visibility and styling
 - Label size, style, and color customization
@@ -1004,8 +1089,11 @@ This framework helps identify critical turning points and aligns with the fracta
 **Purpose:** Identify previous candles' highs and lows as critical liquidity points for the current developing formation.
 
 **Mechanics:**
-- Marks engineered liquidity pools
-- Highlights previous swing highs and lows
+- **Formation liquidity is basically liquidity that's set at the lower candle at C1** (Candle 1)
+- Marks engineered liquidity pools from the swing point at C1
+- Highlights previous swing highs and lows that relate to the current formation
+- For active setups, the formation liquidity shows liquidity from the swing point at C1
+- Example: In an active bearish model, the formation liquidity is from the swing point at C1
 - Serves as key reference points for future price action
 - Helps identify areas where price may seek liquidity
 
@@ -1014,6 +1102,63 @@ This framework helps identify critical turning points and aligns with the fracta
 - Line style (dotted/solid)
 - Line width
 - Color options
+
+---
+
+## 3.9 Practical Examples - How the Fractal Model Works in Real Trading
+
+### Example 1: Higher Timeframe Bearish Setup
+
+**Scenario:** A swing forms on the hourly (1H) timeframe, and the fractal model identifies the sequence:
+
+1. **Candle 1 (C1):** Sets the initial liquidity
+   - Forms a high that becomes the target for the next candle
+   - This is the engineered liquidity pool
+
+2. **Candle 2 (C2):** Performs the sweep and produces CISD
+   - Takes out Candle 1's liquidity (sweeps the high)
+   - Closes back inside the previous range
+   - Produces the Change in State of Delivery (CISD)
+   - This confirms the reversal is unfolding
+
+3. **Candle 3 (C3):** The expansion phase
+   - Expands away from the CISD
+   - Continues the orderflow lower (in this bearish example)
+   - Targets any remaining liquidity left inside Candle 2 and Candle 1
+
+**Result:** The model successfully identifies a bearish reversal and expansion on the hourly timeframe, providing clear structure for lower timeframe execution.
+
+### Example 2: Lower Timeframe Bullish Setup (EUR/USD)
+
+**Scenario:** A bullish framework on EUR/USD (Euro vs. US Dollar) on a lower timeframe:
+
+1. **Candle 1 (C1):** Sets the initial liquidity
+   - Forms the initial low here
+   - Establishes the liquidity pool that will be targeted
+
+2. **Candle 2 (C2):** Rates the liquidity pool and produces CISD
+   - Takes out Candle 1's liquidity (sweeps the low)
+   - Closes back inside the range
+   - Produces the CISD (change from bearish to bullish delivery)
+
+3. **Candle 3 (C3):** Expands away from CISD
+   - Expands upward, confirming the bullish reversal
+   - Begins the new bullish orderflow
+
+4. **Candle 4 (C4):** Produces continuation
+   - Continues the expansion move
+   - Extends all the way until reaching the second standard deviation projection from the order block
+   - Shows the continuation of the bullish move
+
+**Result:** The complete four-candle sequence is identified, with price reaching projection targets, demonstrating how the fractal model tracks the full algorithmic delivery sequence.
+
+### Key Takeaways from Examples:
+
+- **Fractal Nature:** The same candle sequence process occurs on every timeframe
+- **Structure Recognition:** The model automatically labels C1, C2, C3, C4 as the sequence develops
+- **Projection Targeting:** Price often reaches projection levels (e.g., second standard deviation projection)
+- **Orderflow Continuation:** The model tracks how orderflow continues through the sequence
+- **Multi-Timeframe:** Higher timeframe swings follow the same pattern as lower timeframe execution
 
 ---
 
@@ -1410,16 +1555,35 @@ This framework helps identify critical turning points and aligns with the fracta
 
 ### 5.2 Auto Bias Feature (NEW)
 
+**Purpose:** The autobias module adds directional filtering to the fractal model, ensuring the model only activates sequences that align with the dominant higher timeframe direction. It removes counter-trend setups that plot, and bias updates in real-time as each higher timeframe candle closes.
+
 **Auto Bias 1:**
+- References one timeframe higher than the current chart to determine structural bias
 - Aligns fractal models with one timeframe higher than current chart
 - Automatic bias selection based on HTF context
+- Example: If viewing a 5-minute chart, Auto Bias 1 uses the 15-minute or 1-hour timeframe to determine bias
 
 **Auto Bias 2:**
+- References two timeframes higher than the current chart to determine structural bias
 - Aligns fractal models with two timeframes higher than current chart
-- Provides even higher timeframe context
+- Creates an even stricter filtering system
+- Provides even higher timeframe context for more conservative filtering
+
+**How It Works:**
+- When autobias is enabled, the system checks the higher timeframe structure
+- Only setups that align with the higher timeframe direction are displayed
+- Example: If you have a 1-hour higher timeframe bullish model, only bullish models will print in the lower timeframe price action
+- Bearish models get filtered out automatically
+- This ensures you only see setups that align with the dominant trend
+
+**Real-Time Updates:**
+- Bias updates in real-time as each higher timeframe candle closes
+- As the higher timeframe structure changes, the bias filter automatically adjusts
+- This keeps the indicator aligned with current market structure
 
 **Manual Bias:**
-- User can manually set bias independent of timeframe
+- User can manually set bias independent of timeframe (Neutral, Bullish, or Bearish)
+- Manual bias overrides autobias when selected
 
 ---
 
@@ -1482,6 +1646,15 @@ This framework helps identify critical turning points and aligns with the fracta
 ### 6.2 Custom Time Filters - Detailed Mechanics
 
 **Purpose:** Filter setup detection to specific time windows, allowing traders to focus on their preferred trading sessions (e.g., London open, New York open, Asian session).
+
+**Practical Example:**
+- If you only want to see setups between 8:00 AM and 11:00 AM New York time:
+  1. Enable Time Filter 1
+  2. Set Start Time to 08:00
+  3. Set End Time to 11:00
+  4. Set Custom Timezone to -5 (Eastern Time) or adjust for your timezone
+  5. The indicator will only show setups that occur during this time window
+  6. All setups outside this window will be filtered out
 
 **Time Filter Window Structure:**
 ```pseudocode
@@ -1653,6 +1826,14 @@ london_new_york_overlap = {
 ### 7.1 Purpose
 
 Detect divergences between correlated or inversely correlated markets directly within the Fractal Model. SMT (Smart Money Tool) divergence helps identify when correlated markets are moving out of sync, which can signal potential reversals or continuations.
+
+**Key Characteristics:**
+- **SMT highlights when one asset makes a lower low while the correlated asset makes a higher high** (or vice versa)
+- This creates a divergence that often **marks exhaustion in delivery**
+- **SMT is NOT an entry trigger** - it is a **confirmation tool**
+- **Typical scenario example:** NASDAQ creating a higher high while ES (S&P 500) is creating a lower high - they're not moving in the same direction, thus creating SMT divergence
+- **When SMT aligns with a validated CISD, it strengthens the narrative and improves timing**
+- Provides multi-market confirmation to validate fractal model setups
 
 ### 7.2 Mechanics - Detailed
 
