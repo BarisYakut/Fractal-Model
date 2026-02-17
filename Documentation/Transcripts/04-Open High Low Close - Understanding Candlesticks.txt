@@ -1,0 +1,339 @@
+# tactiq.io free youtube transcript
+# Open High Low Close - Understanding Candlesticks
+# https://www.youtube.com/watch/sIcsLFSNoXM
+
+00:00:05.810 [Music]
+00:00:10.519 how's it going everyone in this video we
+00:00:12.400 are going to be talking about the Open
+00:00:14.120 high low close and open low high close
+00:00:16.560 of candles we'll first talk about
+00:00:19.439 defining a bearish and bullish candle
+00:00:21.840 and then we'll talk about the three
+00:00:22.960 different types of candles that I focus
+00:00:24.599 on let's get into the PDF but the first
+00:00:27.320 thing you need to understand is that
+00:00:29.039 every candle has an open high low and
+00:00:32.399 close so for this specific time period
+00:00:35.520 price went and the highest at WR was up
+00:00:38.399 here making a high the lowest it went
+00:00:41.000 was down here making a low and price at
+00:00:44.000 the specific time opened right here and
+00:00:47.360 closed here so if the close is below the
+00:00:50.360 open then that is a bearish candle now
+00:00:53.320 if the open is below the close that is a
+00:00:56.920 bullish candle now every single candle
+00:00:59.440 has an open high low close and it is the
+00:01:01.519 foundation of trading let's talk about
+00:01:03.680 the three different types of candles
+00:01:05.159 that I focus on the first candle I focus
+00:01:07.600 on is a directional candle and what that
+00:01:09.840 means is price went one direction
+00:01:12.439 throughout this time period for the most
+00:01:14.280 part you can see we had an open we made
+00:01:17.400 a high and then we continued lower for
+00:01:20.479 the majority of this time period before
+00:01:22.640 making a low and closing similarly with
+00:01:25.159 a bullish candle moving in One Direction
+00:01:27.720 we had an open we made a low
+00:01:30.560 we continued in one direction for most
+00:01:32.439 of this time period made a high and then
+00:01:35.280 closed so what does this look like on
+00:01:37.040 the lower time frames well for a bullish
+00:01:40.000 directional candle we'll have an open a
+00:01:42.840 low and then we'll continue or Trend in
+00:01:45.719 one direction to make a high and then
+00:01:47.640 close and the one thing to notice is
+00:01:49.680 generally with directional candles this
+00:01:51.719 Wick is smaller relative to the body
+00:01:54.799 right it's how it's going to be now with
+00:01:57.200 a bearish directional candle we'll have
+00:01:59.039 an open we'll make a high above that
+00:02:01.520 open and we'll have a continued move
+00:02:04.280 down to then close once again a smaller
+00:02:07.600 Wick relative to the body let's hop into
+00:02:10.239 trading View and go over a few examples
+00:02:12.200 of this so here we are in trading View
+00:02:14.480 and the first candle we're going to take
+00:02:15.879 a look at is this one right here so you
+00:02:18.319 can see price opened made a high went
+00:02:22.040 lower throughout the time period and
+00:02:23.760 then closed here since the close is
+00:02:26.120 below the open it is a bearish candle
+00:02:28.640 now let's go take a look at what the
+00:02:30.080 looks like on a lower time frame so down
+00:02:32.480 here on the 15-minute chart in relation
+00:02:34.680 to the Daily candle let's see how it
+00:02:36.879 forms so the first thing we're going to
+00:02:38.760 do is go ahead and Mark out this opening
+00:02:40.640 price here at 1,800 so now that we have
+00:02:43.440 that marked out let's play this through
+00:02:45.040 and watch how the candle forms you can
+00:02:47.640 see throughout Asia we kind of
+00:02:49.239 accumulate here we make a high and then
+00:02:52.319 we get displacement down right so open
+00:02:55.760 high now if this candle's going to
+00:02:57.239 continue lower I'd like to see this high
+00:02:59.879 High left and to trade lower throughout
+00:03:01.680 the day and you can see we're trading
+00:03:04.360 lower we get New York open we go even
+00:03:07.360 lower and you can see how this move
+00:03:08.799 higher here is just to create the wick
+00:03:10.959 of this daily
+00:03:13.159 candle and there as we close the day you
+00:03:15.799 can see we had an open we made a high we
+00:03:20.120 went down we made a low and then we
+00:03:22.519 closed the candle you can see every time
+00:03:25.159 frame that has a candle there is a lower
+00:03:27.879 time frame making that candle
+00:03:30.280 on The Daily I like to use the 15minute
+00:03:32.400 time frame let's go to a few more
+00:03:36.480 examples so now if we're looking at the
+00:03:38.720 daily chart here once again and we see
+00:03:41.720 that price wretch above and then close
+00:03:43.959 back inside here what am I anticipating
+00:03:46.040 for the next day to be bearish so if I'm
+00:03:49.200 bearish then I want to see what type of
+00:03:51.120 candle well an open I low close cuz I
+00:03:55.159 want to see a one directional move down
+00:03:57.280 so do we get that we do so what does
+00:04:00.120 this look like on a lower time frame so
+00:04:02.079 you can see here this was the previous
+00:04:04.519 day here is the new day open so we want
+00:04:07.079 to see what open high low close and if
+00:04:11.640 you notice right here what do we not
+00:04:13.120 have we have an open our high is the
+00:04:15.879 exact same price as the open we don't
+00:04:17.720 currently have an upper wick on the
+00:04:19.279 daily chart as we move ahead did we just
+00:04:22.960 create the wick on the daily chart let's
+00:04:28.000 see and then we get the continuation
+00:04:30.520 lower so you can see open we made a high
+00:04:35.160 one directional move make a low and then
+00:04:38.000 close so let's continue this into the
+00:04:40.080 next day if we're still bearish what do
+00:04:41.680 we want to see open high low
+00:04:45.759 close so as we continue this ahead into
+00:04:49.080 the New York
+00:04:52.440 session what do we get we get a move
+00:04:55.600 higher sweeping these previous highs
+00:04:57.960 around equilibrium of the previous day
+00:05:00.919 and then displacement lower so open I
+00:05:05.639 we'd want to see a move lower to make a
+00:05:07.560 low and then close and here is where
+00:05:09.600 I'll use projections or something else
+00:05:12.000 to give me a projected
+00:05:14.600 move and you can see it went far beyond
+00:05:17.560 that projection we made an open high low
+00:05:21.800 let's see if we close here or where we
+00:05:24.639 go and we just close right in here
+00:05:28.280 hopefully that makes sense open high low
+00:05:31.000 close now this works on all time frames
+00:05:33.479 for instance we are now looking at the
+00:05:35.520 monthly candle using the daily chart as
+00:05:38.520 the lower time frame candles so if we're
+00:05:40.720 going to move higher we want to see what
+00:05:42.759 open low high
+00:05:46.120 close and you can see there we got our
+00:05:48.919 open low high close then we open up the
+00:05:52.080 new month and we make a move higher at
+00:05:55.039 the start and then that leads us into
+00:05:56.639 our next candle type so let's go back to
+00:05:58.840 the PDF so the next candle type I focus
+00:06:01.160 on is a reversal candle and so what this
+00:06:03.800 looks like is we have an open a high a
+00:06:07.319 low and close or an open low high close
+00:06:11.680 and what do you notice about this Wick
+00:06:13.360 relative to the body well the wick is
+00:06:15.880 larger than the body you notice how with
+00:06:17.520 the directional candle our Wick was
+00:06:19.160 smaller than the body with the reversal
+00:06:21.199 candle it is different so what's
+00:06:22.919 happening on the lower time frames here
+00:06:24.800 while we open we're making a move higher
+00:06:27.440 so it's looking like a directional
+00:06:29.039 candle up
+00:06:30.120 and in this time period we went higher
+00:06:32.160 and then price reversed all the way down
+00:06:34.039 here to then close so price went up then
+00:06:36.599 reversed or made a reversal candle
+00:06:39.319 similarly open went down looking like a
+00:06:42.360 bearish directional candle then reversed
+00:06:44.880 to make a high close if we look at this
+00:06:47.080 on a lower time frame open made a low
+00:06:51.039 was looking like expansion down price
+00:06:53.360 reversed to then make a high and close
+00:06:55.919 so open low high close with a bearish
+00:06:59.199 revers candle open high low close was
+00:07:04.440 looking like a bullish directional
+00:07:06.520 candle then price reversed so when you
+00:07:08.840 see a wick that means on a lower time
+00:07:11.560 frame price went up and then down let's
+00:07:14.319 hop into the charts and go over a few
+00:07:16.000 examples of these now back where we left
+00:07:18.240 off with our previous example on CL
+00:07:20.520 daily chart looking at the monthly open
+00:07:23.039 high low close what do we notice about
+00:07:25.080 this low here we barely made a low right
+00:07:27.680 in the single daily candle we just kind
+00:07:29.520 kind of moved higher so we have an open
+00:07:31.720 high let's see what
+00:07:33.720 happens so if you notice what happens is
+00:07:36.240 we move higher and then price reverses
+00:07:39.160 to go lower we have an aggressive move
+00:07:41.360 out of a range and an aggressive move
+00:07:43.440 back into a range let's see how this
+00:07:45.039 month
+00:07:46.400 closes and you can see we close as a
+00:07:50.000 bearish reversal candle what happens at
+00:07:52.120 the start of the next month we get an
+00:07:54.120 expansion move down off of that reversal
+00:07:56.960 now if we go back in replay what do we
+00:07:58.560 notice about our first example in the
+00:08:00.159 video this candle looks a lot like that
+00:08:02.879 monthly candle right where we have an
+00:08:05.080 expansion up price then moves open high
+00:08:10.000 low close forming a bearish reversal
+00:08:12.800 candle so then I can anticipate what a
+00:08:15.120 bearish directional candle after that so
+00:08:18.039 if we go down to the lower time frames
+00:08:19.479 here so now down here on the lower time
+00:08:21.199 frames if we watch this candle form you
+00:08:23.560 can see it's pretty choppy but what
+00:08:25.319 happens is price moves higher we make a
+00:08:28.440 high
+00:08:30.000 and then the most important part here is
+00:08:32.000 we move lower and where do we
+00:08:34.719 close we close back down here making a
+00:08:38.958 bearish reversal candle so you can see
+00:08:41.640 here price went higher reversed and then
+00:08:44.839 closed below its opening price so let's
+00:08:47.080 take another look at this example what
+00:08:49.360 happens as we near the New York session
+00:08:51.640 we get an aggressive move lower right so
+00:08:54.040 right now it's looking like open high
+00:08:57.399 low close right but this is where
+00:08:59.079 Direction bias is important because if
+00:09:01.279 I'm bullish and seeing an opposing move
+00:09:03.240 down in New York I'm thinking a New York
+00:09:05.760 reversal to make a what bullish reversal
+00:09:09.320 candle what happens here we make a low
+00:09:13.640 we get our change in the state of
+00:09:15.000 delivery and then where do we go we go
+00:09:18.320 higher so you see how this candle looks
+00:09:21.000 open low high close right where we
+00:09:24.640 finish off so let's go back to the PDF
+00:09:26.720 and talk about the last candle type I
+00:09:28.959 look for
+00:09:29.880 now the last candle type I look for is
+00:09:31.680 an indecision candle and what does that
+00:09:33.959 mean means that price opens makes a high
+00:09:36.959 or a low and then closes very close to
+00:09:39.839 the opening price so you can see how we
+00:09:41.920 have a longer wick on each side and the
+00:09:44.120 body is fairly small that means
+00:09:45.920 throughout this time period or candle so
+00:09:48.800 for instance if this is a daily candle
+00:09:50.959 it means that price really didn't go
+00:09:52.399 anywhere through that day right because
+00:09:54.040 it opened and closed relatively to the
+00:09:56.240 same price so we look at an example of a
+00:09:58.680 bullish one right here make a low make a
+00:10:01.680 high make a low but the most important
+00:10:03.920 things we open and close right next to
+00:10:06.360 each other so there's no real Direction
+00:10:08.079 in the market and similar thing here
+00:10:10.399 with a bearish indecision candle the
+00:10:12.760 open and closing prices are relatively
+00:10:15.200 close to each other making a very small
+00:10:17.680 body or not much Direction in the market
+00:10:20.279 let's go into the charts and look at a
+00:10:21.640 few examples of these so here we are on
+00:10:23.959 a gold 15minute chart and we'll be
+00:10:25.959 watching The Daily
+00:10:27.680 candle you can see as we play this
+00:10:30.040 through we don't really do a whole lot
+00:10:31.640 right we're chopping around what are we
+00:10:33.320 making a little broadening
+00:10:36.120 formation and what happens well we just
+00:10:38.880 sweep out both sides of the range so
+00:10:41.200 right now we let this come back and
+00:10:43.959 close where do we return to right around
+00:10:47.079 the opening price right so larger wick
+00:10:50.200 on each side and opening and closing
+00:10:52.880 near each other so what does that show
+00:10:54.760 there is no direction right now in the
+00:10:56.560 market it's just kind of sitting around
+00:10:58.720 so here in our next example what do we
+00:11:00.800 notice about the previous range well we
+00:11:03.120 had a very large previous range see that
+00:11:06.480 500 points on inq so with a lack of news
+00:11:10.800 or volatility following a range that is
+00:11:13.560 very large a lot of times we get an
+00:11:15.680 indecision
+00:11:17.920 candle you can see there is no real
+00:11:20.720 movement in the market and what happens
+00:11:23.519 is we just come and make a high and a
+00:11:25.920 low price can't go anywhere and we will
+00:11:28.639 end up closing closing right around the
+00:11:30.560 opening
+00:11:32.040 price if you know what a Seek and
+00:11:33.920 Destroy looks like or a broading
+00:11:36.120 formation we'll just kind of get that
+00:11:38.160 pattern right the price will take
+00:11:40.519 external go back to equilibrium with
+00:11:42.279 range so here we are on CL daily chart
+00:11:45.200 and I just wanted to explain a few
+00:11:46.639 things we went over the three candle
+00:11:48.160 types and generally I don't like to see
+00:11:50.079 more than three of those candle types in
+00:11:52.000 a row so if we're getting 3 days of
+00:11:54.440 expansion or a directional move then I
+00:11:56.959 like to see a different candle type or a
+00:11:58.800 reversal
+00:11:59.800 consolidation so let's see so you notice
+00:12:03.079 here we get 3 days of expansion right so
+00:12:06.040 open high low close open high low close
+00:12:10.320 open high low close right so the
+00:12:12.839 following day what happens well what do
+00:12:15.320 we print we sweep out previous day's low
+00:12:17.959 and close inside but more importantly
+00:12:20.600 open low on that sweep make a high and
+00:12:23.959 then close so what are we printing a
+00:12:26.279 bullish reversal candle so do we see a
+00:12:29.360 reversal well let's see the next
+00:12:31.760 days open low high close we're closing
+00:12:35.639 over this previous bar you remember my
+00:12:38.320 daily bias
+00:12:39.519 video open low high close closing over
+00:12:44.399 now do we get a third day we do open
+00:12:47.360 high low close now what happens on this
+00:12:49.680 next day following 3 days this isn't
+00:12:52.720 great expansion but three up closed
+00:12:55.199 candles we get a consolidation right so
+00:12:58.880 you see how the opening price and
+00:13:00.600 closing price are right next to each
+00:13:02.360 other see what happens well now we sweep
+00:13:06.000 previous day low into a fair value Gap
+00:13:08.560 and what do we notice about this candle
+00:13:10.720 open low high close and what is that
+00:13:14.000 forming a bullish reversal candle and in
+00:13:16.800 this case it's reversing from the
+00:13:18.720 retracement to then continue higher and
+00:13:21.399 there we get a move higher so hopefully
+00:13:23.639 that shows you how you can add it to
+00:13:25.040 other Concepts just the understanding of
+00:13:27.040 open high low close and if you go down
+00:13:28.800 to the lower time frames you kind of
+00:13:30.519 already know what they look like for
+00:13:32.320 instance here I know we opened we made a
+00:13:35.120 high back at equilibrium of the previous
+00:13:37.680 day then from there we found expansion
+00:13:40.320 lower and then we closed in the lows
+00:13:42.639 here we made a move higher to then go
+00:13:45.320 lower and close so you can kind of start
+00:13:47.720 to picture the lower time frames just
+00:13:50.279 understanding the Open high low and
+00:13:52.240 close now I hope you found this video
+00:13:54.000 helpful if you did please consider
+00:13:56.120 liking and subscribing and I'll see you
+00:13:57.880 guys in the next one have a a good one

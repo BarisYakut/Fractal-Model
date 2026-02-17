@@ -1,0 +1,522 @@
+# tactiq.io free youtube transcript
+# Intro To TTrades Fractal Model [Indicator & Settings]
+# https://www.youtube.com/watch/CqMIh-Vvhbg
+
+00:00:05.490 [Music]
+00:00:10.920 how's it going everyone this video is
+00:00:12.559 going to be a basic introduction into my
+00:00:14.759 fractal model however the main focus of
+00:00:17.680 this video is going to be going over my
+00:00:19.520 indicator and its settings and how it is
+00:00:21.920 used so let's hop into the first example
+00:00:24.480 here to explain the fractal model and
+00:00:26.800 then how the indicator would plot it so
+00:00:28.800 my fractal model relies on the
+00:00:30.199 foundational understanding that the
+00:00:31.759 market cannot reverse without a swing
+00:00:33.480 point so you can see here the market has
+00:00:35.520 formed a swing point to reverse or go
+00:00:38.320 from bearish to bullish and if we are
+00:00:40.320 going to reverse from bullish to bearish
+00:00:42.360 we are also going to form a swing point
+00:00:44.600 now what do I use to determine if the
+00:00:46.320 market is likely to reverse I will use
+00:00:48.440 candle closures so you can see here
+00:00:51.120 price has swept out its previous candle
+00:00:53.480 high and then closed back inside the
+00:00:55.760 range so if you've seen my daily bias
+00:00:58.000 video you know that I would be bearish
+00:00:59.640 or looking for previous day low so with
+00:01:02.280 that understanding that I'd be looking
+00:01:04.040 for a previous day low or a run lower
+00:01:06.760 this next day I'd be looking for an open
+00:01:09.360 high low close now to confirm this bias
+00:01:12.600 I would go down to the hourly time frame
+00:01:14.680 from the daily and look to see if we
+00:01:16.840 have a change in the state of delivery
+00:01:19.000 so down here on the hourly chart do we
+00:01:20.920 have a change in the state of delivery
+00:01:22.920 confirming the swing Point well you can
+00:01:25.240 see we have closed through the series of
+00:01:27.240 up closed candles that have made this
+00:01:29.200 high so I consider this High protected
+00:01:31.840 and then I will look to trade the Open
+00:01:34.040 high low close in the following candle
+00:01:36.840 so you can see here as we let this play
+00:01:39.479 out you can see we reach higher we sweep
+00:01:42.880 out a high to the left and then we get
+00:01:44.920 an opposing candle formation here so I'd
+00:01:47.280 anticipate this Wick to have formed and
+00:01:49.439 then I can look to trade this lower the
+00:01:51.560 rest of the day so I could either get on
+00:01:53.759 side in this next candle here or in this
+00:01:56.119 hourly candle or wait for a New York
+00:01:58.719 session
+00:02:00.360 so you can see here as we approach the
+00:02:01.920 New York session what happens we sweep
+00:02:04.880 out this High to the left we then close
+00:02:07.880 through the down close candle that made
+00:02:10.239 that high so if I wanted to put on a
+00:02:12.720 position I could put on a position on
+00:02:14.640 the close of this candle my stop on the
+00:02:17.120 high and looking for 2 R let's see how
+00:02:20.400 this works
+00:02:22.360 out so it makes us wait some time but we
+00:02:25.000 do hit our TP on that trade so just to
+00:02:27.920 review the foundational Concepts within
+00:02:30.120 the fractal Model A Higher time frame
+00:02:32.599 closure in this case price swept out its
+00:02:34.680 previous day high and closed back inside
+00:02:36.920 the range we have a change in the state
+00:02:38.959 of delivery that confirms that reversal
+00:02:41.640 and then in the following candle I'm
+00:02:43.000 looking to trade the Open high low close
+00:02:46.480 is that is what is determined by my
+00:02:48.120 higher time frame bias so you can see
+00:02:50.480 here this is how I would mark it out now
+00:02:52.319 to make this more efficient for myself
+00:02:54.000 with the help of two degrees I have
+00:02:55.360 designed my own indicator to mark this
+00:02:57.319 out all for me so let's go ahead and
+00:02:59.319 rewalk through through this price action
+00:03:00.760 but with my
+00:03:01.920 indicator so you can see on this new
+00:03:04.519 candle close it has identified that it's
+00:03:06.720 taken the previous day's High closed
+00:03:08.680 back inside the range and is also paired
+00:03:11.200 with a change in the state of delivery
+00:03:13.239 with this it will Mark out projections
+00:03:14.799 to give myself targets as well as Mark
+00:03:17.159 out a t-spot which is an area that I
+00:03:19.680 look for higher time frame Wicks to be
+00:03:21.720 formed so for instance if we are going
+00:03:23.799 to trade lower here I would like to see
+00:03:25.879 price trade into this gray area form a
+00:03:29.040 high or a higher time frame Wick and
+00:03:30.760 then trade lower throughout the day as
+00:03:32.680 we let this continue out this is when I
+00:03:34.959 would then Mark up my opposing candle
+00:03:37.200 formation and I'd like to see this trade
+00:03:39.360 lower throughout the
+00:03:41.480 day and you can see as we get into the
+00:03:44.439 next day here because we have closed
+00:03:46.480 bearish I will then look for a
+00:03:48.239 continuation in this following candle if
+00:03:51.000 we let this play
+00:03:52.840 out you can see we do get this
+00:03:56.200 continuation
+00:03:57.680 lower and then we finally go and take
+00:04:00.400 out these lows to our left so you can
+00:04:03.519 see that is what my indicator looks like
+00:04:05.920 now let's go back and take a look at
+00:04:07.439 this New York session setup where we
+00:04:09.480 have swept out this High here since my
+00:04:11.799 model is fractal hence the name of the
+00:04:13.799 fractal model I can apply this on
+00:04:15.760 multiple time frames so here we are on
+00:04:17.720 the daily and hourly but let's say I
+00:04:19.560 wanted to go in here on the hourly and 5
+00:04:22.160 minute I could go ahead and rewind this
+00:04:24.800 drop down to the 5 minute time frame and
+00:04:27.240 the indicator would auto adjust for that
+00:04:29.880 so you can see we've taken out this high
+00:04:32.960 if I had a bearish bias I could go ahead
+00:04:35.440 and switch this to bearish and it only
+00:04:38.080 seek out the bearish setups and then as
+00:04:41.160 I let this continue here we get this
+00:04:44.199 higher time frame candle closure the 5
+00:04:46.600 minute setup and then I'm anticipating
+00:04:48.360 the higher time frame Wick to form in
+00:04:50.160 this area to trade lower so as we let
+00:04:52.880 this play
+00:04:54.960 out you can see we respect that area and
+00:04:57.880 then we get a continuation there to the
+00:05:00.080 lows to the left and to our standard
+00:05:02.800 deviation projections so let's go ahead
+00:05:05.080 and go through all my indicator settings
+00:05:07.360 so the first setting is a warning and
+00:05:09.280 air messages do I want to have that
+00:05:11.000 turned on I personally do because if I'm
+00:05:13.400 not on an automatic time frame let's say
+00:05:15.600 I am on the 1 minute and 15 minute model
+00:05:18.199 and I'm on the 5 minute time frame I'm
+00:05:20.199 going to get an error because the 5
+00:05:21.680 minute is greater than the 1 minute or
+00:05:23.880 the lower time frame in that case so I
+00:05:25.880 want to see that time frame and I can
+00:05:27.759 see that I need to go to a 1 minute time
+00:05:29.919 frame or below to view it now in our
+00:05:32.360 general settings if I want to get alerts
+00:05:34.680 when setups form I'm going to go ahead
+00:05:36.800 and have this toggle turned on and
+00:05:38.680 follow the instructions to get the
+00:05:40.280 alerts that I want to have now in terms
+00:05:43.160 of History this is going to show how
+00:05:45.680 many previous setups on the chart so if
+00:05:48.120 I only want to see the current setup I
+00:05:49.840 can go ahead and make that a zero and it
+00:05:52.000 would only show the current setup so for
+00:05:54.240 instance if I let this continue to play
+00:05:56.039 out it would then disappear if I have
+00:05:58.400 that set up to one then it would go
+00:06:00.680 ahead and show the most recent setup and
+00:06:03.000 I can go all the way up to 40 for those
+00:06:04.840 setups so let's say I go to 15 hit okay
+00:06:09.080 you can see this will show the last 15
+00:06:11.360 bearish setups because I also have my
+00:06:13.360 bias to bearish so let's go ahead and
+00:06:16.120 pull back up our settings here now C2 C3
+00:06:19.360 and C4 are the higher time frame candle
+00:06:21.599 closures now I go over all the
+00:06:23.360 requirements for these within my course
+00:06:25.360 and mentorship but essentially this
+00:06:27.560 means candle 2 candle 3 candle 4 and
+00:06:30.560 then specific candle closures with that
+00:06:32.919 so you can see this will show a candle
+00:06:34.759 two closure if I don't want to see a
+00:06:36.520 candle two closure I go ahead and turn
+00:06:38.360 that off then I will only see candle 3
+00:06:40.240 closures with candle 4 continuation I
+00:06:42.680 personally like to have all of these on
+00:06:44.440 because I like to view all of them now
+00:06:46.400 you may notice on the chart there are a
+00:06:47.960 few different colors of these C2 C3 and
+00:06:50.759 C4 a gray C2 is when the setup has
+00:06:53.880 remained valid throughout candle 4 a red
+00:06:56.240 C2 is when that setup fails within the
+00:06:58.800 first candle and an orange C2 is when
+00:07:01.240 that setup fails but not the first
+00:07:03.120 candle after but the second candle after
+00:07:06.160 now going into my bias this is where I
+00:07:08.560 can select my bias so in the previous
+00:07:10.560 example I just showed you I was bearish
+00:07:12.479 going into the New York session so I
+00:07:14.120 went ahead and selected it to bearish
+00:07:16.280 and you can see how all of the bullish
+00:07:18.199 setups will disappear as I have chosen a
+00:07:20.879 bearish setup right and so that will
+00:07:22.919 only show me the bearish setups if I
+00:07:25.520 want to see bullish I can go ahead and
+00:07:27.199 select bullish and then it will show me
+00:07:29.199 all the bullish setups and not the
+00:07:31.280 bearish if I don't have any bias or a
+00:07:34.039 neutral bias I can select neutral and it
+00:07:36.599 will show me both bearish and bullish
+00:07:38.759 setups now the cool thing about this
+00:07:40.599 indicator is I can go ahead and adjust
+00:07:42.520 my kill zones through the time frame
+00:07:44.319 filter so for instance you can see all
+00:07:46.680 of these different setups here but let's
+00:07:48.520 say I'm only interested in price in the
+00:07:50.319 New York session between 8 to 11:30 so I
+00:07:53.919 could go ahead and take a look at this
+00:07:56.240 adjust it from 8 to
+00:07:58.280 11:30 right and one thing about this
+00:08:00.639 it's going to choose the whole hours
+00:08:02.520 candle so this means I would have to
+00:08:04.120 wait for the 9:00 a.m. closure so if I
+00:08:06.319 want to include the whole 8 Hour closure
+00:08:08.879 I'm going to have to choose 7 a.m. for
+00:08:11.039 this with that selection it has removed
+00:08:13.400 all of the setups that were not inside
+00:08:15.319 the Kill Zone now if I have multiple
+00:08:17.440 different kill zones I can have up to
+00:08:19.080 three so let's say I want to view London
+00:08:21.280 and New York am session I can go ahead
+00:08:23.520 and select that and then I'll get those
+00:08:25.520 setups as well now going into a few of
+00:08:28.360 the customizable settings
+00:08:30.039 the higher time frame candles or the
+00:08:31.680 power of three candles on the right side
+00:08:34.080 I have the option to hide those if I
+00:08:35.880 don't want to view them and then I can
+00:08:38.159 also change the size of them so you can
+00:08:40.479 see now they are hidden I will go ahead
+00:08:42.599 and bring them back and you can adjust
+00:08:44.560 the size of them between small medium
+00:08:47.080 and large now an offset will offset it
+00:08:49.720 from your chart So currently it has this
+00:08:51.440 default offset of this location here
+00:08:54.640 where it's going to offset it about that
+00:08:56.760 much let's say I want more space between
+00:08:59.079 myart chart in my higher time frame
+00:09:00.519 candles I can go ahead and just adjust
+00:09:03.279 this offset to 10 or whatever you select
+00:09:06.399 and that will move these candles to the
+00:09:08.519 right so you can see those candles now
+00:09:11.320 have moved to the right and basically
+00:09:13.120 doubled the offset there the body border
+00:09:15.959 and Wick of the candles are pretty
+00:09:17.640 self-explanatory those will just adjust
+00:09:19.600 the colors of the higher time frame
+00:09:21.240 candle now the higher time frame open
+00:09:24.000 this will Mark out the current higher
+00:09:25.600 time frame open of the higher time frame
+00:09:27.640 candle so you can see at this 12 a.m.
+00:09:30.120 hourly candle it is marking out the open
+00:09:32.279 of that if I wanted to turn that off I
+00:09:34.399 can go ahead and turn that off there or
+00:09:36.480 I can adjust these settings between
+00:09:38.120 solid dashed and dotted now open close
+00:09:41.279 time is going to be those vertical lines
+00:09:43.600 which I find very important in my
+00:09:45.079 analysis for separating the individual
+00:09:47.320 open high low close so you can see each
+00:09:49.560 of these three hours over here are
+00:09:51.320 separated vertically here I can go ahead
+00:09:54.200 and turn that off if I do not want to
+00:09:56.040 view it and you can see that is what it
+00:09:58.160 looks like with it turned off now the
+00:10:00.040 low and high lines are going to go ahead
+00:10:02.040 and Mark out the high and low of each
+00:10:04.079 hour on the lower time frame chart this
+00:10:06.519 is not something I personally wish to
+00:10:07.880 see so I go ahead and leave it off for
+00:10:10.320 my default settings now going into the
+00:10:12.720 model style do you want to show my
+00:10:14.800 fractal model labels that is going to be
+00:10:16.880 the C2 C2 failed C4 all of those labels
+00:10:21.120 so if I want to have those on I'll have
+00:10:23.200 those on and I can choose the size of
+00:10:25.000 them or I can go ahead and turn them off
+00:10:27.040 if I do not want to view them now the
+00:10:29.320 Candle One Sweep is going to Mark out
+00:10:31.600 that first candle that was swept out
+00:10:33.360 from the higher time frame closure so
+00:10:35.279 you can see it will Mark out the
+00:10:36.360 previous candle's High here as well as
+00:10:38.399 on the lower time frame I personally
+00:10:40.519 like to view that now here I have the
+00:10:42.959 choice for my change in the state of
+00:10:44.560 delivery between two options for a
+00:10:46.519 bullish change on the state of delivery
+00:10:47.920 and bearish change on the state of
+00:10:49.120 delivery I personally keep them the same
+00:10:51.040 color but some people do want to see the
+00:10:52.959 bearish change in the state of delivery
+00:10:54.240 as a different color so for instance if
+00:10:56.519 I wanted a different color on the
+00:10:57.800 bearish change in the state of delivery
+00:10:59.320 I'm going to adjust that setting and
+00:11:01.079 then you can see it will adjust between
+00:11:02.760 bearish and bullish now for candle
+00:11:05.279 equilibrium that is just going to Mark
+00:11:06.959 out this higher time frame candles EQ so
+00:11:10.000 you can see it is marked out there as
+00:11:11.959 well as on the lower time frames if you
+00:11:14.279 don't want to see that you can go ahead
+00:11:15.800 and turn that off with the toggle and it
+00:11:17.959 will
+00:11:19.040 disappear now for the t-spot this is the
+00:11:22.200 area in the higher time frame candles
+00:11:24.200 that I look for the higher time frame
+00:11:25.959 Wick 2 form so essentially on my short
+00:11:28.399 setup here I'm expecting price to open
+00:11:31.200 high go lower and then close so I'm
+00:11:33.480 anticipating a high to be formed in this
+00:11:35.480 box so those are the settings for that
+00:11:38.160 and you can adjust those boxes how you
+00:11:39.720 see fit by default they will be gray and
+00:11:42.440 green as that is how I have them now
+00:11:44.560 going into the projections these are
+00:11:46.079 currently drawn from the bodies so the
+00:11:48.360 series of bodies in the change in the
+00:11:50.279 state of delivery I can go ahead and
+00:11:52.240 adjust the manual input on these
+00:11:53.959 projections these are the default
+00:11:55.839 settings that will be there but let's
+00:11:57.480 say I wanted to add in something
+00:11:58.880 different let's say I wanted to add in
+00:12:01.440 A5 I can just type in a comma
+00:12:05.000 and5 click out of this and then the
+00:12:07.880 script will go ahead and add in that
+00:12:09.800 custom projection so you can see how we
+00:12:11.839 have just added in a new projection
+00:12:13.720 there so if you use different
+00:12:15.240 projections than me you can go ahead and
+00:12:16.880 add those in manually now with the
+00:12:18.839 labels of the projections you can go
+00:12:20.760 ahead and adjust those too however you
+00:12:22.760 see fit or you can go ahead and turn
+00:12:25.240 them off entirely by clicking this box
+00:12:27.920 right here and you can see the labels
+00:12:29.800 will Disappear Completely now one thing
+00:12:32.040 I wanted to talk about here is I'm going
+00:12:33.959 up to the higher time frame on the
+00:12:35.199 hourly and you can see we should have a
+00:12:37.680 setup being printed but it is not why is
+00:12:40.160 that the case so you can see I still
+00:12:41.920 have my time frame filter marked out
+00:12:43.600 here which won't show up on the hourly
+00:12:46.000 so I want to go ahead and adjust the
+00:12:47.560 choose below period and adjust this to
+00:12:50.040 something below the current time frame I
+00:12:51.639 want it to show up on so you can see
+00:12:54.240 this time filter will only apply on the
+00:12:57.120 30 minute time frame or below for the
+00:12:59.199 this given Kill Zone so you can see how
+00:13:00.920 that now has adjusted to print on the
+00:13:02.920 chart now the last thing I want to talk
+00:13:04.600 about is the formation liquidity so you
+00:13:07.160 can see right here formation liquidity a
+00:13:09.240 dotted line what is that well given this
+00:13:12.399 candle closure here and looking bearish
+00:13:14.399 I want to see price run out previous
+00:13:16.240 candle's lows or previous day's lows as
+00:13:19.000 you can see this previous day's low here
+00:13:21.480 has already been taken however this
+00:13:23.600 previous day's low has not been taken
+00:13:25.920 and that gets marked out there by the
+00:13:27.600 formation liquidity now now the last
+00:13:29.480 thing we can talk about here is the
+00:13:31.440 table so you can see down here on the
+00:13:33.440 right it will go ahead and give me the
+00:13:35.519 time frame asset what fractal model I am
+00:13:38.279 set to so you can see because I have it
+00:13:40.360 on automatic it is currently on the
+00:13:42.040 daily and hourly the time until close so
+00:13:45.079 there is 4 hours until this higher time
+00:13:46.720 frame candle closes my bias I have
+00:13:49.120 selected so you can see it is currently
+00:13:50.880 neutral but if I adjust that up here it
+00:13:53.560 will show and then I can also show my
+00:13:55.959 time frame filters that I have set now
+00:13:58.399 all of this is pretty customizable if
+00:14:00.399 you do have stuff that you want added
+00:14:02.360 into this indicator I'm always going to
+00:14:04.160 be improving this so just go ahead and
+00:14:06.360 shoot me a message and I will see if it
+00:14:08.079 makes sense but let's go over a couple
+00:14:10.199 more things such as overlapping the
+00:14:12.160 indicators so here we are going to go
+00:14:14.639 over a few examples of overlapping the
+00:14:17.199 higher time frame t-spot with a lower
+00:14:19.160 time frame setup so you can see here we
+00:14:21.519 are in this higher time frame t-pot we
+00:14:24.000 have a sweep of these consolidation
+00:14:26.480 highs and then we close back inside the
+00:14:29.160 previous bar so looking for price to
+00:14:31.680 trade lower here what I could do is go
+00:14:34.000 ahead and copy this indicator by right
+00:14:36.160 click copy command V and paste on a
+00:14:39.839 second one move this to the lower time
+00:14:42.240 frame so instead of having it on the
+00:14:43.800 daily and hourly go to automatic and
+00:14:46.360 then I would go down to the 5 minute
+00:14:48.279 time frame now down here on the 5 minute
+00:14:50.880 time frame you can see it's a bit messy
+00:14:52.720 because it's overlaying the higher time
+00:14:54.279 frame candles with the lower time frame
+00:14:56.120 candles so I'll go ahead and hide these
+00:14:58.399 higher time frame candles and I'll just
+00:15:00.800 view the lower time frame candles here
+00:15:03.240 so you can see I'm go ahead and remove
+00:15:05.320 the drawings as we get into this next
+00:15:07.360 candle you can see it prints the setup
+00:15:10.079 right so we have the t-spot right here
+00:15:12.759 on the 5 minute chart so if I was
+00:15:14.880 looking for a setup to trade lower I
+00:15:16.839 could either just take an entry here
+00:15:19.040 with my stop on an invalidation or look
+00:15:21.360 for a confirmation setup in here and you
+00:15:24.000 can see what happens
+00:15:27.959 here we start to trade that lower right
+00:15:31.720 and you can see we did get a bullish
+00:15:33.680 setup that printed right here right and
+00:15:36.639 that did fail right away as it was
+00:15:38.360 opposing the higher time frame one now
+00:15:40.920 with the closure lower I'd be looking
+00:15:43.399 for a continuation out of this area now
+00:15:46.759 as we let this play
+00:15:50.360 out you can see once it closes over this
+00:15:53.600 area that I'm looking for a continuation
+00:15:55.720 this will turn red because that is not
+00:15:57.440 ideal for me to be looking for a
+00:15:59.000 continuation lower when it closes over
+00:16:01.560 that
+00:16:03.079 level and you can see that closure right
+00:16:05.519 there over my level was the early
+00:16:07.880 warning that this setup was not likely
+00:16:09.959 to continue so let's go back out to the
+00:16:12.480 hourly time frame to see if there's any
+00:16:14.560 other setups so you can see as we get
+00:16:17.360 into the next day here what occurs is we
+00:16:19.880 have a candle 2 closure on the daily
+00:16:22.120 chart setting up an hourly setup so you
+00:16:25.360 can see if we zoom in I'd be wanting to
+00:16:27.560 see the higher time frame Wick form in
+00:16:29.959 this area here and we have a fair value
+00:16:32.600 Gap here so narrowing down this point of
+00:16:36.000 Interest I can drop down to the hourly
+00:16:38.360 and 5 minute to see if a setup occurs in
+00:16:40.600 this area that is bullish so you can see
+00:16:43.759 as we let this play out there was a
+00:16:45.600 bearish
+00:16:46.720 setup and you can see what do we notice
+00:16:49.440 the continuation from this bearish setup
+00:16:51.639 has
+00:16:54.480 failed and that is what actually creates
+00:16:57.240 the bullish candle to closure now in
+00:17:00.000 this area we have the hourly t-pot which
+00:17:02.240 I'd want to see hold and a 5-minute te-
+00:17:04.559 spot right here now with the closure
+00:17:06.559 through these opposing candles here that
+00:17:09.199 would be an order block I could look to
+00:17:11.679 take an entry in here my stop on this
+00:17:13.880 low and looking for 2 R and as we let
+00:17:16.720 this play
+00:17:17.880 out you can see we get a continuation
+00:17:20.559 higher and what else happens with this
+00:17:23.439 closure on this higher time frame I'd be
+00:17:25.240 looking for a continuation in this area
+00:17:28.000 here in candle
+00:17:31.559 4 you can see now that we have closed
+00:17:34.280 over those down close Candles there I'd
+00:17:36.480 anticipate this low to hold if we are
+00:17:38.200 going to trade
+00:17:40.760 higher we finally hit that TP there so
+00:17:44.360 you can see that is what I wanted to
+00:17:45.880 show was there's a lot of different
+00:17:47.320 things that you can do with this
+00:17:48.559 indicator in terms of a Confluence or
+00:17:50.960 overlapping but you can see how this
+00:17:54.200 hourly t-spot was then overlapped with
+00:17:56.440 the 5-minute t-spot and if I really
+00:17:58.320 wanted to I could go to the lower time
+00:18:00.240 frames in there for our last example
+00:18:02.880 here you can see we are on ES on The
+00:18:04.679 Daily and hourly chart as we let this
+00:18:07.320 daily candle close let's see what
+00:18:09.120 happens you can see our daily candle has
+00:18:11.679 closed inside the previous day high as
+00:18:14.200 shown here and here we have a candle two
+00:18:17.200 closure with a change in the state of
+00:18:19.200 delivery here are the projections from
+00:18:21.799 the reversal now if price is going to
+00:18:23.640 continue lower I'd like to see price
+00:18:25.440 hold or not close over this t-spot area
+00:18:28.360 here so as we let this continue to play
+00:18:32.559 out you can see as we enter the New York
+00:18:35.159 session we have just Consolidated so
+00:18:37.760 with a consolidation I'd like to see a
+00:18:40.400 manipulation before we get
+00:18:43.919 expansion here you can see we manipulate
+00:18:46.480 this side of the range so where would I
+00:18:48.240 like to see price reach for well ideally
+00:18:50.480 using the formation liquidity or the
+00:18:52.440 previous day's low over here which is
+00:18:54.880 marked out and in line with the
+00:18:56.520 projections I'd like to see price expand
+00:18:58.840 to these
+00:19:00.720 lows you can see price then expands to
+00:19:04.120 those lows and hits the targets and that
+00:19:07.520 will conclude the video with the
+00:19:09.039 introduction to my fractal model as well
+00:19:11.120 as showcasing my indicator if there is
+00:19:13.679 anything that I missed with in this
+00:19:15.159 video in regards to settings or the
+00:19:17.520 indicator feel free to leave a comment
+00:19:19.760 in the comment section below and I'll
+00:19:21.200 get those answered but with that I hope
+00:19:23.080 you have a great rest of your day and
+00:19:24.240 I'll see you guys next time

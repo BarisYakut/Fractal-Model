@@ -1,0 +1,274 @@
+# tactiq.io free youtube transcript
+# High Resistance vs Low Resistance Liquidity - ICT Concepts
+# https://www.youtube.com/watch/FGkb_50BfT8
+
+00:00:05.890 [Music]
+00:00:10.719 how's it going everyone this video is
+00:00:12.719 going to be over the differences between
+00:00:14.400 low resistance liquidity and high
+00:00:16.320 resistance liquidity let's hop into the
+00:00:18.600 PDF before we go into the charts for
+00:00:20.519 some examples so to understand the
+00:00:22.760 differences between High Resistance and
+00:00:24.480 low resistance liquidity you have to
+00:00:26.920 understand what a failure swing is so
+00:00:29.119 what a failure swing is is when we have
+00:00:31.320 a swing high and then we make a lower
+00:00:34.320 high relative to that before reversing
+00:00:37.600 so this High never got swept before the
+00:00:39.920 reversal and similarly over here we make
+00:00:42.680 a low with a higher low this low was
+00:00:45.680 never swept prior to the reversal so now
+00:00:48.360 what is low resistance liquidity well
+00:00:50.680 low resistance liquidity is just a
+00:00:52.640 failure swing so how I like to picture
+00:00:54.680 it is we have liquidity resting above
+00:00:57.199 highs and lows so as we trade away we
+00:01:00.519 then generate more highs and lows and
+00:01:03.120 thus more liquidity so what is high
+00:01:05.880 resistance liquidity well High
+00:01:07.720 Resistance liquidity is the opposite of
+00:01:09.960 low resistance liquidity it is where we
+00:01:12.600 first sweep that liquidity before the
+00:01:15.200 reversal you can see here we have a high
+00:01:18.320 we make a higher high before reversing
+00:01:21.600 we have a low we make a lower low before
+00:01:24.680 reversing and then what this does is
+00:01:26.880 wipes out the liquidity resting right
+00:01:28.799 here and right here here so now the
+00:01:31.159 liquidity is resting Above This high and
+00:01:33.520 low and that is what creates high
+00:01:35.399 resistance liquidity so now how do I
+00:01:37.320 actually use high resistance liquidity
+00:01:39.680 and low resistance liquidity together
+00:01:42.119 we'll simply put I want to be targeting
+00:01:44.159 low resistance liquidity and having high
+00:01:46.520 resistance liquidity for my stop loss or
+00:01:48.719 on my side of the curve so in this
+00:01:50.520 diagram here you can see we have a high
+00:01:52.880 with a lower high next to it that is our
+00:01:55.360 low resistance liquidity and we just
+00:01:57.719 swept out a low here so if we get Market
+00:02:00.240 structure shift and start to trade away
+00:02:02.680 this is high resistance liquidity so
+00:02:05.119 here we get the market structure shift
+00:02:07.079 or the change in the state of delivery
+00:02:08.959 now here I could look for an entry on
+00:02:10.720 the fair value Gap or the order block or
+00:02:13.680 if you notice here we could not make a
+00:02:15.640 new high after making a low and so what
+00:02:18.959 happens is we sweep this low and what
+00:02:21.840 else do you notice we have a high with a
+00:02:24.760 lower high or more low resistance
+00:02:27.239 liquidity and then the move finishes
+00:02:29.280 here let's hop into trading view for
+00:02:31.400 some examples so here we are in our
+00:02:33.239 first example and if you take a look at
+00:02:34.959 this price action what do you notice
+00:02:37.519 well for me the first thing that stands
+00:02:39.440 out are all these highs resting above
+00:02:41.879 here you can see we have a bunch of
+00:02:43.879 highs lined up and if we look to the
+00:02:45.959 left this High here never took out this
+00:02:49.319 high so we have a higher time frame
+00:02:51.599 failure swing there and if you look down
+00:02:53.680 here we just took out these equal lows
+00:02:55.720 into this Gap so if we're going to
+00:02:58.319 change the state of delivery I'd like to
+00:03:00.440 see price go from this low to take out
+00:03:03.640 these failure swings let's see what
+00:03:07.239 happens and there we go so you can see
+00:03:10.599 price swept this low over here making
+00:03:13.599 high resistance liquidity and then we
+00:03:15.879 trade to these failure swings you can
+00:03:18.519 see we do take out this High here but we
+00:03:21.239 end up leaving equal highs from this
+00:03:23.799 previous high and then we retrace to get
+00:03:27.239 another expansion so here we are in the
+00:03:29.840 second example and if you take a look at
+00:03:31.840 the last 3 days of price action here
+00:03:34.200 what do you notice well if you notice we
+00:03:37.040 have all these lows or previous days
+00:03:39.480 lows which have not been taken out so
+00:03:42.360 you can see that that is low resistance
+00:03:45.000 liquidity on a lower time frame as they
+00:03:47.879 are making failure swings we look at the
+00:03:50.560 high end of this what do we see well we
+00:03:53.000 see that this second day here took out
+00:03:55.760 this first day's High let's drop down to
+00:03:58.040 the hourly chart to see what this looks
+00:03:59.560 like so down here on the hourly chart
+00:04:01.640 you can see we actually have another low
+00:04:03.920 resting right here but what do you see
+00:04:06.239 well we took out this side of the range
+00:04:08.680 creating High Resistance liquidity and
+00:04:10.879 we have failure swings resting below so
+00:04:13.560 let's see what
+00:04:15.759 happens and there we go we retrace into
+00:04:18.798 the range before dropping and taking out
+00:04:22.320 all this low resistance liquidity so a
+00:04:25.000 lot of times what I like to do on the
+00:04:26.720 daily chart is just see where do we have
+00:04:29.320 failures swings and where do we have
+00:04:31.360 high resistance liquidity and that can
+00:04:34.160 add to my bias let's take a look at NQ
+00:04:37.199 daily chart here to see what we have
+00:04:39.919 well we are trading within a range and
+00:04:42.400 if you see we have a high and a low and
+00:04:45.880 then we have a failure swing so let's
+00:04:47.919 see what happens but here you can see we
+00:04:50.720 take out this flow so that has the
+00:04:53.440 possibility of becoming High Resistance
+00:04:56.080 liquidity but as we play this ahead one
+00:04:58.240 more day you can see
+00:05:00.680 now we get the sweep and the closure
+00:05:03.080 back inside the range so here is our
+00:05:05.720 high resistance liquidity and what do we
+00:05:07.919 have on the highs failure swings so if I
+00:05:10.520 have high resistance liquidity on the
+00:05:12.160 lows and failure swings on the highs I
+00:05:15.000 can use this to add to my bias for long
+00:05:17.639 setups so there we go we run the
+00:05:21.120 high all right well let's take a look at
+00:05:23.319 another example here we have a high and
+00:05:26.080 here we have a low so let's see
+00:05:31.160 okay we just took out this high and what
+00:05:33.720 do we have on the low failure swings so
+00:05:37.680 ideally this high does not get taken
+00:05:41.000 before running this low so letting this
+00:05:43.919 play
+00:05:45.240 out we get some consolidation but that
+00:05:48.919 is what happens now what do you see well
+00:05:52.600 now we have a high here with a lower
+00:05:55.360 high and we just swept out this side of
+00:05:57.840 the range in an uptrend
+00:06:00.600 so if this is going to be high
+00:06:01.880 resistance liquidity where would we want
+00:06:03.800 to see price trade to these previous
+00:06:07.960 highs and there we go and another little
+00:06:10.840 add-on here if you see how price took
+00:06:13.319 out this previous day's low before we
+00:06:16.199 moving higher to these highs this is
+00:06:19.160 creating High Resistance liquidity on a
+00:06:22.360 lower time frame so here we are with our
+00:06:24.479 next example go ahead and pause the
+00:06:26.759 video and take a moment to mark it up
+00:06:29.840 but what do you see right here well the
+00:06:31.759 first thing that catches my eyes are
+00:06:33.720 these highs up here you can see we just
+00:06:36.720 have a bunch of failure swings right so
+00:06:39.560 I'll just go ahead and Mark that out
+00:06:41.639 like so and that is acting as a draw on
+00:06:44.759 liquidity now if we're going to be
+00:06:47.080 targeting this High I want to see a
+00:06:49.840 sweep or high resistance liquidity well
+00:06:52.440 what do we see right here we sweep this
+00:06:55.120 low creating High Resistance liquidity
+00:06:58.520 and another important note this is an
+00:07:00.800 important low as it is previous day low
+00:07:03.360 so now I'd anticipate this low to hold
+00:07:05.960 and trade away to this high so let's see
+00:07:08.840 what
+00:07:11.160 happens and there we go so you can see
+00:07:14.240 by just understanding the low resistance
+00:07:15.919 liquidity and high resistance liquidity
+00:07:18.639 an idea was framed now out on the daily
+00:07:21.080 chart you can also see this low
+00:07:23.240 resistance liquidity as these previous
+00:07:25.560 days highs or the last three days highs
+00:07:28.440 were lined up like so and how this day
+00:07:31.360 took previous day low before coming in
+00:07:33.840 and closing and where does it close
+00:07:36.879 above 50% of this Wick but then I can
+00:07:40.120 anticipate the next day to trade higher
+00:07:42.160 to these highs and into this fair value
+00:07:45.000 Gap so once again in this next example
+00:07:47.440 where is the high resistance liquidity
+00:07:49.560 and where is the low resistance
+00:07:51.240 liquidity so you can see we purged this
+00:07:54.440 High creating High Resistance liquidity
+00:07:57.159 and ideally I'd like to see price trade
+00:07:59.240 down down to this low resistance
+00:08:01.159 liquidity now since es formed an smt
+00:08:04.319 here and is weaker we're going to hop
+00:08:06.319 into that chart for the rest of this
+00:08:08.199 example so here we are in es you can see
+00:08:11.400 this is the smt at the high where NQ
+00:08:14.599 created the high resistance liquidity
+00:08:17.120 and where is the low resistance
+00:08:19.240 liquidity you can see we have this
+00:08:21.479 really obvious series of lows resting
+00:08:24.800 right here right above a fair value Gap
+00:08:28.400 with an order block why is this an order
+00:08:30.639 block well it wretch into an important
+00:08:33.599 level then price closed above creating
+00:08:36.399 an order block you can see we have low
+00:08:38.958 resistance liquidity right above an
+00:08:41.320 order block let's see what
+00:08:43.480 happens and there we go we run all these
+00:08:46.440 low resistance lows into the order block
+00:08:49.519 you can see the mean threshold of this
+00:08:51.640 creates a reaction and where do we go
+00:08:54.640 well if you take a look at these highs
+00:08:56.560 now we have a series of lower highs all
+00:08:59.600 stacked up we just swept out all these
+00:09:02.399 lows where is Price likely to go well to
+00:09:05.920 these highs let's see and there we go so
+00:09:09.480 here we are in our last and final
+00:09:11.200 example and if you notice we just took
+00:09:13.200 out our previous day low so as we zoom
+00:09:16.320 in here what do we have on the high well
+00:09:18.880 we have a swing high with a lower swing
+00:09:21.760 High to the right of it or failure
+00:09:24.279 swings so let's see if we get a reaction
+00:09:26.519 off of this
+00:09:27.600 level we do and we get a closure over
+00:09:31.240 this series of down Clos candles here
+00:09:33.440 validating it as an order block now just
+00:09:36.279 in terms of discount in premium doesn't
+00:09:39.440 really make sense to look for an entry
+00:09:41.000 off this order block here so then I will
+00:09:43.640 use the mean threshold or I can just
+00:09:45.959 wait for a second entry so let's see so
+00:09:49.079 the mean threshold does hold and then we
+00:09:52.120 validate another order block so marking
+00:09:55.640 out the main threshold of that as well
+00:09:57.560 let's
+00:09:58.320 see here we create a low I could look
+00:10:01.760 for that so if you notice we swept out
+00:10:05.160 this low here what else do we have
+00:10:07.040 resting well we have failure swings here
+00:10:10.760 so this looks pretty much just like the
+00:10:13.200 diagram from the PDF but what do we have
+00:10:15.720 here well the down Clos candle into the
+00:10:18.720 important level or sweeping right here
+00:10:22.839 once I get a close of that validates it
+00:10:25.480 as an order block and so there we get an
+00:10:27.279 order block formation but look to take
+00:10:29.800 my entry right here my stop on the high
+00:10:32.720 resistance liquidity and then looking to
+00:10:34.800 take off at the highs so let's see how
+00:10:37.079 this works out and there we go we get a
+00:10:40.880 run higher to the take profit so just a
+00:10:43.519 little thing with order blocks here you
+00:10:45.480 can see once we close over the series of
+00:10:47.880 down Clos candles here mean threshold is
+00:10:50.320 respected here we close over creating
+00:10:52.880 this propulsion block which the mean
+00:10:54.920 threshold is continuously respected but
+00:10:58.079 why would I not expect this low to hold
+00:11:00.120 or wouldn't really trust it and want my
+00:11:02.000 invalidation here unless I get a sweep
+00:11:04.399 creating High Resistance liquidity well
+00:11:07.440 price never came and closed over this
+00:11:09.839 level right so I'm not using that as a
+00:11:12.279 valid low for invalidation once we sweep
+00:11:15.000 it then we form another order block off
+00:11:18.120 of this propulsion block and the mean
+00:11:20.320 threshold of that should be respected
+00:11:22.839 which it is and then it continues higher
+00:11:25.079 now I hope you found this video helpful
+00:11:26.920 if you did please consider liking and
+00:11:28.760 subscribing
+00:11:29.800 and I'll see you guys next time have a
+00:11:31.360 good one

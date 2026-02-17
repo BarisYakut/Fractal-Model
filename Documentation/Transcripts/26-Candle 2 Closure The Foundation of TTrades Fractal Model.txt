@@ -1,0 +1,384 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/tyoxl1l-6iI
+
+00:00:05.490 [Music]
+00:00:11.040 How's it going everyone? In this video,
+00:00:12.639 we are going to cover what is a candle 2
+00:00:14.880 closure. Now, within my fractal model, I
+00:00:16.880 have two candle closure types, a candle
+00:00:18.960 2 and a candle 3 closure. So, let's get
+00:00:20.960 into this video that covers candle 2
+00:00:22.640 closures. So, the first thing you have
+00:00:24.080 to understand is the difference between
+00:00:25.680 a continuation closure and a reversal
+00:00:28.080 closure. So this is in a bearish
+00:00:30.080 scenario. We have price trending lower.
+00:00:32.159 Are we anticipating price to continue or
+00:00:34.239 to reverse? Here you can see we sweep
+00:00:36.320 out the previous candle's low. And where
+00:00:38.079 do we close? We close below it. When
+00:00:40.399 price closes below the previous candle's
+00:00:42.320 low, I can anticipate a continuation
+00:00:44.399 lower. However, with a reversal closure,
+00:00:46.800 that is when we sweep out the previous
+00:00:48.079 candle's low, but we don't close below
+00:00:49.840 it. We close back inside the previous
+00:00:51.600 candle's range or above this candle's
+00:00:53.520 low, and that is a reversal closure. And
+00:00:55.520 I can anticipate price to go in the
+00:00:57.199 other direction. Now, a candle 2 closure
+00:00:59.199 is focused on when we have a reversal
+00:01:01.199 closure or we sweep out that previous
+00:01:02.960 candle's high or low and then close back
+00:01:05.360 inside the range. So, taking a look at
+00:01:07.280 this diagram here, you can see we have a
+00:01:09.360 reversal closure or a candle 2 closure
+00:01:12.159 where in the bullish scenario here,
+00:01:14.000 price sweeps out the previous candle's
+00:01:15.680 low and then closes back above that
+00:01:17.759 candle's low, signifying that price has
+00:01:19.920 reversed in candle 2 or this low here.
+00:01:23.040 In a bearish scenario, we have price
+00:01:24.960 sweeping out the previous candle's high
+00:01:26.720 and then closing back below it, showing
+00:01:28.479 that it has reversed in this candle too
+00:01:30.479 here. Now, it's important to note that
+00:01:32.000 we want this to occur at a higher time
+00:01:33.920 frame key level. If you just look for
+00:01:35.920 every pattern that has a sweep and a
+00:01:37.840 closure back in, that is unlikely to
+00:01:39.680 work. You want to define this with bias
+00:01:41.759 and a higher time frame point of
+00:01:43.360 interest, which I use fair value gaps
+00:01:45.439 and highs and lows. So, once we have
+00:01:47.360 this closure, we can then anticipate
+00:01:49.119 candle 3 to have a continuation. And you
+00:01:52.000 may want to check out my video on
+00:01:53.439 trading candle three. But following this
+00:01:55.520 closure, we're looking for price to
+00:01:57.360 expand higher or in the bearish scenario
+00:02:00.079 for price to expand lower. Now, with a
+00:02:02.159 closure outside the previous candle's
+00:02:03.759 range, so you can see candle 3 here
+00:02:05.840 closing over candle 2, is that a
+00:02:08.000 reversal closure or a continuation
+00:02:10.000 closure? That is a continuation closure.
+00:02:12.239 So, we can anticipate price to expand
+00:02:14.239 higher as well in candle 4. And the same
+00:02:16.959 in the bearish scenario here. We close
+00:02:18.959 below candle 2's low. So, we can
+00:02:20.800 anticipate it to continue lower in
+00:02:22.480 candle four as well. And there you can
+00:02:24.480 see candle four gets an expansion which
+00:02:26.720 finishes off this candle 2 closure and
+00:02:28.800 this swing point. So, just to review, we
+00:02:30.720 have a candle 2 closure, closing back
+00:02:33.040 above the low of candle 1, allowing
+00:02:35.200 candle 3 to expand. Candle 3 closes
+00:02:37.840 strong or over candle 2's high, which
+00:02:40.000 allows candle 4 to expand as well. And
+00:02:42.319 in the bearish scenario, we have candle
+00:02:44.239 2 closing back below candle 1's high.
+00:02:46.800 Candle three closing very strong below
+00:02:49.440 candle 2's low and then candle four
+00:02:51.360 continuation. Now once again it's really
+00:02:53.599 important that we combine this with a
+00:02:55.519 higher time frame key level or a point
+00:02:57.440 of interest being a high low or a fair
+00:02:59.920 value gap. Now let's say we want to
+00:03:01.519 blend this with my equilibrium video.
+00:03:03.519 That's where we can go ahead and mark
+00:03:04.879 out these areas we expect the wick to
+00:03:06.800 form in the higher time frame candles.
+00:03:08.480 So with a candle two closure here, if I
+00:03:10.480 have a large wick, I'm going to want to
+00:03:11.920 watch the upper half of that wick to see
+00:03:13.680 if candle 3 forms its wick in respect to
+00:03:16.159 that. If it doesn't respect the 0.5,
+00:03:18.000 then it's likely to fail and a swing
+00:03:19.680 point is unlikely to form. And then with
+00:03:22.000 candle 3, we can do the same as we have
+00:03:24.080 a strong closure. I'll mark out the
+00:03:25.840 entire candle's range, 50% of that,
+00:03:28.239 looking for a continuation. If you don't
+00:03:30.080 know what I'm talking about here, I'll
+00:03:31.440 link the two videos in the description
+00:03:32.959 below of using wicks and using EQ. Now,
+00:03:36.000 let's hop into Trading View and go over
+00:03:37.440 a few examples of spotting candle 2
+00:03:39.440 closures. Here we are in Trading View,
+00:03:41.200 and the best way to identify candle 2
+00:03:43.760 closures is to just practice finding
+00:03:45.760 them on the chart. So, what you'll want
+00:03:47.360 to do is just go find swing points. So,
+00:03:49.680 find any point in which the market made
+00:03:51.440 a turn and go ahead and mark them all
+00:03:53.440 out and then we'll go back through and
+00:03:55.599 determine which one of these are a
+00:03:57.280 candle 2 closure. So, here you can see
+00:03:59.360 we have quite a few marked out. Let's
+00:04:01.200 see which ones are actually candle two
+00:04:02.959 closures. To have a candle two closure,
+00:04:04.799 we need price to take out its previous
+00:04:06.640 candle's high and then close back below
+00:04:08.640 it in a bearish scenario or take out its
+00:04:10.480 previous candle's low and close back
+00:04:12.080 above it in a bullish scenario. So here
+00:04:14.080 you can see price sweeps out its
+00:04:15.519 previous candle's high and then closes
+00:04:17.279 back below it having a candle 2 closure
+00:04:19.759 looking for a candle three continuation
+00:04:21.600 lower. Now looking at this swing point
+00:04:23.120 here, we have price sweeping out the
+00:04:24.639 previous candle's low, closing back
+00:04:26.479 above it. So that is a candle 2 closure.
+00:04:28.720 I could look for price to trade higher.
+00:04:30.800 I'm just going to repeat this looking
+00:04:32.400 for those reversal patterns. So, you can
+00:04:34.320 see sweeps out the previous high, closes
+00:04:36.639 back below it. You can see it trading
+00:04:38.080 lower. And we'll go ahead and just mark
+00:04:39.759 all of these out. So far, you can see
+00:04:41.840 all of these are candle 2 closures. But
+00:04:43.759 as we look at these swing points over
+00:04:45.280 here, this is not a candle to closure as
+00:04:47.680 price never closed back below its
+00:04:49.759 previous candle's high. And the same
+00:04:51.680 right here, this is not a candle to
+00:04:53.520 closure as price did not close back
+00:04:55.600 above its previous candle's low. So,
+00:04:57.919 those were two that I would remove right
+00:04:59.520 away. Now, if you noticed, these are all
+00:05:01.520 candle 2 closures, but do they all occur
+00:05:03.759 at a point of interest? And that is what
+00:05:05.680 I'm going to want to mark out. So,
+00:05:07.280 taking a look here, we have a high that
+00:05:09.120 we sweep out. That is a point of
+00:05:10.800 interest. So, this is valid to look
+00:05:12.720 lower the next day. Here we have a point
+00:05:14.800 of interest, sweeping out a low. So,
+00:05:16.800 it's valid for this to look higher the
+00:05:18.800 next day. And having to zoom out, you
+00:05:20.800 can go to the monthly chart and see we
+00:05:22.240 took out a previous high from quite long
+00:05:24.479 ago, but we use that as a point of
+00:05:26.320 interest here for this candle to
+00:05:27.919 closure. But one thing I will also add
+00:05:30.000 is ideally we want candle 2 to have a
+00:05:32.240 reversal to set up a candle 3
+00:05:34.560 continuation. But here you can see price
+00:05:36.560 formed a shallow wick and had an
+00:05:38.240 expansion in candle 2 as well. That does
+00:05:40.720 not set up the best conditions for
+00:05:42.320 candle 3 as what can occur after an
+00:05:44.400 expansion a new phase of price. But
+00:05:46.560 nonetheless this is valid here. You can
+00:05:48.560 see do we have a point of interest? No,
+00:05:50.720 we fail to sweep out this low. So this
+00:05:52.639 is not one we would look for here. Right
+00:05:54.720 here we reach into this fair value gap.
+00:05:56.720 So, it is a valid candle to closure to
+00:05:58.960 look lower. Right here, you can see we
+00:06:00.639 sweep out all these previous lows. So,
+00:06:02.479 it's valid for this to look higher. And
+00:06:04.160 then this one here, we fail to take out
+00:06:06.240 this high. So, it is not valid, right?
+00:06:08.400 Because I do not have that point of
+00:06:09.759 interest. And I need a point of interest
+00:06:11.600 to frame a candle closure. Now, what do
+00:06:14.240 we notice about this? We do form a
+00:06:16.319 protected swing. So, I am not looking
+00:06:18.639 for price to return to this level. If
+00:06:21.280 it's going to trade higher, that's when
+00:06:22.880 I can actually use the opposing candles
+00:06:24.720 as a point of interest. and why this one
+00:06:26.639 would remain valid. It's more advanced,
+00:06:28.479 but it is a valid one cuz I can use
+00:06:30.319 these opposing candles as the point of
+00:06:32.240 interest. And then right here on this
+00:06:33.840 most recent one, we have a sweep of this
+00:06:36.400 previous high, which provides the point
+00:06:38.240 of interest for this candle to closure
+00:06:40.160 and for price to trade lower today. So
+00:06:42.479 once again, just to review, the best way
+00:06:44.400 to find this is to practice on the daily
+00:06:46.639 chart or a higher time frame. And you
+00:06:48.560 want to find those candle closures
+00:06:50.000 first, then see if they have a point of
+00:06:51.919 interest, and then that gives you bias,
+00:06:53.840 right? So looking back at this, I could
+00:06:55.520 be bearish this day, bullish this day,
+00:06:58.080 bearish this day. You can see it doesn't
+00:06:59.759 set up well because this already
+00:07:01.120 expanded right after this high. Bearish
+00:07:03.280 this day, bullish this day, bullish this
+00:07:05.919 day, bearish this day. And that's the
+00:07:08.080 easiest way to get bias is just finding
+00:07:10.160 those candle to closures on the daily
+00:07:12.319 chart. So if we remove all these
+00:07:14.000 drawings, we'll go into today. We have a
+00:07:16.639 sweep of a previous high, a candle to
+00:07:18.960 closure. Now, if you followed my model
+00:07:20.960 or my playbook, you know the next thing
+00:07:22.880 we're going to do is drop down to our
+00:07:24.400 aligned time frame. So, here we have a
+00:07:26.400 daily chart. We're going to drop down to
+00:07:27.840 the hourly chart. So, going into the
+00:07:29.599 replay here, you can see we have this
+00:07:31.599 candle to closure on the daily time
+00:07:33.520 frame as shown by these higher time
+00:07:35.360 frame candles. Let it finish out. And
+00:07:38.479 right there, we open a new candle. So,
+00:07:40.639 by marking out this candle 2 closure,
+00:07:42.560 how do we confirm this on a lower time
+00:07:44.400 frame or get a validation of this candle
+00:07:46.800 2 closure? We look for a change in the
+00:07:48.479 state of delivery. We're going to find
+00:07:49.919 the high. Find the series of candles
+00:07:51.599 that made that high, which is
+00:07:52.960 essentially here. Mark that out. And
+00:07:55.280 then now we can anticipate price to do
+00:07:57.120 what? To continue lower as long as it
+00:07:59.280 remains in respect to the previous
+00:08:01.120 candle's range. You can see here's a
+00:08:02.960 consolidation. It's hard to trust that
+00:08:04.879 high. So as long as price doesn't trade
+00:08:06.479 up into these highs, right, it is valid
+00:08:08.400 to look for it to continue lower. And
+00:08:10.080 that's why we use the EQ. I want to see
+00:08:12.160 price respect this area here. So, as we
+00:08:14.560 let this play out, you can see we do go
+00:08:17.039 take out a point of interest. And what
+00:08:19.280 do we notice now? It's a fractal
+00:08:21.520 concept. So, if we zoom in, what do we
+00:08:24.080 have? We have a candle to closure at a
+00:08:26.720 point of interest on the hourly chart.
+00:08:28.879 Not only can this provide a bias for
+00:08:30.879 this next candle to trade lower on a
+00:08:32.719 lower time frame, but we can anticipate
+00:08:34.479 this to be where the high a day forms.
+00:08:36.719 And then what can we look for?
+00:08:38.159 Continuations out of this. So, let's see
+00:08:40.640 what happens. Right there you can see we
+00:08:43.440 do what? We reach up into a point of
+00:08:45.600 interest and we have what? A candle to
+00:08:48.320 closure. So what does that tell us? If
+00:08:50.320 we are going to continue and leave this
+00:08:52.399 high, we should anticipate a
+00:08:53.920 continuation here to trade lower. And
+00:08:56.480 you can see we do get that continuation
+00:08:58.480 lower. And that's where we're at today
+00:09:00.560 right now. So just to review, this is
+00:09:03.200 how you align time frames. It's a
+00:09:05.040 fractal concept. Here we have a candle
+00:09:07.279 to closure. And I'm just going to
+00:09:08.640 confirm that using the align time
+00:09:10.240 frames. So, if I'm on the daily, I'm
+00:09:11.920 going to use the hourly for a change in
+00:09:13.600 the state of delivery. If I'm on the
+00:09:15.200 hourly, I will use the 5minute. I'm just
+00:09:17.120 going to use those time frame pairings.
+00:09:19.120 And if I want to make this really
+00:09:20.320 simple, this is where I will add in my
+00:09:22.160 indicator that marks out that candle to
+00:09:24.320 closure for me. Marks out that change in
+00:09:26.240 the state of delivery and that EQ in
+00:09:28.560 that area I'm looking for a continuation
+00:09:30.480 lower as well as those liquidity
+00:09:32.399 targets. So, let's get into a few more
+00:09:34.399 examples. But the main thing I want you
+00:09:36.080 to take away from this video is how to
+00:09:38.320 spot a candle 2 closure and practice
+00:09:40.560 finding them. I have videos on candle 3
+00:09:43.040 and how to trade them following a candle
+00:09:45.200 2 reversal. So if you want more info on
+00:09:47.279 that, check out that video. But as you
+00:09:49.600 can see here, it is a fractal concept
+00:09:51.760 and works on all time frames. So here we
+00:09:53.839 are on micro Bitcoin futures. And what
+00:09:55.839 do we notice about this monthly candle
+00:09:58.080 here? We have price sweeping out a point
+00:10:00.399 of interest or a previous high and then
+00:10:02.640 forming what? a candle to closure by
+00:10:05.440 closing back inside the previous candle.
+00:10:07.519 On the daily time frame here, we have a
+00:10:09.360 high. We have a close through the series
+00:10:11.440 of candles that made that high. So, what
+00:10:13.120 do we have? We have a valid monthly and
+00:10:15.440 daily fractal model that says we want to
+00:10:17.519 trade to these lows. So, getting into
+00:10:20.160 this candle three or for this
+00:10:21.600 continuation, we can use this on the
+00:10:24.079 daily time frame fractally. We have a
+00:10:26.399 point of interest. We have what? Another
+00:10:28.800 candle 2 closure. And what could we do
+00:10:30.800 here is we could refine this down to the
+00:10:33.279 hourly. And you can see how it's
+00:10:34.640 fractal. We can go from the monthly to
+00:10:36.480 the daily to the hourly. But going to
+00:10:38.399 the hourly here, what do we have? Let's
+00:10:40.480 replay to here so we can watch it play
+00:10:42.399 out. We have a daily swing point or a
+00:10:44.320 daily candle to closure forming with
+00:10:46.640 SMT. Do we have a change in the state of
+00:10:48.640 delivery? We do cuz we find the high,
+00:10:50.560 the series of candles that made it. And
+00:10:51.920 then we could be looking for a
+00:10:53.040 continuation lower. And that is where
+00:10:55.120 the T-spot comes in where I'm looking to
+00:10:57.360 sell in these boxes here. So, as we can
+00:11:00.240 see, we retrace up and what do we form
+00:11:03.279 right at this high into this point of
+00:11:05.040 interest? We have a candle 2 closure and
+00:11:07.680 this gets a continuation lower. And what
+00:11:09.600 are we saying about candle 3? If candle
+00:11:12.000 3 closes below candle 2's low, we can
+00:11:14.480 look for candle 4 to continue lower as
+00:11:16.640 well. And that is why another T-spot is
+00:11:18.800 being printed out. So, into this next
+00:11:20.480 day, we see price trade higher. And what
+00:11:23.279 do we notice about this high here? We
+00:11:25.279 also have a candle to closure and we
+00:11:27.440 have equal lows below and more equal
+00:11:29.440 lows below. So could be looking for this
+00:11:31.360 to trade lower and we do. And then since
+00:11:34.720 we close below the low, we could be
+00:11:36.560 looking for a continuation lower. Now
+00:11:38.480 the one thing I'll say once you get into
+00:11:40.160 candle five and six, that's where you
+00:11:42.000 can get caught in a new phase of price.
+00:11:43.600 So you have to be a bit more careful.
+00:11:45.760 But there we are today trading lower.
+00:11:48.240 And this is just a fractal concept. So
+00:11:50.320 let's go to something like the 4hour
+00:11:52.000 chart. And you can see, do we have a
+00:11:53.920 candle 2 closure here? No, we do not.
+00:11:56.640 That is a candle 3 closure, which we'll
+00:11:58.560 talk about in a future video. But let's
+00:12:00.640 let this continue. We displace down. We
+00:12:03.120 retrace. Do we have a candle 2 closure?
+00:12:05.600 We do. We displace. We retrace. Candle
+00:12:08.800 to closure. Here we have a little gap
+00:12:10.639 from the overnight. And what do we do?
+00:12:12.800 We continue lower. What are we forming
+00:12:14.480 right now? A candle 2 closure. So what I
+00:12:17.600 wanted to explain just in this video is
+00:12:19.839 a lot of times a candle 2 closure will
+00:12:22.079 mark a turning point in the market and
+00:12:24.079 it's very critical to understand what
+00:12:26.399 they look like and how they can be used.
+00:12:28.560 So for instance here let's say I wanted
+00:12:30.320 to trade this lower. Then I could use
+00:12:32.320 the 15-minute chart to look for a
+00:12:34.720 15-minute fractal model based off this
+00:12:37.040 4hour time frame. We can just repeat
+00:12:39.040 this across numerous different time
+00:12:41.040 frames. So you can see we have a candle
+00:12:43.360 to closure confirmed with the change in
+00:12:44.959 the state of delivery and I can look for
+00:12:46.480 this area to respect to trade lower. So
+00:12:48.800 I hope you enjoyed this video. If you
+00:12:50.480 did, please consider liking and
+00:12:52.240 subscribing and I'll see you guys in the
+00:12:53.839 next video going over candle 3.

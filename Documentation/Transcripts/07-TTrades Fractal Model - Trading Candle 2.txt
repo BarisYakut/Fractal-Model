@@ -1,0 +1,508 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/m4k_1pF5zFI
+
+00:00:00.000 No text
+00:00:05.490 [Music]
+00:00:11.120 How's it going everyone? In today's
+00:00:12.960 video, we are going to learn about how
+00:00:14.960 to trade a reversal candle or candle 2
+00:00:17.760 within my fractal model. Let's get into
+00:00:20.000 No text
+00:00:20.000 the PDF. Now, the first thing you have
+00:00:21.840 to understand is the difference between
+00:00:23.359 an expansion candle and a reversal
+00:00:25.680 candle. An expansion candle has a small
+00:00:28.080 wick on each side and a large body. That
+00:00:30.720 means that price during this given time
+00:00:32.238 period trended in one direction. Now a
+00:00:34.960 reversal candle opens, makes a large
+00:00:37.760 opposing run to form its wick and then
+00:00:40.160 goes back towards its opening price
+00:00:41.920 before closing. So if you take a look
+00:00:44.000 when we have a small wick that supports
+00:00:46.000 expansion as price can continue to
+00:00:48.079 trend. If we have a large wick lower,
+00:00:50.559 that doesn't support expansion higher
+00:00:52.480 because price can only have so much
+00:00:54.160 range. We're not expecting price to go
+00:00:56.239 all the way down here to form its lower
+00:00:58.000 wick and then expand off the screen
+00:01:00.079 here. Small wick supports expansion.
+00:01:02.719 Large wick doesn't support expansion.
+00:01:05.438 So, how do we use what we just learned
+00:01:06.960 in the previous slide and actually apply
+00:01:09.200 it? Well, if we're looking to frame a
+00:01:11.040 reversal off of this previous candle's
+00:01:13.119 high, well, I want to have a small wick
+00:01:15.600 because then price can expand lower. You
+00:01:18.240 see price opens. This forms a large
+00:01:20.640 wick. It has a large opposing run. This
+00:01:23.280 doesn't support expansion lower because
+00:01:24.960 I'm not expecting price to open, make a
+00:01:27.119 large opposing run, and then continue to
+00:01:29.200 trend down. That's going to take too
+00:01:30.880 much time and too much range. So, here
+00:01:33.280 I'm only expecting price to return back
+00:01:35.040 to its opening price or its current low.
+00:01:38.000 You can see we have a large wick and
+00:01:40.079 then it closes. And then this is the
+00:01:41.920 classic setup of a continuation candle.
+00:01:44.159 The next time you can see this is a
+00:01:46.640 reversal candle that leads into a
+00:01:48.560 continuation. Now, what happens when we
+00:01:50.560 have a small wick? A small wick can
+00:01:52.880 support expansion. So you see we sweep
+00:01:55.119 out this previous candle's high. We
+00:01:56.960 don't have a large opposing run. So this
+00:01:59.439 small wick supports expansion lower. It
+00:02:01.920 hasn't made much range and this allows
+00:02:03.840 it to trade much lower. So if you look
+00:02:06.479 at the two types of reversal candles,
+00:02:08.720 this is a reversal with an expansion
+00:02:10.479 candle. This is the one we ideally want
+00:02:12.560 to trade as it supports expansion lower
+00:02:14.720 and can trend. Not saying we cannot
+00:02:16.800 trade reversal candles with a large
+00:02:18.319 wick. we just have to adjust our
+00:02:19.840 targets. Here with an expansion candle,
+00:02:21.920 we can target previous candle's lows and
+00:02:24.319 standard deviation projections. But here
+00:02:26.480 with a large wick, I have to adjust my
+00:02:28.720 targets looking back towards that
+00:02:30.560 opening price and the current candle's
+00:02:32.560 low. So let's take a look at trading a
+00:02:34.640 reversal to expansion candle as that is
+00:02:36.640 the most ideal scenario. The way we are
+00:02:39.040 going to go about this is we're going to
+00:02:40.560 mark out that previous candle's high on
+00:02:42.480 the higher time frame. We're going to
+00:02:44.319 wait for a sweep of that high, a change
+00:02:46.640 in the state of delivery, forming a
+00:02:48.640 protected high so I can anticipate this
+00:02:50.400 wick to have formed. Then I can look to
+00:02:52.319 trade this reversal lower or look for
+00:02:54.239 the continuation that follows. Let's hop
+00:02:56.720 into Trading View to go over these
+00:02:58.319 various scenarios and various reversal
+00:03:00.400 candles and the opportunities that they
+00:03:02.560 present.
+00:03:03.000 No text
+00:03:04.159 So here we are in our first example and
+00:03:06.400 we are on gold daily chart. Now,
+00:03:09.040 following my phases of price series, you
+00:03:11.040 may notice what we're expecting after we
+00:03:12.959 have a large expansion like this. We're
+00:03:15.840 looking for a new phase of price. So,
+00:03:18.319 with that, if we're looking for either a
+00:03:20.159 retracement or a reversal, ideally, we
+00:03:22.720 don't get caught in a consolidation,
+00:03:24.480 where are we looking for that to occur?
+00:03:26.560 Well, since this isn't a reversal
+00:03:28.239 candle, I'm going to be looking for
+00:03:30.000 price to take out its previous candle's
+00:03:32.319 high and then form a reversal here to
+00:03:34.640 trade lower. Now, if this next candle is
+00:03:36.959 going to support expansion, what do we
+00:03:38.799 want to see? Do we want to see a wick
+00:03:41.040 that is small that then we can trade it
+00:03:43.120 lower, or do we want to see a large
+00:03:45.280 wick? Well, we want to see a small wick
+00:03:47.680 if we're going to actually trade that
+00:03:48.879 lower cuz it allows it to expand. If we
+00:03:51.440 have a large wick, then we're better off
+00:03:53.280 either looking back towards the daily
+00:03:54.959 open or trading the following day for a
+00:03:57.040 continuation. Let's drop down to the
+00:03:59.040 lower time frames to see what it looks
+00:04:00.879 like.
+00:04:02.239 So here we are in the next candle and
+00:04:04.239 you notice we also can use the phases of
+00:04:06.319 price on the hourly chart and that's
+00:04:08.080 personally my favorite for the daily
+00:04:09.840 time frame. We have expansion into
+00:04:12.480 consolidation. So if our idea is to
+00:04:14.879 trade lower, what do we want to see with
+00:04:16.639 consolidation? Expansion, consolidation,
+00:04:20.560 expansion out of this range met with
+00:04:22.639 expansion back in forming a reversal to
+00:04:25.199 then traded back lower. So let's see
+00:04:27.919 when we engage with this high there we
+00:04:30.800 see we have expansion into the high and
+00:04:33.360 expansion back lower. That is what's
+00:04:35.360 forming that wick there. So now marking
+00:04:37.440 out the series of up close candles
+00:04:39.280 there. We can go ahead and move one
+00:04:41.280 candle ahead and my indicator will do so
+00:04:43.600 because it now has the early change in
+00:04:45.280 the state of delivery feature. But we
+00:04:47.680 have a protected high here now. So we
+00:04:50.080 can anticipate that this daily has
+00:04:51.680 formed its wick and it is a small wick
+00:04:54.160 which supports expansion lower. So,
+00:04:56.240 where can we look for this to trade to?
+00:04:58.560 We can use the EQ of the previous day
+00:05:00.479 for a target or liquidity. What would
+00:05:03.360 liquidity be? Previous days highs and
+00:05:05.680 lows. So, that can be a target as well.
+00:05:08.639 Let's see how this works out.
+00:05:13.759 And you can see there we go and get that
+00:05:16.000 expansion lower. So, just to review,
+00:05:18.560 what are we looking for? If we're trying
+00:05:20.400 to trade a reversal day, we want to see
+00:05:22.320 if it supports expansion. This candle
+00:05:25.039 does as it has a change in the state of
+00:05:26.960 delivery intraday forming a small wick
+00:05:30.080 on the daily time frame. This allows it
+00:05:32.320 to form its wick early enough into the
+00:05:34.320 day to expand throughout the day. Now,
+00:05:36.720 if we go and replay this example and
+00:05:39.600 let's say the daily candle looked
+00:05:41.520 something like this, right? We had a
+00:05:44.639 super large wick that already pad most
+00:05:47.120 of its daily range. Do we really expect
+00:05:49.680 price to expand all the way down here?
+00:05:52.240 Not really because that is such a large
+00:05:54.160 range. So that is why we are looking for
+00:05:56.080 that small wick to support expansion. So
+00:05:58.000 No text
+00:05:59.039 here we are in our next example and with
+00:06:01.120 my fractal model, I'm only looking to
+00:06:02.960 trade swing points. So you can see here
+00:06:05.280 we have two swing lows and we do not
+00:06:07.520 have another swing low to trade off of.
+00:06:09.759 So with that idea in mind and sweeping
+00:06:11.440 out a high, looking for a new phase of
+00:06:13.680 price, I'm only favoring downside. So
+00:06:16.560 let's drop down to the lower time frame
+00:06:18.080 and see if we can frame a reversal off
+00:06:19.840 of this previous day high. So here we
+00:06:22.080 are at the start of the New York session
+00:06:24.000 and what do we notice about the daily
+00:06:25.600 profile so far? We have a consolidation
+00:06:28.880 into the Asia session and then London
+00:06:32.160 makes a move higher expanding out of
+00:06:34.560 this range. Now what do we have? We have
+00:06:36.960 a consolidation, right? We don't get a
+00:06:39.039 retracement into this fair value gap to
+00:06:40.800 trade it higher. We are stuck internal
+00:06:43.440 to this candle's range. So with that
+00:06:46.319 being said, what do I want to look for?
+00:06:48.240 I want to look for a sweep of a high to
+00:06:50.960 trade it back lower.
+00:06:53.840 So, taking a look at this, what do we
+00:06:55.840 have? We have this move higher. Now,
+00:06:58.080 what do we notice about this wick? It's
+00:07:00.160 quite a large wick, right? In terms of
+00:07:02.080 the daily profile, we have started to
+00:07:04.160 expand away. So, with a larger wick, not
+00:07:07.199 forming that shallow sweep over previous
+00:07:09.199 day high to form a reversal lower. What
+00:07:11.599 do we want to look for? We want to
+00:07:13.440 adjust our targets. This is one of those
+00:07:15.360 scenarios of trading a larger wick.
+00:07:18.000 Instead of looking for expansion lower,
+00:07:20.240 I'm looking for it back into its daily
+00:07:22.560 open. So using that as a level and then
+00:07:25.039 those session lows. So as price expands,
+00:07:29.039 let's see what happens. We go and take
+00:07:31.120 out those levels. Now, it's not that
+00:07:33.039 price can't trade lower. It could go
+00:07:35.599 down into this fair value gap down here
+00:07:37.520 around EQ of the range. But when we have
+00:07:39.840 a larger wick, my expectations is
+00:07:42.240 favoring back towards that daily open in
+00:07:44.479 those session lows, not trying to be
+00:07:46.560 greedy and look for a massive move with
+00:07:48.639 a wick that does not support expansion.
+00:07:51.039 So as we let this continue, do we end up
+00:07:53.199 getting a move lower? Nope. We close the
+00:07:55.680 day as a reversal candle. Now in the
+00:07:58.639 next day, this is my fractal model where
+00:08:01.280 we have a candle to closure looking for
+00:08:03.759 a continuation lower in the continuation
+00:08:05.919 day. And that is when we can get that
+00:08:08.080 continuation down there into that fair
+00:08:11.039 value gap. Now, hopefully what you
+00:08:12.879 learned from this example is that when
+00:08:14.560 we have a candle with a larger wick, I
+00:08:16.639 want to adjust my expectations from
+00:08:18.720 expansion to looking back towards the
+00:08:20.879 daily open or the higher time frame open
+00:08:23.120 or those session lows or those current
+00:08:25.280 candle lows if using this fractally. So,
+00:08:27.000 No text
+00:08:28.400 here we are with our next example. And
+00:08:30.560 if you notice, we are in a range. How
+00:08:32.640 can I tell that? Well, this previous
+00:08:34.559 candle's range encompasses all of the
+00:08:37.279 other days following it. So, marking out
+00:08:39.200 the range high and the range low. What
+00:08:41.440 do we want to look for when trading a
+00:08:43.200 consolidation? We want to wait for one
+00:08:45.279 side of the range to be taken. Now, we
+00:08:47.600 have failure swings on both sides. And
+00:08:49.519 you can see that by looking at these
+00:08:50.720 higher time frame candles and how they
+00:08:52.320 do not overlap. Now, we'll want to wait
+00:08:54.320 for the high or the low of the range to
+00:08:56.160 be engaged before looking for
+00:08:57.760 opportunities.
+00:08:59.360 Now, let's see what happens. I wouldn't
+00:09:01.839 be interested in this CISD here. Why?
+00:09:04.399 There is no relevant level. We're still
+00:09:06.240 consolidating.
+00:09:09.120 Similar thing with that one.
+00:09:11.760 Now, we take out the low in the range.
+00:09:13.680 Now, there's a few questions I can ask
+00:09:15.120 you here. Yes, we have taken out the low
+00:09:17.120 in the range. And where would we want to
+00:09:18.880 trade? We'd want to trade to this range
+00:09:20.640 high, right? That is the whole idea. But
+00:09:23.120 let's look at the time of this and the
+00:09:24.720 range of it and what the higher time
+00:09:26.399 frame candle looks like. Here we have
+00:09:28.560 used most of our daily time right all
+00:09:31.040 the way through the New York session
+00:09:32.640 oscillating before running out this low.
+00:09:34.880 So does it really make sense for the
+00:09:36.320 afternoon session on oil or gasoline in
+00:09:38.800 this case to rip all the way to these
+00:09:40.240 highs? No, not really because this
+00:09:42.480 candle does not support expansion. So
+00:09:44.880 this is generally where it's ideal to
+00:09:46.320 either looking for an intraday high to
+00:09:48.080 be taken out but if you look Asia and
+00:09:50.800 London have already been taken out so we
+00:09:52.800 don't have failure swings to target or
+00:09:54.880 back towards the daily open. So, is this
+00:09:57.120 much range to get a target out of this
+00:09:59.279 trade? Not really. Right? We could go
+00:10:01.519 down and look to do something with that.
+00:10:03.440 And let's see how that goes. But this
+00:10:05.360 brings up an important point. Within the
+00:10:07.279 intraday profile, what am I using to
+00:10:09.279 confirm the wicks of the daily candle?
+00:10:11.519 Well, earlier on in the day, I want to
+00:10:13.680 use a higher time frame. So, in Asia,
+00:10:15.839 I'm almost specifically only going to
+00:10:17.519 use the hourly or 30 minute. Once I get
+00:10:20.000 into London, I'll use the hourly, 30
+00:10:21.920 minute, or 15. And once I'm into New
+00:10:24.079 York, yes, if they present themselves,
+00:10:26.240 I'll use those higher time frames like
+00:10:27.600 the hourly or 30 minute. But a lot of
+00:10:29.760 times with a New York reversal, it's
+00:10:31.600 going to be very quick. And if I wait
+00:10:33.200 for that confirmation, my target's
+00:10:34.880 already going to be hit or I'll not get
+00:10:36.480 on side. So specifically in this case
+00:10:38.720 here, if I was going to wait for an
+00:10:40.240 hourly change in the state of delivery,
+00:10:42.000 where does that occur? It occurs up
+00:10:43.839 here. And that would be my target for
+00:10:45.760 this move, right? That is buy side
+00:10:47.360 liquidity. And that would be a target
+00:10:48.959 for this range low to this range high,
+00:10:51.360 right? So this is where it would make
+00:10:52.959 sense to drop down to a lower time
+00:10:54.640 frame. So looking at a 5m minute, do we
+00:10:57.200 have an entry in here? Well, we have a
+00:10:59.600 change in the state of delivery right
+00:11:02.160 here. And then are we going to form a
+00:11:04.240 continuation here? Cuz we reach into an
+00:11:06.399 important level. I want to see if we
+00:11:08.079 form a new protected low.
+00:11:12.000 There we do form a new protected low.
+00:11:13.839 And I could look to take a stab at this.
+00:11:16.640 Now, let's talk about why I don't like
+00:11:18.160 this. Now, it would be one thing if we
+00:11:19.519 hadn't taken out those overnight session
+00:11:21.200 highs, right? Because then we have those
+00:11:22.720 failure swings as targets. But if we
+00:11:24.800 notice the New York session already took
+00:11:27.200 out those highs, we don't really have
+00:11:29.120 any low resistance liquidity to be
+00:11:30.880 sitting to be taken out. And I generally
+00:11:32.880 want to favor back towards the daily
+00:11:34.560 open at that point. This doesn't really
+00:11:36.240 give great risk-to-reward. Could we
+00:11:38.000 still try it? Sure. Let's see if we can
+00:11:39.680 get two R out of it.
+00:11:43.760 You can see how that daily open provides
+00:11:45.680 resistance and then we do go take this
+00:11:48.079 out. Now, with that being said, if we go
+00:11:50.560 back out and take a look at this for a
+00:11:52.079 second, this daily candle does not
+00:11:54.720 support expansion, right? We have a
+00:11:56.560 large wick. This is a perfect example of
+00:11:59.519 when it's better to let this reversal
+00:12:01.279 day trade and then look for the
+00:12:02.959 continuation day following and see if
+00:12:05.120 that has a small wick that supports
+00:12:06.800 expansion. So, as we let this trade,
+00:12:09.200 what do we have on this next day? You
+00:12:11.440 can see price forms that change in the
+00:12:13.200 state of delivery and then we get that
+00:12:15.760 continuation higher. You see how this
+00:12:18.000 daily candle has a small wick that
+00:12:20.320 supports expansion higher versus this
+00:12:22.800 candle has a large opposing run doesn't
+00:12:25.279 support expansion. It just has this
+00:12:27.200 reversal for this to continue. So here
+00:12:29.000 No text
+00:12:30.480 we are in our next example and we are
+00:12:32.480 looking at GBPUSD. And if you notice
+00:12:35.120 we've had expansion, we get a
+00:12:37.279 retracement and then another expansion.
+00:12:40.399 Now we have multiple days of expansion
+00:12:42.399 here. We can possibly get one more but
+00:12:44.399 within my model I cannot look long after
+00:12:47.279 my fourth day. We have an important
+00:12:49.600 level resting right here. So if we are
+00:12:51.920 going to hit this key level and form a
+00:12:53.760 reversal or a retracement or a
+00:12:55.519 consolidation, where would we expect
+00:12:57.279 that to occur off of previous day high?
+00:13:00.240 Let's drop down to our lower time frame
+00:13:02.160 or the hourly chart here and take a look
+00:13:04.399 at what this looks like. You can see
+00:13:06.560 there was a very clean and nice bullish
+00:13:08.720 setup here. But let's focus on this
+00:13:10.959 price action up here. So as we get into
+00:13:13.360 the new day, we have expansion
+00:13:16.079 consolidation. We want to see the
+00:13:18.560 consolidation ran out. So we have
+00:13:22.000 expansion into this high. Do we get
+00:13:24.079 expansion back lower? And yes, we do.
+00:13:27.600 Right? We have expansion met with
+00:13:29.279 expansion, which is what I would
+00:13:30.880 consider to be a reversal. And we also
+00:13:33.519 have that change in the state of
+00:13:35.040 delivery. So we could consider this a
+00:13:37.600 change in the state of delivery. We can
+00:13:39.040 anticipate this wick to have formed and
+00:13:40.800 then look for 2 R or right back to the
+00:13:43.040 EQ of this range. Let's see how this
+00:13:45.519 works out.
+00:13:49.040 And you can see we get stopped out
+00:13:50.800 before it goes and runs to our target.
+00:13:54.000 Now, what can we learn from this? Well,
+00:13:56.240 not all entries are going to work out.
+00:13:58.240 But we can also learn to use correlated
+00:14:00.320 assets. So, by taking a look at the
+00:14:02.399 correlated asset or euro, let's take a
+00:14:05.279 look at our daily chart, right? Which
+00:14:06.959 one is weaker? Well, GBP ran into its
+00:14:10.720 previous day high to form a reversal and
+00:14:12.880 into the swing high on the higher time
+00:14:14.399 frames. Euro isn't even reaching towards
+00:14:17.519 its previous day high, right? It has a
+00:14:19.199 small shallow wick built off of that
+00:14:21.040 wick. So, taking a look just on the
+00:14:23.440 daily chart, we can see that Euro is
+00:14:25.120 weaker. We can also mark out our SMT.
+00:14:27.839 So, by marking out this high over here,
+00:14:29.760 that's the same as this low over here.
+00:14:32.160 Now, if we drag this over to where it
+00:14:33.839 ran out our stops, we are nowhere close
+00:14:36.399 to that, right? So there's an SMT here
+00:14:38.800 and Euro is weaker. So if we did the
+00:14:41.600 same exact setup, but instead framed
+00:14:43.920 that using the weaker asset and taking
+00:14:46.720 an entry still at midnight there, we can
+00:14:49.040 go ahead and take an entry on GBP. My
+00:14:52.240 stop on the same level. How does that
+00:14:54.639 work out? You can see that is a nice
+00:14:56.480 clean and clear setup back into the
+00:14:58.880 previous range. So that is one example
+00:15:01.199 of something that is going to fail,
+00:15:03.440 right? and that is normal or you can
+00:15:05.920 also learn from it and take a look at
+00:15:08.000 those correlated assets for extra
+00:15:10.000 No text
+00:15:10.160 confluence. So here we are in our next
+00:15:12.399 example and if we go ahead and mark out
+00:15:14.160 our daily open what do we notice about
+00:15:16.160 this open high low close and we can just
+00:15:18.160 draw it out. We opened we made a low
+00:15:21.440 right here and then we are trading
+00:15:23.519 higher. So currently this is what our
+00:15:25.920 daily candle looks like and it does have
+00:15:27.920 a small wick that supports expansion
+00:15:29.760 higher. But we have already expanded,
+00:15:32.160 right? We've already made most of our
+00:15:33.519 daily range. So this is when I favor
+00:15:35.600 shorts back into the range. So if we are
+00:15:38.160 going to get that to occur, then I want
+00:15:40.000 to see a swing point or a swing high.
+00:15:43.040 When could that occur? Well, we have our
+00:15:45.440 9 to 10 a.m. candle closure. We could
+00:15:47.680 form it off of our previous candle's
+00:15:49.519 high. and Kane, if you are watching this
+00:15:51.680 video, this is similar to Kane's
+00:15:53.839 strategy. Let's drop down to the five
+00:15:56.079 minute, but let's take a look. We'll
+00:15:58.320 reset our chart view, and we are marking
+00:16:00.959 out that previous candle's high. So,
+00:16:02.800 that current higher time frame candle's
+00:16:04.320 high. So, to frame a reversal here, we'd
+00:16:07.279 want to see a sweep of that and then a
+00:16:09.519 change in the state of delivery to look
+00:16:11.199 to get on side with a move back towards
+00:16:13.279 the daily open. And once again, we want
+00:16:15.680 to adjust our expectations. We don't
+00:16:18.000 expect price to expand all the way up
+00:16:19.920 here and then expand all the way down
+00:16:22.560 another 500 points. We just want to see
+00:16:24.639 those session lows and the daily open.
+00:16:27.199 So let's see what happens.
+00:16:31.920 Right there we get our closure through.
+00:16:33.759 So here if we zoom in we have that
+00:16:35.199 hourly candle supporting expansion and
+00:16:37.600 that is the new 4hour candle. So now the
+00:16:39.600 4hour candle has a small wick that
+00:16:41.440 supports expansion as well. If I switch
+00:16:43.680 this to a 4hour candle,
+00:16:46.959 right, you'll see that also has a small
+00:16:49.440 wick that supports expansion and that's
+00:16:51.839 also framing a reversal off of its
+00:16:53.759 previous candle. So, let's say I wanted
+00:16:55.600 to use the 4hour and 15minute model,
+00:16:57.920 right? I'd be waiting for a closure
+00:16:59.440 below there. We could also watch that.
+00:17:02.160 When do we get the closure? There we go.
+00:17:04.240 And once again, want to be looking for
+00:17:05.839 those session lows. So, we'll go ahead
+00:17:08.400 and just stay on this time frame. You
+00:17:10.559 can see it's the same concept. We're
+00:17:12.400 talking about it on the hourly and five
+00:17:13.839 minute. We switched to the 4 hour and 15
+00:17:16.480 and you can see we get that continuation
+00:17:18.319 lower back to that daily open. And did
+00:17:21.439 we hit that session lows or the current
+00:17:23.199 day low? Let's see if we do. We do,
+00:17:26.319 right? So that would be my final target
+00:17:28.880 for me. If we go any further, that's
+00:17:31.360 great. But my expectations aren't for us
+00:17:33.600 to go any further. Right? That's the
+00:17:35.039 range I am looking for. So, just to
+00:17:37.120 review, if we go back to that hourly and
+00:17:39.280 5 minute model, we'll put that back up.
+00:17:42.400 Go to the 5m minute time frame.
+00:17:45.120 You take a look at that. We'll throw on
+00:17:47.280 the history.
+00:17:50.720 You can see we form this change in the
+00:17:52.640 state of delivery up here. And then that
+00:17:54.799 allows for continuations following.
+00:17:57.039 Right? So, even if I just don't catch
+00:17:58.400 this reversal in candle 2, that's when I
+00:18:00.640 can trade my fractal model continuations
+00:18:02.799 in candle 3 and candle 4. So, with that
+00:18:04.000 No text
+00:18:06.080 being said, I hope you found this video
+00:18:07.919 helpful. If you want a video dedicated
+00:18:10.480 on Candle 3, please let me know in the
+00:18:12.720 comment section below and I can likely
+00:18:14.400 do that one next. So, I'll see you guys
+00:18:16.880 next time. Have a good one.

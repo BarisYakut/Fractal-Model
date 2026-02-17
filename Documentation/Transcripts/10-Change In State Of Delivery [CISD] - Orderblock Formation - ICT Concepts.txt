@@ -1,0 +1,373 @@
+# tactiq.io free youtube transcript
+# Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts
+# https://www.youtube.com/watch/CHIK5oBRKiw
+
+00:00:04.340 [Music]
+00:00:10.480 how's it going everyone this video is
+00:00:12.200 going to be over the change in stated
+00:00:14.120 delivery we'll first go over the PDF to
+00:00:16.400 learn what that is before going to the
+00:00:18.160 charts and finding some examples at the
+00:00:20.400 end I will combine it with standard
+00:00:21.880 deviations and AMD to create an entry
+00:00:24.720 model so here we are in the PDF and what
+00:00:27.160 is the change in state of delivery well
+00:00:29.560 the change State delivery is when price
+00:00:31.480 goes from bullish to bearish or from
+00:00:33.960 bearish to bullish now let's go through
+00:00:36.280 this example here price is moving up
+00:00:38.960 into a higher time frame PD array or
+00:00:41.360 important level this up close candle
+00:00:43.640 here gets closed below here and that is
+00:00:46.760 when the change in state of delivery
+00:00:48.680 occurs when the opening price of this up
+00:00:51.079 closed candle or series of up closed
+00:00:53.199 candles gets closed below after being
+00:00:55.559 closed below I can anticipate price to
+00:00:57.680 trade lower similarly down here price
+00:01:00.600 puts in a swing low raids the sell stops
+00:01:03.760 and then closes over the series or
+00:01:06.280 single down Clos candle changing the
+00:01:08.799 state of delivery when price returns I
+00:01:11.200 can anticipate a reaction to trade
+00:01:13.479 higher now let's take a look at two more
+00:01:15.600 examples now when there is more than one
+00:01:17.759 up closed candle or a series of up
+00:01:19.960 closed candles I use the opening price
+00:01:22.360 of the first candle so I will look for
+00:01:24.799 this price to be closed below and then
+00:01:27.520 when price returns I can anticipate it
+00:01:29.360 to trade lower similarly down here there
+00:01:32.320 are three down Clos candles into the
+00:01:34.600 important level I will use the opening
+00:01:37.040 price of the first candle as my change
+00:01:39.280 in state of delivery so let's go into
+00:01:41.079 the charts and look at a few examples of
+00:01:42.799 this so here we are with our first
+00:01:44.399 example and I'm going to go ahead and
+00:01:45.960 Mark out our buy side liquidity resting
+00:01:48.200 above these old highs I'm then going to
+00:01:50.600 drop down to a 5 minute time frame and
+00:01:53.200 here we are just before New York open
+00:01:55.719 let's go ahead and watch and see what
+00:01:58.840 happens
+00:02:00.840 so you can see price displaces up over
+00:02:04.079 this high and then displaces back into
+00:02:06.000 the range now I generally prefer a lower
+00:02:08.239 time frame Sweep with my entry models
+00:02:10.280 but we'll go ahead and Mark it out
+00:02:11.480 without one so what I'm looking for here
+00:02:13.599 are the series or single up close candle
+00:02:16.040 that made the new high before displacing
+00:02:18.239 and closing below now where would that
+00:02:20.640 be right here we have one two candles
+00:02:24.560 that made the new high before the
+00:02:26.160 displacement down and I'd want to see a
+00:02:27.959 close below here
+00:02:31.200 so you can see price is failing to close
+00:02:33.239 below this
+00:02:35.160 level and then now we get a new sweep of
+00:02:38.319 a high so now where would I look for
+00:02:41.000 price to change the state of delivery
+00:02:43.360 I'd want to see price close below these
+00:02:45.879 series of up close candles
+00:02:49.720 here and you can see price does close
+00:02:52.720 below those candles now that we have
+00:02:54.760 changed the state of delivery from
+00:02:56.560 bullish to bearish I can be looking for
+00:02:58.959 price to trade lower where is lower well
+00:03:02.040 we have London lows resting below right
+00:03:04.560 here so with that idea in mind I could
+00:03:06.920 be looking for price to retest the order
+00:03:08.959 block with my stop on the high targeting
+00:03:12.159 these London lows now since this is 1.66
+00:03:15.159 r and I generally prefer a minimum of 2
+00:03:17.640 R what can I do I can take what we
+00:03:20.280 learned in the previous projection video
+00:03:22.560 project out this manipulation leg and
+00:03:24.799 then look for the -2 so letting this
+00:03:27.480 play out let's see what happens
+00:03:30.879 you can see it tags the order block
+00:03:33.120 respects this fair value Gap in
+00:03:35.519 Here and Now price trades and closes
+00:03:38.799 below this candle here which is now
+00:03:41.599 validating it as an order
+00:03:54.560 clock and there you go we hit the -2 to
+00:03:57.680 -2.5 standard deviations
+00:04:00.200 so just to review price goes sweeps an
+00:04:03.159 old high then displaces down however
+00:04:06.319 this can't change the state of delivery
+00:04:08.280 we get a lower time frame sweep which
+00:04:10.120 changes the state of delivery and then
+00:04:12.360 we can anticipate price to trade lower
+00:04:14.400 to London lows and the standard
+00:04:16.160 deviation projection from here I look
+00:04:18.279 for an entry model to gain entry into
+00:04:20.440 the move down so let's hop into the next
+00:04:23.120 example so in this next example we are
+00:04:25.280 going to work top down from the daily
+00:04:27.160 and how you can use the change in state
+00:04:28.680 of delivery on multiple different time
+00:04:30.520 frames so you can see here we have a
+00:04:32.280 daily fair value Gap right here which
+00:04:34.280 would be the draw in
+00:04:36.080 liquidity here you can see price reaches
+00:04:38.840 up into this fair value Gap respects it
+00:04:41.280 and closes down using the next day model
+00:04:44.320 we can anticipate price to move lower
+00:04:46.280 the next day taking out previous day low
+00:04:48.759 but let's hop into the hourly chart to
+00:04:50.280 confirm this bias so here we are on the
+00:04:52.440 hourly chart and ideally we want to see
+00:04:54.520 a change in the state of delivery after
+00:04:56.440 engaging our higher time frame PD array
+00:04:59.080 well here is is our daily fair value Gap
+00:05:00.880 or our higher time frame PD array do we
+00:05:03.080 get a change in the state of delivery
+00:05:04.680 after engaging with it we do as we
+00:05:07.320 displace and close below a series of up
+00:05:09.840 Clos candles here now what else can we
+00:05:11.960 do from my latest videos to give us a
+00:05:14.199 target for this move down we can project
+00:05:16.919 out this manipulation leg from the high
+00:05:19.199 to the low then we can look for the -2
+00:05:21.520 to -2.5 area for a Target so let's get
+00:05:25.000 into the next day and see what
+00:05:28.479 happens
+00:05:30.479 so you can see here we are building a
+00:05:32.160 range and we just put in equal
+00:05:37.080 lows now when we are bearish with price
+00:05:39.639 action a run of an old high is an area
+00:05:42.120 to be looking short so let's hop down to
+00:05:44.360 the lower time frames for this 930 open
+00:05:46.880 in this case we'll use the 2-minute so
+00:05:48.800 here we are on the 2-minute chart let's
+00:05:50.919 go ahead and zoom out so you can see
+00:05:52.319 where we're at we have the old high that
+00:05:54.759 was just tagged right there our equal
+00:05:56.960 lows here and we have a -2 to -2.5 right
+00:06:01.120 here so we'll go ahead and Mark that out
+00:06:03.199 zooming back in let's see what 930 open
+00:06:07.199 does so you can see 930 open manipulated
+00:06:10.639 up closed back in the range so if I'd
+00:06:13.680 want to see this move down I'd want to
+00:06:15.440 see a change in state of delivery or
+00:06:17.560 Price close below the series of up Clos
+00:06:19.800 candles
+00:06:22.599 here here we get that close validating
+00:06:25.440 it as a change in state of delivery so
+00:06:27.400 I'd be looking to enter a short position
+00:06:29.160 here My Stop on this high now what can I
+00:06:31.800 do for targets well I can also project
+00:06:34.599 off this manipulation like here and
+00:06:36.759 let's go ahead and zoom back out now
+00:06:39.120 ideally I'm looking for Targets in the
+00:06:41.360 -2 to -2.5 which we have some equal lows
+00:06:44.240 there we have equal lows as well as the4
+00:06:47.080 to 4.5 there but we also have our hourly
+00:06:50.080 Target here I'm going to go ahead and
+00:06:52.080 put my target just on these equal lows
+00:06:54.319 here but we'll see how these areas react
+00:06:56.560 so let's go ahead and zoom back
+00:06:58.400 in
+00:07:00.000 so here we get tagged
+00:07:03.599 in pretty choppy some displacement
+00:07:10.919 down and zooming back out there we go
+00:07:13.960 and we hit the low you can see we hit
+00:07:17.000 our -2 to -2.5 and our -4 let's see if
+00:07:21.080 we reach for that hourly
+00:07:25.520 Target and we do reach for that hourly
+00:07:28.039 Target now let's go back out to the
+00:07:29.599 hourly chart just to review this we went
+00:07:31.919 from our higher time frame PD array
+00:07:33.960 which in this case was a daily fair
+00:07:35.400 value Gap we waited for the change in
+00:07:37.440 state of delivery on the hourly chart
+00:07:39.759 and then the next day we had a sweep of
+00:07:42.680 buy side liquidity which is an area to
+00:07:44.800 get short when price is bearish from
+00:07:47.720 here we looked for the change in state
+00:07:49.080 of delivery on the 2-minute chart to get
+00:07:51.240 short targeting these equal lows on the
+00:07:53.080 hourly chart as well as the projections
+00:07:55.400 from the high of the week now that you
+00:07:57.800 understand the change in state of
+00:07:58.840 delivery how do I combine all this into
+00:08:00.960 an entry model well what I focus on is a
+00:08:04.199 manipulation then a change in state of
+00:08:06.319 delivery and then I focus on order
+00:08:08.319 blocks and fair value gaps to deliver
+00:08:10.599 price to projections so let's go over a
+00:08:12.919 few examples of that so you can see
+00:08:14.840 right here we have created a
+00:08:17.520 range let's see what
+00:08:20.599 happens you can see price is failing to
+00:08:23.840 displace out of this range but that is
+00:08:26.000 the first thing manipulation the next
+00:08:28.280 thing I look for is a in the state of
+00:08:29.960 delivery so I would need price to close
+00:08:32.320 below this last up close
+00:08:35.360 candle so you can see we have not closed
+00:08:37.839 below it
+00:08:39.760 yet and there is our close below so that
+00:08:42.958 is our change in state of delivery now
+00:08:45.600 if I'm looking to take the first entry
+00:08:47.720 looking to enter here at the change of
+00:08:50.200 state of delivery or when it retests the
+00:08:51.760 order block my stop on the manipulation
+00:08:54.440 High which swept and then for targets I
+00:08:57.120 like to project out my targets now here
+00:09:00.120 I have a low I can be targeting but I
+00:09:02.320 can keep in mind the -2 to -2.5 so
+00:09:05.240 ideally it would look something like
+00:09:06.640 this targeting the -2 standard
+00:09:08.640 deviations we're going to go ahead and
+00:09:10.519 just keep it on this
+00:09:14.839 low now we create more up Clos candles
+00:09:17.680 here and close below them and now we
+00:09:20.360 have more order blocks so if I was going
+00:09:22.279 to miss the first entry I'd be looking
+00:09:24.240 for another entry
+00:09:28.120 here
+00:09:29.720 there we make more up close candles so
+00:09:31.480 I'd want to see this continue to support
+00:09:33.279 price
+00:09:34.959 lower and another thing I'll do is I'm
+00:09:37.519 only going to be looking for entries
+00:09:39.720 within a premium of this dealing range
+00:09:42.040 here so above this line
+00:09:47.720 here you can see price is retesting that
+00:09:51.519 order
+00:09:56.920 block and there we go we break that
+00:09:59.720 initial low let's go ahead and Mark out
+00:10:02.040 our -2 to
+00:10:05.120 -2.5 and now let's see if we can find
+00:10:07.480 something in the other
+00:10:12.279 direction so you can see we're building
+00:10:14.560 a
+00:10:17.399 range now we do reach into the -2 to
+00:10:20.519 -2.5 and Below these lows so if this is
+00:10:23.800 going to become manipulation I'd want to
+00:10:26.079 see a change in the state of delivery or
+00:10:28.519 Price close close over the series of
+00:10:30.560 down close candles
+00:10:34.440 here and price does do that so the next
+00:10:37.399 thing I do is I Look to project out this
+00:10:39.399 manipulation I Look to our left what do
+00:10:41.880 we have resting in the -2 to -2.5 we
+00:10:45.200 have an old high so that will be my
+00:10:47.320 first Target so if I'm looking for the
+00:10:49.600 first entry I'm looking to enter on this
+00:10:52.760 change and state of delivery or the
+00:10:54.200 order block with my stop on the
+00:10:57.440 manipulation targeting this
+00:11:06.120 high now what I'm focusing on is a close
+00:11:08.959 over this down close candle so now that
+00:11:11.720 they close over that it is also a valid
+00:11:14.040 order block so I'm looking for that to
+00:11:15.800 support
+00:11:17.959 price and we go reach that high and
+00:11:20.639 let's see how far we
+00:11:25.480 go you can see we consolidate but we do
+00:11:28.240 go end up and hit that negative4
+00:11:30.040 standard deviations so after cleaning up
+00:11:32.480 the chart a little let's go through what
+00:11:34.240 I look for one more time so the first
+00:11:36.480 thing is manipulation so you can see we
+00:11:38.600 have manipulation over an old high
+00:11:41.040 before change in state of delivery once
+00:11:43.800 those two things occur I Look to project
+00:11:45.920 out this manipulation leg to give myself
+00:11:48.320 a Confluence or targets after that
+00:11:51.240 occurs I look for order blocks and fair
+00:11:53.079 value gaps to support price lower or
+00:11:55.120 higher in this case lower and then the
+00:11:57.279 same thing on the other side over here
+00:11:59.079 we have manipulation once that is
+00:12:01.120 confirmed by changing the state of
+00:12:02.680 delivery I can then look for an entry on
+00:12:05.040 the order block or fair value Gap as
+00:12:07.279 price reaches higher to these projection
+00:12:09.240 targets and liquidity levels last thing
+00:12:11.639 we're going to talk about in this video
+00:12:13.279 is combining AMD or the Box setup with
+00:12:16.720 the change in state of delivery or an
+00:12:18.360 order block formation now I posted on my
+00:12:20.959 community tab this post and so we're
+00:12:23.800 going to go over this example so if you
+00:12:26.279 notice right here we have some sort of
+00:12:28.240 range let's wait for the manipulation
+00:12:30.360 before we identify
+00:12:33.040 that so here we get the manipulation as
+00:12:35.800 it we have an aggressive move out and
+00:12:38.079 then back into a range so going ahead
+00:12:40.720 and marking out this consolidation or
+00:12:43.399 accumulation and we'll also Mark out the
+00:12:46.360 highest body in that accumulation as
+00:12:48.760 that is the Box setup and we'll mark out
+00:12:51.000 the deviation from this range or the
+00:12:53.399 manipulation generally the Box setup is
+00:12:55.959 a retest of these previous highs over
+00:12:58.040 here my stop there and then looking for
+00:13:00.560 targets well how can we get targets we
+00:13:03.040 can project out this manipulation leg
+00:13:05.680 and look for that so this would be the
+00:13:07.600 normal box setup however if I want
+00:13:09.800 confirmation let's see what we would
+00:13:15.360 do so when price comes back up into this
+00:13:18.279 area instead of immediately taking an
+00:13:20.560 entry I'm looking for a formation of an
+00:13:22.920 order block or a change in the state of
+00:13:24.639 delivery right
+00:13:27.760 here
+00:13:29.639 so you can see we have a high here that
+00:13:32.600 gets swept and then where is the series
+00:13:34.800 of up Clos candles that made the high
+00:13:37.399 right here and you can see price already
+00:13:39.360 closed below the opening price of that
+00:13:42.000 validating it as an order block so then
+00:13:44.240 I can look for an entry here and then I
+00:13:47.079 can decide I can either put my stop here
+00:13:49.279 or up here in this case I'm comfortable
+00:13:51.600 putting my stop here as we had a sweep
+00:13:54.480 and then I can look to Target that
+00:13:57.120 original projection so let's see how
+00:13:59.600 this
+00:14:03.199 works and there we
+00:14:07.279 go here we are building a
+00:14:10.519 range as we cannot make new highs or
+00:14:13.120 lows so marking out the lowest bodies in
+00:14:15.279 that range and now go ahead and Mark out
+00:14:17.720 our accumulation our
+00:14:20.480 manipulation now we want to see this
+00:14:22.199 displace back into the range which it
+00:14:24.240 does now if I'm looking for a box setup
+00:14:27.639 my original entry would be on a retest
+00:14:29.959 of this line here my stop on this low
+00:14:32.639 however let's wait for an order block
+00:14:34.279 formation
+00:14:36.279 there so you can see we have a down Clos
+00:14:39.519 candle into that area into the fair
+00:14:41.880 value Gap so then I'm looking for a
+00:14:44.360 close over this
+00:14:47.079 candle here we get a close over this
+00:14:49.440 candle so then I will be looking to
+00:14:51.560 enter long there then I can either put
+00:14:53.680 my stop on this low or here right here I
+00:14:56.959 would have my stop on this low and then
+00:14:59.000 I can project out this manipulation for
+00:15:01.399 a Target and in this case looking for a
+00:15:04.720 previous High here or this fair value
+00:15:07.040 Gap that lines up with the first
+00:15:08.440 standard deviation so we'll just go
+00:15:15.120 here and there you go so that is the
+00:15:18.000 example from the post and I hope that
+00:15:20.040 makes sense and it gives you something
+00:15:21.680 to study I hope you found this video
+00:15:23.839 helpful if you did please consider
+00:15:25.800 liking and subscribing and if you want
+00:15:27.800 to see a more in-depth video on that
+00:15:29.959 entry model please let me know in the
+00:15:31.480 comments below and I'll see you guys
+00:15:33.040 next week have a good
+00:15:42.880 one

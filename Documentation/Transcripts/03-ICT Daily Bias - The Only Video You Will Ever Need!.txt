@@ -1,0 +1,452 @@
+# tactiq.io free youtube transcript
+# ICT Daily Bias - The Only Video You Will Ever Need!
+# https://www.youtube.com/watch/g3oDYq4P9ZE
+
+00:00:02.820 foreign
+00:00:04.340 [Music]
+00:00:09.800 how's it going everyone this video is
+00:00:12.179 going to be over daily bias and draw on
+00:00:14.219 liquidity we'll go through the PDF and
+00:00:16.859 then a bunch of examples and before we
+00:00:18.840 get into it I'd like to give a big thank
+00:00:20.699 you to the n9xm trader for teaching in
+00:00:23.039 many of these Concepts as well as his
+00:00:25.140 next day model
+00:00:26.519 the easiest way to frame a draw on
+00:00:28.380 liquidity or have daily bias is using
+00:00:30.660 previous day high and low so for example
+00:00:33.540 up here unless price is going to
+00:00:36.059 consolidate and not take out the low or
+00:00:38.700 the high of the previous day we are
+00:00:40.620 going to have it either take previous a
+00:00:42.420 high previous day low or both of these
+00:00:45.120 so the way I look at it is price more
+00:00:47.579 likely to take previous day high or
+00:00:49.680 previous state low in this case I would
+00:00:52.260 expect price to be reaching for a
+00:00:53.940 previous day high as we are trending
+00:00:56.039 upwards so that would be my draw on
+00:00:58.800 liquidity similarly over here we are
+00:01:01.920 trending down so I'd expect price to
+00:01:04.199 reach for previous day low previous day
+00:01:06.900 high and low can also be used as
+00:01:08.640 liquidity pools to frame a reversal so
+00:01:11.580 for example here we reach into this
+00:01:13.680 previous day high we can't displace
+00:01:15.659 above it and price reverses similarly
+00:01:18.600 over here we reach below this previous
+00:01:20.820 day low canvas place and we come back in
+00:01:23.700 the range so for example here just using
+00:01:26.280 previous day highs and lows we have our
+00:01:28.619 previous day high
+00:01:30.420 a reversal is framed off a previous day
+00:01:32.520 high from here since we close back in
+00:01:35.159 I'm expecting price to reach for
+00:01:37.200 previous day low as shown here we reach
+00:01:39.960 for this previous day low the next day A
+00:01:42.960 reversal is framed off of this previous
+00:01:44.640 day low as it cannot displace below now
+00:01:47.579 from here I'd expect the next day to
+00:01:49.439 reach for this previous day high and
+00:01:51.720 continue to reach for previous day high
+00:01:53.280 until a drawn liquidity is met so let's
+00:01:56.399 hop into the charts and look at a few
+00:01:57.780 examples of this so in this example
+00:02:00.119 we're just going to take a look at using
+00:02:01.979 previous day highs and lows to frame
+00:02:04.560 bias or a drawing liquidity so for
+00:02:07.439 example here
+00:02:08.699 we have our previous day high and we
+00:02:11.520 closed above it so I would like to see
+00:02:13.800 price move higher and easy draw would be
+00:02:17.160 this previous day hi
+00:02:19.739 letting price move forward we close over
+00:02:22.319 it again so another easy drawn liquidity
+00:02:25.920 would be this previous High
+00:02:28.739 right here we take our previous high but
+00:02:31.680 we can't close over it we fall back in
+00:02:33.720 So now I'd want to see
+00:02:36.180 if previous day low gets taken in my
+00:02:38.700 drawn liquidity or my bias would be
+00:02:41.040 short
+00:02:42.239 so now we reach and close below and now
+00:02:44.220 I want to see do we close or reach below
+00:02:46.920 previous state low
+00:02:49.200 right there we reach below previous day
+00:02:51.540 low and close so now I want to see do we
+00:02:54.300 reach below previous day low again
+00:02:57.900 reach below previous day low and close
+00:03:00.060 so I want to see if we take previous day
+00:03:02.340 below again
+00:03:04.680 right here you can see we take previous
+00:03:06.599 day low don't close outside the range so
+00:03:09.840 now I would want to see a move higher or
+00:03:12.780 a reach per previous day high
+00:03:15.659 close outside the range so bullish or
+00:03:19.500 reach for this previous day high
+00:03:21.959 right there we actually Gap above it
+00:03:24.840 come back in the range so this would be
+00:03:27.000 bearish for me so I'd want to see if we
+00:03:29.700 reach for this previous day low
+00:03:32.819 right here we do but we can't close
+00:03:35.159 outside this range so now I'd want to
+00:03:37.319 see previous day high
+00:03:39.239 or be bullish
+00:03:42.720 right here you can see we actually took
+00:03:46.080 the low and the high and so what I look
+00:03:48.840 for here is we swept this low couldn't
+00:03:52.080 close below it and we actually take
+00:03:54.360 previous day high and close outside of
+00:03:56.400 it so from here I would be looking for
+00:03:58.799 previous day high
+00:04:02.099 and then we get a very large candle up
+00:04:04.340 expecting some sort of consolidation but
+00:04:07.500 if we don't stay inside I'd want to see
+00:04:09.540 previous day high
+00:04:12.120 right here you can see we took previous
+00:04:13.799 day high so now I'd want to look towards
+00:04:16.738 previous day low
+00:04:20.339 close below there so where would I want
+00:04:22.320 to see previous day high or be bullish
+00:04:26.400 and there we go close out so then once
+00:04:30.479 again can look for previous day high
+00:04:35.280 goes over that
+00:04:36.900 you can look for previous day high
+00:04:39.120 and you guys get the point by now now it
+00:04:41.940 won't be like this every day but I hope
+00:04:43.680 you can see how just using previous day
+00:04:45.840 highs and lows I can frame an easy drawn
+00:04:48.120 liquidity bias or an area for a reversal
+00:04:51.660 so let's get back to the PDF and look at
+00:04:54.540 some other examples another thing I look
+00:04:56.940 for is the previous week's high and low
+00:04:59.520 so for example here we have a weekly
+00:05:01.860 range and I will Mark out the high and
+00:05:04.680 the low and this can be used to frame a
+00:05:07.740 reversal such as so
+00:05:10.199 and then ideally looking for the other
+00:05:12.540 side of the weekly range or can also be
+00:05:15.120 used to frame a drawn liquidity for
+00:05:17.820 example here we return to a premium
+00:05:19.860 reach an order block and then the
+00:05:23.100 previous week's low is the draw on
+00:05:24.780 liquidity so let's hop into the charts
+00:05:26.880 and look at a few examples so in this
+00:05:29.039 example we're going to go through the
+00:05:30.539 daily chart looking at previous week's
+00:05:32.759 highs and lows and how price reacts
+00:05:34.860 around them so right here we have our
+00:05:37.860 previous week's low and previous week's
+00:05:40.320 High marked out and extended into the
+00:05:42.479 next week
+00:05:43.680 so as we continue forward here what
+00:05:46.680 happens we don't reach for previous
+00:05:48.900 week's high or low and we end up being
+00:05:51.060 range bound so marking out this next
+00:05:52.919 week it is a short week so there's only
+00:05:54.600 four candles but let's see how price
+00:05:56.220 reacts around those areas you can see
+00:05:58.199 right here we take previous week's low
+00:06:00.180 so let's see what the next candle does
+00:06:01.860 there is a fair value Gap over here
+00:06:05.759 and then we come back into the rain
+00:06:07.620 where would I expect price to go from
+00:06:09.539 here I would expect it to reach for
+00:06:11.639 previous week's High
+00:06:15.539 and there we go we hit previous week's
+00:06:17.940 high on a Friday so here we have the
+00:06:20.400 next week marked out let's see if
+00:06:22.319 anything happens
+00:06:23.759 so you can see right here on Monday we
+00:06:26.160 reach into previous week's high and
+00:06:28.199 close below that makes me think I want
+00:06:31.020 to see the previous day low
+00:06:33.120 you can see we reached over previous
+00:06:34.680 week's high again we also take the low
+00:06:36.960 so here I'm a little undecided but we
+00:06:39.180 still are closing below previous week's
+00:06:41.100 low which leads me to a downside bias
+00:06:45.419 and there we go we start to make a move
+00:06:47.280 down they'll go into the next week and
+00:06:49.560 moving the lines over you can see that
+00:06:51.840 Monday we swept previous week's low and
+00:06:54.660 formed a nice bullish reversal candle
+00:06:56.580 this leads me to believe that we're
+00:06:58.259 heading for previous week's High
+00:07:00.660 so letting this play out
+00:07:02.639 we retest that previous week's low
+00:07:06.180 and there we go over previous week's
+00:07:08.880 High
+00:07:09.720 and we get our expansion to the upside
+00:07:12.539 you can see using previous week's high
+00:07:15.360 and low I can not only frame a reversal
+00:07:18.300 but can also use it as a draw on
+00:07:20.460 liquidity
+00:07:21.660 in this next section I'm going to be
+00:07:23.520 talking about swing points failure to
+00:07:25.740 displace as well as the next day model
+00:07:28.199 if you don't know what swing points are
+00:07:30.000 please check out my liquidity video it
+00:07:32.160 will be linked in the top right corner
+00:07:34.139 so using swing points I can frame a
+00:07:36.360 drawn liquidity off of that for example
+00:07:38.520 here price is trending up where is it
+00:07:41.099 likely to go we have an old high resting
+00:07:43.560 over here I can also use that to frame a
+00:07:46.199 reversal so for example here using this
+00:07:49.440 liquidity pool resting above here as a
+00:07:52.380 point for a reversal that leads me into
+00:07:55.139 the failure to displace or the lack of
+00:07:57.539 displacement over swing points so for
+00:08:00.000 example here if we have a swing low and
+00:08:03.060 price fails to displace under it my bias
+00:08:05.940 can then be up
+00:08:07.919 similarly up here when price fails to
+00:08:10.440 displace over a high my bias can be down
+00:08:13.400 this then leads me into the next day
+00:08:15.840 model
+00:08:16.800 so with the next day model using PD
+00:08:19.080 arrays or old highs or old lows and when
+00:08:22.080 price fails to displace below a low my
+00:08:25.139 next day I can expect price to move
+00:08:27.360 higher so right here I would anticipate
+00:08:29.699 a open low high close candle or a
+00:08:32.520 bullish candle and you can see how that
+00:08:34.799 would work out and then similarly up
+00:08:37.080 here when price takes this swing High
+00:08:40.099 closes back in the range I can
+00:08:42.779 anticipate an open high low close or a
+00:08:46.380 bearish candle so looking at a set of
+00:08:48.779 price action using that you can see we
+00:08:51.000 sweep this high right here close back in
+00:08:53.339 the range I can anticipate this next
+00:08:55.680 candle being open high low close
+00:08:58.940 similarly over here we respect this PD
+00:09:01.920 array here next day I would want to see
+00:09:04.380 open high low close this candle stays
+00:09:07.440 inside I can use that bias and continue
+00:09:10.380 to use it until we reach our draw and
+00:09:12.480 liquidity which in this case is sell
+00:09:14.760 side liquidity resting at the swing low
+00:09:16.800 below
+00:09:18.600 so let's get into some charts and look
+00:09:20.760 at a few more examples for this next
+00:09:22.860 example we are just going to be walking
+00:09:24.540 through dxy on the daily chart and using
+00:09:27.839 what we have just learned and applying
+00:09:29.880 it so if you notice right here we do
+00:09:31.980 have a pair value Gap restroom below
+00:09:34.740 here and price is drawing towards it so
+00:09:38.220 let's see what happens if you notice
+00:09:40.320 right here what do we get let's just
+00:09:42.300 take a look at our previous date low we
+00:09:44.700 cannot displace below previous day low
+00:09:46.740 which leads me to believe that we should
+00:09:49.260 reach for previous day high
+00:09:52.080 marking out previous day high let's see
+00:09:54.060 what happens
+00:09:55.200 we reach up can we close out so I want
+00:09:58.200 to see price reach
+00:09:59.820 once again higher
+00:10:03.120 what happens here we reach up build this
+00:10:06.000 fair value Gap but even more simple we
+00:10:08.880 can't close outside our previous day's
+00:10:10.740 range which leads me to believe that we
+00:10:12.779 should be reaching lower or in this case
+00:10:15.600 sell side liquidity resting right above
+00:10:18.120 a fair value Gap
+00:10:20.279 right here we reach lower we have not
+00:10:23.279 reached our drawn liquidity so I'd want
+00:10:25.380 another candle down
+00:10:27.899 here we get a candle down into our drawn
+00:10:31.500 liquidity or that fair value Gap if you
+00:10:34.019 notice we can't close outside the range
+00:10:35.820 and we close back in so I can see us
+00:10:39.360 reaching for our previous day high or in
+00:10:42.660 this case if we look at a swing point we
+00:10:45.660 want to be reaching for this high
+00:10:48.600 here we get a closure outside that high
+00:10:51.060 and so what should we expect price to
+00:10:53.880 move higher or consolidate with a large
+00:10:56.640 range
+00:10:58.740 from here close back in the range would
+00:11:01.800 want another day down so would want to
+00:11:04.800 see below this previous day low and if
+00:11:07.860 you've already seen this example this
+00:11:09.660 order block resting right here
+00:11:13.019 here's where the next day model could be
+00:11:15.000 applied as we are respecting a PD array
+00:11:17.940 so reaching into this PD array closing
+00:11:21.540 outside next day model would say look
+00:11:24.480 for an open low high close or a bullish
+00:11:27.180 candle where would that bullish candle
+00:11:29.220 want to be reaching for well we could
+00:11:31.019 look for previous day high or we could
+00:11:33.540 look for swing points in the market
+00:11:36.060 so looking at our next day we get a
+00:11:38.160 reach we have not hit our drawn
+00:11:40.560 liquidity so we would want to see the
+00:11:42.300 next day do what reach for that draw on
+00:11:44.760 liquidity
+00:11:46.260 we get a closure outside of that so I
+00:11:48.720 want to see price reach for another
+00:11:51.120 daily High
+00:11:53.339 here you can see price takes this High
+00:11:56.279 closes back in so I'd want to see price
+00:11:59.040 reach for this previous day low we are
+00:12:01.860 in an uptrend here so I wouldn't want to
+00:12:04.019 see it shift too much or we are likely
+00:12:06.000 to go lower
+00:12:08.040 here you can see
+00:12:09.720 we may have swept that can't tell on
+00:12:12.240 this time frame but from here I don't
+00:12:14.579 really have a lot of bias so what I can
+00:12:16.320 do is Mark out
+00:12:18.060 R high and our low and C which one gets
+00:12:21.540 taken
+00:12:25.440 so inside bar just having an uptrend I
+00:12:28.620 think it's more likely to reach for this
+00:12:30.300 high
+00:12:32.399 here we get a closure outside that high
+00:12:34.320 now what can we use we can use this
+00:12:36.899 swing point in the market
+00:12:40.260 here you can see we reach above this
+00:12:42.540 swing High can't close outside of it and
+00:12:45.180 close back in
+00:12:46.560 from here we can look for previous day
+00:12:49.200 low or a swing point in the market which
+00:12:51.540 we already have marked out
+00:12:54.180 here we get this placement down
+00:12:56.339 very aggressive so we already took this
+00:12:59.519 low so we can look for either previous
+00:13:02.100 day low or a swing point in the market
+00:13:07.320 we haven't yet reached this low still
+00:13:09.600 closing out so either previous state low
+00:13:12.060 or this swing point
+00:13:15.180 still closing outside this is when I
+00:13:17.579 would need to look left what do we have
+00:13:19.440 we have a bunch of lows resting under
+00:13:21.360 here or swing points
+00:13:24.240 foreign
+00:13:31.560 and then we get a large move through
+00:13:33.360 that but you can see how you can use
+00:13:35.399 just swing points previous day highs and
+00:13:37.680 lows and displacement and closures over
+00:13:40.500 or below structure to frame a narrative
+00:13:43.320 not every day but a lot of the days of
+00:13:46.380 the week so let's go through a few
+00:13:48.300 examples of going through bias all the
+00:13:50.519 way down to an entry time frame this
+00:13:52.860 first example is going to be a London
+00:13:54.420 session trade and then for our next
+00:13:56.760 examples we'll do some New York session
+00:13:58.560 trades so for example here we're either
+00:14:01.500 consolidating in this little range here
+00:14:03.300 so we could use this range high and low
+00:14:05.100 or we can just use previous day high and
+00:14:07.920 low
+00:14:08.820 so let's see what happens no real bias
+00:14:11.339 going into this next day
+00:14:13.380 so you can see we fail to close over
+00:14:16.260 this previous day high here so what can
+00:14:19.680 I expect we're already in a bearish
+00:14:21.899 trend I'd want to see price reach where
+00:14:24.320 lower so I can either look for previous
+00:14:27.600 day low
+00:14:28.860 or I can look for a swing point in the
+00:14:31.079 market right here
+00:14:33.180 so let's drop down to the hourly time
+00:14:35.220 frame and see what happens so here we
+00:14:37.860 are on the hourly time frame I'm going
+00:14:39.839 to go ahead and Mark out midnight
+00:14:41.699 opening price
+00:14:43.500 and let's see what happens
+00:14:46.680 so right here we notice what happens is
+00:14:49.680 we get a stop hunt right into a fair
+00:14:52.920 value Gap so I can go down and look to a
+00:14:55.860 lower time frame if you notice the time
+00:14:57.839 this is occurring is London so I would
+00:15:00.720 want to see a high of the day put in in
+00:15:03.120 London
+00:15:04.620 here you can see the sweep on the hourly
+00:15:06.899 and the aggressive displacement off
+00:15:09.240 so I can either look for an entry here
+00:15:11.120 or see what happens after this price
+00:15:13.860 action
+00:15:14.880 because this isn't a very big sweep so
+00:15:17.100 I'd be a little concerned that it wanted
+00:15:18.480 to go up again
+00:15:19.800 so looking at this fair value Gap here
+00:15:23.160 let's see what happens
+00:15:25.740 there we get an aggressive move down off
+00:15:28.260 of that and we have a fair value Gap
+00:15:30.600 right here
+00:15:32.279 so the way I can frame and trade here is
+00:15:34.740 look to enter the fair value Gap My Stop
+00:15:37.500 on that high and then I can either look
+00:15:40.019 for a fix to r or looking towards that
+00:15:43.860 previous day low we talked about
+00:15:46.680 furthermore we could also go down to
+00:15:49.320 that swing point so we'll just leave it
+00:15:51.720 right here and extend it if it gets
+00:15:53.579 there
+00:15:54.660 so we let this play out
+00:15:56.699 we get an aggressive move down towards
+00:15:59.100 our previous day low
+00:16:01.440 now let's see what happens if we reach
+00:16:03.839 for That Swing point
+00:16:08.880 and there we go price reaches For That
+00:16:11.639 Swing point and ends up continuing a lot
+00:16:14.339 lower
+00:16:16.440 for this next example you can see right
+00:16:18.600 here we have a previous day low
+00:16:21.600 gets swept closed back over where would
+00:16:24.240 we be looking either this high or
+00:16:26.579 previous day high so marking out the
+00:16:29.160 swing Point here see what the next day
+00:16:31.260 does
+00:16:32.160 next day sweeps this High comes back
+00:16:35.339 into the range from here using the next
+00:16:37.920 day model I can expect price to go where
+00:16:41.220 lower
+00:16:42.540 so with that idea in mind I'm going to
+00:16:45.060 drop down to the hourly chart here
+00:16:47.160 marking out midnight price let's see
+00:16:48.899 what happens as we near New York session
+00:16:53.459 right here we're starting to get into
+00:16:54.720 the New York Hill Zone what do we have
+00:16:56.459 up here we have an hourly fair value Gap
+00:17:00.720 so I'm marking that out we have our
+00:17:02.820 point of Interest we can go to a lower
+00:17:04.380 time frame in this case the five minute
+00:17:06.780 and what do we have right here we have a
+00:17:09.780 five minute fare value Gap
+00:17:12.020 so looking to enter here
+00:17:15.359 I would have my stop right here on this
+00:17:17.880 high and then I can either look for 2R
+00:17:21.000 or we can zoom back out and find a
+00:17:24.000 Target there so going back out to the
+00:17:26.579 hourly let's see what we have we have
+00:17:28.980 some nice lows resting over here one of
+00:17:31.500 those lows right around 2R
+00:17:34.020 or we can look for these lows down here
+00:17:36.000 going back to the five minute chart if
+00:17:38.280 we're going to go reach for that lower
+00:17:39.660 one so we're over 2R there
+00:17:43.820 2.55 R let's see how it works out
+00:17:47.760 so
+00:17:48.720 get a move up some consolidation and
+00:17:52.679 there we go we hit rtt so that is an
+00:17:55.679 example of a New York session trade and
+00:17:58.140 a London session trade using the next
+00:18:00.539 day model thank you to mmxm Trader for
+00:18:03.660 showing us that if you haven't seen my
+00:18:05.580 video on that I'll also link that in the
+00:18:07.320 top right I hope this video was helpful
+00:18:09.299 and showed you how I find my daily bias
+00:18:11.760 if you did find it helpful please hit
+00:18:14.039 that like button the Subscribe button
+00:18:15.780 and leave a comment below if you have a
+00:18:18.480 great rest of your day and I'll see you
+00:18:19.799 guys later
+00:18:23.700 foreign

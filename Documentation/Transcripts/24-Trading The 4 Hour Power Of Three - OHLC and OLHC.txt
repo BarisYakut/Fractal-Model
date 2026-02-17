@@ -1,0 +1,602 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/FAKWJ-1NlLE
+
+00:00:00.000 No text
+00:00:10.960 How's it going everyone and welcome back
+00:00:12.800 to another video. We are going to be
+00:00:14.960 talking about the 4hour power of three
+00:00:17.440 or how to trade the open high low close
+00:00:19.760 of a 4hour candle. Now, if you haven't
+00:00:22.400 already seen my candle 2 and candle 3
+00:00:24.800 video, be sure to check those out first,
+00:00:26.640 as if you do not understand those, this
+00:00:28.800 video will not make sense. So, the first
+00:00:30.000 No text
+00:00:30.720 thing we're going to talk about is what
+00:00:32.320 is a power of three or what is AMD?
+00:00:35.120 Well, if you've seen my AMD video, we
+00:00:37.200 have accumulation, manipulation, and
+00:00:40.000 distribution. We have a consolidation
+00:00:41.920 range, which then has an opposing run,
+00:00:44.320 and then we are looking to trade this
+00:00:46.160 distribution or the real move. Now, this
+00:00:48.399 looks a bit confusing and it's not very
+00:00:50.640 mechanical. So, how do we define it?
+00:00:52.640 Well, that is where we will use swing
+00:00:54.160 points or handle 2 or candle 3. The
+00:00:57.199 first candle will always be accumulation
+00:00:59.920 and then we're going to watch candle 2.
+00:01:01.920 If candle 2 has a small wick, it can be
+00:01:03.920 the manipulation as well as the
+00:01:05.760 distribution. But as you can see here,
+00:01:07.439 we have a reversal candle which is just
+00:01:09.520 manipulation. And then the third candle
+00:01:11.520 is the distribution. Now, if you've
+00:01:13.200 watched my candle 2 and candle 3 video,
+00:01:15.119 you know this, but the whole goal is to
+00:01:16.880 be trading that distribution or the
+00:01:18.880 expansion candle, that directional
+00:01:20.640 candle. To do this, we have to
+00:01:22.240 understand what it looks like on the
+00:01:23.680 lower time frame. We're going to let
+00:01:25.439 price open. We're going to let it form
+00:01:27.520 its opposing run or its wick. And as
+00:01:29.759 long as this is a shallow wick, it
+00:01:31.600 supports expansion. So, since we have a
+00:01:34.000 shallow wick, it supports expansion, it
+00:01:36.320 forms a protected swing, and then it can
+00:01:38.240 trade it higher. So going back to the
+00:01:40.000 distribution candles or those expansion
+00:01:41.920 candles, what are those two scenarios
+00:01:44.000 going to look like? Candle one is always
+00:01:46.479 going to be that accumulation candle. So
+00:01:48.560 then I want to take a look on candle 2,
+00:01:51.040 do we have a large opposing run where
+00:01:52.960 candle 2 opens, makes this large move
+00:01:55.840 against the direction we want to be
+00:01:57.439 trading and then back up. When it has a
+00:02:00.000 large opposing run that does not support
+00:02:02.159 expansion higher in candle 2. So, I want
+00:02:04.560 to let candle 2 close and then trade
+00:02:06.719 candle three as we talked about in the
+00:02:08.639 candle 3 video. Now, with a reversal to
+00:02:10.878 expansion candle, candle 2 doesn't have
+00:02:12.959 a large wick. Candle 2 makes a small
+00:02:15.280 shallow opposing run below candle 1's
+00:02:17.360 low and then trades it higher. Right?
+00:02:19.599 So, in this scenario, you can see we
+00:02:21.200 have accumulation, manipulation, and
+00:02:24.000 then distribution. In this scenario, we
+00:02:26.239 have accumulation and then the
+00:02:28.080 manipulation and the distribution
+00:02:30.239 happens in the same higher time frame
+00:02:32.160 candle. So, let's take a better look at
+00:02:33.760 this here. You can see this is an
+00:02:35.519 example of when we're trading that
+00:02:36.879 continuation expansion candle. We have
+00:02:39.120 candle one, which is an accumulation.
+00:02:41.280 Candle 2 forms that reversal, but you
+00:02:43.760 can see it has a large opposing run. So,
+00:02:45.760 we don't want to trade within this
+00:02:46.959 candle. We want to wait for candle 3.
+00:02:49.040 Here you can see candle 3 opens, makes a
+00:02:51.519 shallow opposing run, and then has that
+00:02:53.440 expansion higher. This is the candle we
+00:02:55.440 want to be trading. Now, how do we go
+00:02:57.200 about trading this? Well, we want to
+00:02:59.200 just wait for this wick to form. So you
+00:03:01.040 can see here price opens makes its
+00:03:03.599 shallow opposing run has a change in the
+00:03:05.920 state of delivery which makes this a
+00:03:07.360 protected low. If this is a protected
+00:03:09.599 low this means this wick has formed and
+00:03:11.680 then we can trade this expansion higher.
+00:03:13.680 Now what does it look like with a
+00:03:15.040 reversal expansion candle? Well this is
+00:03:17.440 where candle 2 has a small wick right?
+00:03:19.440 So you can see a shallow opposing run.
+00:03:21.840 It has a change in the state of
+00:03:23.200 delivery. So that means that it formed
+00:03:25.200 its protected swing. we can anticipate
+00:03:27.040 this wick to hold and then we can trade
+00:03:28.879 the expansion within the same higher
+00:03:30.879 time frame candle. Now, since we are
+00:03:32.480 focused on the 4hour candle within this
+00:03:34.640 video, if I'm trading futures, these are
+00:03:36.640 the timings that I'm going to look for.
+00:03:38.400 And if you trade forex, these are the
+00:03:39.920 timings you will want to be focused on.
+00:03:41.840 So, just in summary, we want to align
+00:03:43.680 this with a daily bias, but we are going
+00:03:45.440 to use the 4hour candles to determine a
+00:03:47.680 bias using candle closures and if price
+00:03:50.080 should expand as it's already reversed
+00:03:51.920 or if we are looking for it to reverse
+00:03:53.680 and expand. Those are the two scenarios
+00:03:56.000 and the main goal and what I want you to
+00:03:57.680 say in your head is I need to let the
+00:03:59.439 wick form and then look to trade the
+00:04:01.200 body. If you always try to catch the
+00:04:02.879 wick, you're going to get continuously
+00:04:04.560 stopped out. Just let the wick form and
+00:04:06.560 then trade the continuation that
+00:04:08.080 follows. So, let's get into trading view
+00:04:09.760 and go over a few examples. So, here we
+00:04:11.000 No text
+00:04:12.319 are with our first example and we'll go
+00:04:14.480 top down on this one and then we'll just
+00:04:16.320 stay focused on the 4hour and the lower
+00:04:19.199 time frame structure inside of that. But
+00:04:20.798 I want to give one good example all the
+00:04:22.639 way from top down to the lower time
+00:04:24.400 frame for entries just to show you what
+00:04:26.320 it looks like. So you can see here I'm
+00:04:28.080 always going to start on the daily. You
+00:04:29.600 can see Wednesday we formed a reversal,
+00:04:31.680 right? And Thursday had a continuation.
+00:04:33.759 So we can anticipate Friday to continue
+00:04:35.600 as well as it closed outside Wednesday's
+00:04:38.000 range. That means we can look for price
+00:04:39.680 to trade to Thursday's high. Now if you
+00:04:41.440 take a look, we are respecting the EQ of
+00:04:43.360 the previous day's range and that
+00:04:44.800 T-spot. So let's go down to the 15-minut
+00:04:46.880 time frame. So here we are on the
+00:04:48.479 15-minut time frame. I'm using the
+00:04:50.240 15-minut time frame in this example as
+00:04:51.919 it is paired with the 4hour time frame.
+00:04:54.320 So, what do we notice here? You can see
+00:04:56.160 that 2:00 had a reversal, right? We have
+00:04:58.960 a reversal candle. So, we have
+00:05:00.479 accumulation here. So, this is our
+00:05:02.880 accumulation. This is our manipulation.
+00:05:05.520 And we can go ahead and mark this out.
+00:05:07.120 Here's our accumulation. Here's our
+00:05:08.880 manipulation. And then we're expecting a
+00:05:11.280 distribution higher. Now, taking a look
+00:05:13.280 at this 4hour candle here, you can see
+00:05:15.280 we had a large opposing run below the
+00:05:18.400 2200 candles low. So, you can see we
+00:05:21.360 opened, we did have a shallow run, but
+00:05:23.120 we never had a change in the state of
+00:05:24.560 delivery to confirm that low. So, price
+00:05:26.880 continued lower. And at that point,
+00:05:28.720 we're making a larger opposing run as
+00:05:31.039 you can see on the wick of this candle.
+00:05:33.280 Now, price returns back into the range
+00:05:35.199 and closes pretty strong, forming this
+00:05:37.280 reversal candle. So, that sets up when
+00:05:39.280 could we expect this distribution to
+00:05:40.880 occur? Well, in candle three, so at the
+00:05:43.600 new higher time frame candle. Now, if
+00:05:45.360 we're taking a look at this and we're
+00:05:46.639 expecting price to expand in this
+00:05:48.320 candle, as price has reversed in the
+00:05:50.479 previous, we're expecting 6:00 a.m. to
+00:05:52.560 10:00 a.m. to make a move higher. So,
+00:05:54.960 with this, we'd want to look for what?
+00:05:56.880 We want to look for the wick of 6 a.m.
+00:05:59.120 to form. Now, how is that going to form?
+00:06:01.360 It's going to form a protected swing.
+00:06:03.600 Where could we form a protected swing in
+00:06:05.280 here? Well, we have a sweep of a low.
+00:06:07.919 Let's see if we get a protected swing
+00:06:10.080 that forms.
+00:06:14.880 And there you can see we have closed
+00:06:16.479 over and we are inside a fair value gap
+00:06:19.360 here. So I could then anticipate what?
+00:06:22.560 Well, if we have a protected swing in
+00:06:24.479 this new higher time frame candle, I'm
+00:06:26.080 expecting this wick low to have formed
+00:06:28.000 and I can look to trade it higher. This
+00:06:30.160 means I can really take any entry in
+00:06:31.680 here with my stop loss on this low
+00:06:33.600 looking to target that previous day
+00:06:35.199 high. So let's see how this works out.
+00:06:41.840 And there we go. Trade to previous day
+00:06:44.160 high. So just to review, we had a
+00:06:46.160 bullish daily bias to previous day high.
+00:06:49.280 And then this is an example of trading
+00:06:50.880 that candle three, that continuation
+00:06:53.199 expansion candle as we have a reversal
+00:06:55.440 here in London. So we're expecting a New
+00:06:57.360 York continuation. Large opposing run
+00:07:00.160 creates a reversal candle. Then looking
+00:07:02.240 to trade the expansion candle once its
+00:07:04.560 wick has formed. So here we are in
+00:07:05.000 No text
+00:07:06.960 another example and in this case we're
+00:07:08.720 doing a forex example on USD JPY. Now if
+00:07:12.000 you notice here we have a reversal
+00:07:13.680 candle on the weekly time frame. So we
+00:07:15.680 could be looking for price to expand
+00:07:17.599 higher on the weekly time frame. So
+00:07:19.520 within this week we'd want to see what a
+00:07:22.160 small a shallow opposing run to form its
+00:07:24.479 wick in candle 3 and trade higher. So
+00:07:26.800 that's giving us our bias. Now if we
+00:07:28.479 look here we have expansion retracement
+00:07:31.759 and this is a retracement because it is
+00:07:33.520 a slow shallow move into what a fair
+00:07:37.360 value gap and it's leaving failure
+00:07:39.759 swings on the high. So you can see how
+00:07:41.680 it's leaving all these highs here. So
+00:07:44.160 with this candle closure here this is
+00:07:46.000 where we could drop down to the 15-minut
+00:07:48.240 time frame and look for an entry. So
+00:07:50.240 here we are on the 15-minut time frame
+00:07:52.160 and you can see how those timings are a
+00:07:54.240 bit different from futures. we have
+00:07:56.000 1,700, 2100, and then now we have this
+00:07:59.039 1:00 a.m. candle. So, there's a few
+00:08:01.280 things we can look for here. If we're
+00:08:02.800 looking to try to trade long, we would
+00:08:04.800 want to see a reversal off of our
+00:08:06.560 previous candle's low, this 2100. So,
+00:08:09.520 the two scenarios, we have a shallow
+00:08:11.440 opposing run in which we can trade that
+00:08:13.199 higher within the same candle, or we
+00:08:15.360 have a larger opposing run, in which
+00:08:17.360 case we're going to wait for the open of
+00:08:18.800 the next candle to try to trade it
+00:08:20.400 higher. So, let's see what happens.
+00:08:27.759 So, normally if we're going to have a
+00:08:29.199 shallow opposing run, we want to see
+00:08:30.720 that early into the higher time frame
+00:08:32.159 candle. When price goes up first, that
+00:08:35.039 usually means it's going to come down.
+00:08:36.640 So, this is not one where I'm looking to
+00:08:38.399 try to trade this reversal now as it's
+00:08:40.000 already made too large of a range.
+00:08:44.720 Now, we have expansion. Is this met with
+00:08:47.040 expansion higher? Because we need that
+00:08:49.200 expansion met with expansion to confirm
+00:08:51.200 a reversal. And we want to look for a
+00:08:53.279 change in the state of delivery.
+00:08:55.839 And there we get the change in the state
+00:08:57.440 of delivery. And you can see the model
+00:08:59.279 will then print. But if you take a look
+00:09:01.839 here, if we're trying to trade the open,
+00:09:04.640 low, high, close. What is happening?
+00:09:06.880 We've already formed this lower wick.
+00:09:08.800 Would we want to see price go all the
+00:09:10.880 way back down here to form a new wick?
+00:09:13.200 No. Because then that would be expansion
+00:09:15.200 met with expansion, which is bearish. So
+00:09:17.200 at this case, I have two options. one, I
+00:09:19.360 can either let this trade go because I
+00:09:21.120 don't feel like chasing it, or I can
+00:09:22.800 look for a continuation entry as long as
+00:09:24.720 my target remains open. So, let's see if
+00:09:26.959 we can get a continuation entry. And for
+00:09:29.360 that, I would need a new protected
+00:09:30.959 swing.
+00:09:33.440 And what do we have here? We have price
+00:09:35.680 hitting a short-term target, we get
+00:09:37.839 expansion, retracement, and then because
+00:09:40.720 we reach into this fair value gap,
+00:09:42.399 that's an important level. We close over
+00:09:44.480 the down close candle into that. That is
+00:09:46.640 then a protected swing and I can use
+00:09:48.560 that as a stop loss as long as I can get
+00:09:50.640 2 R to these highs. Right? So I could
+00:09:52.480 look for 2.45R to those highs. Let's see
+00:09:55.360 how that works out. And there we go.
+00:09:58.320 Now, why would I not want to really
+00:10:00.399 extend myself on this trade? Well, we're
+00:10:02.880 trying to trade an expansion candle,
+00:10:04.560 right? One, expansion candles only have
+00:10:06.880 so much range and so much time. We're
+00:10:08.959 going to get a new candle at 9:00 a.m.
+00:10:10.959 I'm not trying to hold really beyond
+00:10:12.720 that as I hit a target and we've already
+00:10:14.560 used our range. If I want to continue to
+00:10:16.399 trade this higher, then I'm going to
+00:10:17.920 want to wait for the open of the new
+00:10:19.440 higher time frame candle. So, let's see
+00:10:20.959 what that looks like
+00:10:23.440 here. You can see if we are going to
+00:10:25.360 form another continuation after hitting
+00:10:27.440 this high, I'm going to want to wait for
+00:10:28.959 that new higher time frame candle cuz
+00:10:30.399 that gives us a new candle in new range.
+00:10:33.120 Then, I'm doing the same thing. I want
+00:10:34.800 to let this low form and I can trade the
+00:10:36.959 expansion higher. Let's see if we get a
+00:10:39.120 continuation.
+00:10:42.480 We do. Right. So once we get the closure
+00:10:45.040 through the series of downclosed candles
+00:10:46.720 that swept out an important level which
+00:10:48.880 is right there,
+00:10:50.720 this is now a protected low. So I'm
+00:10:52.640 expecting this wick to hold as we trade
+00:10:54.640 higher. Now I'm not a fan of trading
+00:10:56.480 over old highs, but I'm just trying to
+00:10:58.240 show you the concept of what I am trying
+00:11:00.320 to do here. So let's get into another
+00:11:02.000 No text
+00:11:02.240 example. So, now that we have gone over
+00:11:04.399 a few examples using the 4hour and
+00:11:07.120 15minut time frame pairing, which I find
+00:11:09.200 is the most straightforward, let's go
+00:11:11.120 over a few different examples using
+00:11:13.120 lower time frame pairings. So, what does
+00:11:14.800 it look like if you're trading a 4hour
+00:11:16.800 power of three and using a lower time
+00:11:19.120 frame fractal model? This is what people
+00:11:21.040 refer to as GXT, which is using
+00:11:23.519 Garrett's 4hour profiling with my
+00:11:25.760 fractal model. So, you can see here we
+00:11:28.320 have a 2 a.m. reversal on London here on
+00:11:31.200 gold. And so we can anticipate 6 a.m. to
+00:11:34.320 have a continuation. Now, what would we
+00:11:36.399 want to see for a continuation? We'd
+00:11:38.480 want to see price open, make a high
+00:11:40.720 while respecting the EQ of the previous
+00:11:42.480 candle, and then traded lower. Our whole
+00:11:45.200 goal is to let this wick form and then
+00:11:47.760 trade the body. So, how do we do that on
+00:11:50.079 the lower time frame? Well, I can go
+00:11:51.680 down to the 3minut or the 5minut time
+00:11:54.000 frame, and then I want to wait for a
+00:11:55.839 lower time frame fractal model to align
+00:11:58.000 with that. So, here you can see we have
+00:12:00.079 a consolidation. What do we want to see
+00:12:02.240 within a consolidation? If we're going
+00:12:04.320 to trade this lower, we want to see the
+00:12:06.160 consolidation highs ran out and then a
+00:12:08.320 fractal model to form and that's still
+00:12:10.320 respecting the EQ. So, let's see what
+00:12:12.240 happens.
+00:12:16.959 You can see we're continuing that
+00:12:18.320 consolidation
+00:12:22.480 and there we run out the high or engage
+00:12:24.720 that high. So, now what do we need? We
+00:12:26.800 need a change in the state of delivery
+00:12:28.720 to confirm that reversal point and then
+00:12:31.600 we can look to trade it lower. Now, what
+00:12:33.200 are we doing here? We're using a lower
+00:12:35.200 time frame fractal model to help confirm
+00:12:37.360 the wick of that 4hour time frame. So,
+00:12:39.760 let's see what happens.
+00:12:44.480 And there we get the closure through.
+00:12:46.639 Now, this is one where if I am very
+00:12:48.720 confident in this trade, I could look to
+00:12:50.639 take an entry here, put my stop on a
+00:12:52.800 protected swing or at least above 50% of
+00:12:56.000 this change in the state of delivery as
+00:12:57.760 well as the EQ and then look for 2R or I
+00:13:00.399 can search for a continuation. Let's
+00:13:02.240 see.
+00:13:06.480 So, here we are right before the open of
+00:13:08.320 the new higher time frame. You can see
+00:13:10.160 we're getting a candle 3 closure on the
+00:13:12.560 30 minute also forming a protected
+00:13:14.880 swing. So, I'm pretty confident in price
+00:13:17.279 trading lower here. Where do I want to
+00:13:19.200 see it not trade above while marking out
+00:13:21.680 50% of this as well as the opposing
+00:13:24.240 candle here in the 30. I wouldn't want
+00:13:25.839 to see price trade above this area,
+00:13:27.760 right? It can trade into that but not
+00:13:29.360 above it. And here we have a swing right
+00:13:31.200 above that area. So, this is where if I
+00:13:32.880 wanted to capture this move, I could
+00:13:34.240 look to take a positional entry, putting
+00:13:35.680 my entry on the open of the new higher
+00:13:37.040 time frame candle, putting my stop on
+00:13:38.560 the protected swing, and then looking
+00:13:40.000 for 2 R. Now, that would be a positional
+00:13:42.079 entry if I'm confident in the move. Or I
+00:13:44.160 could look for a continuation. Let's see
+00:13:46.000 what happens. So here we get a move
+00:13:48.160 lower to that negative one. Now let's
+00:13:50.480 see.
+00:13:53.440 We fall just shy of our 2R and we reach
+00:13:57.120 into a fair value gap here. So now if
+00:13:59.440 we're going to form another
+00:14:00.480 continuation, what do I want to see? A
+00:14:02.480 new protected swing
+00:14:05.440 here. You can see we go back to our
+00:14:06.959 entry.
+00:14:08.959 And what do I want to see? If we're
+00:14:10.639 going to form a swing here, we need to
+00:14:12.160 go and close below this level. But we
+00:14:14.000 didn't. It doesn't mean we can't form a
+00:14:15.760 swing right here, but we're going to
+00:14:17.199 need another confirmation in here.
+00:14:21.680 And there we go. That would be our
+00:14:23.839 second confirmation. And if I didn't
+00:14:26.160 already take profit, this is where I
+00:14:27.680 could look to take an entry still. And
+00:14:29.360 why could I? Well, I still have an hour
+00:14:31.519 left, expecting this candle to expand
+00:14:33.920 lower. But this is the entry that I
+00:14:35.680 would prefer. That would be a positional
+00:14:37.519 entry. But what happens?
+00:14:40.480 We get that continuation lower. And if
+00:14:42.720 you notice, this 6 a.m. expansion candle
+00:14:45.360 has a small wick and a large body. And
+00:14:48.240 if we go ahead and review this, all we
+00:14:51.040 are trying to do is trade a lower time
+00:14:53.040 frame fractal model that confirms the
+00:14:55.040 formation of that wick. And then we are
+00:14:57.120 going to trade the expansion lower. So
+00:14:58.000 No text
+00:14:59.360 here we are with our next example. We're
+00:15:01.120 on NQ on the 5minut time frame. And you
+00:15:03.519 can see price has swept out its previous
+00:15:05.600 day high. And we have expansion met with
+00:15:08.800 expansion which is forming a reversal.
+00:15:10.720 And you can see that with this higher
+00:15:12.079 time frame wick here on the 6 a.m. 4hour
+00:15:14.800 candle. So if 6 a.m. forms a reversal,
+00:15:17.920 we can look for 10:00 a.m. to continue
+00:15:20.240 lower. That would be that candle 3
+00:15:22.240 continuation or the continuation
+00:15:25.120 expansion candle. Right? So where do we
+00:15:26.720 want to see that form? Well, we can use
+00:15:28.480 the lower time frame fractal model here
+00:15:30.399 where we have an hourly and five minute
+00:15:32.399 model and it's printing out the T-spot.
+00:15:34.560 We know we want to see price open, make
+00:15:36.480 its wick in here, and then trade lower.
+00:15:38.959 That applies to both time frames here.
+00:15:40.880 So, if we don't want to see price trade
+00:15:42.880 above this area, we don't want to see it
+00:15:44.639 reach into this fair value gap. So, we
+00:15:46.320 could use this as our stop loss to trade
+00:15:48.399 it lower. So, we could look to enter
+00:15:50.160 anywhere in here, put my stop on that
+00:15:52.240 opposing candle or even on the fair
+00:15:54.320 value gap and then look for 2R or I
+00:15:56.480 could look to the negative one standard
+00:15:58.240 deviation. Now, why would I look to the
+00:16:00.240 negative one standard deviation when we
+00:16:02.000 have a large opposing run? It doesn't
+00:16:04.160 make sense in terms of the range to look
+00:16:05.839 for these deviations out here. So, I'll
+00:16:07.920 use negative -1 as my target. So, let's
+00:16:10.240 see how that entry works.
+00:16:13.600 And there we go. And we hit our target.
+00:16:15.839 And you can see price opens, makes its
+00:16:18.480 high, a very shallow high, and then can
+00:16:20.880 trade it lower. And this is one of those
+00:16:22.560 positional entries again where I don't
+00:16:24.959 know where exactly price is going to
+00:16:26.800 form its wick cuz it's kind of lacking
+00:16:28.480 that point of interest in here. I just
+00:16:30.399 want to be on side with the move. And
+00:16:32.160 I'm going to position my stop loss in an
+00:16:33.920 area that if it reaches it, I am
+00:16:35.839 invalidated. So here we are in our last
+00:16:36.000 No text
+00:16:38.399 example. We have the 5-minut time frame
+00:16:40.720 as you can see here with the hourly
+00:16:42.720 model. So the 5m minute, the hourly and
+00:16:45.440 then the 4hour time frame here. And
+00:16:47.199 we're just going to walk through some
+00:16:48.320 price action adding it all together. So
+00:16:50.320 if you notice here, we were in a bearish
+00:16:52.639 structure here with the candle 3
+00:16:54.560 closure. And price opens 9:30, makes a
+00:16:57.279 move higher. So then we get a move lower
+00:16:59.199 to these lows. off these lows, we have a
+00:17:01.440 nice V-shaped reversal. So, seeing that,
+00:17:03.839 it makes me think if price is going to
+00:17:05.679 reverse here, it can trade where all
+00:17:08.079 these failure swings on the high. So,
+00:17:10.079 I'd want to see price trade up to these
+00:17:12.000 highs here. Now, taking a look, we do
+00:17:14.160 have a fairly shallow wick off this
+00:17:16.319 previous low on the 4 hour. So, it can
+00:17:18.240 support expansion higher. It is more
+00:17:20.240 than likely going to wait for 10:00 a.m.
+00:17:22.079 as what we are 5 minutes away. As we let
+00:17:24.559 this play, you can see we have SMT, we
+00:17:27.039 have that CISD. This is where I could
+00:17:29.039 look to take an entry on the reversal.
+00:17:30.880 I'd want to have my stop at least on the
+00:17:32.480 body low and then look for those highs.
+00:17:34.799 So that would be the first possible
+00:17:36.720 entry here,
+00:17:39.039 but I could also look for a continuation
+00:17:40.720 higher. And here you can see we are
+00:17:43.360 wanting to trade the open low, high
+00:17:45.440 close of this 10 a.m. candle. Price
+00:17:47.679 opens, makes a shallow wick, and you can
+00:17:49.919 see we have a shallow wick on both the
+00:17:51.520 4hour and the hourly supporting
+00:17:53.440 expansion. And we reach into a point of
+00:17:56.080 interest. So this is where I could look
+00:17:57.360 to take an entry as a continuation as
+00:17:59.919 well, right? Because fractally I don't
+00:18:02.480 expect price to trade to this low. So
+00:18:04.559 that could be another entry. And at this
+00:18:06.720 point everything is supporting
+00:18:08.000 expansion. So I just want to look for
+00:18:09.679 continuation entries to this high
+00:18:13.280 here. You can see we get a
+00:18:15.120 consolidation, we get a sweep, and then
+00:18:17.600 we have a new protected swing. Once
+00:18:20.559 again, this would be another entry to
+00:18:22.799 that high as long as I can get to R. I
+00:18:25.280 do. And let's see what happens.
+00:18:29.280 Takes a minute. Let's see if we get
+00:18:31.039 there.
+00:18:33.440 And there we go. And hit our target. So,
+00:18:35.120 you can see there's various different
+00:18:36.559 ways to enter in here. You can enter on
+00:18:38.240 that reversal candle or you can wait for
+00:18:39.760 that expansion candle. But you can see 6
+00:18:42.000 a.m. reversal, 10:00 a.m. continuation
+00:18:44.720 aligning that with a fractal model on
+00:18:46.480 the lower time frame. You could also
+00:18:47.840 just use the 15-minut time frame and
+00:18:50.000 look for entries in there, which is also
+00:18:52.480 valid. And now we hit our target. Now,
+00:18:54.480 let's talk about this. If we're looking
+00:18:56.080 to try to trade this back into the
+00:18:57.760 range, does it make sense to fight this
+00:18:59.919 expansion candle? No. It makes more
+00:19:02.480 sense to wait for this expansion candle
+00:19:04.240 to close, which would be at 1,400 and
+00:19:07.120 then look for a reversal candle to form
+00:19:09.120 and trade that back into the range. So,
+00:19:11.520 really, this is a zone where I would
+00:19:13.360 just not want to touch as it hits our
+00:19:15.600 target, but I don't have any reason to
+00:19:17.600 trade that back lower.
+00:19:19.679 So now we have a consolidation and this
+00:19:22.720 fits the phases of price as well as our
+00:19:24.960 idea. If we have a consolidation and
+00:19:27.280 we're looking for a reversal off this
+00:19:29.520 previous candle's high, those both line
+00:19:31.679 up. For a consolidation, we'd want to
+00:19:33.760 see a manipulation of the high to trade
+00:19:36.240 it lower. And that would also line up
+00:19:38.160 with the new 4hour candle. So let's see
+00:19:40.240 what happens
+00:19:42.799 here. We take out the high. Do we get a
+00:19:44.799 change in the state of delivery?
+00:19:48.160 And there we go. We do get a change in
+00:19:50.160 the state of delivery. And that's also
+00:19:52.240 right at the open of a new higher time
+00:19:54.559 frame candle. So now we're trading a
+00:19:56.400 reversal candle on the 4 hour with a
+00:19:58.720 continuation here. So if I wanted to
+00:20:00.720 trade that, that's something where I'm
+00:20:02.080 going to have to enter at the open
+00:20:03.919 because with a very aggressive move,
+00:20:05.600 it's unlikely to give much of a
+00:20:06.960 retracement and then look for 2 R. Let's
+00:20:10.000 see if this gives us anything or if
+00:20:12.559 there is any continuation that follows.
+00:20:15.200 Oh, looks like it might give us a
+00:20:16.400 continuation.
+00:20:18.240 Let's see if we can get a closure below
+00:20:19.600 there.
+00:20:21.520 We do. So, you could look for a
+00:20:22.880 continuation there. And does candle 4
+00:20:25.600 continue? Right, it does. So, you can
+00:20:28.799 see this is an example right here at
+00:20:31.520 10:00 a.m. of a continuation 4hour
+00:20:34.000 candle, right? Where we have a reversal
+00:20:36.000 at 6 a.m. 10 a.m. continuation. This
+00:20:38.559 1400 candle is an example of that
+00:20:41.520 manipulation and expansion occurring in
+00:20:44.159 the same higher time frame candle. So
+00:20:45.919 you can see both of these support
+00:20:47.440 expansion. This one supports expansion
+00:20:49.200 higher. This one supports expansion
+00:20:51.039 lower. And that's where you want to
+00:20:52.480 align your lower time frame entries. So
+00:20:54.000 No text
+00:20:54.799 I hope you enjoyed this video. If you do
+00:20:57.039 have any questions, be sure to leave
+00:20:58.799 them in the comment section below and
+00:21:00.320 I'll get to them when I can. But I hope
+00:21:02.559 you have a great rest of your day and
+00:21:03.919 I'll see you guys next time. Have a good
+00:21:05.440 one.

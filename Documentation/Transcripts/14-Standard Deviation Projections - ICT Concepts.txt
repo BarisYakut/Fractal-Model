@@ -1,0 +1,344 @@
+# tactiq.io free youtube transcript
+# Standard Deviation Projections - ICT Concepts
+# https://www.youtube.com/watch/kTWXpAo1uE8
+
+00:00:04.340 [Music]
+00:00:10.559 how's it going everyone this video is
+00:00:12.120 going to be over standard deviation
+00:00:13.799 projections standard deviation
+00:00:15.639 projections can be used to find Targets
+00:00:17.800 areas to expect retracements or
+00:00:19.480 reversals as well as a Confluence to an
+00:00:21.720 existing strategy this video will be
+00:00:23.720 focused on the settings of the Fibonacci
+00:00:26.119 which price Lake to project which areas
+00:00:28.199 to look for retracement or reversal what
+00:00:30.519 to expect after hitting Max expansion as
+00:00:33.079 well as pairing with PD arrays and
+00:00:35.079 overlapping existing projections so
+00:00:37.840 let's get into it so the first thing we
+00:00:39.559 are going to go over are the FIB
+00:00:41.039 settings so if you see here we are using
+00:00:43.200 a fib retracement tool on trading View
+00:00:46.039 and the settings we have here are 1 0 -1
+00:00:49.640 -2 -2.5 and -4 and if you specifically
+00:00:54.079 want to see the color I'm using it is
+00:00:55.920 right here and my background is very
+00:00:58.480 transparent I have my values on the left
+00:01:01.079 side in the Middle with a font size of
+00:01:03.680 10 so now that we have our settings
+00:01:05.600 let's get into how to Anchor this
+00:01:06.880 Fibonacci retracement tool so here's an
+00:01:09.720 example of what the Fibonacci tool will
+00:01:11.600 look like once it is projected out
+00:01:13.960 however where do I anchor this Fibonacci
+00:01:15.680 tool to get these projections and that
+00:01:17.880 is what we are going to go over next so
+00:01:20.040 when price creates a smart money
+00:01:21.520 reversal or a reversal pattern so for
+00:01:24.280 example here price is trending up makes
+00:01:27.040 a high low higher high lower low I'm
+00:01:31.360 going to look for the manipulation leg
+00:01:33.600 and that manipulation leg is the swing
+00:01:35.360 that swept liquidity before changing the
+00:01:37.880 state of delivery or shifting structure
+00:01:40.320 so for example here this low to this
+00:01:43.119 high that swept liquidity that will be
+00:01:45.360 the manipulation leg I then take my
+00:01:47.759 projection tool or my Fibonacci
+00:01:49.840 retracement tool and project this out
+00:01:52.240 such as so so let's get into the charts
+00:01:54.600 and look at a few examples of projecting
+00:01:56.560 these out before we get into the rest of
+00:01:59.159 the PDF so here we have price action
+00:02:01.640 trending up let's see if we get a smart
+00:02:03.560 money
+00:02:09.520 reversal and here you can see we get an
+00:02:11.640 aggressive price action out and then
+00:02:13.640 back into the range if you've seen my
+00:02:15.360 last video on accumulation manipulation
+00:02:17.760 and distribution so where is the price
+00:02:19.760 leg that made the new high before the
+00:02:21.760 new low and so from this low to this
+00:02:24.920 high that would be the manipulation leg
+00:02:27.319 and so projecting that out from our high
+00:02:29.319 to our low low you can see we get our
+00:02:32.560 projection put on the screen here so
+00:02:34.920 let's go to a few more examples of just
+00:02:36.840 projecting this out so here we have
+00:02:38.800 price kind of consolidating let's see
+00:02:41.159 what
+00:02:43.080 happens so we get an aggressive move out
+00:02:45.680 and then back into the range changing
+00:02:47.760 the state of delivery so where is the
+00:02:49.760 manipulation leg or the leg that made
+00:02:52.120 the new low before the new high so from
+00:02:54.920 right here at this High to this low that
+00:02:57.640 would be the manipulation leg so
+00:02:59.840 projecting that from our low to our high
+00:03:03.400 we have our projection so here we are we
+00:03:06.080 have price trending
+00:03:10.599 up and there we go we get a sweep and
+00:03:14.519 then displacement down so take a moment
+00:03:16.920 where is this manipulation
+00:03:19.640 l so you can see price from this low
+00:03:23.680 made a new high before displacing down
+00:03:26.599 so our manipulation leg is from this
+00:03:28.439 high to this low or from this low to
+00:03:30.680 this high so then projecting it out I go
+00:03:33.680 from this high to this low and have my
+00:03:36.519 projection so now that we have practiced
+00:03:38.959 identifying that manipulation leg and
+00:03:40.879 projecting it out let's go back to the
+00:03:42.760 PDF and see what we are looking for in
+00:03:44.560 these
+00:03:45.400 projections so here we are back in the
+00:03:47.480 PDF and although there are many ways to
+00:03:49.560 use these projections we're going to
+00:03:51.439 focus on the -2 to -2.5 and the -4 as
+00:03:56.120 areas of Interest so when price reaches
+00:03:58.239 the -2 to -2 .5 standard deviations I'm
+00:04:01.640 looking for either a retracement or a
+00:04:04.000 reversal from this area if price
+00:04:06.560 displaces and closes through this area
+00:04:08.640 then I'm looking for the max expansion
+00:04:10.519 or the4 standard deviation once hitting
+00:04:12.920 Max expansion what I can do is Mark out
+00:04:15.159 a discount and premium of this leg here
+00:04:17.759 and look for price to retrace to an
+00:04:19.680 equilibrium the next thing I want to
+00:04:21.478 talk about is pairing these standard
+00:04:23.360 deviations with PD arrays for example
+00:04:25.720 here the negative one has a fair value
+00:04:27.800 Gap lining up with it and then the -2 to
+00:04:30.960 -2.5 has cell-side liquidity resting
+00:04:33.840 between them I personally love to use
+00:04:36.000 these projections and then see if it
+00:04:37.680 lines up with equal highs or a fair
+00:04:39.639 value Gap or some sort of PD array so
+00:04:42.240 let's go back into the charts and look
+00:04:43.919 over these Concepts so here we are back
+00:04:46.520 with our first example let's go ahead
+00:04:48.520 and Mark out these areas and then look
+00:04:50.440 to see if any PD arrays line up with
+00:04:52.600 them so marking out the 2 to 2.5
+00:04:54.639 standard deviations as well as the
+00:04:56.759 fourth standard deviation let's see if
+00:04:58.720 any PD arrays up in these areas so if
+00:05:01.360 you notice we have cell side liquidity
+00:05:03.440 resting here as well as here because
+00:05:06.440 this is just right above the -2 to 2.5
+00:05:09.160 standard deviations I consider this the
+00:05:11.360 low hanging fruit then we can Mark out
+00:05:13.479 the cells side liquidity resting within
+00:05:15.520 this area here so let's see how this
+00:05:17.199 plays
+00:05:25.080 out and another thing you can do is when
+00:05:27.960 we get another manipulation leg
+00:05:30.240 such as here we can also project that
+00:05:32.319 out as well and get matching confluences
+00:05:35.440 so you can see how the negative one here
+00:05:37.960 overlaps with the -2 to -2.5 and the -2
+00:05:41.639 to -2.5 here overlaps with the4 standard
+00:05:44.960 deviations so let's go ahead and
+00:05:46.880 continue these out and see what
+00:05:50.560 happens as you can see we hit this low
+00:05:53.160 hanging fruit and then get a little
+00:05:57.280 retracement and here you can see we
+00:05:59.840 don't quite take those lows but we do
+00:06:01.960 reach into the middle of this area and
+00:06:04.639 now if you've noticed we are into our
+00:06:06.759 second example as we have a manipulation
+00:06:09.520 leg here and so let's go ahead and
+00:06:11.479 project that out and so now if we are
+00:06:14.400 looking what do we see well we see we
+00:06:16.880 have a -2 to -2.5 here go ahead and Mark
+00:06:20.680 that out and then we have our -4 right
+00:06:23.280 there are there any PD rays that line up
+00:06:25.639 in here well we do have this order block
+00:06:27.759 here if we Mark out the mean threshold
+00:06:29.759 that it'll be right around the second
+00:06:31.680 standard deviation we' went ahead and
+00:06:33.680 marked that out and then we have all
+00:06:35.319 these equal highs resting above here
+00:06:37.080 with the fourth standard deviation so
+00:06:39.080 let's go ahead and Mark those out as
+00:06:40.599 well so let's let this play
+00:06:51.720 out and there we go we reach into that
+00:06:54.440 fourth standard deviation so let's clean
+00:06:56.639 up the chart a little bit here so
+00:06:58.759 letting this continue to play
+00:07:05.560 out and there you see we get to our
+00:07:07.960 third example so let's go ahead and Mark
+00:07:09.919 out this manipulation leg once again and
+00:07:12.599 project it out let's see what happens
+00:07:14.479 here you can see we hit our ne1 standard
+00:07:16.720 deviation and currently getting a
+00:07:18.319 retracement let's see if we reach into
+00:07:20.560 the -2 to -2.5 or the four standard
+00:07:23.800 deviation and do we have any PD arrays
+00:07:25.800 lining up with those well looking left
+00:07:27.960 we have a fair value Gap right here so
+00:07:29.879 we can go ahead and Mark that
+00:07:33.879 out and generally with a fair value Gap
+00:07:36.360 like this I'd be looking for the near
+00:07:38.199 side here as we have equal lows we can
+00:07:40.639 also Mark out the consequent
+00:07:41.960 encroachment of this and then the next
+00:07:43.479 thing looking left our four standard
+00:07:45.400 deviation lines up pretty closely with
+00:07:47.520 these lows right here so those would be
+00:07:49.720 my two objectives for this Market maker
+00:07:51.479 cell
+00:07:55.280 model here you can see we reach into the
+00:07:58.319 -2 to -2. standard
+00:08:02.479 deviations we get a retracement
+00:08:08.879 here and then finally we come down and
+00:08:11.680 hit our for standard deviation here
+00:08:14.240 below this low so let's go ahead and
+00:08:17.080 zoom out here and see how this all
+00:08:18.680 worked out and you can see we still have
+00:08:21.400 some projections down here so let's skip
+00:08:23.520 ahead and see if Price ever reaches
+00:08:25.440 those lows
+00:08:29.960 and you can see here price does sweep
+00:08:32.320 those lows we still have this four
+00:08:34.320 standard
+00:08:35.200 deviation which is aligned with R2 to
+00:08:37.679 2.5 right in this
+00:08:40.880 area and there we go and if you notice
+00:08:43.799 we have another manipulation L here that
+00:08:46.200 we can project
+00:08:48.480 out and you can see we hit into our2 to
+00:08:51.839 2.5 standard deviations
+00:08:56.680 there now price is starting to Trend up
+00:08:59.800 looking where is our manipulation leg
+00:09:02.480 right here so I can project this out we
+00:09:05.760 have our 2 to 2.5 right
+00:09:11.920 here and now we are in that 2 to 2.5
+00:09:14.600 standard deviations so sorry for the
+00:09:16.440 little bit of a mess here let me clean
+00:09:18.279 this up so I hope in this example you
+00:09:20.200 saw that I can project manipulation legs
+00:09:22.560 out to give me targets using PD arrays I
+00:09:25.680 can add to those targets and then using
+00:09:27.920 multiple projections I can add to the
+00:09:29.800 Confluence for example when the -4 from
+00:09:32.200 one projection lines up with the -2 to
+00:09:34.680 -2.5 of another projection so let's take
+00:09:37.279 a look at one example of this going top
+00:09:39.399 down and how you can use it on multiple
+00:09:41.320 different time frames as well so here we
+00:09:43.480 are on inq daily chart and if you can
+00:09:45.959 see price wretch up into this daily fair
+00:09:48.240 value gap on a Tuesday made a reversal
+00:09:51.240 and then the next day expanded lower and
+00:09:53.240 displ Below these lows anticipating a
+00:09:55.920 classic cell week with a Tuesday High
+00:09:58.240 I'm anticipating Thursday to continue
+00:10:00.519 lower so with that idea in mind let's go
+00:10:03.320 ahead and drop down to the hourly chart
+00:10:05.360 so here we are on the hourly chart and
+00:10:07.560 this is the daily fair value Gap here
+00:10:09.519 where is the manipulation on this time
+00:10:11.600 frame into that daily fair value Gap
+00:10:14.440 well here is the high into that fair
+00:10:15.880 value Gap where is the swing or the low
+00:10:18.600 that made that high right here so from
+00:10:21.360 here to here that is our manipulation so
+00:10:24.360 projecting that out from high to low
+00:10:27.120 let's go ahead and zoom out here so
+00:10:29.440 marking out Thursday right here to right
+00:10:33.240 here we could anticipate price reaching
+00:10:35.880 into the 2 to 2.5 standard deviations
+00:10:39.160 right here and another thing you can do
+00:10:40.839 is Mark out the consequent encroachment
+00:10:42.800 of these standard deviations so if we're
+00:10:45.200 anticipating price to move lower into
+00:10:46.839 this area let's drop down to a lower
+00:10:48.680 time frame and see what happens so down
+00:10:50.519 here on the 15-minute chart we'll go
+00:10:52.079 ahead and get into London
+00:10:55.320 session we're going to go ahead and Mark
+00:10:57.639 out our midnight open here and let's see
+00:11:00.079 what
+00:11:01.200 happens you can see Asia consolidation
+00:11:04.320 London moves aggressively lower and then
+00:11:06.880 back into the range accumulation
+00:11:09.760 manipulation so anticipating
+00:11:11.720 distribution what do we have over here
+00:11:13.920 on the left side that is interesting
+00:11:15.800 well we have equal highs resting here so
+00:11:18.000 let's see what happens
+00:11:22.959 here you can see we just sweep a low
+00:11:25.959 here continue higher and there we reach
+00:11:29.320 into those equal highs now since London
+00:11:31.959 is retracing in terms of the weekly
+00:11:34.240 profile I'm anticipating New York to
+00:11:36.360 move lower into this 2 to 2.5 standard
+00:11:39.160 deviation area so let's drop down to a f
+00:11:41.760 minute chart so as we near New York open
+00:11:44.639 let's see what
+00:11:49.519 happens and here on New York you can see
+00:11:52.440 we get a big wick up and Wick down so
+00:11:54.639 let's drop down to a lower time frame to
+00:11:56.120 see what that looks
+00:11:57.639 like so down here on the 2-minute
+00:12:00.440 nothing really interesting towards the
+00:12:02.160 downside yet but I am going to Mark out
+00:12:04.639 this order block here and see if it
+00:12:08.920 forms so here we get displacement below
+00:12:11.639 this order block and this Wick here so
+00:12:14.079 looking at this price action here where
+00:12:15.639 is our
+00:12:16.720 manipulation so you can see this is the
+00:12:19.720 leg that made the new high and where is
+00:12:21.880 the low of that leg right there so that
+00:12:24.600 is our manipulation so projecting that
+00:12:27.199 out from our high to our low
+00:12:30.000 there we have our projection now the
+00:12:32.199 next thing we want to look for is do we
+00:12:33.920 have any PD arrays lining up with those
+00:12:35.920 projections so looking left what do we
+00:12:38.360 have resting just above -2 standard
+00:12:40.800 deviation we have our London low so that
+00:12:43.800 would ideally be the target for this as
+00:12:45.800 it is a low hanging fruit so let's Zoom
+00:12:48.040 back in here and see if we can find an
+00:12:49.720 entry now the first entry I would be
+00:12:51.480 looking for is a retest of this order
+00:12:53.399 block here my stop on this high and then
+00:12:56.160 I'd be looking to Target those London
+00:12:58.120 lows so let's see if that tags me
+00:13:01.720 in it does and we start to get our
+00:13:05.600 distribution
+00:13:10.800 lower and you can see we leave equal
+00:13:13.079 lows here and we start to get a
+00:13:15.480 retracement so marking out these other
+00:13:17.120 up close candles here let's see if those
+00:13:19.399 provide a
+00:13:21.760 reaction it does and then we go in we
+00:13:25.800 hit our London lows so just to review
+00:13:28.680 what happened here we have a classic
+00:13:30.639 cell week so anticipating expansion into
+00:13:33.720 Thursday we drop down to the hourly
+00:13:35.839 chart we find the manipulation on the
+00:13:38.040 hourly chart and projected out which
+00:13:40.040 gives us our overall Target of this
+00:13:43.040 yellow box here which let's see if that
+00:13:47.279 hits and it does reach into there and
+00:13:49.880 the consequent encroachment of that now
+00:13:52.519 the next thing I did was drop down into
+00:13:54.399 the lower time frame look at the daily
+00:13:56.320 profile and then find an entry targeting
+00:13:58.880 those London lows now I hope you found
+00:14:01.120 this video helpful if you did please
+00:14:02.959 like And subscribe I am planning on my
+00:14:05.360 next video combining my previous video
+00:14:07.639 with this video so an accumulation
+00:14:10.040 manipulation and distribution combined
+00:14:12.720 with standard deviations if that is
+00:14:14.880 something that interests you please let
+00:14:16.360 me know in the comment section below and
+00:14:18.560 other than that I'll see you guys next
+00:14:19.959 week have a great one

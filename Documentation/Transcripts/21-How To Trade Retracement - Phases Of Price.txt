@@ -1,0 +1,495 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/F0G31iLVpVg
+
+00:00:00.000 No text
+00:00:05.920 [Music]
+00:00:09.900 [Applause]
+00:00:11.120 How's it going everyone and welcome back
+00:00:12.960 to another video. This is going to be
+00:00:15.440 part three in my phases of price series.
+00:00:17.760 So, if you haven't seen part one or two,
+00:00:19.439 make sure to check those out and
+00:00:20.720 specifically the expansion video because
+00:00:22.960 if you haven't seen that, this video
+00:00:24.560 won't make sense. Let's go ahead and get
+00:00:26.880 into the PDF.
+00:00:28.000 No text
+00:00:28.960 So the first thing we have to understand
+00:00:30.560 is what is a retracement? What does it
+00:00:32.640 look like and how do we identify it?
+00:00:34.800 Well, if you've watched the expansion
+00:00:36.160 video, it's going to be the opposite of
+00:00:37.920 an expansion. So where an expansion is a
+00:00:40.559 strong, fast directional move in one
+00:00:42.960 direction, we want to see the opposite
+00:00:44.640 out of that in a retracement. We want to
+00:00:46.879 see a slow shallow move opposing the
+00:00:49.440 trend. So we'll have expansion, a slow
+00:00:52.399 shallow move forming a retracement, and
+00:00:54.719 then an expansion again. Now, we'll talk
+00:00:57.199 about where we anticipate these lows to
+00:00:59.120 form in a retracement a little later in
+00:01:01.280 this PDF. But one thing I want to point
+00:01:03.120 out is if you've seen my high resistance
+00:01:05.600 versus low resistance liquidity video,
+00:01:07.840 what do we want to see on these highs
+00:01:09.439 here? We want to see failure swings. And
+00:01:11.840 that allows us to once a low forms and
+00:01:14.240 we're trading this long to target those
+00:01:16.479 failure swings on the high. Right? So,
+00:01:18.479 that is a common signature that you want
+00:01:20.479 to see with a retracement is the
+00:01:22.000 formation of failure swings. Now, where
+00:01:24.640 do we interact with retracements? Well,
+00:01:27.200 following the aggressive move or the
+00:01:29.360 expansion higher, where do we expect a
+00:01:31.520 retracement to go to? Well, we have fair
+00:01:34.079 value gaps here. So, I'm anticipating a
+00:01:36.320 low to form in a fair value gap. And
+00:01:38.640 there's a few different ways you can
+00:01:39.840 approach this. You can one mark out a
+00:01:42.000 fair value gap and look for a candle
+00:01:43.920 closure or a lower time frame entry
+00:01:45.600 model within here. So, you can see we
+00:01:47.119 have a candle 2 closure. Could look for
+00:01:48.720 my fractal model down there. Or I can
+00:01:51.119 let a protected swing form out of this
+00:01:53.040 area. So once we get a closure over
+00:01:54.799 these down close candles right here and
+00:01:56.720 then I could look for a continuation
+00:01:58.320 following on this time frame. Either way
+00:02:00.719 you choose to interact the most
+00:02:02.560 important is to just understand you want
+00:02:04.320 to see expansion a shallow move or a
+00:02:07.520 retracement into a PDA which is
+00:02:09.440 generally a fair value gap the formation
+00:02:11.760 of failure swings on the high and then
+00:02:14.400 you want to see that reverse and then go
+00:02:16.720 into a new expansion. Let's get into
+00:02:19.120 trading view and go over a few examples.
+00:02:21.840 So here we are with our first example of
+00:02:22.000 No text
+00:02:24.400 retracements. And this is going to be
+00:02:26.400 following an expansion. So what do we
+00:02:28.879 notice right here is we want to have
+00:02:30.879 price set up to expand. We have a candle
+00:02:33.440 to closure here or price closing back
+00:02:35.680 inside and we have a change in the state
+00:02:38.800 of delivery. So I'm expecting price to
+00:02:40.879 have an expansion day here higher. So if
+00:02:44.000 we're going to go ahead and mark this
+00:02:45.680 out, let's visualize it. We have
+00:02:47.840 expansion up here. Do we want to see
+00:02:50.720 expansion back lower? No, that is a
+00:02:53.120 reversal. We want to see a slow shallow
+00:02:56.000 move though as we let this play out.
+00:02:58.319 Let's see what happens.
+00:03:00.879 You see how we have a nice slow shallow
+00:03:03.680 move back into this range. That is what
+00:03:05.599 you want to see out of a retracement.
+00:03:07.840 And then once again, we could look for
+00:03:09.760 an entry down here on this candle 2
+00:03:13.040 closure. Or we could wait for price to
+00:03:15.040 close over the series of downclosed
+00:03:16.959 candles forming a protected swing.
+00:03:19.760 Either way works, but we'll go ahead and
+00:03:21.920 just watch it play out. And you can see
+00:03:24.400 we go from what? Expansion retracement
+00:03:28.159 into a new expansion following that
+00:03:30.239 reversal. And you can see where is that
+00:03:32.400 formed in a fair value gap. Yes, it digs
+00:03:34.959 a bit deeper, but you can see how the
+00:03:36.319 bodies respect. Now, as we go into the
+00:03:38.879 next day, let's see what happens. What
+00:03:40.879 do we have? We have a fair value gap
+00:03:43.120 here. We have some failure swings down
+00:03:44.799 here as well. So, if we're going to get
+00:03:46.959 a continuation, we're either going to
+00:03:48.879 get what? A consolidation in which we
+00:03:51.200 sweep out the low to continue higher or
+00:03:53.280 we're going to get a retracement. What
+00:03:54.640 does that look like? Consolidation
+00:03:56.799 sweeps the low to trade higher or we're
+00:03:59.439 going to have a slow shallow move and
+00:04:01.840 then trade it higher. So, let's see what
+00:04:04.000 happens.
+00:04:06.959 And you can see we have a slow shallow
+00:04:08.480 move. All of these candles here on the
+00:04:10.799 way back down, you can see 9 hours worth
+00:04:13.200 of candles took up the range of about
+00:04:16.238 three hours of expansion. So, as we look
+00:04:19.358 at this here, we could look for an entry
+00:04:21.839 when well, we have a candle closure
+00:04:24.320 here. So, my model could form right here
+00:04:27.280 or I can wait for what? A protected
+00:04:29.759 swing to form. So, taking a look, let's
+00:04:32.639 see what happens.
+00:04:35.040 We close over, we form a protected swing
+00:04:36.960 and then we expand higher. You can see
+00:04:39.919 expansion, retracement, expansion,
+00:04:43.199 retracement, expansion. And the main
+00:04:45.840 thing you want to notice here is see how
+00:04:47.600 it is a slow, shallow move, right?
+00:04:49.840 Expansion is aggressive, fast and large
+00:04:52.560 range. Retracement is slow and shallow
+00:04:55.680 in a small range. Let's get into another
+00:04:58.160 example.
+00:04:59.680 So, here we are in our next example. And
+00:05:02.000 you know, I mainly focus on the daily
+00:05:03.919 and hourly for my phases of price, but
+00:05:06.320 it does also apply to the lower time
+00:05:08.080 frames. We'll go ahead and take a look
+00:05:10.000 at a EuroUSD 5minute example. And if you
+00:05:13.280 notice, we have our hourly chart on the
+00:05:14.960 side. We have a closure back inside the
+00:05:17.199 range. We have what all these hourly
+00:05:19.680 lows lined up. So those are failure
+00:05:21.280 swings as marked out by my indicator.
+00:05:23.520 And what do we have? I'm expecting a
+00:05:25.600 short to occur. Now with my indicator,
+00:05:28.320 it says that I want to form the wick
+00:05:30.160 high in this area. That is what the gray
+00:05:32.000 box mean. Now for me, I view all these
+00:05:34.639 highs as failure swings. So I would want
+00:05:36.639 those ran out before looking for a
+00:05:39.120 short. Let's see if that occurs.
+00:05:42.000 And you can see that doesn't occur,
+00:05:43.919 right? So I would not get a short setup
+00:05:45.840 in here. And that is just how it works.
+00:05:48.080 Not everything is going to be perfect.
+00:05:49.919 But if you take a look, we just ran out
+00:05:51.680 some lows over here. Let's see how we
+00:05:53.600 interact with this previous hours low.
+00:05:56.560 Right? So we're getting a little
+00:05:57.840 consolidation. If we're going to get a
+00:05:59.600 retracement, what's going to occur?
+00:06:01.280 We're going to get a shallow move into a
+00:06:03.440 fair value gap. Let's see if that
+00:06:05.120 occurs.
+00:06:07.759 No, it doesn't. We get a consolidation.
+00:06:09.520 We just expand away from it. So, once
+00:06:11.919 again, I would not get a setup right
+00:06:14.400 now. How would this look? If we had get
+00:06:16.000 a setup out of both of these, I would
+00:06:17.759 have needed a sweep here and for price
+00:06:20.160 to reach up into this area on one of
+00:06:22.400 these, right? Since neither of those
+00:06:24.560 occurred, I wouldn't get a setup. So,
+00:06:26.400 the main thing I want to point out here
+00:06:27.680 is we have aggressive expansion, which
+00:06:29.919 we're going to either get very shallow
+00:06:31.280 retracements or no retracements at all.
+00:06:33.520 Let's see if this continues
+00:06:36.639 right here. What do we have? We have a
+00:06:38.880 new open of a higher time frame candle.
+00:06:41.600 So, if we're going to form the wick of
+00:06:42.880 the higher time frame candle in the
+00:06:44.160 T-spot is what my indicator marks out.
+00:06:46.560 I'd want to see it right in here. I
+00:06:47.919 wouldn't really want to see price if
+00:06:49.440 we're going to expand, right? With
+00:06:51.280 expansions, we get shallow retracements.
+00:06:53.759 See that? So would I want price to
+00:06:55.919 deeply retrace to then go lower? No. I'd
+00:06:58.160 want a shallow retracement. Let's see
+00:07:00.000 what happens. We now close below here.
+00:07:02.960 Protected swing now. So now if this gets
+00:07:06.080 violated, this trend is over. Let this
+00:07:09.280 continue. And once again, what do we
+00:07:11.039 have? We have a fair value gap here. So
+00:07:14.000 that is now a new retracement and we are
+00:07:17.599 kind of consolidating here, right? So
+00:07:20.319 generally another thing you want to see
+00:07:21.599 with retracements is you want to see
+00:07:22.880 them be quick. You want to see
+00:07:24.080 expansion, retracement, expansion. If we
+00:07:26.800 expand, start a retracement and then we
+00:07:29.039 fail to confirm that. You see how we
+00:07:31.039 failed to close below here and then we
+00:07:33.280 hang around. This is now just a
+00:07:35.120 consolidation, right? You could view
+00:07:37.520 this consolidation and try to trade
+00:07:39.039 lower, but it's also a consolidation on
+00:07:41.199 the lows now, right? So, let's see what
+00:07:43.759 happens.
+00:07:46.160 And you can see we have a consolidation
+00:07:48.960 expansion out, expansion back in. That's
+00:07:51.440 a reversal. in this hourly candle. Let's
+00:07:53.919 see how it closes. It closes bullish. So
+00:07:57.840 now removing all our drawings, this
+00:08:00.000 trend is over our hourly closure and we
+00:08:03.440 can see how we're going to trade it this
+00:08:04.879 way. We're kind of combining the
+00:08:06.639 expansion, the consolidation, and the
+00:08:08.960 retracement videos together. So if we're
+00:08:11.599 going to expect this to continue, what
+00:08:13.039 do we want to see? Well, we have a fair
+00:08:14.560 value gap right here. Ideally, a reach
+00:08:16.560 into that. We do have a shallow reach
+00:08:18.560 into it. I personally don't really trust
+00:08:20.160 that. I'd like to see a consolidation
+00:08:22.560 low swept out. Give me a wick I trust to
+00:08:25.039 trade it higher.
+00:08:27.919 Now, we have a consolidation up here.
+00:08:29.840 So, I would be mainly focused on what?
+00:08:32.320 These lows getting swept out to trade
+00:08:34.640 higher because if you remember from our
+00:08:36.320 consolidation video, if we're expecting
+00:08:38.399 a continuation, in this case, we are
+00:08:40.479 bullish. We'd want to see what
+00:08:42.080 consolidation, a manipulation of the low
+00:08:44.959 to then trade higher, right?
+00:08:46.720 manipulation of low, find a protected
+00:08:48.560 swing, can trade that higher.
+00:08:52.160 And you can see we just make equal lows
+00:08:53.839 and start to trade away. So this is not
+00:08:56.640 something I'd personally trust to get on
+00:08:58.080 side with here, right? The only way I'd
+00:09:00.000 be able to trust this is if we're
+00:09:01.440 trading higher and finding a
+00:09:03.040 continuation out of that,
+00:09:05.600 right? So we have expansion.
+00:09:07.760 If we're going to continue, we'd want to
+00:09:09.120 see what either expansion continue or a
+00:09:11.360 retracement which is shallow to trade it
+00:09:13.120 higher. And here we get a retracement
+00:09:16.000 into what? A fair value gap. I'm not
+00:09:18.640 trying to long this right away. I want
+00:09:20.160 to wait for what? A closure over the
+00:09:22.720 down close candle.
+00:09:26.000 There we get the closure over. So, I can
+00:09:27.680 either enter on the close or on the
+00:09:29.600 retest. Put my stop on this wick or the
+00:09:32.640 body. Right. I wouldn't really trust the
+00:09:34.880 body here with the lack of wick. So, at
+00:09:37.360 least on the the wick or a little bit
+00:09:39.279 higher. And then look for 2, right? And
+00:09:42.320 what do we notice? We have nice failure
+00:09:43.839 swings over here on the left. So there
+00:09:46.240 we get tagged in and we don't know if it
+00:09:48.399 hit TP because this is current price
+00:09:50.240 action. So why did I choose this
+00:09:52.399 example? I chose this example to show
+00:09:54.560 you that not everything is going to be
+00:09:56.399 perfect, right? We didn't get a sweep
+00:09:58.480 right here to look to get on side with
+00:10:00.160 the first short. We didn't get a
+00:10:02.080 retracement into a fair value gap here
+00:10:03.760 for a continuation. You know, this could
+00:10:06.560 have provided an entry, but it's a bit
+00:10:08.160 late into the move and below lows,
+00:10:10.240 right? So you could miss this entire
+00:10:12.240 move even though you anticipated it.
+00:10:14.240 Right? The other thing is to show strong
+00:10:16.320 expansions have shallow retracements or
+00:10:18.320 consolidations. On this bullish move,
+00:10:20.800 what do I want to show? I want to show
+00:10:22.399 once again it's not going to be perfect.
+00:10:23.920 If it was perfect, something like this
+00:10:25.519 would occur, right? It reach into a fair
+00:10:26.880 value gap, sweeping out the
+00:10:28.000 consolidation lows, the formation of a
+00:10:30.160 protected swing, and then could trade it
+00:10:32.079 higher. So I showed this example to show
+00:10:34.399 you it's not going to be perfect, as
+00:10:36.000 well as starting to combine it all
+00:10:37.519 together. Right? You can see how the
+00:10:38.880 expansions, consolidations, and the
+00:10:41.040 retracements start to blend together.
+00:10:43.440 Once you have a bias, you can blend this
+00:10:45.360 all together with the phases of price to
+00:10:47.440 increase your understanding of where the
+00:10:49.120 market is likely to go. Now, once again,
+00:10:52.399 this is a fractal concept. So, I do
+00:10:54.959 prefer on the daily and hourly, but here
+00:10:57.279 we are on the monthly and daily. Now, if
+00:10:59.760 you notice, we have a candle to closure.
+00:11:01.680 We have a change in the state of
+00:11:02.800 delivery. So, we have that reversal, and
+00:11:04.959 then we trade lower in candle three.
+00:11:06.959 Now, if you notice, there's a few things
+00:11:08.320 I want to talk about up here, right? We
+00:11:10.560 sweep out this low, but what happens? We
+00:11:13.519 want to watch for the phases of price.
+00:11:15.440 Do we get a manipulation of this low,
+00:11:18.160 trade it higher? No, we don't, cuz we
+00:11:20.160 would have closed over this, forming a
+00:11:22.079 bullish change in the state of delivery.
+00:11:23.920 Do we get a consolidation or a
+00:11:25.519 retracement? Well, we retrace into this
+00:11:28.000 previous fair value gap here and then
+00:11:30.079 close below here. You can see how that
+00:11:32.399 monthly high is formed by a retracement
+00:11:35.200 into a fair value gap. Now getting into
+00:11:37.360 this next candle, since we close
+00:11:39.040 bearish, we can have a bearish bias.
+00:11:41.360 What do we see? We have a consolidation
+00:11:43.360 here. We have an expansion away,
+00:11:45.920 expansion down. So that's your
+00:11:48.000 accumulation, manipulation,
+00:11:50.079 distribution. So looking at this, my
+00:11:53.040 indicator is saying I'm looking for a
+00:11:54.640 higher time frame wick to form in here
+00:11:56.160 or the monthly wick to form in here.
+00:11:57.920 Where would that form? If we're going to
+00:11:59.600 get a retracement from this expansion, I
+00:12:02.160 want to see a shallow retracement into
+00:12:03.920 here. So, let's let another candle pass.
+00:12:06.639 What happens? We do get that
+00:12:08.399 retracement. We have a nice bearish
+00:12:10.560 closure forming this opposing candle.
+00:12:13.519 And this is why I posted on Twitter
+00:12:15.200 about this right here because this is
+00:12:17.519 now where I expect this wick to have
+00:12:19.200 formed and I can trade it lower, right?
+00:12:21.839 So, let's see what happens. We expand
+00:12:24.320 lower. You can see how we go. expansion,
+00:12:27.519 retracement, expansion. Here we get a
+00:12:30.079 consolidation where we run out the
+00:12:31.839 consolidation, then expand lower.
+00:12:34.320 Expansion, retracement, expansion.
+00:12:37.360 Right? So my whole thing is blending the
+00:12:39.600 closures with the phases of price. And
+00:12:42.240 that's why I could mark out on Twitter
+00:12:43.839 that this was going to expand lower. So
+00:12:47.200 here we are in our last example. And if
+00:12:49.360 we're taking a look, we have a bit of a
+00:12:50.800 messy price action here. So how can we
+00:12:52.639 make sense of it? Well, we have a candle
+00:12:54.959 to closure. This is engulfing the
+00:12:57.120 previous candles. We have a change in
+00:12:58.800 the state of delivery and price is
+00:13:00.480 trading higher. But you might see this
+00:13:02.320 consolidation range and say, "Hey, why
+00:13:04.720 aren't we waiting for the low to get
+00:13:06.639 taken in this consolidation range?"
+00:13:08.639 Well, if we look to our correlated asset
+00:13:10.880 or ES, ES has taken out that low. So, we
+00:13:14.320 can consider that an SMT and then it is
+00:13:17.040 valid to look for long setups. Now, if
+00:13:19.600 we're tracking our protected swings,
+00:13:21.120 which is important, we have one right
+00:13:22.959 here from the change in the state
+00:13:24.800 delivery. And then we have a new one
+00:13:26.720 right here from this new opposing
+00:13:28.720 candle. We can go ahead and move that to
+00:13:31.279 right here as that is a new protected
+00:13:33.279 swing. Now, if you notice, let's see
+00:13:35.120 what happens next. We retrace back in.
+00:13:38.000 We rebalance this area. And then what
+00:13:40.399 happens? We expand away. Now, we have
+00:13:42.880 this expansion through a high. So, we
+00:13:44.959 want to see, are we going to
+00:13:46.480 aggressively displace back into the
+00:13:48.240 range, forming a reversal to trade
+00:13:50.000 lower, or are we going to consolidate,
+00:13:52.079 in which case, what are we looking for?
+00:13:54.079 We'd mark out the lows, wait for
+00:13:55.680 manipulation of the lows to trade it
+00:13:57.199 higher, or are we going to retrace into
+00:13:59.040 a fair value gap to then trade it
+00:14:00.720 higher? So, we don't know what's going
+00:14:03.040 to happen. Let's let the candle closures
+00:14:05.519 tell us what is. We expand a bit higher
+00:14:08.800 there. We retrace into it, and we have a
+00:14:11.519 new candle. What does this candle tell
+00:14:13.199 us? We aren't closing back inside this
+00:14:15.519 range. We're closing back inside this
+00:14:18.160 previous candle's body. What do we see?
+00:14:21.360 We start to trade it higher. So, we have
+00:14:23.600 expansion, retracement, expansion. And
+00:14:26.560 what do we have now? A new protected
+00:14:28.880 swing, right? We can go ahead and track
+00:14:31.440 that. So, if we get long from anywhere
+00:14:33.600 down here, I have a new spot for my stop
+00:14:35.680 loss to trail to. So, we have expansion
+00:14:38.800 higher. What do we get? We have
+00:14:41.600 expansion and we have this little
+00:14:43.360 consolidation here, right? Do I trust
+00:14:46.240 this? Personally, not really because I
+00:14:48.560 could definitely see price just trading
+00:14:50.480 a little bit lower into this fair value
+00:14:52.000 gap. So, if we expand here, that's just
+00:14:54.079 something I'm going to miss. And we do
+00:14:56.720 expand from there. So, that's something
+00:14:58.079 I would miss. We have expansion, a
+00:15:00.160 little consolidation, manipulation,
+00:15:02.079 trade it higher. Here we have expansion.
+00:15:04.560 This would be something that would make
+00:15:05.839 more sense to me as we have we reach
+00:15:08.399 into a fair value gap and then we start
+00:15:10.399 to expand away from that.
+00:15:12.880 What do we notice here? We retrace back
+00:15:14.720 into this range. You don't really want
+00:15:16.399 to see that in expansion. You want to
+00:15:17.680 see it just trade higher. But what is
+00:15:19.600 this now? This is just a consolidation.
+00:15:23.040 So there's kind of a few options here.
+00:15:25.279 If we're in a consolidation, we're going
+00:15:27.120 to trade it higher. We want to see a
+00:15:28.480 sweep of the low to then trade higher.
+00:15:30.720 If we are bearish, we want to see a
+00:15:32.079 sweep of a high to trade it lower. Let's
+00:15:34.480 see what happens
+00:15:37.519 here. We sweep out the low aggressively
+00:15:39.839 back in. Now, do we form a protected
+00:15:42.079 low? Cuz that is what I'm looking for.
+00:15:44.160 Do we close over this level? And we do.
+00:15:47.360 So, now we have a new protected low
+00:15:50.079 right here. So, this trend is still
+00:15:52.880 continuing higher, right? Protected low,
+00:15:55.360 protected low, protected low.
+00:15:58.240 Let's see. We expand. Now we're once
+00:16:00.560 again over highs. So once again, I want
+00:16:03.440 to see, do we aggressively come back
+00:16:05.279 into this range or are we going to
+00:16:07.839 consolidate in which case I'm looking
+00:16:09.759 for the highs to get taken, go lower, or
+00:16:12.639 consolidate, look for the lows to get
+00:16:14.639 taken or are we going to get a
+00:16:16.160 retracement? Right? So I'm just looking
+00:16:17.440 for those phases of price. Let's see.
+00:16:21.120 Taking a look there. Is that a
+00:16:22.720 retracement or a consolidation? No.
+00:16:25.279 That's expansion met with expansion,
+00:16:27.120 which we'll talk about in the next
+00:16:28.639 video. But that's a reversal. So if
+00:16:30.959 price is going to reverse from here,
+00:16:32.560 what does that mean? Our protected low
+00:16:34.639 is likely not safe and becomes the draw
+00:16:37.120 on liquidity. So I'm then expecting
+00:16:39.360 price to go trade to this low or this
+00:16:41.519 swing point to fail. Let this play out.
+00:16:46.160 And there we go. We go take out the low.
+00:16:48.240 You can see we have some messy price
+00:16:49.600 action there. But hopefully that made
+00:16:51.440 sense. When we are going to trend,
+00:16:53.600 right, we're going to have very shallow
+00:16:55.279 retracements. It's not the cleanest of
+00:16:57.040 price action, but just make note of
+00:16:59.199 expansion, retracement, expansion,
+00:17:01.519 retracement, expansion. We have a little
+00:17:03.920 consolidation. That's fine. If you can
+00:17:05.679 anticipate that, you can catch it. If
+00:17:07.039 you can't, that's fine. Right? We form a
+00:17:09.280 consolidation. It's just using the
+00:17:11.439 phases of price. If I see a
+00:17:12.799 consolidation, I know I want to see a
+00:17:14.559 manipulation. If I see a retracement, I
+00:17:16.640 want to see a protected swing and then I
+00:17:18.000 can trade it higher. When you understand
+00:17:19.679 the phases of price, you can understand
+00:17:21.760 or anticipate what is going to be next
+00:17:23.760 or where the opportunities lie in the
+00:17:25.839 market. So, I hope you enjoyed the
+00:17:27.000 No text
+00:17:28.000 video. I'll see you guys in the next one
+00:17:29.679 where we go over reversals. And then
+00:17:32.000 following that, it will be a final video
+00:17:34.160 blending everything together using the
+00:17:36.080 phases of price with examples within my
+00:17:38.400 fractal model and actually finding
+00:17:40.559 entries using it. Hope you have a great
+00:17:42.720 rest of your day and I'll see you guys
+00:17:43.840 next time. Have a good one.

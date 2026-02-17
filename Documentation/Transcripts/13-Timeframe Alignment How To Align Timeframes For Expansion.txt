@@ -1,0 +1,397 @@
+# tactiq.io free youtube transcript
+# Timeframe Alignment: How To Align Timeframes For Expansion
+# https://www.youtube.com/watch/ubCe509_JLY
+
+00:00:05.800 [Music]
+00:00:11.040 how's it going everyone this video is
+00:00:12.960 going to be about time frame alignment
+00:00:15.280 we're going to talk about how to align
+00:00:17.160 the time frames together specifically
+00:00:19.800 how to go from a higher time frame point
+00:00:21.640 of interest to a lower time frame entry
+00:00:24.320 using the entry sequence now the first
+00:00:27.199 thing we have to understand is how I use
+00:00:29.400 top down analysis with top- down
+00:00:31.880 analysis I am focused on three time
+00:00:33.920 frames a higher time frame for bias a
+00:00:37.239 middle time frame for structure and a
+00:00:39.520 lower time frame for entry now with the
+00:00:42.200 structure of this video I'm just going
+00:00:43.960 to be focused on the structure and entry
+00:00:46.600 and how to align those with a bias if
+00:00:49.320 you have questions regarding bias please
+00:00:51.440 leave them in the comment section below
+00:00:53.399 or check out the other videos regarding
+00:00:55.280 daily bias on my YouTube channel so in
+00:00:57.960 this scenario we have formed a swing
+00:00:59.760 point and I'm anticipating price to
+00:01:01.680 continue lower in the next day so with
+00:01:04.479 that bias I would then go down to my
+00:01:06.360 structure and my entry time frame now
+00:01:08.880 what do I look for on my structural time
+00:01:10.720 frame well I want to be looking for one
+00:01:13.799 this to align with my higher time frame
+00:01:15.640 bias so if my bias is bearish I want to
+00:01:18.840 wait for either a change in the state of
+00:01:20.520 delivery or a market structure shift to
+00:01:23.159 allow for my structal time frame to be
+00:01:24.920 bearish which aligns with my bias now
+00:01:27.640 once this is bearish then I want to wait
+00:01:29.960 for a key level and what do I mean for a
+00:01:32.280 key level well that is either going to
+00:01:34.000 be a fair value Gap a high or a low or
+00:01:36.920 an order block so you can see here price
+00:01:39.479 retraces into a fair value Gap retesting
+00:01:42.640 the change in the state of delivery so
+00:01:44.520 now that my structural time frame is
+00:01:46.079 aligned bearish and I have reached into
+00:01:48.000 a point of Interest all I need to do is
+00:01:50.439 wait for my lower time frame entry to
+00:01:52.799 align with my higher time frame bias and
+00:01:55.119 structure now after I have an order
+00:01:56.759 block formation on the lower time frame
+00:01:59.200 in which price moves from bullish and
+00:02:01.360 then now it is bearish now all three of
+00:02:03.719 my time frames from my lower time frame
+00:02:06.079 to my structural time frame to my bias
+00:02:08.520 are all aligned bearish and that is when
+00:02:10.878 expansion occurs so what time frames do
+00:02:13.640 I pair together I pair the weekly with
+00:02:16.040 the 4 Hour the daily with the 1 hour the
+00:02:18.879 4 Hour with the 15 the 1 hour with the
+00:02:22.160 five the 30 minute with the 3 minute and
+00:02:24.959 the 15minute with the 1 minute now I
+00:02:27.200 align my bias the same way as I would
+00:02:29.280 align my structure so let's say I want
+00:02:31.239 to take an entry on the 5 minute that
+00:02:33.640 aligns with the 1 hour so now I have my
+00:02:35.959 entry time frame and my structural time
+00:02:38.040 frame but where do I get bias well I
+00:02:40.239 want to see what aligns with the hourly
+00:02:42.440 so finding the hourly I align it with
+00:02:44.640 the daily to get bias so let's say I
+00:02:47.120 want to take an entry on the 1 minute
+00:02:49.239 that aligns with the 15 the 15 minute
+00:02:51.920 aligns with what the 4our time frame so
+00:02:54.959 I'd use the 4H hour for bias the
+00:02:57.120 15-minute with structure and the 1
+00:02:59.280 minute for entry so what does an example
+00:03:01.400 of this look like well you can see here
+00:03:03.480 we retrace into a swing low which is a
+00:03:06.640 key level and a point of interest on our
+00:03:08.599 structure time frame so then using the
+00:03:10.959 time frame alignment I would look for an
+00:03:13.239 entry on the entry time frame using my
+00:03:15.920 entry sequence so for example if this is
+00:03:19.000 a daily chart what would this be an
+00:03:21.799 hourly chart because the daily aligns
+00:03:24.159 with the hour so let's hop into trading
+00:03:26.599 view for some examples so here we are
+00:03:29.280 with our first first example of time
+00:03:31.000 frame alignment if you are wondering
+00:03:32.799 what time frame I'm on or the asset I am
+00:03:35.000 on it will be in the bottom right hand
+00:03:36.720 corner here so you can see similar to
+00:03:39.040 the example previous we have wretch into
+00:03:41.720 an old high so if I'm anticipating price
+00:03:44.319 to reverse off this old high or get a
+00:03:46.519 retracement entering a new phase of
+00:03:48.799 price delivery I would then want to go
+00:03:50.879 to its lower time frame pairing and wait
+00:03:52.920 for a reversal so using the weekly time
+00:03:55.319 frame I would then go down to the 4-Hour
+00:03:57.480 time frame down here on the 4 hour time
+00:04:00.319 frame I'd want to wait for a shift in
+00:04:03.040 Trend which I use a change in the state
+00:04:05.159 of delivery which is the series of up
+00:04:07.519 close candles into that important level
+00:04:10.319 and you can see we have not closed below
+00:04:12.079 that yet so we haven't shifted the
+00:04:13.840 structure from bullish to
+00:04:16.000 bearish here you can see we are entering
+00:04:18.320 a
+00:04:20.079 consolidation and now we sweep out these
+00:04:22.560 highs to our left so with sweeping out
+00:04:25.320 our highs to our left here we have made
+00:04:27.560 a new high which then us using the
+00:04:30.440 series of up Clos candles into an
+00:04:32.120 important level this is now my shift in
+00:04:35.080 structure or my change in the state of
+00:04:37.199 delivery now with this I could look to
+00:04:39.479 trade the reversal if I want now that
+00:04:41.759 the time frames are aligned or I could
+00:04:43.880 wait for another continuation
+00:04:47.320 entry so you can see here we get a
+00:04:50.120 retracement back into the range and once
+00:04:53.039 again now we have a new order block
+00:04:57.039 formation so with our time frames
+00:04:59.039 bearish I then could either look to take
+00:05:01.120 an entry here or go to a lower time
+00:05:03.199 frames to seek an entry there as well so
+00:05:06.479 what would that look like we can drop
+00:05:08.320 down to the 15-minute time frame here
+00:05:10.560 because that aligns with the 4-Hour time
+00:05:12.759 frame so now down here on the 15minute
+00:05:15.479 time frame we have our 4-Hour order
+00:05:18.080 Block Level and so when price reaches
+00:05:20.600 into that we want to align our 15minute
+00:05:23.520 time frame with our 4-Hour time frame SO
+00:05:26.160 waiting for a change in the state of
+00:05:27.479 delivery here let's see if we can get it
+00:05:29.720 and then get on side with this
+00:05:31.960 move you can see we cannot close below
+00:05:35.800 it so letting this continue we now make
+00:05:38.680 a new high with making a new high we now
+00:05:41.560 have a new series of up closed
+00:05:47.479 candles and now you can see we get this
+00:05:49.639 closure below so now I could anticipate
+00:05:52.160 since this price action here is now
+00:05:54.440 bearish I'm expecting this High to hold
+00:05:57.360 I could get on side with this move here
+00:06:00.680 now I can look to Target 2 R on my entry
+00:06:03.160 time
+00:06:04.319 frame and there you see we have hit 2 R
+00:06:07.599 so just to review what happened here if
+00:06:09.880 we go back out to our 4-Hour time frame
+00:06:12.560 we used a bias or a point of interest
+00:06:15.240 from the weekly time frame to wait for a
+00:06:18.240 4-Hour reversal once this 4H hour is in
+00:06:21.319 bearish structure I then can look for
+00:06:23.680 entries on the 4H hour chart to go lower
+00:06:26.520 or I can also use that to then drop down
+00:06:28.840 to a lower time frame pairing to look
+00:06:30.800 for entries that align so in this
+00:06:32.800 scenario we aligned the 15-minute
+00:06:34.840 bearish with the 4-Hour bearish and then
+00:06:37.319 the weekly bearish as well so dropping
+00:06:39.800 back out to the weekly time frame you
+00:06:41.720 can also see we put in a swing point
+00:06:44.199 there so we were trading an expansion
+00:06:46.280 candle short so going back to the 4our
+00:06:49.280 time frame let's say I don't want to go
+00:06:51.479 to the lower time frame and get caught
+00:06:53.440 up what would that look like that would
+00:06:55.759 look like taking an entry on the 4-Hour
+00:06:57.639 time frame and using a 4 hour chart for
+00:07:00.199 my invalidation as well there you can
+00:07:02.919 see we would have hit 2 r or if we wait
+00:07:05.240 for a swing low to get taken out let's
+00:07:07.599 see what this looks
+00:07:09.879 like and you can see we hit our
+00:07:11.879 takeprofit there as well the main point
+00:07:14.240 I'm trying to get across here is if I'm
+00:07:16.199 entering on the 15minute chart I also
+00:07:18.800 want my 4-Hour chart bearish and I also
+00:07:21.039 want my weekly chart bearish the whole
+00:07:23.240 goal of catching expansions is to have
+00:07:25.720 all of my time frames aligned in One
+00:07:27.560 Direction and that is when you get this
+00:07:29.680 aggressive expansion move so let's hop
+00:07:31.800 into a few more examples so here we are
+00:07:34.160 with our next example and you can see we
+00:07:36.039 are on the gold daily chart do we have a
+00:07:39.160 point of Interest or a reason to be
+00:07:41.680 looking for a setup and here we have 3
+00:07:44.879 days of expansion into an old high so
+00:07:47.879 looking for a new phase of price
+00:07:49.400 delivery if we're going to form a
+00:07:51.120 reversal that would occur off previous
+00:07:53.639 day high so let's drop down to the
+00:07:55.599 hourly chart since that is what aligns
+00:07:57.560 with the daily chart so here we are on
+00:07:59.680 the hourly time frame and if we are
+00:08:01.639 looking for a reversal off previous day
+00:08:03.720 high we want to wait for that to get
+00:08:05.520 swept
+00:08:07.599 out here you can see we sweep out our
+00:08:10.280 previous day high so looking at this
+00:08:12.319 series of up Clos candles into that
+00:08:14.759 point of Interest I am then looking for
+00:08:17.639 that as my change in the state of
+00:08:19.159 delivery so now aligned with my daily
+00:08:21.520 point of interest of an old high and the
+00:08:23.879 context of price trading back towards
+00:08:26.000 the weekly open we now have aligned our
+00:08:28.800 hourly with our daily time frame now
+00:08:32.080 with this I could look to take an entry
+00:08:33.880 here or once again I could wait for the
+00:08:36.919 New York session or a lower time frame
+00:08:39.399 point of interest to be hit so you can
+00:08:41.679 see we reach back into this little fair
+00:08:44.360 value Gap and retest our change in the
+00:08:46.480 state of delivery so now what would I
+00:08:48.080 want to see here well I'd want to see
+00:08:50.200 either a lower time frame setup or a new
+00:08:53.240 opposing candle or order block
+00:08:56.440 formation so you can see we don't close
+00:08:59.920 below there but now we close below here
+00:09:02.959 so what is this this is now a propulsion
+00:09:05.480 block because it is an order block
+00:09:07.600 formed off of another order block so I
+00:09:09.839 could either look to take an entry here
+00:09:11.760 or drop down to the 5 minute so down
+00:09:13.920 here on the 5 minute you can see where
+00:09:16.720 price retested our hourly order block
+00:09:19.760 here and we have then Clos below the up
+00:09:23.519 Clos candles into that point of Interest
+00:09:26.040 so now the 5 minute is aligned bearish
+00:09:28.800 the hourly is aligned bearish and that
+00:09:31.120 also aligns with our bias so with all
+00:09:34.279 directions pointing down it is then set
+00:09:37.360 up for expansion so looking to get on
+00:09:39.680 side at the open of the new
+00:09:42.000 candle you can see here we start to get
+00:09:45.480 a little bit of
+00:09:47.320 consolidation but then we eventually
+00:09:49.399 expand lower hitting our to our take
+00:09:52.360 profit so just to review going back out
+00:09:55.079 to our hourly time frame we have a
+00:09:57.320 reason to be looking for a short setup
+00:09:59.640 from the bias of expanding away from the
+00:10:01.680 weekly open into a point of Interest 3
+00:10:04.360 days of expansion but most importantly
+00:10:06.720 I'm not going to look for entries until
+00:10:08.800 my lower time frame or my structure time
+00:10:10.880 frame shifts in that direction and then
+00:10:13.160 I'm looking to align my lower time frame
+00:10:15.720 with that higher time frame structure so
+00:10:18.160 in this case using a 5-minute entry I
+00:10:20.560 want to have a 5- minute bearish setup
+00:10:23.200 that aligns with the hourly bearish
+00:10:25.480 structure and you can see that is when
+00:10:27.680 you get expansion condition
+00:10:29.920 so here we are with our next example and
+00:10:32.079 we are on the Dow 30 minute chart now we
+00:10:34.959 don't sweep out this low but we do have
+00:10:36.880 an smt so using the daily profile we
+00:10:40.360 have all these failure swings on the
+00:10:42.120 highs we're in the New York session we
+00:10:44.079 have an smt this is looking like a New
+00:10:46.600 York reversal setup Now with an smt I
+00:10:49.560 can use this as my lower time frame
+00:10:53.320 confirmation and once we get a closure
+00:10:55.560 over that that is then telling me that
+00:10:57.959 this low should hold
+00:10:59.880 and with that being held I want to wait
+00:11:01.240 for a point of interest to be hit on the
+00:11:03.320 30 minute chart before dropping down to
+00:11:05.399 my aligned 3 minute
+00:11:07.800 chart and you can see here we have
+00:11:09.880 formed a bullish fair value
+00:11:12.360 Gap so if price reaches into this on the
+00:11:15.279 3-minute chart I then want to wait for
+00:11:17.240 the 3-minute chart to align with the
+00:11:19.040 30-minute chart let's drop down to the
+00:11:20.880 3-minute time frame so here we have that
+00:11:23.800 30 minute fair value Gap and you can see
+00:11:26.320 as we let this play out here this is
+00:11:28.639 bearish price action here and when we
+00:11:31.000 reach into the 30 minute fair value Gap
+00:11:32.839 I want to wait for this to align with my
+00:11:35.040 higher time frame which is the 30 minute
+00:11:37.600 chart bullish once we get the closure
+00:11:40.399 through the down close candles into the
+00:11:42.519 point of Interest also sweeping out the
+00:11:44.680 lower time frame lows here I can then
+00:11:47.079 anticipate this low to hold as we have
+00:11:49.959 aligned our time frames and set it up
+00:11:52.160 for expansion so getting on side here my
+00:11:55.320 stop on the low and then looking for 2 r
+00:12:01.880 let's see how this plays
+00:12:04.079 out you can see we get tagged in and we
+00:12:07.639 continue to 2 R so the main thing I want
+00:12:10.440 to show here is we let the reversal form
+00:12:13.720 on the higher time frame right and then
+00:12:15.800 we have a 30 minute chart trending up so
+00:12:19.519 when we align the 3 minute chart with
+00:12:22.160 that 30 minute chart in a point of
+00:12:24.000 interest that is when expansion occurs
+00:12:26.760 so let's take a look at our last example
+00:12:28.680 here you can see that Euro USD is
+00:12:31.320 trending downwards here and what do we
+00:12:33.360 have we have price retracing into a fair
+00:12:35.880 value Gap and sweeping out this high so
+00:12:39.360 viewing this as a consolidation if we
+00:12:41.800 sweep out the high of the consolidation
+00:12:43.880 what should we reach for the low of the
+00:12:46.240 consolidation and that is because we
+00:12:47.959 have accumulation manipulation and then
+00:12:50.959 I'd anticipate distribution so using
+00:12:53.839 this as my bias let's go all the way top
+00:12:56.320 down from a daily bias to aligning that
+00:12:58.920 with the hourly time frame and then
+00:13:00.720 aligning the 5 minute with that as well
+00:13:03.720 so here we are down on the hourly chart
+00:13:06.079 we have our bearish bias from the daily
+00:13:08.240 chart looking to trade from
+00:13:09.680 consolidation highs to consolidation
+00:13:12.279 lows now to align our hourly time frame
+00:13:15.720 bearish to align with our bias do we
+00:13:18.320 have that
+00:13:19.240 confirmation we do because into that
+00:13:21.800 important level or sweeping out those
+00:13:23.560 highs we have this series of up closed
+00:13:25.399 candles and those were closed below so
+00:13:27.959 looking for the lower half or the mean
+00:13:30.160 threshold of that change in the state of
+00:13:32.320 delivery I want to see this area of
+00:13:34.440 respect to continue lower so as we
+00:13:37.440 continue in towards this London
+00:13:40.120 session you can see we start to retrace
+00:13:42.480 up into this point of Interest so if we
+00:13:45.839 are going to have this area respect
+00:13:48.079 price and push it lower we'd want to
+00:13:50.440 wait on the 5 minute time frame to align
+00:13:52.639 with our hourly so we're tracing back
+00:13:54.920 into this hourly point of interest from
+00:13:56.639 the change in the state of delivery our
+00:13:58.519 fair value up here and sweeping out our
+00:14:00.920 high to our left here let's drop down to
+00:14:03.720 the 5minute time frame because we got
+00:14:05.800 this candle closure here which I could
+00:14:07.759 anticipate a
+00:14:09.000 reversal so down here on the 5 minute
+00:14:11.600 time frame we have aligned our daily
+00:14:14.079 with our hourly now is our 5 minute time
+00:14:16.800 frame aligned not yet because we have
+00:14:19.720 not had that 5minute confirmation that
+00:14:22.360 price is beish yet so I have to wait for
+00:14:24.839 the closure through this series of up
+00:14:26.560 closed candles into an important level
+00:14:28.399 so now with this closure I could look to
+00:14:30.519 get on side here with a short setup with
+00:14:33.160 my stop on the high or wait for any
+00:14:43.680 retests so with this consolidation I'm
+00:14:46.920 not anticipating price to reverse from a
+00:14:49.000 consolidation are we respecting 0. five
+00:14:51.720 of this change in the state of delivery
+00:14:54.160 we are as we have not closed over so
+00:14:56.800 looking for this to become a propulsion
+00:14:58.800 block do we get the closure below
+00:15:03.560 this and there we get the closure below
+00:15:05.959 this so now I would not anticipate price
+00:15:07.959 to trade to this high so I would look to
+00:15:10.199 get on side here with my stop over this
+00:15:12.519 swing High looking for 2 R now since I'm
+00:15:16.440 aligning my daily with the hourly and
+00:15:18.720 the 5 minute what I can do is I can look
+00:15:21.720 for this to have my target be hit or get
+00:15:25.440 stopped
+00:15:26.519 out but what else can I do since I'm
+00:15:29.519 aligning these time frames together I
+00:15:31.440 can also draw targets from my hourly
+00:15:33.639 time frame so if I'm using my hourly
+00:15:36.000 time frame here I could then look for
+00:15:38.079 runners to go take out this low here
+00:15:40.480 this short-term low or to go reach
+00:15:43.319 for this low down here or the
+00:15:45.720 consolidation low on The Daily time
+00:15:48.680 frame and you can see when you align all
+00:15:51.480 the time frames together that is when
+00:15:53.399 you get
+00:15:54.759 expansion and there we go and take out
+00:15:57.240 that low so so I hope you found this
+00:16:00.079 video helpful if you did please consider
+00:16:02.480 liking and subscribing and I hope you
+00:16:04.120 have a great rest of your day see you
+00:16:05.600 guys next time

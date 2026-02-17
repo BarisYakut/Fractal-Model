@@ -1,0 +1,493 @@
+# tactiq.io free youtube transcript
+# You Are Using Discount and Premium Wrong! - EQ For Expansions
+# https://www.youtube.com/watch/IPZjNI1B5a0
+
+00:00:05.490 [Music]
+00:00:10.960 how's it going everyone this video is
+00:00:12.719 going to be about how I use equilibrium
+00:00:15.160 in continuations so you have seen my
+00:00:17.480 discount and premium video you know that
+00:00:19.680 is how ICT uses discount and premium
+00:00:22.920 however I use it the opposite so let's
+00:00:24.920 get into the video the first thing you
+00:00:26.960 have to understand are the Fibonacci
+00:00:29.000 settings I'm going to use a simple
+00:00:31.000 Fibonacci with a
+00:00:32.600 0.5 and a 1 marked out and generally I
+00:00:36.440 remove the zero and one and just have
+00:00:38.239 the 0.5 but how am I going to measure
+00:00:41.039 the candles I'm always going to measure
+00:00:43.160 the candles from Wick High to Wick low
+00:00:46.399 and then Mark out the equilibrium that
+00:00:48.360 way I'm not going to use the bodies like
+00:00:50.960 I do for the change in the state of
+00:00:52.600 delivery or order blocks now something
+00:00:55.480 you have to understand is the phases of
+00:00:57.480 price and this is the main reason why I
+00:01:00.000 use it opposite of how most people use
+00:01:02.160 discount and premium if price is in an
+00:01:04.839 expansion phase which is the phase that
+00:01:07.040 I trade price rarely goes in retraces to
+00:01:10.119 a discount or to a premium you can see
+00:01:12.759 here we have an expansion leg up a
+00:01:15.119 retracement and you can see it expands
+00:01:17.479 higher before reaching down into a
+00:01:19.320 discount and once again the same thing
+00:01:22.600 so understanding this with expansions
+00:01:25.079 what can you anticipate the way I use
+00:01:27.680 equilibrium is in expansions I'm looking
+00:01:30.119 for the upper half to respect for price
+00:01:32.520 to trade higher and the lower half to
+00:01:34.759 respect for price to trade lower now if
+00:01:37.640 these do not respect I then can flip my
+00:01:40.000 bias and anticipate the low of the range
+00:01:42.399 being taken so here is a quick example I
+00:01:46.159 have the previous day marked out we have
+00:01:48.079 an expansion I'm looking for 05 of this
+00:01:51.360 range to support price higher so what
+00:01:53.719 I'm going to do is match PD arrays in
+00:01:55.920 that range as you can see we have a
+00:01:58.479 protected low right here as a low has
+00:02:00.799 formed out of this fair value Gap closed
+00:02:02.960 over so if I'm not expecting this low to
+00:02:05.560 be hit where is a PD array that I can
+00:02:08.280 anticipate to be touched right here I
+00:02:10.520 have a fair value Gap in the upper half
+00:02:12.520 of this range above the protected low so
+00:02:15.519 as we trade into the next day you can
+00:02:17.920 see that is where we get a reaction a
+00:02:20.200 change in the state of delivery and then
+00:02:22.239 we continue to expand or trade higher so
+00:02:25.599 looking at that on the higher time
+00:02:27.080 frames you can see this higher time
+00:02:29.480 frame candle just respected the upper
+00:02:31.800 half of the previous candle's range to
+00:02:33.879 trade higher let's hop into trading View
+00:02:36.360 and go over a few examples of this so
+00:02:39.480 here we are with our first example and
+00:02:41.360 just to give it a little bit of context
+00:02:43.400 we have these equal lows that were ran
+00:02:45.440 out to our left and we have this high
+00:02:48.360 above us so we are in a Range we have
+00:02:50.760 just purged the low of the range so we
+00:02:53.400 have an accumulation this could be a
+00:02:55.760 manipulation and then we could see a
+00:02:57.879 distribution or a move back High higher
+00:03:00.519 so one thing we know about this is we do
+00:03:02.840 have that closure where we sweep out and
+00:03:04.760 close back inside the range so I could
+00:03:06.879 view this to trade higher another thing
+00:03:09.239 we can note is we are closing over the
+00:03:11.280 previous day's EQ so if we're not
+00:03:13.560 respecting this side of the range we are
+00:03:15.680 going to look to trade to the other side
+00:03:17.680 and we have these failure swings also
+00:03:19.519 resting here so going to take a look
+00:03:22.319 down here on the hourly if we are going
+00:03:24.760 to look for the next day to respect the
+00:03:27.400 upper half of this day's range what PD
+00:03:30.120 arrays can we Mark out I'm going to look
+00:03:33.159 in the upper half of this range taking a
+00:03:35.720 look there drag it over what PD arrays
+00:03:38.280 do we have so we have a tiny little fair
+00:03:41.120 value Gap right here and we also have
+00:03:43.280 our protected low right here as this has
+00:03:46.239 wretch into a fair value Gap Clos
+00:03:48.400 through the down Clos candles so I can
+00:03:50.439 expect this low to hold if this day is
+00:03:52.879 going to trade higher so let's go move
+00:03:55.400 forward towards the New York session
+00:03:57.000 where I generally anticipate expansion
+00:03:58.879 for the indices
+00:04:01.599 you can see we are
+00:04:02.959 consolidating and there we get a move
+00:04:05.200 into that fair value Gap and I ask
+00:04:06.959 myself is this fair value Gap respected
+00:04:09.360 no it is not so I pretty much ignore it
+00:04:12.519 and now we are down near these opposing
+00:04:15.040 candles so if I'm looking for price to
+00:04:17.279 trade higher I'd want to see it do that
+00:04:19.238 there and now we have close through the
+00:04:21.959 down Clos candles sweeping out all these
+00:04:24.199 lows so if you've seen my change in the
+00:04:26.800 state of delivery video that is a change
+00:04:28.720 in the state of delivery
+00:04:30.320 I'd want to see the upper half of this
+00:04:31.960 respect or this to trade higher from
+00:04:33.840 this fair value
+00:04:35.280 Gap and you see we respect that area we
+00:04:38.560 get a new continuation candle and now
+00:04:41.400 let's go into the next day now we have
+00:04:43.919 traded and we have closed over the
+00:04:45.320 previous day's high and we have left
+00:04:47.440 these highs to our left as well as the
+00:04:49.400 other side of the range so if I'm
+00:04:51.600 expecting this to continue to trade
+00:04:53.039 higher here is my EQ and if I have a PD
+00:04:56.960 array in this area well I'm taking a
+00:04:59.280 look I have a small fair value Gap and
+00:05:01.120 this opposing candle here and I have a
+00:05:03.600 protected low right here so really I'm
+00:05:05.800 expecting price to trade higher leaving
+00:05:08.000 this low trading to the highs so as I
+00:05:11.120 let this
+00:05:13.919 continue we reach down into those
+00:05:16.039 opposing
+00:05:18.919 candles we close over the opposing
+00:05:21.479 candles which forms the wick of the
+00:05:23.520 higher time frame candle so just to
+00:05:26.080 review each day we respected the
+00:05:28.520 previous day's EQ to trade higher so you
+00:05:31.360 can see each time respecting the EQ to
+00:05:34.479 trade higher forming that higher time
+00:05:36.280 frame Wick and going into each day I
+00:05:38.639 mainly focused on finding an
+00:05:40.440 invalidation for that day and the PD
+00:05:43.160 arrays that I anticipate to support in
+00:05:45.319 the upper half since this is a bullish
+00:05:47.600 scenario and there you can see we go
+00:05:49.919 take out these failure swings here and
+00:05:51.880 are trading to the other side of the
+00:05:53.919 range let's get into another example in
+00:05:56.919 this next example we are going to go
+00:05:58.440 ahead and stay on one ym and here we are
+00:06:01.280 on the hourly chart but let's hop out to
+00:06:03.120 the daily as this is where I like to use
+00:06:04.960 the equilibrium you can see here on the
+00:06:07.039 daily chart we have taken out this low
+00:06:09.080 and we have closed back inside the range
+00:06:11.080 but we have a nice bearish expansion
+00:06:13.120 candle so this is where I give myself an
+00:06:15.160 if then scenario if the EQ is respected
+00:06:18.599 then we can trade lower through previous
+00:06:20.479 day low and possibly to the low to the
+00:06:23.000 left here if it is not respected then I
+00:06:25.759 anticipate it to trade higher to these
+00:06:28.039 failure swings on the high
+00:06:30.240 but once I have determined that then I
+00:06:31.919 go down to the hourly chart and I take a
+00:06:34.720 look at the intraday price action you
+00:06:36.639 can see we get a consolidation as we
+00:06:38.840 reach early New York we sweep out this
+00:06:41.039 side of the range and then we trade back
+00:06:43.160 through so I will drop down to a
+00:06:45.599 15-minute chart just to give you a
+00:06:47.240 better picture and you can see we do
+00:06:49.880 have a very aggressive sell-off here but
+00:06:52.560 since we are respecting the equilibrium
+00:06:54.639 of this daily candle I can then expect
+00:06:57.080 these lows to get taken instead of if we
+00:06:59.879 go and close through over this
+00:07:01.759 equilibrium looking for the failure
+00:07:03.720 swings on the high let's hop into
+00:07:06.280 another example so in this next example
+00:07:08.840 we're just going to do a walk through of
+00:07:10.800 a few days of price action while
+00:07:12.919 watching The Daily closures paired with
+00:07:15.120 the equilibrium and then the lower time
+00:07:17.160 frame chart you can see here if we get
+00:07:19.599 into the closure of the day did we
+00:07:22.000 respect the EQ of the previous day so
+00:07:24.639 marking that out right here we do
+00:07:27.520 respect it but we have a nice bearish
+00:07:30.080 closure with the sweep of the previous
+00:07:32.160 day high so if we can respect the
+00:07:34.360 equilibrium of this previous day then we
+00:07:36.639 can trade lower to these lows down here
+00:07:39.440 now looking for a PDR in this area this
+00:07:42.080 is where it's not always perfect right
+00:07:44.000 we don't really have a PD in the lower
+00:07:46.319 half of this range we really just have
+00:07:48.240 all these failure swings lined up and
+00:07:50.080 then reaching up into this fair value
+00:07:52.000 Gap here this is where I will allow it
+00:07:54.280 to trade a little bit higher than I
+00:07:55.840 normally would because of the structure
+00:07:57.639 on the hourly time frame so as I let
+00:07:59.879 this play
+00:08:03.840 forward you can see we do get a little
+00:08:06.199 bit of consolidation we then sweep that
+00:08:08.400 high into the fair value Gap and then
+00:08:10.479 trade lower so as we get into the next
+00:08:13.560 day we have now closed nice and bearish
+00:08:16.800 so if I'm expecting this to trade lower
+00:08:19.479 I would want to see it respect the lower
+00:08:21.319 half but what do we notice we notice
+00:08:23.240 that price already gapped down and then
+00:08:25.240 traded back into the range so now my
+00:08:27.800 whole thought process is wait for the
+00:08:29.759 next daily closure as this range has
+00:08:31.560 already
+00:08:34.039 expanded you can see that EQ does still
+00:08:37.360 give a reaction at the New York open to
+00:08:39.958 sweep out these intraday lows minus the
+00:08:42.320 gap down but let's get into the next
+00:08:45.440 day so the way I view this is we have
+00:08:48.360 taken out the previous low we have
+00:08:49.920 closed back inside the range here with a
+00:08:52.200 nice bullish candle now we have
+00:08:54.279 respected the EQ of this but I'm more
+00:08:56.480 focused on the swing formations so if
+00:08:58.600 we're going to respect the EQ of this
+00:09:00.240 candle what do I have well in this case
+00:09:03.399 there's two things that can happen we
+00:09:04.760 can either sweep out this low or we
+00:09:06.440 respect it I don't really know what's
+00:09:07.920 going to happen so that's when I just
+00:09:09.200 let the daily profile confirm or
+00:09:11.880 invalidate my thought process as we
+00:09:14.480 trade lower here we get awful close to
+00:09:17.120 this low I'd want to see this low swept
+00:09:19.079 out this low gets swept out we're
+00:09:21.040 respecting the EQ if we are going to
+00:09:23.000 trade higher this is where I would want
+00:09:24.560 to see it and I would look for the
+00:09:27.279 change in the state of delivery or an
+00:09:29.040 order block formation here we get that
+00:09:31.560 order block formation and we get this
+00:09:33.839 continuation higher right so I have a
+00:09:36.920 series of if then statements and then I
+00:09:39.160 search for the PD array as we let this
+00:09:41.959 continue we take out this previous day
+00:09:44.040 high we close back in but it is a nice
+00:09:46.320 bullish range once again if I'm zooming
+00:09:49.000 in here if I want to see the upper half
+00:09:51.240 of this respect and I have an opposing
+00:09:53.360 candle here and I would not want to see
+00:09:54.959 this low taken out now the only
+00:09:56.680 concerning thing is we have already
+00:09:58.040 taken out this previous High here which
+00:10:00.279 can set up a deeper retracement let's
+00:10:02.519 see what happens
+00:10:04.399 intraday here we are currently
+00:10:06.360 respecting this opposing candle do we
+00:10:08.760 get the confirmation of the close
+00:10:10.720 through the series of down Clos candles
+00:10:12.680 that made this low Let's see we do not
+00:10:16.920 so without that confirmation there is no
+00:10:19.360 bullish setup there and you can see it
+00:10:21.160 fails pretty
+00:10:22.880 good now as we let this go into the next
+00:10:25.560 day and carry on our bias what do we
+00:10:27.600 notice in this candle we have a very
+00:10:29.920 large Wick so it doesn't really make
+00:10:31.519 sense to use the EQ of the whole candle
+00:10:34.440 if you go back to my Wick video it will
+00:10:36.200 make a lot more sense to use 0.5 of this
+00:10:38.279 Wick here if 0 five of this Wick gets
+00:10:40.720 respected here I can see if this low
+00:10:43.200 gets swept out let's
+00:10:46.160 see we sweep out this low we have a nice
+00:10:49.959 closure though if we're going to trade
+00:10:52.000 this higher I'd want to see us close
+00:10:53.920 through this series of down close
+00:10:55.440 candles that made this
+00:10:58.040 low we do get the closure through it
+00:11:01.399 with this new order block formation now
+00:11:04.279 I'd want to see a closure through this
+00:11:06.200 level to trade
+00:11:10.519 higher it took a minute to close through
+00:11:13.279 that down close candle but once it does
+00:11:15.680 we do get that expansion to the failure
+00:11:17.320 swings on these highs over here but
+00:11:19.320 hopefully that makes sense how I pair
+00:11:20.920 daily closures with the daily
+00:11:22.800 equilibrium to search for expansions I'm
+00:11:26.000 going to use it just as I showed in the
+00:11:27.639 PDF with PDR a matching and then just
+00:11:30.680 pairing it with a change in the state of
+00:11:32.399 delivery and basic Market structure now
+00:11:35.800 let's go through a few more examples so
+00:11:37.639 you really get this locked into your
+00:11:39.160 brain you can see here we have had a
+00:11:42.720 consolidation and how does that blend
+00:11:44.639 with the phases of price we have
+00:11:46.600 expansion into a consolidation we have
+00:11:49.399 taken the high in the consolidation but
+00:11:51.839 we are going to trade lower this is
+00:11:53.680 where I'd want to see it now paired with
+00:11:55.920 the equilibrium and the closure we've
+00:11:58.079 swept out the high had a nice closure
+00:12:00.160 lower we have swept out the low right so
+00:12:02.360 this is less ideal as it has taken both
+00:12:04.519 sides of the range but if I want to see
+00:12:06.360 this trade lower where would I want to
+00:12:07.959 see that from the0 five of the range so
+00:12:11.360 once again dropping down to the hourly
+00:12:13.240 chart we'll let my indicator plot the EQ
+00:12:16.560 and the higher time frame candles and
+00:12:18.680 let's see how this works out so you can
+00:12:21.160 see going into this day if I'm looking
+00:12:22.720 for the previous EQ which is right here
+00:12:25.519 do I have a PD aray in that area I do is
+00:12:28.519 I have an opposing candle or an order
+00:12:30.839 block and that also gives me that
+00:12:33.199 protected High going into the day so if
+00:12:35.600 I was wanting to take a positional entry
+00:12:38.079 that is where I could take a short with
+00:12:39.680 my stop over this high and then looking
+00:12:42.160 for the other side of the range or two R
+00:12:45.199 but let's see how this plays
+00:12:47.519 out we reach up into that opposing
+00:12:49.959 candle once again if you have seen my
+00:12:51.839 video we want to see5 of that be
+00:12:55.040 respected it is being
+00:12:57.920 respected and then we trade lower off of
+00:13:00.160 that we get expansion into retracement
+00:13:03.120 now we're getting a new expansion in
+00:13:05.199 which I could use that whole series of
+00:13:07.240 up Clos candles and we continue through
+00:13:09.839 the low now continuing this bias into
+00:13:12.480 the next day what do we get we have a
+00:13:15.160 nice bearish closure right so if price
+00:13:17.240 is going to respect the lower half of
+00:13:19.120 this I'd want to see it Go lower so as
+00:13:22.360 we let this go what PD arays do we have
+00:13:25.320 in this area right and to just highlight
+00:13:27.839 it this whole area here here I look left
+00:13:31.279 I don't trust this as an order block
+00:13:34.040 because it is just in a consolidation so
+00:13:36.839 I will use the high of the range as a
+00:13:38.839 point of interest and either look for a
+00:13:40.839 sweep or an smt on that
+00:13:44.240 high and there we go we get a sweep and
+00:13:48.120 what do we get at the sweep a change in
+00:13:50.079 the state of delivery and we continue
+00:13:52.519 lower so you can see in that example how
+00:13:55.360 during expansion upclose candles are
+00:13:57.360 going to be respected and the EQ is also
+00:13:59.639 going to be respected we're not going to
+00:14:01.600 get those deep retracements into premium
+00:14:03.800 to look to sell so here we are in our
+00:14:06.160 next example and you can see we have had
+00:14:08.279 expansion do we get this met with
+00:14:10.440 expansion consolidation or retracement
+00:14:13.199 well price isn't consolidating price
+00:14:15.360 isn't expanding back into this range so
+00:14:17.959 this is a retracement in which I can
+00:14:19.720 anticipate another expansion lower with
+00:14:22.560 this daily closure this is where I could
+00:14:24.639 use 0.5 of that Wick as we have a large
+00:14:27.519 Wick to see that be respect to trade
+00:14:30.279 lower now on the next candle you can see
+00:14:32.800 we respect 0.5 that Wick and then we'll
+00:14:34.920 drop down to the hourly chart here for
+00:14:37.000 the structure so you can see here on
+00:14:39.480 that new day we open we make a high that
+00:14:43.279 is paired with the change in the state
+00:14:44.720 of delivery while respecting exactly
+00:14:46.839 that 05 but I would also allow it to
+00:14:49.480 trade slightly a bit higher using this
+00:14:51.839 Wick and then we get this continuation
+00:14:54.040 lower from these PD arrays now with this
+00:14:57.519 closure once again I asked my myself do
+00:14:59.720 I have an invalidation well if this is
+00:15:02.279 where I want to see price hold below
+00:15:04.519 here is an invalidation for me and here
+00:15:07.120 is a point of interest but I can use
+00:15:09.360 this fair value Gap
+00:15:11.440 here so letting this trade through let's
+00:15:14.639 see what
+00:15:15.720 happens we trade lower first which
+00:15:18.040 usually means we're going to return to
+00:15:20.040 the opening price at
+00:15:21.720 least and there we go so in this case
+00:15:24.560 you can see we do just leave shy of this
+00:15:27.040 fair value Gap so maybe I miss it or if
+00:15:29.560 I'm watching that higher time frame
+00:15:31.199 candle so if we replay it you can see it
+00:15:33.360 printed without a wick price comes
+00:15:36.240 returns just to put in a wick on that
+00:15:38.480 higher time
+00:15:41.440 frame right and then we have an
+00:15:43.399 aggressive closure and then trades lower
+00:15:46.120 so maybe I miss it maybe I catch it it
+00:15:48.519 really depends on what I would be
+00:15:49.880 thinking that day and we continue lower
+00:15:53.720 so you can see how each day we first
+00:15:55.800 respect the lower half of the wick then
+00:15:57.720 we respect the lower half of this daily
+00:15:59.839 candle and then if we're going to
+00:16:01.040 respect the lower half of this candle we
+00:16:02.639 would also continue lower but at this
+00:16:04.639 point we have 3 days of expansion into
+00:16:06.959 lows this is where I'm going to avoid
+00:16:09.160 price is there can be a new phase of
+00:16:10.920 price delivery either consolidation
+00:16:13.560 retracement or we get that reversal so I
+00:16:16.079 just wait for new daily closures to tell
+00:16:17.959 me what is up so the next thing I want
+00:16:20.399 to talk about is this is a fractal
+00:16:22.440 concept you can see I was using it on
+00:16:24.480 the daily and hourly and that is mainly
+00:16:26.519 what I use for my bias in lower time
+00:16:28.639 frames structure but is it also fractal
+00:16:31.160 right just like my fractal model used on
+00:16:33.240 any time frame it's the same with this
+00:16:35.319 concept so let's take a look at the
+00:16:37.040 4-Hour chart you can see I've adjusted
+00:16:39.199 my indicator to use the 4-Hour chart as
+00:16:41.120 the higher time frame for this
+00:16:42.680 equilibrium and if we go ahead and
+00:16:44.440 replay this price action here what do we
+00:16:47.120 notice we have this expansion lower we
+00:16:50.399 hit this low here so if this is going to
+00:16:53.240 respect and trade lower I'd want to see5
+00:16:56.600 of this be respected right which is
+00:16:58.920 right where price is opening up you can
+00:17:01.040 see on the next candle not only do we
+00:17:03.279 not respect that but we also close
+00:17:05.119 through the down Clos candles into this
+00:17:07.119 low so now I can view this as if we are
+00:17:09.760 going to trade this higher I'd want to
+00:17:11.280 see 0.5 of this candle be respected so
+00:17:14.160 as we let this print 05 is respected I'm
+00:17:17.760 now looking at this order block and then
+00:17:20.799 we go and take out this high right here
+00:17:23.760 we have now had a few expansion candles
+00:17:27.520 one two three so if we are going to get
+00:17:29.960 a new phase of price delivery this is
+00:17:31.760 where I would expect it as it has taken
+00:17:33.799 out liquidity reversals occur at highs
+00:17:36.880 and lows so as we let this print here we
+00:17:40.600 sweep out this High we have a nice
+00:17:42.679 closure this is where we could then see
+00:17:44.600 if we respect this Wick to trade it back
+00:17:46.960 into the range as a retracement but I
+00:17:49.360 prefer to just align that with the
+00:17:50.799 higher time frame Direction and trade
+00:17:52.640 the Longs here you can see we get that
+00:17:55.559 expansion reach into this opposing
+00:17:57.880 candle or the change on the state of
+00:17:59.360 delivery now I want to see is 0.5 of
+00:18:01.799 this respected and here is a good thing
+00:18:04.360 to notice we're closing above 0.5 of
+00:18:06.880 this candle's range which is generally
+00:18:08.640 when I view it as a reversal and I can
+00:18:10.480 use 0.5 of that Wick let's see what
+00:18:13.360 happens we respect 0.5 of that Wick we
+00:18:16.280 now close through the down close candle
+00:18:19.080 into this point of Interest the fair
+00:18:21.000 value Gap and this order block so this
+00:18:23.200 is now a propulsion block and if we are
+00:18:25.679 going to respect that and trade it
+00:18:27.000 higher 05 of this candle right here so
+00:18:30.120 now we have this little range that we're
+00:18:31.520 looking for price to trade higher off
+00:18:35.280 of you can see we tap right into that
+00:18:37.799 range that would be the t-spot and then
+00:18:40.080 we expand higher and if we continue to
+00:18:43.799 respect 05 there we go expansion so now
+00:18:47.360 with three expansion candles I could get
+00:18:49.039 a new phase of price delivery but the
+00:18:51.159 main thing I wanted to show is how this
+00:18:52.919 is a fractal concept you can use it on
+00:18:54.960 any time frame I prefer the daily 4H
+00:18:57.520 hour hourly candles because that just
+00:19:00.159 gives me enough time to analyze it if
+00:19:02.240 I'm doing this on a 5minute chart it
+00:19:04.159 just becomes a lot to look at so I hope
+00:19:06.640 you enjoyed the video if you did please
+00:19:08.919 consider liking and subscribing and I'll
+00:19:11.120 see you guys in the next one have a good
+00:19:13.000 one

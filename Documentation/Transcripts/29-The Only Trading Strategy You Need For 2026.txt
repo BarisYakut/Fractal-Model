@@ -1,0 +1,412 @@
+# tactiq.io free youtube transcript
+# The Only Trading Strategy You Need For 2026
+# https://www.youtube.com/watch/9AL41xON3hA
+
+00:00:10.800 How's it going everyone? This video is
+00:00:12.559 going to be over one system or trading
+00:00:14.559 strategy that you can follow in 2026.
+00:00:17.440 Too many people bounce around from model
+00:00:19.199 to model and then cannot find
+00:00:20.800 consistency simply due to the fact that
+00:00:23.199 they cannot follow a single system.
+00:00:25.439 Let's go ahead and learn my fractal
+00:00:26.960 model. Now, this model is built off the
+00:00:28.880 fact that price cannot reverse without a
+00:00:30.640 swing point. If price is going to go
+00:00:32.399 from a bearish trend to a bullish trend,
+00:00:34.880 it's going to form a bullish swing
+00:00:36.559 point. If it's going from a bullish
+00:00:38.399 trend to a bearish trend, it's going to
+00:00:40.399 form a bearish swing point. Now, if we
+00:00:42.640 look for these swing points to form at a
+00:00:44.480 point of interest and look for certain
+00:00:46.239 candle closures, we can anticipate
+00:00:48.079 expansion candles that follow. Now, the
+00:00:50.239 first thing we need to do before we get
+00:00:51.680 into the lower time frames is come into
+00:00:53.520 the day with a daily bias. We're going
+00:00:55.520 to do this by simply looking at the
+00:00:57.120 daily closure. If price has a closure
+00:00:59.840 outside the range, we're going to be
+00:01:01.440 looking for a continuation. So, you can
+00:01:03.600 see here with a bullish continuation,
+00:01:05.680 price closes over its previous day high.
+00:01:07.840 So, I'm looking for price to continue
+00:01:09.920 higher. And here you can see with the
+00:01:11.680 bearish continuation, price closes below
+00:01:13.920 its previous day low. So, I'd be looking
+00:01:15.520 for a continuation lower with a reversal
+00:01:18.080 closure. We have price sweeping out its
+00:01:19.840 previous day low and closing back above
+00:01:21.840 that low, showing that price has
+00:01:23.600 reversed off that low. And we can
+00:01:25.040 anticipate a continuation higher in the
+00:01:26.960 next day with a bearish reversal. Price
+00:01:29.520 has taken out its previous day high,
+00:01:31.360 closed back below that level, and then I
+00:01:33.600 can be looking for a continuation that
+00:01:35.280 following day. So once I have a daily
+00:01:37.680 bias, then I'm going to look for
+00:01:39.280 structure and a swing point formation.
+00:01:41.520 So how do I go about this? Well, here
+00:01:43.439 you can see we have a bullish daily bias
+00:01:45.840 through previous day high as price has
+00:01:47.840 closed over its previous candle's high.
+00:01:49.920 So looking for that, I'm going to be
+00:01:51.759 looking for a point of interest for
+00:01:53.360 price to react out of. So I'm going to
+00:01:55.360 look for that in the previous range of
+00:01:57.280 the previous day. So here you can see
+00:01:59.439 looking in this range here, we have a
+00:02:01.520 fair value gap. Now points of interest
+00:02:03.600 are always going to be either a fair
+00:02:05.040 value gap or a low in a bullish scenario
+00:02:07.680 or a fair value gap and a high in a
+00:02:09.840 bearish scenario. Then I'm going to want
+00:02:11.520 to wait for price to reach into that
+00:02:13.200 point of interest and have either a
+00:02:14.879 candle 2 or a candle 3 closure, which if
+00:02:17.360 you don't know what those are, I do have
+00:02:18.800 videos on those topics. So here you can
+00:02:21.040 see we have expansion, price retraces
+00:02:24.000 into this fair value gap, has a candle 2
+00:02:26.640 closure, and we have a draw on
+00:02:28.640 liquidity, which is our previous day
+00:02:30.160 high. So with this, I would want to go
+00:02:32.239 down to the lower time frames, and then
+00:02:33.760 I'd look for a fractal model. Now, very
+00:02:35.920 simply, we're going to go down to the
+00:02:37.519 lower time frames using our time frame
+00:02:39.280 alignment. So, for instance, if that
+00:02:41.040 swing point was on the hourly, I'd be
+00:02:42.879 using the 5minut. If it's on the 30
+00:02:44.720 minute, I'd be using the 3minut. Now,
+00:02:46.879 we're going to check to make sure we
+00:02:48.239 have a change in the state of delivery,
+00:02:49.920 which confirms the swing point, but
+00:02:51.680 we're not going to enter on that change
+00:02:53.040 in the state of delivery. We're going to
+00:02:54.720 wait for another continuation. So, what
+00:02:57.280 I'm going to do is let some structure
+00:02:59.040 form here. You can see we sweep out a
+00:03:01.040 low into a fair value up. So, we have
+00:03:02.959 that point of interest and then we get
+00:03:04.640 the close through the series of downclo
+00:03:06.560 candles. This is a continuation order
+00:03:08.800 block which I also have a video on. Once
+00:03:11.120 I have a continuation order block that
+00:03:12.800 forms going to look to enter on that
+00:03:14.560 close through my stop on that protected
+00:03:16.560 low and then look for 2 R. So just to
+00:03:18.879 review if we go back through this we're
+00:03:20.800 going to get a daily bias. In this case
+00:03:22.640 it was bullish. We'll then look for
+00:03:24.239 hourly structure or a point of interest
+00:03:26.400 on my desired time frame to be looking
+00:03:28.239 for. Some people prefer that on the
+00:03:30.000 4hour or even the 30 minute. And then
+00:03:32.319 from there when we form a candle 2 or a
+00:03:34.640 candle three closure in that point of
+00:03:36.319 interest, I'll go down to the lower time
+00:03:38.000 frame using the time frame pairing and
+00:03:40.159 then look for a continuation order block
+00:03:42.000 and look for 2R. So now that you
+00:03:44.400 understand this system, let's go through
+00:03:46.080 a few examples of this. So here we are
+00:03:48.560 in our first example and you can see we
+00:03:50.319 have taken out all the highs over here
+00:03:52.000 to our left and then we have a bunch of
+00:03:54.560 failure swings and a fair value gap
+00:03:56.400 here. So when we have multiple days of
+00:03:58.080 an expansion without a new swing point,
+00:04:00.239 I can be looking for a retracement or a
+00:04:02.239 reversal. Here you can see on the daily
+00:04:04.560 chart, we do have that reversal closure.
+00:04:06.959 So that gives me bias bearish into this
+00:04:09.360 next day and I could be looking for
+00:04:11.200 price to trade into this daily fair
+00:04:13.200 value gap below. Now let's go down to
+00:04:15.280 the hourly time frame for our structure.
+00:04:17.440 So here we are on the hourly time frame.
+00:04:19.358 You can see we have a change in the
+00:04:20.720 state of delivery as we have price
+00:04:22.560 sweeping out the highs right here and
+00:04:24.720 then closing through the series of
+00:04:26.400 upclose candles and that's validating
+00:04:28.160 this swing point. So now going into the
+00:04:30.479 next day, we'd want to look at the lower
+00:04:32.400 half of this previous day's range and
+00:04:34.560 look for price to form its wick. So we'
+00:04:36.880 be looking for a candle 2 closure or a
+00:04:38.880 candle 3 closure in here to try to get
+00:04:41.040 on side if I want to catch the wick or
+00:04:43.120 wait for a continuation. So let's see if
+00:04:45.120 we can find either of those. So here you
+00:04:47.120 can see we do have a reversal closure
+00:04:48.960 but it's not very bearish, right? It's
+00:04:50.560 more of a dogee. But we can go down to
+00:04:52.160 the 5minut time frame and see what this
+00:04:53.759 looks like. Now down here on the 5minut
+00:04:55.600 time frame, what would we want to see?
+00:04:57.199 We'd want to see the lower half of this
+00:04:59.440 change in the state of delivery be
+00:05:01.280 respected if price is going to continue
+00:05:03.520 lower in the next candle. And here you
+00:05:06.080 can see price trades rather high
+00:05:07.919 creating equal highs up here. So this is
+00:05:09.919 not something I'd be interested in
+00:05:11.440 shorting. Let's see what would happen.
+00:05:15.680 So you can see it just more so
+00:05:17.039 consolidates and then runs out the high.
+00:05:19.199 Let's go back to our structured time
+00:05:20.800 frame as that would not provide a valid
+00:05:22.560 setup. Let's see if we can find a new
+00:05:24.400 swing point or if it trades too high, we
+00:05:26.960 can see if it reverses and then look for
+00:05:28.639 a continuation.
+00:05:31.520 So here you can see price has traded
+00:05:33.440 rather high. So it's very hard for me to
+00:05:35.680 trust this reversal so close to this
+00:05:37.759 high. I would want to see if price can
+00:05:39.680 form a nice V-shaped reversal and then
+00:05:41.759 look for a continuation. Otherwise, many
+00:05:44.000 times I see this just fail and then run
+00:05:45.680 out the swing point. Let's get some more
+00:05:47.840 information.
+00:05:51.360 And here you see we start to get that
+00:05:52.960 displacement down or that V-shaped
+00:05:54.800 reversal. Now, that is very aggressive.
+00:05:58.000 And you can see this is a new
+00:05:59.840 continuation or a continuation order
+00:06:02.320 block on the structure time frame. So,
+00:06:04.400 let's continue to look at this time
+00:06:05.759 frame and see if we can get a
+00:06:06.960 retracement to get on side with a move.
+00:06:10.560 Now, one thing to notice here is we do
+00:06:12.240 have this bullish reversal, but this
+00:06:14.000 bullish reversal then fails as we are
+00:06:16.000 forming a candle to closure bearish
+00:06:18.240 here. And now this is located within a
+00:06:20.880 fair value gap right here. It's rather
+00:06:22.560 small, but a fair value gap and
+00:06:24.400 retesting this continuation order block.
+00:06:26.960 So, we could go down to the lower time
+00:06:28.639 frame and see if the structure aligns
+00:06:30.400 with a move towards previous day low and
+00:06:32.639 into that daily fair value gap. Let's
+00:06:34.720 drop down to the 5minut time frame as
+00:06:36.639 that aligns with the hourly. So, here we
+00:06:38.960 are down on the 5minut time frame. And
+00:06:41.360 let's take a look. Do we have a point of
+00:06:43.120 interest here? We do. We have a fair
+00:06:45.199 value gap. But what else are we doing?
+00:06:47.120 We're taking out this short-term low
+00:06:48.880 here. So, this is where we sometimes
+00:06:50.639 will run out a protected swing or a new
+00:06:52.880 high to then go lower. Let's give this
+00:06:55.280 another candle or two. And you can see
+00:06:57.360 we don't respect this area at all or
+00:06:59.759 this smallbodied candle here. So, let's
+00:07:02.240 see if we form a new continuation.
+00:07:04.960 So, we are sweeping out that high. We
+00:07:07.039 then need it to form a continuation
+00:07:08.960 which would be a close below here. Let's
+00:07:11.840 see if we can get that.
+00:07:17.360 And there you can see we do get the
+00:07:18.960 closure below. So then I could look to
+00:07:21.120 take a position either on the close or
+00:07:22.960 on the retest. Put my stop on the body
+00:07:25.360 high or the actual high. Either one
+00:07:28.080 works. That is up to you. And then I'd
+00:07:30.319 be looking for two R. So just to review,
+00:07:33.520 we have a daily bias that is bearish. We
+00:07:36.160 have an hourly continuation out of a
+00:07:38.560 fair value gap. So we have formed the
+00:07:40.400 high of the day is what I'm anticipating
+00:07:42.880 and then a continuation in this hourly
+00:07:45.120 fair value gap right here. And then we
+00:07:46.960 have a continuation on the lower time
+00:07:48.639 frames. So what are we doing? We are
+00:07:51.199 aligning all of our time frames in one
+00:07:53.199 direction. The daily is bearish, the
+00:07:55.520 hourly is bearish, and the 5m minute is
+00:07:57.919 bearish. This is when expansion can
+00:07:59.840 occur. So let's see what happens. We get
+00:08:02.560 tagged in on the retest. Candle four, do
+00:08:05.840 we get a continuation? It waits until
+00:08:07.759 candle five, but we do get a move lower,
+00:08:10.160 right? And that is the expansion that
+00:08:11.840 occurs when we have all time frames
+00:08:13.840 aligned bearish. So, just to review one
+00:08:16.160 more time, we'll go back out to the
+00:08:17.919 daily time frame. Here we have price
+00:08:19.759 taking out highs on the left. Here we
+00:08:22.080 have a reversal closure, which gives us
+00:08:24.639 a bearish bias for this day. here going
+00:08:27.759 down to the hourly time frame. We have a
+00:08:30.240 change in the state of delivery which
+00:08:31.759 confirms that daily bearish swing point
+00:08:34.240 and then we are looking for the wick
+00:08:36.159 high to form in this daily candle. Now I
+00:08:38.640 can look to trade it on the candle
+00:08:40.399 closure and actually get in on the wick
+00:08:42.399 or I can let that in candle change in
+00:08:44.320 the state of delivery form or that
+00:08:46.080 continuation on the structure time frame
+00:08:48.080 and then seek a continuation. Here price
+00:08:51.040 traded too high so we let a V-shaped
+00:08:53.120 reversal form then looked to get a
+00:08:55.360 retracement and then get on side with a
+00:08:57.200 new expansion. So here you can see we
+00:08:59.600 had a candle to closure and a point of
+00:09:01.680 interest and then we went down to the
+00:09:03.360 lower time frames and found a
+00:09:04.959 continuation order block. Now where
+00:09:07.040 could I be targeting instead of just two
+00:09:08.720 R here. I could look for previous day
+00:09:10.480 low or for price to trade into that
+00:09:12.880 daily fair value gap below. And you can
+00:09:15.440 see if we let that play out, we do get a
+00:09:17.600 very nice drop into that daily fair
+00:09:19.200 value gap. And that's how you can get
+00:09:20.640 greater risk-to-reward on your trades is
+00:09:22.959 use a lower time frame invalidation and
+00:09:25.440 still target those higher time frame
+00:09:27.120 objectives. Now, let's get into another
+00:09:29.200 example. Now, here we are on our next
+00:09:31.360 example. We are on USD JPY on the daily
+00:09:34.480 and monthly time frame. Here you can see
+00:09:36.800 we've had a candle to closure on the
+00:09:38.560 monthly, which gives us a bullish bias
+00:09:40.640 for this month or this October. Now,
+00:09:43.200 we're getting into the end of October. I
+00:09:44.959 don't want to fade that month,
+00:09:46.320 especially with these equal highs
+00:09:48.080 resting above. So, with equal highs,
+00:09:50.640 what do we have? We have a candle to
+00:09:52.480 closure on this time frame. So, what
+00:09:54.959 would we want to do here? Well, we'd
+00:09:56.880 want to refine that down and confirm it.
+00:09:59.120 Now, this is a fractal concept. So, in
+00:10:01.519 the earlier example, I use the daily,
+00:10:03.680 hourly, and 5m minute. But here, you can
+00:10:05.600 see I'm using the monthly, daily, and
+00:10:08.080 then hourly. So, the hourly will be my
+00:10:10.160 entry time frame. Now, is this at a
+00:10:12.399 point of interest? Yes, it has wretched
+00:10:14.399 into this fair value gap here. The body
+00:10:17.120 is respecting it and we are closing back
+00:10:19.440 above it. So, instead of going all the
+00:10:21.920 way down to my lower time frames in this
+00:10:23.839 case, I can just use the hourly as my
+00:10:25.680 entry time frame. Does that mean you
+00:10:27.519 can't refine this down further? Of
+00:10:29.360 course, you can, but sometimes I just
+00:10:31.279 prefer to not refine it down too much.
+00:10:33.600 But let's see here. What do we want to
+00:10:35.360 see? We want to see price open and then
+00:10:37.440 form a continuation, right? We're
+00:10:39.200 looking for a continuation order block.
+00:10:41.279 Now, if we look in this structure here,
+00:10:43.360 I already have one, but I don't want to
+00:10:45.760 see price trade below this level, right?
+00:10:48.079 And that also lines up with the EQ.
+00:10:50.160 Let's look for another continuation to
+00:10:52.000 form in here.
+00:10:54.640 Now, we do have a fair value gap here,
+00:10:56.720 right? We reach into a fair value gap.
+00:10:58.640 Do we close over these down close
+00:11:00.320 candles to form a continuation? No. We
+00:11:03.040 are forming a consolidation and then we
+00:11:05.279 make a new low. Now I've refined this
+00:11:08.079 down. Do we close over this level to
+00:11:10.800 form a new continuation
+00:11:14.320 and there we do. So with that I can then
+00:11:17.200 look to take an entry either on the
+00:11:19.040 retest or the close here. I'd rather
+00:11:21.519 take it on the retest. Why is that?
+00:11:23.440 Well, we just took out these highs here.
+00:11:25.360 So we could get a retracement before
+00:11:27.120 going higher. So looking for a retest,
+00:11:29.680 put my stop on the bodies because they
+00:11:31.360 are nice and fullbodied candles. And
+00:11:33.680 then look for 2 R. Let's see how this
+00:11:35.839 works out.
+00:11:38.079 And there we hit 2R. You can see this is
+00:11:40.560 an example of the monthly to daily to
+00:11:43.279 hourly framework, right? Just aligning
+00:11:45.200 multiple time frames in one direction.
+00:11:47.519 Now, if I wanted to refine this down
+00:11:49.360 further, I could look to refine this
+00:11:51.120 down in here as price takes out this
+00:11:53.440 high and then we have a retracement. So,
+00:11:55.680 if we're going to continue higher, I'd
+00:11:57.279 expect a low to form in here to trade
+00:11:59.519 higher, which you could look for a swing
+00:12:01.279 point on the 30 or 15minut time frames.
+00:12:04.320 So let's get into one more final
+00:12:06.160 example. So here we are in one more
+00:12:08.320 example. We are on oil on the hourly
+00:12:10.800 chart. So you can see we have this daily
+00:12:12.720 closure here which is bearish and then
+00:12:15.040 do we have that change in the state of
+00:12:16.959 delivery? And we do. We have closed
+00:12:18.720 through that level. Now we want to look
+00:12:20.160 for a continuation in this area to get
+00:12:22.320 on side with it. You can see it's a bit
+00:12:24.399 messy, right? We have all these failure
+00:12:25.920 swings. We have swept out this
+00:12:27.519 short-term low here. So it's not looking
+00:12:30.240 great, but let's see if we can find
+00:12:31.839 something. You can see we'd want to see
+00:12:34.160 this area respected and price just
+00:12:36.399 immediately trades higher.
+00:12:39.040 Now you can see we do sweep out this
+00:12:40.639 little low but even with that do we form
+00:12:42.639 a continuation? No, we do not. We have
+00:12:45.760 not closed below this level
+00:12:49.360 and we fail to do so. So now what is
+00:12:52.240 this becoming?
+00:12:54.079 When we fail to form a continuation
+00:12:56.399 multiple times, this is just becoming a
+00:12:59.040 range, right? This is a consolidation.
+00:13:01.680 So, how do we approach consolidations?
+00:13:04.000 Well, we'd want to see the high or the
+00:13:05.519 low of the range be taken out and then a
+00:13:07.920 continuation or an order block form
+00:13:09.920 there. Here you can see we sweep out the
+00:13:12.639 high in this consolidation or previous
+00:13:14.639 days high. We now have a protected swing
+00:13:18.000 form and then we could look for price to
+00:13:19.839 continue lower here. Now, I just wanted
+00:13:22.079 to show this example because one, if we
+00:13:24.639 are not going to form a continuation, it
+00:13:26.880 doesn't always occur. That is where
+00:13:28.560 price will then form a consolidation.
+00:13:30.880 and then I want to avoid it until one
+00:13:32.959 side of the range is taken. If I do want
+00:13:35.200 to trade something like this, this is
+00:13:36.720 trading a reversal day, which is a bit
+00:13:38.639 more complex. But that is how I would
+00:13:40.480 approach it. Now, let's say I did want
+00:13:42.240 to get on side here. Well, I can still
+00:13:44.160 look to trade a continuation. So, if I
+00:13:46.399 go down to the 15-minute time frame
+00:13:48.480 here, you can see we have that sweep and
+00:13:50.480 the close through and we form another
+00:13:52.639 continuation or this breakdown here,
+00:13:55.120 which I could trade the breakout of. But
+00:13:57.839 this is not an example of something that
+00:13:59.440 I want to trade. I was more so showing
+00:14:01.600 this to show you that when price fails
+00:14:03.600 to form a continuation and you are
+00:14:05.279 looking for it or it is just messy.
+00:14:07.519 Don't try to force yourself on the
+00:14:09.120 market. Focus on those examples that are
+00:14:11.199 really clear and focus on trading those
+00:14:13.600 versus trading something like this
+00:14:15.199 because it's just a bit more complex.
+00:14:17.680 Now, if you did enjoy this video, please
+00:14:19.440 let me know in the comments below and
+00:14:21.199 I'll see you guys next week. Have a good
+00:14:22.959 one.

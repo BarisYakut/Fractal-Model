@@ -1,0 +1,452 @@
+# tactiq.io free youtube transcript
+# No title found
+# https://www.youtube.com/watch/WFqLwOp2pXw
+
+00:00:00.000 No text
+00:00:05.490 [Music]
+00:00:11.120 how's it going everyone in this video we
+00:00:13.120 are going to talk about consolidations
+00:00:15.759 And this will be part one into a
+00:00:18.080 five-part series on the phases of price
+00:00:21.039 and how they blend together Let's hop
+00:00:23.760 into the PDF and get started So what is
+00:00:26.000 No text
+00:00:27.199 a consolidation a consolidation is when
+00:00:30.240 price remains internal to a high and a
+00:00:33.120 low So what does that mean it means by
+00:00:35.280 marking out a low and marking out a high
+00:00:38.239 price remains inside that range or not
+00:00:41.360 taking out the high not taking out the
+00:00:43.440 low for a period of time So when does
+00:00:46.800 this generally occur well we can expect
+00:00:49.520 it after a large range or when price
+00:00:52.879 hits a higher time frame level So price
+00:00:55.680 moves from large ranges to small ranges
+00:00:58.640 So following an expansion we can get a
+00:01:00.960 consolidation which can either be a
+00:01:03.440 continuation signature If we have hit a
+00:01:06.080 higher time frame level such as over
+00:01:08.240 here we expand into a higher time frame
+00:01:10.799 level and then have a consolidation You
+00:01:13.360 can see price is remaining internal from
+00:01:15.600 a high and a low So that is defining the
+00:01:18.960 consolidation
+00:01:21.280 So how do we interact with a
+00:01:23.280 consolidation well I don't want to trade
+00:01:25.920 within this range because that is where
+00:01:27.840 I'm going to try to guess if price is
+00:01:30.159 going to break lower or break higher
+00:01:32.320 which generally I do not know So I need
+00:01:34.640 to be patient and wait for price to
+00:01:36.479 manipulate or take out one side of this
+00:01:39.200 range So if I am bullish ideally I want
+00:01:41.920 to see price run out the low but then I
+00:01:44.560 can look to trade it higher And this is
+00:01:46.640 your classic power of three for
+00:01:48.880 accumulation manipulation and then
+00:01:51.759 distribution higher Now in the bearish
+00:01:54.399 example here you can see we remain
+00:01:56.320 internal to this high and to this low
+00:01:59.119 Price then takes out the high and so if
+00:02:01.600 my bias is bearish I can then look to
+00:02:03.600 trade that lower You have your
+00:02:05.360 accumulation manipulation distribution
+00:02:09.119 Now the only time we don't need price to
+00:02:11.120 run out the high or the low is if we
+00:02:13.440 have SMT and that means the correlated
+00:02:15.920 asset does run out the consolidation
+00:02:17.920 lows So we can treat it as if it did So
+00:02:21.440 you can see here let's say for example
+00:02:23.440 this is NQ and ES did run out the low
+00:02:26.560 here We have that SMT I can treat this
+00:02:29.360 as a protected low once closed over
+00:02:31.920 because ES ran out the low even though
+00:02:34.560 MQ didn't And similar with the bearish
+00:02:37.040 scenario price runs out the highs on a
+00:02:39.680 correlated asset but not on this current
+00:02:41.760 one I can use that SMT to anticipate
+00:02:44.080 this high remains as we trade lower Now
+00:02:47.200 there are two types of consolidations
+00:02:48.879 that I will look to participate in and
+00:02:51.040 that will be a continuation or a
+00:02:53.200 reversal Let's first take a look at the
+00:02:55.760 continuation You can see we have a large
+00:02:58.560 range or an expansion which leads to a
+00:03:01.120 consolidation a large range to a small
+00:03:04.159 range Now with an open drawn liquidity
+00:03:06.879 or an objective sitting above this I can
+00:03:09.280 anticipate price to continue as it has
+00:03:11.519 not hit a higher time frame level So if
+00:03:13.920 we have a consolidation right here and
+00:03:16.720 we have all these lows resting what
+00:03:18.879 would I want to see well I want to see
+00:03:20.720 that manipulation or price running out a
+00:03:23.040 low You can see price runs into this low
+00:03:26.080 giving us our manipulation And then what
+00:03:28.000 can we wait for well if you've seen my
+00:03:29.840 protected swings video I can either look
+00:03:31.920 to get on side here but a lot of times I
+00:03:34.640 prefer to wait for a continuation
+00:03:36.319 because what if we don't form a low here
+00:03:38.080 and we just trade lower so I can wait
+00:03:40.640 for a continuation where we have a
+00:03:43.040 closure through this level which gives
+00:03:44.959 us a change in the state of delivery and
+00:03:46.959 look for a continuation higher
+00:03:49.760 Now the next would be a reversal and
+00:03:52.000 this is just the opposite You can see we
+00:03:54.239 have an expansion into a consolidation
+00:03:56.879 So just the same as the last example but
+00:03:59.439 what is the difference we have hit a
+00:04:01.120 higher time frame objective or higher
+00:04:02.959 time frame level in which I'm
+00:04:04.480 anticipating a reversal to form So with
+00:04:07.120 that if I want to see a reversal we have
+00:04:09.200 all these highs want to see the highs
+00:04:11.439 ran out a change in the state of
+00:04:13.360 delivery and then I can look to trade
+00:04:15.280 this lower
+00:04:17.199 Now what type of PDR goes with
+00:04:19.279 consolidation and that would be a
+00:04:21.279 discount and premium or the equilibrium
+00:04:24.560 And how do I use this well if price is
+00:04:26.960 consolidating similar to my seek and
+00:04:28.960 destroy video I can use the equilibrium
+00:04:31.280 of this range where if price deviates
+00:04:33.919 from this range I can look to trade back
+00:04:36.080 into the equilibrium If price is going
+00:04:38.560 to continue to consolidate it's just
+00:04:40.479 going to return back to that mean or
+00:04:43.280 that middle of that range Let's get into
+00:04:46.320 trading view and go over a few examples
+00:04:50.000 No text
+00:04:50.000 So here we are in our first example And
+00:04:52.560 what do we notice here we have had
+00:04:54.479 expansion lower We form a reversal So we
+00:04:57.520 can mark out our change in the state of
+00:04:59.120 delivery here which is a sweep So
+00:05:01.440 reaching into an important level then
+00:05:03.280 the closure through the series of down
+00:05:05.199 close candles here You can see we get an
+00:05:07.199 expansion back higher here We have these
+00:05:09.199 three expansion candles Now what do we
+00:05:11.680 notice here do we have any confirmed
+00:05:14.000 price action no Because if we're going
+00:05:16.160 to have an expansion retracement and
+00:05:18.880 then a continuation price would have
+00:05:21.039 retraced into this fair value gap which
+00:05:23.039 it did but then it would have closed
+00:05:25.039 over this level with a failure to do so
+00:05:28.000 We are then consolidating So we can go
+00:05:31.440 ahead and mark out this high and low And
+00:05:33.759 what do we notice about these is price
+00:05:35.680 remaining internal to these no But it is
+00:05:38.400 failing to trade out of it right so it
+00:05:40.400 is still consolidating I can then just
+00:05:42.400 readjust to that range high and that
+00:05:45.039 range low We can see we're trading
+00:05:47.120 internal to that range It's fairly
+00:05:49.039 obvious there And so as we let this
+00:05:51.360 continue if we are bullish what do we
+00:05:54.000 want to see well we've had our change in
+00:05:56.240 the state of delivery We have an
+00:05:58.000 objective open So we want to see that
+00:06:00.160 range low taken out And here I could
+00:06:02.560 look to get on side with a fractal model
+00:06:04.960 We have a candle 2 closure So I could go
+00:06:07.120 down to a lower time frame or the 1
+00:06:08.960 minute Or I can wait for that protected
+00:06:12.160 swing to form on this time frame which
+00:06:14.319 would be a closure through the series of
+00:06:16.160 down close candles into that important
+00:06:18.080 level which is that low there Let's see
+00:06:20.319 if we get the closure over We do So now
+00:06:23.680 this low is protected here I'd want to
+00:06:26.160 see price trade into this high through
+00:06:28.160 this high And let's see if there's any
+00:06:29.840 other continuations
+00:06:31.840 You can see we do get a new retracement
+00:06:35.680 Now is this going to be a protected low
+00:06:38.560 well we want to see if we get a closure
+00:06:40.080 through this Now a quick lesson We do
+00:06:43.120 not have a fair value gap or a low to be
+00:06:45.280 swept out in here So no important level
+00:06:47.680 That is when I can use 0.5 of this
+00:06:50.639 opposing candle here You can see how
+00:06:52.960 price is respecting that there So let's
+00:06:55.680 see if we get the closure over We do Now
+00:06:58.960 you want to see price continue higher
+00:07:00.800 here So let's see
+00:07:06.160 We do get that continuation Now price
+00:07:08.560 reaches back into an important level Do
+00:07:10.880 we have a series of down close candles
+00:07:13.039 we do Do we close over that not yet
+00:07:17.919 We do now And then I'd want to see this
+00:07:20.400 low be protected as we continue to trend
+00:07:23.520 higher And we do so So hopefully that
+00:07:27.120 makes sense In combining the protected
+00:07:29.199 swings with a consolidation we have
+00:07:32.479 expansion or a large range leading into
+00:07:35.599 a smaller range Wait for that
+00:07:37.280 manipulation then look to participate
+00:07:40.000 right because that is when the trend is
+00:07:41.680 going to occur after that manipulation
+00:07:44.000 No text
+00:07:45.360 So here we are in our next example and
+00:07:47.680 let's take a look at a few things You
+00:07:49.840 can see on our daily chart we have taken
+00:07:52.240 out the high We close back in That's
+00:07:54.800 paired with a change in the state of
+00:07:56.479 delivery here Bearish So I could be
+00:07:58.879 looking for a continuation lower this
+00:08:00.639 next day Now if we're expecting price to
+00:08:03.199 trade and go lower we want to see what
+00:08:05.199 be respected the EQ Right so this is
+00:08:08.400 really where we would want to see the
+00:08:09.840 wick form if we're going to go trade to
+00:08:11.599 the previous day low Now what do we
+00:08:13.599 notice about the previous day low or
+00:08:15.680 these phases of price here we have this
+00:08:17.919 expansion up this whole range You can
+00:08:21.759 see expansion
+00:08:23.680 retracement right and what else do we
+00:08:26.080 notice
+00:08:27.840 in the opposing viewpoint we have a
+00:08:30.639 bullish change in the state of delivery
+00:08:32.240 So there's a few conflicting things here
+00:08:34.399 Let's let a few more candles play out
+00:08:36.719 And what do we notice here we are
+00:08:39.200 respecting the EQ of this change in the
+00:08:41.519 state of delivery And we're expanding
+00:08:43.440 higher not respecting this EQ Now if
+00:08:46.480 this EQ is going to fail that means this
+00:08:48.959 swing point is going to fail which can
+00:08:51.040 make it our draw on liquidity
+00:08:53.680 So with that let's see what happens here
+00:08:58.959 This isn't telling us a whole lot It is
+00:09:01.279 just consolidating You can see how price
+00:09:03.680 is remaining internal or not taking out
+00:09:05.920 this high or low So now what would we
+00:09:08.399 want to see if we are bullish we want to
+00:09:10.640 see a run of the lows to trade higher
+00:09:13.120 And if we are bearish we want to see a
+00:09:14.959 run of the highs to trade lower So let's
+00:09:17.760 see what happens
+00:09:20.240 here You can see we run out the lows Now
+00:09:22.640 what could we wait for we could look to
+00:09:24.240 get on side here right if we have a
+00:09:26.080 strong bias which I don't right i don't
+00:09:28.560 have a great bias here So I can then
+00:09:30.720 wait for a closure through the series of
+00:09:33.120 down close candles into this level which
+00:09:35.600 then confirms the low and then I can
+00:09:37.360 look to trade to this high as we let
+00:09:39.839 this continue We don't get the closure
+00:09:41.839 over yet And there we do And this would
+00:09:44.640 be a breakout signature as we are now
+00:09:46.880 closing over these highs So what do we
+00:09:48.959 want to see at this high do we want to
+00:09:50.640 see price aggressively move back into
+00:09:52.560 the range no Because then we're likely
+00:09:54.320 to trade lower We want to see a
+00:09:56.640 retracement or just a continuation
+00:09:58.640 higher Let's see what happens
+00:10:02.880 And that is what you want to see right
+00:10:04.959 either a consolidation or a retracement
+00:10:07.200 So we can have expansion and then a
+00:10:09.440 continuation
+00:10:11.600 Let's see what happens here Is this an
+00:10:14.320 opposing candle it's not It never wretch
+00:10:16.480 into an important level And what do we
+00:10:18.720 notice now now we are getting another
+00:10:21.040 consolidation We're remaining internal
+00:10:23.519 to this high and to this low And that's
+00:10:27.040 more prominent on a lower time frame but
+00:10:29.279 we will just use this
+00:10:32.399 And you can see now we have taken out
+00:10:34.560 this low right into a fair value gap
+00:10:38.320 right so we have that inducement So if
+00:10:41.760 we are expecting a continuation to this
+00:10:43.839 high what do we have consolidation we
+00:10:46.959 sweep the low If we're going to respect
+00:10:49.200 the EQ of this daily candle we'd want to
+00:10:51.040 see a low form in here to trade higher
+00:10:53.839 or we can wait for what that
+00:10:55.760 confirmation of the closure over the
+00:10:58.240 downlo candles
+00:11:00.640 Here
+00:11:02.800 you can see we make a new low We could
+00:11:05.279 use a different level for the change in
+00:11:06.880 state delivery or use the whole series
+00:11:10.560 We react off that EQ and then close over
+00:11:14.160 here and expand Right so taking a look
+00:11:17.519 at this and reviewing what do we want to
+00:11:19.519 get from this right we want to see we
+00:11:21.839 have a consolidation here We wait for
+00:11:24.880 the manipulation and then look to trade
+00:11:27.200 the expansion consolidation here We wait
+00:11:30.160 for the manipulation then look to trade
+00:11:32.720 the expansion Right and that is why with
+00:11:35.680 my fractal model I'm not looking to
+00:11:37.360 catch these lows in here right i'm
+00:11:40.240 waiting for the continuation entries I'm
+00:11:42.240 letting a low form trading the
+00:11:43.920 continuation Letting a low form trading
+00:11:46.720 the continuation So just to review
+00:11:49.360 consolidation wait for the manipulation
+00:11:52.079 trade the expansion Consolidation wait
+00:11:54.959 for the manipulation trade the expansion
+00:11:57.680 Let's get into our next example So here
+00:12:00.000 No text
+00:12:00.240 we are in our next example and taking a
+00:12:02.240 look at this daily chart you can see
+00:12:03.839 price is bullish What do we have we have
+00:12:06.160 price sweeping out a low here closing
+00:12:09.040 through the series of down close candles
+00:12:11.440 But we have this important level Price
+00:12:14.000 is expanding higher coming back into the
+00:12:16.480 range If I am still bullish and I want
+00:12:18.880 to trade a reversal day I'm going to be
+00:12:21.360 looking for relevant levels for price to
+00:12:23.279 reverse off of which would be previous
+00:12:25.279 days highs and lows Let's drop into our
+00:12:27.760 hourly chart here And if we are bullish
+00:12:30.320 what do we want to see well we would
+00:12:32.320 want to see a reversal So this example
+00:12:34.560 we're going to talk about a
+00:12:35.760 consolidation into a reversal instead of
+00:12:38.480 the continuations like the previous two
+00:12:40.880 examples So taking a look let's mark out
+00:12:43.839 our previous day's low which is right
+00:12:45.760 here And what do we notice we have a
+00:12:48.399 high and a low that price has remained
+00:12:50.720 internal to which is a consolidation
+00:12:54.399 They're letting this play forward What
+00:12:56.399 do we want to see if we want to see a
+00:12:58.480 bullish reversal off previous day low
+00:13:01.040 well we have a consolidation We'd want
+00:13:03.360 to see a manipulation of that low and
+00:13:06.240 then to trade it higher right so let's
+00:13:08.800 see what happens
+00:13:11.440 here You can see we reach into that low
+00:13:13.680 and then we expand out This is a nice
+00:13:15.839 reaction off previous day low Now what
+00:13:18.240 do we want to see well when this low is
+00:13:21.040 confirmed by a closure through here I
+00:13:23.440 then can anticipate this wick to be
+00:13:25.200 confirmed
+00:13:26.880 We get a closure through this level we
+00:13:29.839 do So now I anticipate this low to hold
+00:13:32.480 or this wick to hold Now what do we know
+00:13:35.200 about expansion days they have a small
+00:13:37.760 wick and a large body We have a small
+00:13:40.480 wick We are in London So if we have a
+00:13:43.519 London reversal we could anticipate what
+00:13:46.480 a New York continuation higher So let's
+00:13:50.160 see if there is any important levels
+00:13:52.000 that get formed here We have a fair
+00:13:54.720 value gap
+00:13:56.800 Let's see if price reaches back into
+00:13:58.399 this level It does Do we form a swing
+00:14:01.279 out of this level we do So this would be
+00:14:03.680 a valid fractal model where I could look
+00:14:05.760 long or I could wait for what a
+00:14:08.160 continuation entry from this propulsion
+00:14:11.120 block right or the continuation
+00:14:15.680 And here we do get that as we continue
+00:14:18.240 higher Now if you notice we have a very
+00:14:21.360 bullish day We're disrespecting the
+00:14:23.360 equilibrium which means this swing is
+00:14:25.920 likely to fail So that would be our
+00:14:27.920 drawn liquidity So we'd want to see that
+00:14:30.880 go and be hit So let's see what happens
+00:14:34.800 here We are consolidating right right
+00:14:37.120 towards the end of the day and we are
+00:14:38.880 moving lower Now we reach into an
+00:14:41.920 important level If we're going to get a
+00:14:43.839 continuation from here I'd want to see a
+00:14:45.760 closure through this level Do we get
+00:14:48.160 that
+00:14:49.760 start to move higher and no we do not
+00:14:52.399 get that So what do we notice about this
+00:14:54.720 if we cannot get this what does it mean
+00:14:57.680 price is remaining internal from these
+00:14:59.600 highs here and from these lows What
+00:15:03.440 would I want to see well this would be
+00:15:05.680 now a continuation signature Right
+00:15:08.399 here's a consolidation that forms a
+00:15:10.320 reversal Here's a consolidation where I
+00:15:12.639 want to see a manipulation of the low to
+00:15:14.639 continue higher
+00:15:17.920 As we let this play out here we take the
+00:15:19.680 low out and let's see if we can close
+00:15:22.560 over this level or get a continuation
+00:15:28.079 And we're really struggling to get over
+00:15:29.519 that level Let's see if we do We do So
+00:15:32.880 now I'd expect this low to remain intact
+00:15:35.519 as we trade towards these equal highs
+00:15:37.760 and ideally into this swing high
+00:15:42.000 And there we do expand higher So this
+00:15:44.800 was a great example of a reversal off
+00:15:47.199 previous day low with a small wick which
+00:15:49.199 allows for expansion but most
+00:15:50.959 importantly a consolidation which forms
+00:15:53.199 a reversal and then here's a
+00:15:54.880 consolidation that forms a continuation
+00:15:58.000 No text
+00:15:58.800 So here we are in our last example for
+00:16:01.120 this video and what do we notice we have
+00:16:03.440 our daily chart here on USD JPY It
+00:16:07.120 sweeps out the high closes back in Is
+00:16:09.920 that paired with a change in the state
+00:16:11.199 of delivery it is So I'm expecting price
+00:16:14.320 to trade lower this next day So what do
+00:16:17.199 I notice as we go into this day
+00:16:21.120 price is pretty lethargic right it's
+00:16:23.279 just hanging around So if we're taking a
+00:16:25.519 look price hasn't traded below this low
+00:16:28.720 and price hasn't traded above this high
+00:16:31.920 So we are just sitting in a range Let's
+00:16:35.199 see how many hours is this
+00:16:38.959 18 hours We are in a range And what do
+00:16:41.519 we notice we are bearish and we run out
+00:16:43.680 a high Do I need to catch this high to
+00:16:46.240 trade it lower no Could I anticipate a
+00:16:48.480 reversal yes But I prefer to trade
+00:16:50.720 continuations so I can wait for that
+00:16:53.759 Here you can see we have a nice reaction
+00:16:56.320 off of this high not closing over
+00:16:59.360 Continuing lower we create a fair value
+00:17:01.680 gap
+00:17:03.440 and we still have these equal lows here
+00:17:07.599 Here now price reaches into that fair
+00:17:09.520 value gap And what do we notice here
+00:17:12.799 into a fair value gap closure through
+00:17:15.359 the up close candles In this case one
+00:17:17.839 into that important level And then I'd
+00:17:19.839 want to see price trade lower But this
+00:17:21.679 is where I could look to take an entry
+00:17:23.039 on the open Put my stop there Do I have
+00:17:25.839 two to that low i don't can extend it a
+00:17:28.720 little for 2 R and let's see what
+00:17:31.360 happened
+00:17:33.039 There we go Hit 2R as we get a
+00:17:35.679 continuation lower or expansion day You
+00:17:38.400 can see the multiple other continuations
+00:17:41.200 that do exist in these areas Now I hope
+00:17:44.799 you found this video helpful This will
+00:17:46.960 be part one in the series on my phases
+00:17:49.440 of price So we will then cover
+00:17:51.440 expansions retracements and reversals
+00:17:54.400 and then blending them all together But
+00:17:57.280 I hope you understand consolidations a
+00:17:59.520 little bit better now and how to go
+00:18:01.360 about participating in them waiting for
+00:18:03.520 that manipulation to occur So you're not
+00:18:05.520 trying to trade within the range getting
+00:18:07.679 stopped out or anticipating that
+00:18:09.600 breakout So as always be patient Hope
+00:18:11.000 No text
+00:18:12.880 you have a great rest of your day and
+00:18:14.480 I'll see you guys next time Have a good
+00:18:16.080 one

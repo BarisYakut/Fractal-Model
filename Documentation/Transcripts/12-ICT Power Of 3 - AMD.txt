@@ -1,0 +1,387 @@
+# tactiq.io free youtube transcript
+# ICT Power Of 3 - AMD
+# https://www.youtube.com/watch/TCFvsZeYvV8
+
+00:00:04.340 [Music]
+00:00:10.360 how's it going everyone this video is
+00:00:12.120 going to be over ict's power of three or
+00:00:14.920 accumulation manipulation and
+00:00:16.880 distribution we'll first briefly go over
+00:00:19.320 what open high low close and open low
+00:00:21.960 high close is before jumping into what
+00:00:24.160 the power of three is how to identify it
+00:00:26.560 and some examples now before we begin
+00:00:28.800 the most important part is to have some
+00:00:30.400 higher time frame order flow or Draw on
+00:00:32.320 liquidity there has to be some sort of
+00:00:34.559 narrative or you are just trading
+00:00:36.160 patterns so what is open high low close
+00:00:38.800 and open low high close open high low
+00:00:41.120 close and open low high close just refer
+00:00:43.520 to the open low high and close of a
+00:00:47.039 higher time frame candle so for instance
+00:00:49.920 if this is the daily candle and this is
+00:00:52.160 the intraday price action price opens
+00:00:55.359 puts in a low makes a high and then
+00:00:58.480 closes similarly ly down here price
+00:01:01.480 opens makes a high puts in a low and
+00:01:05.680 then closes now the goal is to catch the
+00:01:08.080 expansion move or the bulk of the
+00:01:09.720 intraday range and that is where the
+00:01:11.759 power of three comes in so the power of
+00:01:13.640 three or AMD refers to accumulation
+00:01:17.080 manipulation and distribution now
+00:01:19.520 accumulation is a range or a
+00:01:21.640 consolidation now what this does is
+00:01:23.520 creates buy stops above old highs and
+00:01:25.720 sell stops below old lows now when we
+00:01:28.079 enter manipulation it is a false
+00:01:30.439 breakout outside of this range what this
+00:01:32.759 does is stops out any Longs entering
+00:01:34.880 during accumulation as well as induces
+00:01:37.240 breakout sellers into the market then
+00:01:39.399 price distributes higher and completes
+00:01:41.720 that power of three so you can see here
+00:01:45.159 accumulation manipulates so what this
+00:01:47.600 does is induces breakout buyers and run
+00:01:50.360 shorts out of their positions and then
+00:01:52.799 distributes lowers so let's go ahead and
+00:01:54.840 overlay this on the last example so here
+00:01:57.680 you can see we have accumulation
+00:02:00.799 manipulation which stops out anyone long
+00:02:03.439 in here as well as sellers are going to
+00:02:06.439 enter the market playing this breakout
+00:02:08.919 and then price reverses and distributes
+00:02:11.200 higher creating the daily range
+00:02:13.680 similarly down here price is
+00:02:15.680 consolidating any early shorts gets
+00:02:18.200 stopped out any breakout buyers enter
+00:02:20.720 the market then price reverses and
+00:02:23.040 distributes lower so how and when do I
+00:02:25.239 look for entries using the power roof 3
+00:02:27.920 well there are two ways I look for
+00:02:29.200 entries here the first would be within
+00:02:31.360 the manipulation I'm going to be looking
+00:02:33.760 for reversal patterns here in the
+00:02:35.959 manipulation looking to catch this whole
+00:02:38.760 distribution however if I miss this or
+00:02:41.040 do not like to trade this I will be
+00:02:42.959 looking for a continuation entry in this
+00:02:45.519 distribution so going back to our
+00:02:47.400 example here for these Longs I could be
+00:02:49.920 looking for a reversal here within the
+00:02:51.959 manipulation or looking for a
+00:02:53.519 continuation pattern here looking for
+00:02:55.920 higher prices similarly down here I
+00:02:58.400 could be looking for sells on on this
+00:03:00.000 reversal here or looking to trade this
+00:03:02.560 continuation lower so let's hop into the
+00:03:04.760 chart and look at a few examples of this
+00:03:06.720 so here we are on the charts and the
+00:03:08.159 first thing I want to talk about is this
+00:03:09.920 concept is fractal so I can use it on
+00:03:12.400 the lower time frames as well as the
+00:03:14.159 higher time frames we are first going to
+00:03:16.280 go over some examples on the lower time
+00:03:18.200 frame and then work our way to the
+00:03:19.959 higher time frames and the intraday
+00:03:21.799 profile so if you notice here we have
+00:03:23.440 New York open making this move up and
+00:03:25.599 then all the way back down so marking
+00:03:27.519 out this morning's low let's see what
+00:03:29.120 happens once price takes this
+00:03:36.239 low so you can see price took this low
+00:03:39.080 and we are creating a range or a
+00:03:41.519 consolidation so let's go ahead and Mark
+00:03:43.599 this out with a green box so now what is
+00:03:45.920 happening here liquidity is being built
+00:03:48.319 Above This high and above this low so if
+00:03:50.840 I'm looking for price to continue lower
+00:03:52.959 I'd like to see manipulation out of this
+00:03:54.920 side of the range to go lower if price
+00:03:57.280 is going to reverse and go back higher
+00:03:59.680 I'd like to see it manipulate down first
+00:04:01.879 and then distribute higher so let's see
+00:04:03.959 what
+00:04:07.040 happens so here you can see we get an
+00:04:09.439 aggressive move down which is out of the
+00:04:11.879 range sweeping this low and then
+00:04:13.920 aggressively back into the range here so
+00:04:16.160 this would be our deviation from the
+00:04:18.000 range or our manipulation so now from
+00:04:20.519 here I'm going to be looking for an
+00:04:22.040 entry long however I'm not looking for a
+00:04:24.479 market structure shift because we would
+00:04:26.320 need to break this high up here so what
+00:04:28.479 I can do here is look for for an
+00:04:29.919 inversion or I can also look for the Box
+00:04:32.160 setup which would be taking this
+00:04:33.639 previous body's low over here so now
+00:04:35.960 what I'd look for is price to reach into
+00:04:38.800 this inversion now that it is closed
+00:04:40.759 over my stop on this low and let's say
+00:04:43.280 I'm looking for 2
+00:04:51.840 R and there we go we get our
+00:04:54.360 accumulation manipulation and let's go
+00:04:57.039 ahead and remove this so we can
+00:04:58.759 visualize the distribution which is here
+00:05:01.479 so you can see that is our power of
+00:05:03.440 three or our accumulation manipulation
+00:05:06.280 and distribution so here we are on the 5
+00:05:08.600 minute chart moving up from the one
+00:05:10.039 minute chart and take a moment and look
+00:05:11.880 at this price action and what do you
+00:05:14.720 see now you might see the failure swings
+00:05:17.479 right here on this high and we have
+00:05:19.319 sells side liquidity resting right here
+00:05:22.080 so let's see what happens here as price
+00:05:25.880 continues now if you notice we have a
+00:05:28.319 consolidation right here
+00:05:31.880 and we are leaving this range
+00:05:34.800 aggressively we sweep this
+00:05:37.120 low and now we get aggressive movement
+00:05:40.120 back into this range so we have our
+00:05:43.919 accumulation our
+00:05:45.639 manipulation which not only took the
+00:05:48.080 lows from our consolidation here but
+00:05:50.560 also sells side liquidity here and so
+00:05:53.000 now what can we anticipate we can
+00:05:55.520 anticipate distribution or a move up to
+00:05:58.440 these failure swings so looking at it
+00:06:00.919 where could we get an entry well we have
+00:06:03.240 an inversion right here so looking to
+00:06:06.280 take an entry here my stop on this low
+00:06:10.199 and then my target on this High let's
+00:06:12.720 see how this works
+00:06:19.440 out and it was pretty messy price action
+00:06:22.680 but you can see that we do in fact get
+00:06:25.039 our distribution above these old highs
+00:06:28.599 in this example we will be taking a look
+00:06:30.400 at the power of three for the daily
+00:06:32.199 candle or anticipating the Open high low
+00:06:34.919 close or open low high close so here we
+00:06:37.319 are just after midnight let's go skip
+00:06:39.280 forward to the London
+00:06:43.960 session so you can see as we're entering
+00:06:46.599 the London session here what do we have
+00:06:48.680 right here we have a consolidation range
+00:06:52.039 now what happens during London we're
+00:06:54.240 getting an aggressive move
+00:06:57.240 down is that me with an aggressive
+00:06:59.360 agressive move up yes we put in a down
+00:07:01.800 close candle here close above it retest
+00:07:04.840 it here and are moving higher so this is
+00:07:08.240 our
+00:07:09.039 manipulation so what can we anticipate
+00:07:11.879 we can anticipate distribution higher
+00:07:13.759 into the end of London and New York
+00:07:16.240 session and if this is correct this will
+00:07:19.160 be the manipulation of the daily candle
+00:07:21.560 and create a
+00:07:26.759 wick so here we start to move higher
+00:07:34.199 and there is our New York open and we
+00:07:37.400 move higher and higher here so you can
+00:07:40.520 see London sets the low of day here
+00:07:43.639 after manipulating the Asian range and
+00:07:46.240 then we distribute higher through the
+00:07:48.400 New York am session and zooming out and
+00:07:51.240 letting this continue until the end of
+00:07:54.479 day you can see we put in an open low
+00:07:59.599 High close our London was the
+00:08:01.840 manipulation creating the wick of the
+00:08:04.080 daily candle and then we got the
+00:08:06.240 distribution or the expansion of the
+00:08:08.360 daily candle so let's take a look at our
+00:08:10.199 next example once again using the daily
+00:08:12.440 candles power of three so here we have
+00:08:14.800 midnight open let's go to our London
+00:08:19.319 session so here we are in London session
+00:08:22.080 and what do you notice about this price
+00:08:23.560 action here all we did was consolidate
+00:08:26.639 so let's go ahead and Mark that out as
+00:08:28.680 our ACC accumulation What's Happening
+00:08:31.199 Here in London is we are manipulating so
+00:08:34.200 let's see if this is met with an
+00:08:36.159 aggressive move back into the range
+00:08:38.399 because if we fail to displace back into
+00:08:40.080 the range we're likely to go
+00:08:44.720 lower and here you can see we get our
+00:08:47.680 accumulation manipulation we
+00:08:49.839 aggressively displace out and back into
+00:08:51.920 the range so here is our manipulation
+00:08:54.760 and now what can we anticipate
+00:08:56.600 distribution higher so
+00:08:59.720 looking for distribution higher here so
+00:09:01.920 let's let this play out and see what
+00:09:10.120 happens and there you go you can see we
+00:09:13.120 get our distribution higher so once
+00:09:15.399 again looking back we have accumulation
+00:09:18.000 of the Asia range London manipulation
+00:09:21.399 and then distribution into the New York
+00:09:23.440 open however at the New York open we do
+00:09:25.920 reach into this new day opening Gap so
+00:09:27.680 let's go ahead and Mark that out now
+00:09:29.440 let's drop down to a lower time frame
+00:09:30.959 and see if we can spot another AMD so
+00:09:33.480 down here on the one minute chart here
+00:09:35.480 is our new day opening Gap and the
+00:09:37.440 consequent encroachment of it what do we
+00:09:39.320 notice about the price action prior to
+00:09:41.279 the New York open here it is just
+00:09:43.800 consolidation right then what do we have
+00:09:45.880 we have an aggressive move out of the
+00:09:47.360 range here now at this point we're still
+00:09:49.360 respecting the New York opening price
+00:09:51.040 and this down close candle so I'd want
+00:09:52.959 to see further displacement down to
+00:09:55.040 confirm this
+00:09:57.079 idea so here we get that aggressive have
+00:09:59.399 moved down now so what can I anticipate
+00:10:02.040 some form of distribution lower now some
+00:10:04.399 of you might be asking how do I know how
+00:10:06.320 far this distribution is going to go and
+00:10:08.720 that is generally when I like to project
+00:10:10.480 the manipulation so here I would be
+00:10:13.000 projecting from this low to this high is
+00:10:15.440 that's the low that made the
+00:10:17.120 manipulation move and it's more visible
+00:10:19.600 on the 30 second chart so we will drop
+00:10:21.399 down to that so you can see this is the
+00:10:24.079 low that made the new high before we
+00:10:26.800 reversed so going back to the 1 minute
+00:10:29.200 chart this gives us some targets for
+00:10:32.279 this
+00:10:33.959 distribution so here we have the 2 to
+00:10:36.079 2.5 and then our 4 to
+00:10:38.760 4.5 so from here do we have any PD
+00:10:41.560 arrays that line up with that yes we
+00:10:44.200 have some equal lows right
+00:10:46.399 here and then zooming out we have that
+00:10:50.200 London manipulation that lines up with
+00:10:52.240 the fourth standard
+00:10:53.839 deviation so let's see how this plays
+00:10:58.040 out so we hit our first standard
+00:11:01.040 deviation get a retracement to an up
+00:11:03.120 close
+00:11:05.240 candle we go lower into the 2 to 2.5
+00:11:08.600 standard
+00:11:09.480 deviations and there we just go sweep
+00:11:12.920 those
+00:11:21.160 lows and then letting this speed up you
+00:11:24.200 can
+00:11:25.040 see we put in more equal lows here
+00:11:28.480 leaving the London
+00:11:31.600 low and then there we take the London
+00:11:34.320 low into this area here one thing I'm
+00:11:37.240 going to go over quickly is many people
+00:11:39.040 struggle to find the consolidation
+00:11:41.440 instead of focusing on the consolidation
+00:11:43.480 just focus on where there is aggressive
+00:11:45.360 price action out and back into a range
+00:11:48.120 so for example here after we hit this
+00:11:50.000 London low let's see what
+00:11:53.040 happens here we get an aggressive move
+00:11:55.480 down and then back into what range right
+00:11:58.560 here I have now identified this
+00:12:01.000 consolidation and then here is the
+00:12:02.920 manipulation so I'd want to see
+00:12:05.120 distribution Above This high and
+00:12:08.160 possibly up higher letting this play
+00:12:11.920 out you can see we get aggressive move
+00:12:14.800 over this
+00:12:16.440 high and then now we get an aggressive
+00:12:18.720 move back into this range so now what is
+00:12:20.920 happening let's zoom in a little we just
+00:12:23.000 identified the aggressive price action
+00:12:24.760 here where is the aggressive price
+00:12:26.680 action here right there now we can
+00:12:29.519 identify this consolidation and then
+00:12:31.680 where would we want the distribution
+00:12:33.880 lower below this
+00:12:36.160 low and if we're going to get a
+00:12:38.199 continuation lower what is the low that
+00:12:40.320 made this high right there so let's see
+00:12:43.399 how this one plays
+00:12:49.040 out and you can see how we had
+00:12:52.399 accumulation manipulation we do
+00:12:55.279 distribute over this old high however
+00:12:57.880 when we displace back into this range we
+00:13:00.160 enter a new accumulation manipulation
+00:13:03.399 distribution and this one is going with
+00:13:06.079 the higher time frame Trend and the
+00:13:08.000 whole point of this segment of this
+00:13:09.600 video is if you struggle to find the
+00:13:12.240 consolidations focus instead on the
+00:13:14.639 manipulations and then identify the
+00:13:16.800 consolidation range in which this
+00:13:19.040 manipulated outside of so here we are
+00:13:21.199 with our last example and let's move
+00:13:23.160 towards our lenon session to see what
+00:13:27.760 happens
+00:13:30.519 here we enter our London session now if
+00:13:33.639 you haven't already identified the
+00:13:35.160 accumulation let's take a look at the
+00:13:37.120 manipulation and then work
+00:13:39.399 backwards so here you can see we get an
+00:13:42.160 aggressive move out and then back in So
+00:13:45.240 marking this out and we look left where
+00:13:47.880 is the range that we manipulated out of
+00:13:50.880 right
+00:13:52.759 here so here is our
+00:13:55.560 manipulation now where is our
+00:13:57.759 accumulation we Mark out this range so
+00:14:01.360 anticipating distribution where can we
+00:14:03.519 anticipate that to distribute to here I
+00:14:06.279 can use a projection of this
+00:14:07.720 manipulation leg so from this high to
+00:14:10.279 the low that made the new high which
+00:14:12.160 would be right here and if you can see
+00:14:14.720 price went up then down again this is
+00:14:18.800 where I would want to see price go to so
+00:14:21.079 marking out the 2 to 2.5 in the fourth
+00:14:23.880 standard
+00:14:24.839 deviation I'd want to see price reach
+00:14:26.920 for these areas so visualizing the
+00:14:29.839 distribution I'd want to see price reach
+00:14:32.320 or do something like this now what would
+00:14:34.399 that mean for the daily candle that
+00:14:36.320 would mean that from our open here this
+00:14:39.240 is the manipulation of the daily candle
+00:14:41.519 which should create a wick and then I'd
+00:14:43.480 want to see the daily candle form as it
+00:14:45.440 moves lower so let's see what
+00:14:50.199 happens and if you know the Box setup
+00:14:52.519 you know that a possible entry lies
+00:14:54.519 right here when we retest this deviation
+00:14:56.639 from the range or the manipulation here
+00:14:58.920 we reach into the 2 to 2.5 standard
+00:15:01.040 deviations where we can anticipate a
+00:15:03.079 retracement or reversal and you can see
+00:15:05.360 how this daily candle is starting to
+00:15:08.880 form here we get a retracement back into
+00:15:12.079 a fair value Gap and these up Clos
+00:15:14.320 candles here and we start to distribute
+00:15:18.800 lower and there we reach our 4 to 4.5
+00:15:21.480 standard
+00:15:23.399 deviations here I am happy with the
+00:15:25.600 overall range of the daily candle but
+00:15:27.600 let's see if it expands
+00:15:31.759 lower and you can see it doesn't do a
+00:15:34.399 whole lot after that now taking a quick
+00:15:37.079 look at this you can see we have our
+00:15:39.560 accumulation our manipulation and this
+00:15:42.800 manipulation above midnight open will
+00:15:45.440 form the wick of the daily candle and
+00:15:47.800 then we get our distribution creating
+00:15:49.800 the body of the daily candle before it
+00:15:52.519 closes I hope you found this video
+00:15:54.519 helpful if you do want a part two of
+00:15:56.519 this where I go over AMD paired with
+00:15:59.480 standard deviations let me know and I
+00:16:01.560 will work on that if you are looking to
+00:16:03.480 get some more information on standard
+00:16:05.319 deviations I will also link Dexter lab's
+00:16:08.000 Twitter in the description below and I
+00:16:10.399 hope you guys have a great rest of your
+00:16:12.120 day and I'll see you guys next
+00:16:22.319 time

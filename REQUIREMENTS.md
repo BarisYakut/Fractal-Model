@@ -4,6 +4,8 @@
 
 This document outlines the requirements for developing a Pinescript indicator that replicates the **Fractal Model Pro (TTrades)** indicator. The indicator is designed to identify Algorithmic Price Delivery patterns by analyzing price movements across multiple timeframes, detecting momentum shifts, swing formations, and orderflow continuations.
 
+**Documentation sources:** Requirements and mechanics in this document are derived from a full review of the 35 video transcripts in `Documentation/Transcripts`. Only behavior relevant to how the indicator works (detection rules, settings, visuals) is included; trading opinions and general methodology are omitted.
+
 **Key Characteristics:**
 - Non-repainting and stable within the given time period
 - Multi-timeframe analysis (Higher Timeframe / Lower Timeframe pairing)
@@ -100,11 +102,11 @@ This section details all user-configurable inputs/parameters for the indicator. 
 - **Type:** Timeframe (dropdown)
 - **Options:** All TradingView supported timeframes
 - **Default:** "1H"
-- **Purpose:** Specifies the maximum chart timeframe where time filters will be applied
+- **Purpose:** Specifies the maximum chart timeframe where time filters will be applied (“choose below period”)
 - **Behavior:**
   - If current chart timeframe ≤ threshold: Time filters are active
   - If current chart timeframe > threshold: Time filters are ignored
-- **Logic:** Time filters are most useful on lower timeframes. On higher timeframes, they become less relevant.
+- **Logic:** Time filters apply only on the selected period or **below** (e.g. threshold 30m → filter applies on 30m, 15m, 5m, 1m). If the user is on a higher timeframe (e.g. 1H), the filter does not apply unless the user adjusts the threshold to include that period.
 - **Impact:** Determines whether time filter windows are enforced
 
 #### 2.1.7 Time Filter 1 Enable
@@ -779,7 +781,7 @@ This section details all user-configurable inputs/parameters for the indicator. 
 #### 2.8.3 Alert: Setup Consolidation
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
-- **Purpose:** Alert when setup enters consolidation (label turns orange)
+- **Purpose:** Alert when setup fails in second candle (label turns orange)
 - **Behavior:** Triggers when setup doesn't progress within next HTF candle
 - **Impact:** Notification of potential range-bound market
 
@@ -847,7 +849,7 @@ At the core of the Fractal Model is the idea that **every reversal begins with a
   - Takes out Candle 1's liquidity (sweeps the high or low established by C1)
   - Closes back inside the previous range
   - Produces the CISD (Change in State of Delivery)
-- **Mechanics:** This shift in delivery confirms that a reversal is unfolding
+- **Mechanics:** This shift in delivery confirms that a reversal is unfolding. **Wick size:** A small wick on C2 supports expansion (price can trend in one direction); a large opposing wick does not support expansion in that candle—expansion may be deferred to C3.
 - **Purpose:** Validates that the reversal sequence has begun
 - **Visual:** Labeled as "C2" and marks the CISD point
 
@@ -873,6 +875,34 @@ At the core of the Fractal Model is the idea that **every reversal begins with a
 - The sequence can occur on any timeframe, making it truly fractal in nature
 - Higher timeframe swings follow the same pattern as lower timeframe execution
 
+**Candle Numbering (from methodology):**
+- **C2** is always the swing low or swing high (the reversal point).
+- **C3** is the candle following C2.
+- **C4** is the candle following C3.
+- **C1** is always the candle before C2.
+- Candles 1, 2, 3 form the swing; C4 is the continuation if the trend is correct.
+
+**Two Closure Types – C2 vs C3:**
+
+The indicator detects two distinct closure types; both can trigger a valid setup:
+
+1. **Candle 2 (C2) closure – reversal closure:**
+   - **Bullish:** Price sweeps out the previous candle's low, then closes back **above** that candle's low (close back inside the range).
+   - **Bearish:** Price sweeps out the previous candle's high, then closes back **below** that candle's high (close back inside the range).
+   - This is a **reversal** closure: the sweep and close-back-in confirm the reversal in C2.
+   - After a C2 closure, the model anticipates a C3 continuation and then C4 if C3 closes strong.
+
+2. **Candle 3 (C3) closure – when there is no C2 closure:**
+   - Price reaches a key level but **does not** produce a reversal closure in C2 (does not close back inside the previous candle's range).
+   - **Bullish C3 closure:** C3 does **not** take out C2's low, but **closes over the body** of C2 (i.e. over the opening price of C2), engulfing C2. Then C4 continuation higher is anticipated.
+   - **Bearish C3 closure:** C3 does **not** take out C2's high, but **closes below the body** of C2 (i.e. below the opening price of C2), engulfing C2. Then C4 continuation lower is anticipated.
+   - So: C3 closure = no C2 reversal, but C3 closes over/under C2's **body (opening price of C2)**; then look for C4 continuation.
+
+**Setup validation (both required):**
+- A **Higher Timeframe** candle 2 or candle 3 closure (as above), **and**
+- A **Change in State of Delivery (CISD)** on the **Lower Timeframe** inside that HTF candle (close through the series of candles that made the high or low).
+- If there is an HTF closure but no LTF CISD, the setup is not valid. If there is LTF CISD but no HTF C2/C3 closure, the setup is not valid.
+
 ### 2.2 Timeframe Pairing System
 
 The indicator operates on a **fractal pairing** concept where:
@@ -890,6 +920,10 @@ The indicator operates on a **fractal pairing** concept where:
   - 1m-5m, 3m-30m, 5m-15m, 5m-1H, 15m-1H, 15m-4H, 1H-4H, 1H-1D, 4H-1D, 1D-1W
   - These represent typical fractal relationships where HTF is 3-12x the LTF
   - Examples from documentation: 3m-30m (10x ratio), 5m-1H (12x ratio), 1H-1D (24x ratio)
+- **Explicit methodology pairings (from documentation):**
+  - Weekly with 4H; Daily with 1H; 4H with 15m; 1H with 5m; 30m with 3m; 15m with 1m
+  - Used for bias (HTF) → structure (middle TF) → entry (LTF) alignment
+- **Preferred three-timeframe combos (from documentation):** Daily + 4H + 15m; Daily + 1H + 5m; 1H + 15m + 1m (scalping).
 - **Custom pairings:** User-defined HTF-LTF combinations
   - Any valid timeframe combination where HTF > LTF
   - Examples: 1H-3m, 1D-15m (allows flexibility for personal framework preferences)
@@ -906,11 +940,12 @@ The indicator operates on a **fractal pairing** concept where:
 - Example: 15m chart with 1H HTF = 4x ratio
 
 **Important Limitation:**
-- If viewing a chart timeframe greater than the LTF (e.g., viewing 15m chart when 5m-1H is enabled), the indicator displays a warning message within the info table
-- HTF candle plotting remains visible and functional
-- LTF CISD detection will not render (cannot detect CISD on higher timeframe)
-- LTF projections will not render
+- If viewing a chart timeframe **greater than the LTF** (e.g. 5m–15m model but chart is on 5m or above LTF; or 1m–15m model on 5m chart), the indicator should display a warning/error (e.g. in the info table): chart must be at or below the model’s LTF
+- HTF candle plotting remains visible and functional when applicable
+- LTF CISD detection will not render when chart TF > LTF (cannot detect CISD on higher timeframe)
+- LTF projections will not render when chart TF > LTF
 - This is a fundamental limitation: you cannot analyze LTF structure when viewing HTF or higher
+- **Early failure signal:** A setup turns **red** (fails) when price **closes over** the level (e.g. in the first candle), indicating continuation is unlikely
 
 ### 2.3 Power of Three (PO3) Framework Integration
 
@@ -960,6 +995,7 @@ This framework helps identify critical turning points and aligns with the fracta
 
 **Previous Candle EQ:**
 - Display equilibrium (50% level) of the previous HTF candle
+- **Equilibrium is measured from wick high to wick low** (full candle range), not body; the 0.5 level is the midpoint of that range
 - Can be viewed on both HTF candle and chart directly
 
 ### 3.2 Change in State of Delivery (CISD)
@@ -969,6 +1005,9 @@ This framework helps identify critical turning points and aligns with the fracta
 **Mechanics:**
 - Marks the series of candles making up significant highs or lows
 - **CISD Confirmation:** A close beyond the opening price signals a change from bullish to bearish (or vice versa)
+  - **Bearish CISD:** Up-close candle(s) get closed below → use the **opening price of the first** up-close candle in the series as the CISD level
+  - **Bullish CISD:** Down-close candle(s) get closed above → use the **opening price of the first** down-close candle in the series as the CISD level
+  - When there is a **series** of such candles (multiple up-close or down-close in a row), the CISD level is always the **opening price of the first candle** in that series
 - This confirms a trend reversal and is a form of orderblock
 - **Early C2 CISD (NEW):** Option to highlight early CISD within the C2 candle for earlier detection
   - Plots the CISD before the candle has closed, allowing you to see the developing change in state of delivery
@@ -979,6 +1018,10 @@ This framework helps identify critical turning points and aligns with the fracta
 - Customizable line style and width
 - Clear marking of CISD candles on the chart
 
+**Related concepts (from documentation):**
+- **Protected swing:** When CISD occurs at a swept high or low (sweep then close through the series of candles that made that level), that level is treated as "protected" and expected to hold if the trend is to continue.
+- **Inversion Fair Value Gap (IFVG):** A fair value gap that is swiftly closed over (inversion); prior resistance becomes support and vice versa. Within the fractal model, a valid IFVG confluence requires: C2 that supports expansion (small wick), sweep of C1's high or low, then the FVG inverted.
+
 ### 3.3 TTrades Framework Labels (C2/C3/C4)
 
 **Purpose:** Identify key structural points in the fractal formation.
@@ -986,21 +1029,22 @@ This framework helps identify critical turning points and aligns with the fracta
 **Label States & Logic:**
 
 1. **Gray Label (Valid Setup):**
-   - Setup remains valid
+   - Setup remains valid through C4
    - All projections, Equilibrium, Liquidity Sweep, and T-spot are plotted
-   - Indicates stable conditions
+   - Indicates stable conditions and active setup
 
-2. **Red Label (Failed Setup):**
-   - Setup fails when price returns to the initial high or low without forming a higher timeframe swing point
+2. **Red Label (Failed Setup – first candle):**
+   - Setup fails **within the first** higher timeframe candle after the setup forms (e.g. price closes over the level in that first candle)
+   - Early warning that continuation is unlikely
    - Indicator stops plotting: projections, Equilibrium, Liquidity Sweep, and T-spot
    - Labels (C2, C3, C4) remain on chart but turn red
    - Clearly indicates setup failure
 
-3. **Orange Label (Consolidation):**
-   - If setup does not fail within the next higher timeframe candle (which defines the setup's formation)
-   - Label turns orange
-   - Signals potential consolidation or slowdown
-   - Suggests market may enter a range or pause in trend movement
+3. **Orange Label (Failed Setup – second candle after):**
+   - Setup does **not** fail in the first candle, but fails in the **second** candle after the setup formation
+   - Label turns orange (distinct from red “first-candle” failure)
+   - Signals failure occurred one candle later than red
+   - Suggests market may enter consolidation or range after the second-candle failure
 
 **Customization:**
 - Toggle to show/hide labels
@@ -1091,9 +1135,9 @@ This framework helps identify critical turning points and aligns with the fracta
 **Mechanics:**
 - **Formation liquidity is basically liquidity that's set at the lower candle at C1** (Candle 1)
 - Marks engineered liquidity pools from the swing point at C1
-- Highlights previous swing highs and lows that relate to the current formation
+- Highlights **previous candle’s or previous day’s highs/lows that have not yet been taken** (e.g. dotted lines for “not yet taken”)
 - For active setups, the formation liquidity shows liquidity from the swing point at C1
-- Example: In an active bearish model, the formation liquidity is from the swing point at C1
+- Example: In an active bearish model, the formation liquidity is from the swing point at C1; in bullish, previous lows not yet taken
 - Serves as key reference points for future price action
 - Helps identify areas where price may seek liquidity
 
@@ -1320,24 +1364,16 @@ This framework helps identify critical turning points and aligns with the fracta
       - Keep labels visible for reference (now red)
       - Setup is considered invalidated
 
-13. **Consolidation Detection Logic:**
+13. **Second-Candle Failure (Orange) Detection Logic:**
 
-    **Consolidation Criteria:**
-    - Setup has NOT failed (labels still gray)
-    - Current HTF candle has closed (setup formation period complete)
-    - Price has NOT progressed significantly:
-      - **Bullish:** Price hasn't made substantial new highs
-      - **Bearish:** Price hasn't made substantial new lows
-    - Market appears range-bound or paused
-    - No clear continuation of expansion
+    **Orange Label (fail in second candle after setup):**
+    - Setup did **not** fail in the **first** HTF candle after formation (so it does not turn red).
+    - Setup **does** fail in the **second** HTF candle after formation (e.g. price closes beyond the level in that second candle).
+    - **Actions:** Change all labels (C2, C3, C4) to **Orange** color.
+    - Orange distinguishes “failed in second candle” from “failed in first candle” (red).
+    - Stop plotting projections and markers as for failure (orange = still a failure, just one candle later).
 
-    **Consolidation Actions:**
-    - Change all labels (C2, C3, C4) to **Orange** color
-    - Keep all projections and markers active (unlike failure)
-    - Orange signals: Potential consolidation, slowdown, range-bound market
-    - Setup is still valid but momentum has paused
-
-    **Timing:** Consolidation check occurs after the HTF candle that defines the setup formation has closed
+    **Timing:** Red = failure in first candle; Orange = failure in second candle after the setup formation.
 
 #### Phase 5: Projection & Level Calculation
 
@@ -1350,7 +1386,7 @@ This framework helps identify critical turning points and aligns with the fracta
     - CISD price level (for some projection types)
 
     **Body Projections Calculation:**
-    - **Reference Range:** HTF candle body size = `abs(C_HTF - O_HTF)`
+    - **Reference Range:** HTF candle body size = `abs(C_HTF - O_HTF)` (bodies in CISD used as reference where applicable)
     - **For Bullish Setup:**
       - Projection_Level = C2_Price - (Body_Size × Multiplier)
       - Negative multipliers extend downward (opposite direction)
@@ -1359,6 +1395,7 @@ This framework helps identify critical turning points and aligns with the fracta
       - Projection_Level = C2_Price + (Body_Size × Multiplier)
       - Negative multipliers extend upward (opposite direction)
       - Example: C2 = 100, Body = 2, Multiplier = -1 → Projection = 102
+    - **Manipulation-leg projections (methodology):** At C2 reversal point, projections can be derived from the manipulation leg: find the low (bearish) or high (bullish), then the high that made that low or the low that made that high; anchor the Fib from that leg. Standard levels: 1, 0, -1, -2, -2.5, -4, -4.5 (user may add levels, e.g. manual input “,5” for -5). Normal manipulation leg: -2 to -2.5; expansion: -4 to -4.5; large manipulation leg: use -1.
 
     **Wick Projections Calculation:**
     - **Reference Range:** HTF candle range = `H_HTF - L_HTF`
@@ -1383,21 +1420,14 @@ This framework helps identify critical turning points and aligns with the fracta
     - Use specified line style and color
 
 16. **T-Spot Calculation:**
-    - **Methodology:** Based on TTrades' refined analysis
+    - **Methodology:** Based on TTrades' refined analysis. The T-Spot is the area where the HTF candle’s wick is expected to form (e.g. short setup: price opens high, goes lower, closes → anticipate the high in that box). It can align with the 0.5/EQ range of the relevant HTF candle.
     - **General Approach:**
       - Analyze previous HTF candle wick formation
       - Consider current momentum and structure
       - Project where next HTF candle wick is likely to form
-    - **For Bullish Setup:**
-      - T-Spot typically projects above current price
-      - Anticipates upper wick formation area
-    - **For Bearish Setup:**
-      - T-Spot typically projects below current price
-      - Anticipates lower wick formation area
-    - **Specific Algorithm:** (To be refined based on TTrades methodology)
-      - May involve: Previous structure analysis, momentum measurement, Fibonacci relationships
-    - Draw marker at T-Spot level
-    - Use specified marker style, size, and color
+    - **For Bullish Setup:** T-Spot typically projects above current price; anticipates upper wick formation area.
+    - **For Bearish Setup:** T-Spot typically projects below current price; anticipates lower wick formation area.
+    - Draw marker at T-Spot level; use specified marker style, size, and color.
 
 17. **Formation Liquidity Marking:**
     - Identify previous HTF candles' highs and lows
@@ -1490,56 +1520,20 @@ This framework helps identify critical turning points and aligns with the fracta
 
 **For Each Active Setup (with Gray Labels):**
 
-1. **Wait for Setup Formation Period to Complete:**
-   - The setup needs time to develop - wait for the Higher Timeframe candle to close
-   - This is the candle period during which the setup was forming
-   - Once this HTF candle closes, we can evaluate if consolidation occurred
+1. **Wait for first HTF candle after setup formation to close:**
+   - If price closes beyond the level (invalidating the setup) **in that first candle** → mark as **Red** (first-candle failure). Stop projections and markers.
 
-2. **For Bullish Setups - Check Progress:**
-   - **Progress Check:** Has the price made significant new highs since the setup formed?
-     - Look at the highest price reached since setup formation
-     - Compare to the setup's initial high point
-     - If price made substantially higher highs → Progress is good
-     - If price hasn't made new highs → No progress
-   
-   - **Range Check:** Is the price moving sideways in a range?
-     - Look at recent price action
-     - Is price bouncing between similar high and low levels?
-     - If yes → Price is range-bound
-     - If no → Price is trending
-
-3. **For Bearish Setups - Check Progress:**
-   - **Progress Check:** Has the price made significant new lows since the setup formed?
-     - Look at the lowest price reached since setup formation
-     - Compare to the setup's initial low point
-     - If price made substantially lower lows → Progress is good
-     - If price hasn't made new lows → No progress
-   
-   - **Range Check:** Is the price moving sideways in a range?
-     - Look at recent price action
-     - Is price bouncing between similar high and low levels?
-     - If yes → Price is range-bound
-     - If no → Price is trending
-
-4. **Determine Consolidation:**
-   - If BOTH conditions are true:
-     - NO significant progress (price hasn't moved in expected direction)
-     - AND price is moving in a range (sideways movement)
-   - Then: **Consolidation is Detected**
-
-5. **Actions When Consolidation Detected:**
-   - Change all labels (C2, C3, C4) to ORANGE color
-   - **Keep all projections active** (unlike failure where they stop)
-   - **Setup remains valid** (unlike failure where it's invalidated)
-   - Orange color signals: "Setup is still good, but momentum has paused"
+2. **If the first candle did NOT fail the setup, then evaluate the second candle:**
+   - After the **second** HTF candle after setup formation closes, check whether price has closed beyond the level in that second candle.
+   - If yes → **Orange** (second-candle failure). Stop projections and markers. Setup is invalidated.
+   - If no → setup remains **Gray** (still valid).
 
 **Consolidation vs. Failure:**
-- **Consolidation (Orange):** Setup still valid, just paused. All projections remain active.
+- **Second-candle failure (Orange):** Setup failed in the second candle after formation; distinct from first-candle failure (red).
 - **Failure (Red):** Setup invalidated. All projections stop. Setup is dead.
 
-**Consolidation Recovery:**
-- Setup can recover from consolidation (orange → gray) if momentum resumes
-- Setup cannot recover from failure (red is permanent)
+**Failure (Red and Orange):**
+- Red = failed in first candle; Orange = failed in second candle. Both invalidate the setup; projections and markers stop. Setup does not recover to gray once failed.
 
 ---
 
@@ -1667,11 +1661,12 @@ Each time filter consists of four pieces of information:
 
 **Up to Three Time Filters:**
 - You can define up to three separate time filters
-- Each filter operates independently
+- Each filter operates independently (documentation also refers to these as “kill zones,” up to 3)
 - Example configurations:
   - **Time Filter 1:** Enabled = OFF, Start = 02:00, End = 05:00, Timezone = -5
   - **Time Filter 2:** Enabled = OFF, Start = 08:00, End = 11:00, Timezone = -5
   - **Time Filter 3:** Enabled = OFF, Start = 14:00, End = 17:00, Timezone = -5
+- **Whole-hour candle logic (sessions):** When a session is defined by a range (e.g. 8:00–11:30 NY), to include the candle that **opens** at 8:00, set the filter start to **7:00** (or earlier) so that the 8:00 open falls inside the window.
 
 **How Time Filters Are Applied - Step by Step:**
 
@@ -2273,7 +2268,7 @@ The system automatically selects the most relevant SMT pair based on your curren
 **Available Alerts:**
 - Setup formation detected
 - Setup failure
-- Setup consolidation
+- Setup second-candle failure (orange)
 - CISD confirmation
 - T-Spot reached
 - Projection level reached
@@ -2506,7 +2501,7 @@ The indicator must distinguish between two types of bars:
    - The color depends on the setup's current state:
      - **Gray:** Setup is valid and active
      - **Red:** Setup has failed
-     - **Orange:** Setup is in consolidation
+     - **Orange:** Setup failed in second candle after formation
    - Color CAN change, but only when new bars confirm a state change
    - Color does NOT change on every bar update, only when state actually changes
 
@@ -2721,7 +2716,7 @@ The system converts all timeframes to minutes for easy comparison:
      - **Bar Index:** Which bar number the setup was confirmed on
      - **Setup ID:** A unique identifier for this specific setup
      - **Direction:** Whether it's "bullish" or "bearish"
-     - **State:** Current state - "gray" (valid), "red" (failed), or "orange" (consolidation)
+     - **State:** Current state - "gray" (valid), "red" (failed in first candle), or "orange" (failed in second candle)
      - **C2 Price:** The C2 price level
      - **C3 Price:** The C3 price level (may be empty if C3 hasn't formed yet)
      - **C4 Price:** The C4 price level (may be empty if C4 hasn't formed yet)

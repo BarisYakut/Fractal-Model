@@ -1,0 +1,468 @@
+# tactiq.io free youtube transcript
+# The Best Timeframe for TTrades Fractal Model (Simple)
+# https://www.youtube.com/watch/FgP2lc9nneM
+
+00:00:11.120 How's it going everyone? In this video,
+00:00:12.719 we are going to be talking about my
+00:00:14.400 favorite fractal model. Specifically, we
+00:00:16.640 are going to talk about the daily for
+00:00:18.240 bias and then using the 4 hour for a
+00:00:20.320 swing point and the 15-minute time frame
+00:00:22.560 for entry. So, let's get into the PDF
+00:00:24.720 and then go into a few Trading View
+00:00:26.640 examples. So the first step is to have a
+00:00:28.960 clear daily bias. Now this doesn't have
+00:00:31.199 to be a candle to closure, but this is
+00:00:33.440 specifically the easiest way to get that
+00:00:35.600 daily bias. So ideally, I'm going to be
+00:00:37.680 looking for a point of interest, either
+00:00:39.760 a low, a high, or a fair value gap. So
+00:00:42.559 you can see in this case, we have a fair
+00:00:44.079 value gap. Then I'll be looking for a
+00:00:45.680 candle to closure inside that fair value
+00:00:48.160 gap. Or for a reversal candle to close
+00:00:50.719 back inside its previous candle's range.
+00:00:52.960 Then I can anticipate price to expand in
+00:00:54.960 the following day. This is the day that
+00:00:56.800 we will be looking to trade in this
+00:00:58.559 candle three looking for this expansion.
+00:01:01.039 So once we have this bias then we're
+00:01:03.039 going to go down to the lower time frame
+00:01:04.640 and use a fractal model to anticipate
+00:01:06.960 this expansion and get on side. So when
+00:01:09.119 we go down to the 4hour time frame this
+00:01:11.200 is what we are going to use for a swing
+00:01:13.119 point as well as the daily profile. Now
+00:01:15.680 our goal is to let the wick of the daily
+00:01:18.320 candle form. So if we are bullish, we
+00:01:20.400 want to see price open, trade lower
+00:01:22.400 first, forming this lower wick. And then
+00:01:24.400 once we anticipate that lower wick to
+00:01:26.000 have formed, then we can look to trade
+00:01:27.840 the body of the candle or this move
+00:01:29.920 higher towards the drawn liquidity. So
+00:01:32.240 how are we going to do this? We're going
+00:01:33.920 to use candle closures. So we are either
+00:01:36.000 going to look for a candle 2 or a candle
+00:01:37.920 3 closure where we anticipate that wick
+00:01:40.240 2 form. So here you can see we have a
+00:01:42.320 candle 2 closure during London. So
+00:01:44.560 paired with our bias, we can anticipate
+00:01:46.560 6 a.m. and 10:00 a.m. to expand higher.
+00:01:49.119 10 a.m. is dependent on 6 a.m. with a
+00:01:51.520 strong closure. We can anticipate it to
+00:01:53.600 move higher. And then we'd only look to
+00:01:55.439 trade this third expansion candle if the
+00:01:57.360 drawn liquidity has yet to be met. So
+00:01:59.840 from here, we're going to look at the
+00:02:01.360 London reversal. So when we have a
+00:02:02.960 candle 2 closure, what do we need to
+00:02:04.560 check for on the lower time frames? A
+00:02:06.640 change in the state of delivery. Now, if
+00:02:08.318 you haven't seen my candle 2 closure
+00:02:09.758 video, this is what we talk about or my
+00:02:11.760 trading candle 3 video. So, here we have
+00:02:14.160 the candle closure, the change in the
+00:02:15.840 state of delivery, and we can anticipate
+00:02:17.520 price to do what? Continue higher in
+00:02:20.160 this next candle at 6:00 a.m. Now, what
+00:02:22.319 do we want to see in this next candle?
+00:02:24.480 We're going to do the exact same thing.
+00:02:26.480 We want to let the wick of this higher
+00:02:28.560 time frame candle form. So, we want to
+00:02:30.879 wait for price to open. Ideally, go make
+00:02:33.280 a low or a low we can trust. Where would
+00:02:35.680 that be? Out of a point of interest. So
+00:02:37.920 you can see how price sweeps out all the
+00:02:39.760 lows to its left into a fair value gap
+00:02:42.720 has a nice V-shaped reversal and a
+00:02:44.879 change in the state of delivery inside
+00:02:46.800 this candle. This means I can anticipate
+00:02:48.560 this wick to have formed and I could
+00:02:50.080 look to get on side here with this
+00:02:52.000 expansion higher. Now what we are doing
+00:02:54.080 here is we are lining up the daily
+00:02:56.080 candle with the lower time frame. Right?
+00:02:58.480 So we let the wick of the daily candle
+00:03:00.720 form looking to trade its body. Then we
+00:03:03.120 do the same thing on the lower time
+00:03:04.720 frame. So, we are trading candle 3es
+00:03:06.879 across multiple different time frames.
+00:03:09.040 And this is what I talk about in my time
+00:03:10.640 frame alignment video. So, you can see
+00:03:12.959 we get the reversal. Here's the
+00:03:14.800 continuation. And this is what I'm
+00:03:16.480 looking to trade. And you can see how
+00:03:18.159 price expands higher. Now, let's get
+00:03:20.480 into trading view and go over a few
+00:03:22.159 examples of this of aligning the daily
+00:03:24.319 with the 4hour and then looking to get
+00:03:26.319 on side using a continuation or a
+00:03:28.720 protected swing on the 15-minute time
+00:03:30.640 frame. Here we are in our first example.
+00:03:33.120 You can see price has entered a fair
+00:03:34.959 value gap and the bodies are still
+00:03:37.040 respecting. Most importantly, we have a
+00:03:39.599 candle to closure on the daily chart
+00:03:41.920 showing that price has reversed in this
+00:03:43.840 candle and we can anticipate price to
+00:03:46.000 expand higher in the next candle ideally
+00:03:48.400 into this fair value gap above and
+00:03:50.560 higher. So now that we have a daily bias
+00:03:53.120 and looking in candle 3 for a move
+00:03:55.120 higher, we can go to the 4hour chart. So
+00:03:57.760 down here on the 4hour chart, the next
+00:03:59.920 thing we are going to want to look for
+00:04:01.360 is a candle 2 closure or where to
+00:04:03.920 anticipate the daily wick to form. So
+00:04:06.959 here you can see right off the open we
+00:04:09.200 have a nice candle to closure which
+00:04:11.200 engulfs the previous down close candle
+00:04:13.439 here. So looking at that as our candle 2
+00:04:16.000 closure, we could be looking for price
+00:04:17.680 to trade higher in candle 3 here to
+00:04:20.238 these failure swings on the left side.
+00:04:22.560 So looking at the daily wick and the
+00:04:25.440 4hour wick, we are aligning all of our
+00:04:27.360 time frames in one singular direction.
+00:04:29.759 So now going down to the 15-minut time
+00:04:31.680 frame. So here we are down on the
+00:04:33.600 15-minut time frame and you can see we
+00:04:35.360 have had that 4hour candle 2 closure. We
+00:04:38.080 have a change in the state of delivery.
+00:04:39.759 So we can be looking bullish in this
+00:04:41.520 candle three on the 4 hour and this is
+00:04:43.520 also the low of the daily candle. Now
+00:04:46.000 some people like to trade this reversal
+00:04:47.919 right here. I personally like to wait
+00:04:49.919 for a continuation. Now, why is that?
+00:04:52.080 Well, let's say price is going to react
+00:04:53.759 in this area. Price is either going to
+00:04:55.919 do that, form a swing low, and then
+00:04:57.919 trade higher, or it is just going to
+00:05:00.320 fall through here. Now, I would rather
+00:05:02.240 just wait for it to react or not react
+00:05:04.720 and save myself a loss than to place a
+00:05:06.880 limit. So, what am I going to be looking
+00:05:08.639 for here? Is a continuation. So, here
+00:05:11.440 you can see we have the down closed
+00:05:13.039 candles into a fair value gap. Can we
+00:05:14.960 get a closure over this area? Well,
+00:05:17.199 let's see.
+00:05:19.600 And you can see we make a new low. So
+00:05:21.759 now we are in a fair value gap sweeping
+00:05:23.680 out a low. We have a new series of down
+00:05:25.919 close candles. So let's see if we get a
+00:05:28.240 nice V-shaped recovery.
+00:05:30.639 We do and we close over. So now using
+00:05:33.840 the 4hour candle 2 closure, I've
+00:05:35.600 anticipated the daily wick to have
+00:05:37.120 formed. And then using the change in the
+00:05:39.759 state of delivery inside this candle 3,
+00:05:41.840 I've anticipated this wick to have
+00:05:43.360 formed. So now that all my time frames
+00:05:44.880 are aligned, I can look for this
+00:05:46.240 continuation entry. My entry is at the
+00:05:48.240 market of the new open. My stop is at
+00:05:50.320 that protected low and then I can look
+00:05:52.240 for 2 R or what can I also do? I can
+00:05:55.520 look for those higher time frame
+00:05:56.880 objectives. So if we zoom out, this
+00:05:59.039 would be our 2R. Or we can look for
+00:06:00.720 these failure swings here which is just
+00:06:03.360 around 4R. So let's see how this works
+00:06:05.680 out.
+00:06:10.400 And there you go. You can see how we hit
+00:06:12.160 RTP. If we go ahead and remove these
+00:06:14.479 drawings here, you can see we also get
+00:06:16.720 another continuation in this candle 4.
+00:06:19.440 It's not as clean, but we do have a nice
+00:06:22.160 open low and then we trade higher before
+00:06:24.800 we close and we take out all of these
+00:06:26.960 targets over here. So, just to review,
+00:06:29.360 if we go back out to the daily candle
+00:06:31.199 here, we have a candle 2 closure, which
+00:06:33.840 allows us to anticipate or look for a
+00:06:36.080 move higher in candle 3. When we go to
+00:06:38.479 the 4hour time frame, we then are
+00:06:40.479 looking for a candle to closure in line
+00:06:42.639 with that on the new day. And here you
+00:06:44.639 can see right off the open, we form a
+00:06:46.400 candle to closure. So then in this
+00:06:48.400 candle three, that's when I'm going to
+00:06:49.840 be looking at the 15-minute time frame
+00:06:51.680 and looking for a reversal to form and
+00:06:54.000 then looking for a new protected swing
+00:06:56.080 to trade that continuation higher. And
+00:06:58.479 this is how you align all of those time
+00:06:59.919 frames together. The easiest expansions
+00:07:01.840 occur when you trade candle 3 on
+00:07:04.000 multiple different time frames. So in
+00:07:05.680 this case the daily and 4hour. So let's
+00:07:08.000 go to our next example and we will go
+00:07:09.759 back to gold a few days. You can see we
+00:07:12.319 have ran out all of these failure swings
+00:07:14.160 into a fair value gap and then we have
+00:07:16.800 what multiple days of expansion. Right?
+00:07:19.120 So we have not had a swing in 1 2 3 4 5
+00:07:23.039 6 7 days. So that is where we can get a
+00:07:25.599 retracement or a reversal. We have a
+00:07:27.759 candle 2 closure here. So what does this
+00:07:29.919 mean? It means I can be looking bearish
+00:07:31.759 in this day or trading candle three
+00:07:34.240 lower. where would I want to see it go
+00:07:35.840 to into this fair value gap below. So
+00:07:38.560 now that we have a pretty clear bias, we
+00:07:41.280 want to go down to the 4hour time frame
+00:07:42.960 and see if we can wait for a candle too
+00:07:44.960 or a reversal intraday. So here we are
+00:07:47.280 on the 4hour and you can see we have
+00:07:48.960 that nice reversal structure, right? We
+00:07:51.039 have a nice sweep of a short-term high
+00:07:53.120 with an aggressive Vshape and a closure
+00:07:55.759 through giving a change in the state of
+00:07:57.520 delivery on this time frame. Here we
+00:07:59.680 have expansion into a consolidation.
+00:08:02.240 We'd want to see this high ran out to
+00:08:04.160 then go ahead and look to trade it
+00:08:06.240 lower. So, let's wait to see if we get a
+00:08:08.240 candle to closure on the 4 hour. This is
+00:08:10.400 not a candle to closure. So, what would
+00:08:12.240 we need to wait for? We need to wait for
+00:08:13.759 a new high to be taken and a new
+00:08:15.919 closure. Here you can see we do get a
+00:08:18.240 candle to closure. We have swept out
+00:08:20.400 this high and then we get a nice
+00:08:21.919 aggressive bearish candle. So, going
+00:08:24.080 into the 15-minut time frame, what do we
+00:08:26.160 want to see be respected? The lower half
+00:08:28.319 of this 4hour candle. So let's go to the
+00:08:30.639 15-minute time frame and look for a
+00:08:32.479 4hour and 15-minute fractal model which
+00:08:34.799 is also in line with this daily candle 3
+00:08:37.039 or an expansion candle. So let's go down
+00:08:39.039 to the 15-inut. So here we are on the
+00:08:41.120 15-minut time frame. You can see our
+00:08:43.039 daily candle. We have anticipated that
+00:08:45.200 this has formed the wick of the daily
+00:08:47.040 candle. And where is a good target? We
+00:08:49.040 could be looking for this previous day's
+00:08:51.040 low, right? That is a pretty good target
+00:08:53.680 to be looking for. And so we want to get
+00:08:56.080 on side before that gets taken out. So,
+00:08:59.120 as we let this play, you can see my
+00:09:01.040 model will print. And what do we have?
+00:09:03.440 We have a point of interest inside that
+00:09:06.160 T-spot area right there.
+00:09:14.560 But here you can see we reach into that
+00:09:16.399 T-spot area into the fair value gap. But
+00:09:18.560 now we need to wait for a continuation.
+00:09:20.959 What would be the continuation? Well, we
+00:09:23.519 look at the series of candles that went
+00:09:25.120 into that point of interest and once we
+00:09:26.959 get the closure through those, that is
+00:09:28.800 when we form the continuation.
+00:09:31.680 And you can see here we get the
+00:09:33.120 continuation lower. We could look to get
+00:09:35.040 on side, put our stop either on the high
+00:09:37.360 or on the bodies that made the high and
+00:09:39.839 then look for 2 R, which is conveniently
+00:09:42.399 right around that low. So, let's see
+00:09:44.399 what happens here.
+00:09:48.240 And you can see we do get a nice trend
+00:09:50.800 lower there. And that is because we are
+00:09:52.640 aligning multiple time frames in one
+00:09:54.480 direction. Right? Our daily is bearish.
+00:09:56.880 We let it open make a high and then
+00:09:59.360 we're getting on side as it's already
+00:10:01.040 trending lower. We have the 4hour make a
+00:10:03.600 swing point we can trade away from and
+00:10:05.680 we're looking to trade in that candle 3
+00:10:08.240 or the candle 4 for the expansion. All
+00:10:11.040 these time frames are aligned in one
+00:10:12.800 direction and that is when expansion
+00:10:14.640 occurs. So this will be a more advanced
+00:10:17.920 example, but as I talked about
+00:10:19.920 previously, I want to align multiple
+00:10:22.000 expansion candles in one direction. Now,
+00:10:24.480 the easiest way to do that is to trade a
+00:10:26.399 daily candle 3 with a 4hour candle 3 and
+00:10:29.519 then a protected swing on the 15-minute
+00:10:31.839 chart. But you can also trade a reversal
+00:10:34.079 candle on the daily if you know how to
+00:10:36.000 do that. And that is where my wick size
+00:10:38.079 video comes into play. But you can see
+00:10:40.160 here on oil, I've been talking about
+00:10:42.079 this a bit on Twitter, but you can take
+00:10:44.160 a look. We have equal highs above here.
+00:10:46.959 And what do we notice? We have this
+00:10:48.800 reversal right here, which happened
+00:10:50.720 Monday of last week. And then Friday, we
+00:10:53.040 do close higher. So, if we're going to
+00:10:54.640 continue higher, we have a weekly candle
+00:10:56.480 that looks like this, right? A nice
+00:10:58.720 expansion candle. So, we'd want to see
+00:11:00.560 it trade or respect 50% of that if we're
+00:11:02.800 going to trade into these highs, which
+00:11:04.240 you can see Trading View Replay already
+00:11:06.079 shows. Going back to the daily chart,
+00:11:08.560 what do we have? Right, we have a down
+00:11:10.720 close candle right there, which forms a
+00:11:12.480 swing and then a nice close over. So, we
+00:11:15.200 wouldn't really want to see price trade
+00:11:16.800 much below 50% of this down candle. So,
+00:11:20.160 Monday opens up. It is a pretty ranging
+00:11:22.399 day or a bearish day. Now, if this is
+00:11:24.560 bearish, we want to see price trade into
+00:11:26.480 previous day low. But if we're bullish
+00:11:28.240 on the higher time frames, what do we
+00:11:29.839 then want to see? We want to see this
+00:11:31.200 previous day low taken out, but then we
+00:11:33.200 want to see price trade higher into the
+00:11:35.120 highs. So, if that's what we're looking
+00:11:36.880 for, we can start to analyze the 4hour
+00:11:40.000 time frame once price reaches into this
+00:11:42.079 level. That's if it has a small wick.
+00:11:44.160 But let's go down to the 4hour time
+00:11:45.519 frame. So, here we are on the 4hour time
+00:11:47.519 frame, and you can see price opens up
+00:11:49.279 and trades lower into this previous day
+00:11:51.920 low, which we wanted to see taken out.
+00:11:54.640 Now, is this a bullish candle? No. So, I
+00:11:57.600 would not consider this a reversal. So,
+00:11:59.360 let's wait for a reversal candle. Here,
+00:12:01.279 you can see we do get a reversal candle.
+00:12:03.440 So, let's go check this out on the
+00:12:04.800 15-minute time frame. So, here you can
+00:12:06.959 see we get our open of our new higher
+00:12:09.040 time frame candle. This would be a valid
+00:12:11.200 continuation if you wanted to try that.
+00:12:13.680 Now, you can see right off the open of
+00:12:15.440 the new higher time frame, this is
+00:12:17.600 starting to invalidate it, right? We
+00:12:19.519 don't want to see it trade below 50% of
+00:12:21.360 this. So, if you were long in this area,
+00:12:24.000 this may be a stopout, right? This would
+00:12:26.000 be a valid entry if you're trading that
+00:12:28.399 positionally, right? looking for 2 into
+00:12:30.880 those highs which would be a stopout.
+00:12:33.440 But if we're waiting for that in candle
+00:12:35.519 change in the state of delivery or the
+00:12:36.880 CID within candle 3 let's see if that
+00:12:39.680 forms
+00:12:41.839 right it doesn't form before taking out
+00:12:44.000 this low. So now we're not going to
+00:12:46.399 change our idea. We're still bullish as
+00:12:48.399 we're respecting the same area. We want
+00:12:50.480 to see if we can get a new candle to
+00:12:53.360 closure.
+00:12:56.160 And here you can see we do get a candle
+00:12:58.399 to closure. What do we notice? This is
+00:13:00.560 also one that you could potentially
+00:13:02.480 trade the reversal candle as we have a
+00:13:04.480 small wick. Here is a continuation right
+00:13:06.959 there. As price reaches into the fair
+00:13:08.480 value gap, closes over. You could trade
+00:13:10.800 that higher. But we're more interested
+00:13:12.320 in trading those continuations. Right?
+00:13:14.160 Our daily candle has a small wick. We're
+00:13:16.160 looking for price to trade into the
+00:13:17.839 highs. So, we can be looking for this
+00:13:19.680 candle three on the 4 hour and then
+00:13:21.680 what? A continuation inside that candle.
+00:13:24.560 So, let's see if that forms.
+00:13:27.360 we do get a bit of a deep retracement
+00:13:29.519 into the lows, which is fine. And I'll
+00:13:31.680 talk about this really quick. A lot of
+00:13:33.360 times when we take out targets, right?
+00:13:34.959 We take out highs. That is when we get
+00:13:36.880 price retracing into the range, either
+00:13:39.760 back into a gap or a lot of times taking
+00:13:41.519 out a previous low that made that high.
+00:13:43.680 So the structure a lot of times looks
+00:13:45.200 like this. I'll just quickly draw this
+00:13:46.880 out. A lot of times if we take out this
+00:13:49.360 target here, we're going to come back in
+00:13:51.279 and run out a low before trading back
+00:13:53.519 higher. But nonetheless, we do what? We
+00:13:56.880 form a continuation. We have a new
+00:13:58.720 protected swing in candle 3. So that is
+00:14:01.839 giving us a new invalidation. So we can
+00:14:04.320 look to trade on the open of candle 4,
+00:14:06.480 my stop on the low and then look for 2
+00:14:09.440 or where can we be looking for this our
+00:14:11.680 higher time frame targets, right? Which
+00:14:13.920 would be this high of day or if we zoom
+00:14:16.240 out, it's going to be those equal highs
+00:14:18.560 above, right? And this is how you get
+00:14:20.720 large risk-to-reward trades is when
+00:14:23.040 you're taking a lower time frame
+00:14:24.399 invalidation and targeting a higher time
+00:14:26.959 frame target. So you can see you can get
+00:14:28.639 over 8R on that. But if we're going to
+00:14:30.720 keep it back to 2 R as I talk about in
+00:14:32.639 my videos, let's see how this works out.
+00:14:34.480 You can see we get 2 R right away. And
+00:14:36.480 let's see how this plays.
+00:14:38.959 And there you can see we do get that
+00:14:40.560 trend higher. So just to review, as this
+00:14:42.959 example is a bit more advanced, as you
+00:14:45.040 can see, we have a nice clear target. We
+00:14:47.680 have equal highs resting above. We know
+00:14:50.079 where we don't want to see price trade
+00:14:51.600 below. And we have that point of
+00:14:53.120 interest. So if price is going to form a
+00:14:55.519 reversal candle, we want to see it
+00:14:56.959 where? Right off previous day low. We go
+00:14:59.279 into the 4hour time frame. Here we have
+00:15:01.440 a 4hour candle 2 closure. And what does
+00:15:03.839 this candle 2 closure allow us to do? It
+00:15:06.399 closes over this down close as well as
+00:15:08.639 sweeps out the previous. It allows us to
+00:15:10.560 anticipate that this candle 3 can expand
+00:15:12.959 higher. But then we can go down to the
+00:15:14.959 15-minute time frame and do what? Look
+00:15:17.680 for a continuation in that candle 3.
+00:15:20.320 Here you can see we get that
+00:15:21.680 continuation and that provides an entry
+00:15:24.000 into this trend higher. As you can see,
+00:15:26.160 it's currently still going. And why does
+00:15:28.160 this occur? Well, if we pull up the
+00:15:30.160 indicator and rewind a little, we are
+00:15:32.480 aligning the daily candle with the 4hour
+00:15:35.199 candle with the 15-minut time frame
+00:15:37.120 trend. So, when you align all of these
+00:15:39.120 time frames together, that is when you
+00:15:41.120 get a trend. Now, before we wrap up this
+00:15:44.079 video, I do want to share something with
+00:15:45.839 everyone who stayed until the end. For
+00:15:47.680 the past few months, I've been running a
+00:15:49.440 program called the lens path with AM
+00:15:51.360 Trades. It's something we've kept closed
+00:15:53.199 off for a while and only allowed a few
+00:15:54.800 of our private members to join. And we
+00:15:56.800 did this because we wanted to build
+00:15:58.240 something that actually worked before
+00:15:59.920 putting it out there for others. So, we
+00:16:01.920 had to see results first. And from this
+00:16:03.759 first small group, we're still in the
+00:16:05.199 middle of the program. We've seen a lot
+00:16:06.560 of past accounts and payouts. So, I have
+00:16:08.560 linked an interview with one of the
+00:16:10.079 traders in the video description below
+00:16:11.600 if you want to hear a bit more about
+00:16:12.959 that. We are going to be opening it up
+00:16:14.560 to the public for the first time, but
+00:16:16.240 keeping it limited. But if you've been
+00:16:17.600 watching my videos, applying the
+00:16:19.040 concepts, and want that extra push with
+00:16:21.199 real structure into your approach, then
+00:16:23.040 this is probably for you. You'll find
+00:16:24.720 more details on what the mentorship
+00:16:26.320 looks like and a wait list to join and
+00:16:28.320 get notified when enrollment opens
+00:16:30.320 through a link in the description below.
+00:16:32.079 But with that, if you did enjoy the
+00:16:33.680 video, please give it a like and
+00:16:35.040 subscribe and I'll see you guys next
+00:16:36.399 time. Have a good one.

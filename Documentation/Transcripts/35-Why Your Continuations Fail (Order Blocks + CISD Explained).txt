@@ -1,0 +1,841 @@
+# tactiq.io free youtube transcript
+# Why Your Continuations Fail (Order Blocks + CISD Explained)
+# https://www.youtube.com/watch/PQiRV0JMhIQ
+
+00:00:10.880 How's it going everyone? In this video,
+00:00:12.480 we are going to talk about why your
+00:00:14.400 continuations are failing. We will walk
+00:00:17.039 through a few different scenarios of why
+00:00:18.880 continuations fail, how to correct
+00:00:20.960 those, and what to watch out for. So,
+00:00:23.039 let's get into the PDF. Now the first
+00:00:24.880 thing you need to understand when
+00:00:26.240 looking for a continuation is what is
+00:00:28.560 the ideal scenario that you are looking
+00:00:30.560 for. What do you want to see on the
+00:00:32.479 charts when seeking an entry? Now
+00:00:34.800 ideally we want to see a nice aggressive
+00:00:37.200 V-shaped reversal. So when price reaches
+00:00:39.600 into a fair value gap or sweeps out a
+00:00:41.680 low, we have a nice V-shaped or quick
+00:00:44.000 recovery back up into the range closing
+00:00:47.120 through the series of downclo candles
+00:00:49.200 and vice versa for the bearish scenario.
+00:00:51.600 This aggressive recovery or swift price
+00:00:54.079 action through the opening price shows
+00:00:56.079 us that price has the intent to move
+00:00:58.079 higher. This is a continuation that we
+00:01:00.320 can trust to trade higher. Now, let's
+00:01:02.320 get into the first scenario on why your
+00:01:04.479 continuation is failing. When price
+00:01:06.560 doesn't get that nice V-shaped recovery
+00:01:08.640 and close over the series of downlosed
+00:01:10.640 candles or fails to change the state of
+00:01:13.040 delivery is when price is forming a
+00:01:15.200 consolidation, then price will go ahead
+00:01:17.439 and close over that level. But what
+00:01:19.360 happens? It fails. Now, why does it
+00:01:21.840 fail? Well, when you take a look, this
+00:01:23.680 is actually a consolidation. And this
+00:01:25.759 closure through which you think is
+00:01:27.600 validating this low is actually a
+00:01:29.680 manipulation of this consolidation range
+00:01:32.079 and then it looks to trade to the other
+00:01:33.600 side. So, how can we look to avoid this
+00:01:35.600 scenario in our trading? Well, when we
+00:01:37.520 see that price is failing to form that
+00:01:39.360 ideal continuation and consolidating
+00:01:41.680 when price closes over, we want to wait
+00:01:43.840 to see what happens next. Do we have
+00:01:46.320 price form a new continuation off of
+00:01:48.720 that high or essentially breaking out of
+00:01:50.880 the range or does it fail and go back
+00:01:53.200 across the range? So step one is to wait
+00:01:56.079 to see this next candle and how it
+00:01:57.920 reacts. Does it form a new continuation
+00:02:00.240 in which case I can trade that higher or
+00:02:02.159 does it fail and go across the range? If
+00:02:04.399 it fails and goes across the range, well
+00:02:06.159 then I can look to trade this swing
+00:02:07.759 point off of this low as we are
+00:02:09.598 manipulating the lows to go higher. So
+00:02:11.920 now that we have covered reason number
+00:02:13.440 one, what is reason number two? Reason
+00:02:16.160 number two is the continuation forms at
+00:02:18.640 the same time that we are taking out
+00:02:20.319 highs in a range or a short-term target
+00:02:23.040 is taken. So here you can see we have a
+00:02:25.599 sweep of a low. We have a nice closure
+00:02:27.760 through the series of downclosed candles
+00:02:29.520 sweeping out that low forming a
+00:02:31.280 continuation or a protected swing. But
+00:02:33.599 at the same time we are sweeping out the
+00:02:35.280 highs. This can a lot of times cause
+00:02:37.519 price to form a reversal or a new phase
+00:02:39.519 of price and then go run out your
+00:02:41.120 stop-loss. So, similarly to scenario
+00:02:43.840 number one or reason number one, what
+00:02:45.920 are we going to wait for? We're just
+00:02:47.519 going to wait for extra confirmation,
+00:02:49.440 another continuation. After taking out
+00:02:51.680 this short-term high, do we form a
+00:02:53.519 continuation respecting this fair value
+00:02:55.280 gap or the opposing candles? Here we do,
+00:02:57.680 and we can trade that higher. Here you
+00:02:59.680 can see we do not respect those opposing
+00:03:01.519 candles and we run out the low. If I am
+00:03:03.920 still bullish, well then I'm just going
+00:03:05.599 to use this as my new point of interest.
+00:03:07.519 As this is a consolidation range, we've
+00:03:09.280 taken out the highs, we've taken out the
+00:03:10.879 lows. Once we form a nice V-shaped
+00:03:12.879 recovery in an ideal continuation, then
+00:03:15.440 I can look to get on side with it. Now,
+00:03:17.360 what is reason number three? Reason
+00:03:19.280 number three is a higher time frame
+00:03:20.879 target has already been taken. So, let's
+00:03:23.360 say for instance, we have previous days
+00:03:25.120 highs lined up here as failure swings.
+00:03:27.440 We go ahead and we run into that higher
+00:03:29.200 time frame target. There are a lot of
+00:03:30.879 people that feel FOMO from missing this
+00:03:32.799 move. They go ahead and see a new
+00:03:34.560 continuation and then they look to enter
+00:03:36.239 it and they get stopped out. Now, you
+00:03:38.959 have to realize when we hit a higher
+00:03:40.480 time frame target, that is when we can
+00:03:42.239 form a new phase of price. So, you can
+00:03:44.319 see here, not only are we at a higher
+00:03:46.319 time frame target, we're forming that
+00:03:48.000 continuation while taking out a previous
+00:03:50.080 high. And this is actually setting up a
+00:03:52.239 bearish change in the state of delivery.
+00:03:54.239 So, I simply just want to avoid this
+00:03:56.239 scenario. Realize that you are going to
+00:03:58.239 miss some moves and it's not the end of
+00:03:59.920 the world. Live to trade another day. So
+00:04:02.720 those are the three different scenarios
+00:04:04.400 on why your continuations are failing.
+00:04:07.040 Let's get into trading view and we'll go
+00:04:08.480 over a few examples of these. So here we
+00:04:10.720 are in Trading View and let's first look
+00:04:12.319 at what an ideal continuation looks
+00:04:14.560 like. Now, ideally, we are going to have
+00:04:16.720 it where we have a point of interest, a
+00:04:18.959 reach into that point of interest, a
+00:04:20.880 nice V-shaped recovery, and quickly
+00:04:23.199 closing over those down close or up
+00:04:25.440 close candles. So, if you notice here,
+00:04:27.600 we have a nice leg up, a expansion, and
+00:04:30.960 then we are looking to see if we get a
+00:04:32.479 retracement, a reversal or a
+00:04:34.720 consolidation. And here you can see we
+00:04:36.960 have a move lower. So, is this a
+00:04:38.720 reversal or a retracement? Well, we get
+00:04:41.120 told that by this next candle. And this
+00:04:43.360 is ideally what you want to see out of a
+00:04:45.040 continuation or the formation of a
+00:04:47.520 retracement. We have a reach into that
+00:04:49.120 fair value gap or that point of interest
+00:04:51.120 and we have a nice V-shaped recovery
+00:04:53.600 closing over those down close candles.
+00:04:56.000 What does that do? That then protects
+00:04:58.000 this low right here. And we can
+00:04:59.680 anticipate if price is going to continue
+00:05:01.680 this trend, it should go higher. Now
+00:05:04.240 also you notice how it has yet to take
+00:05:06.080 out this high. If we have price when it
+00:05:08.479 takes out a high, we want to see a
+00:05:10.160 closure through that high. And we'll
+00:05:11.600 talk about that in future scenarios. But
+00:05:14.080 as we let this continue, you can see we
+00:05:15.919 get a nice retest and expanding higher.
+00:05:18.240 Now you can see we have expansion. If we
+00:05:20.160 expect this low to hold, then what do we
+00:05:22.240 need to see hold? Well, we'd want to see
+00:05:24.320 this CISD hold or this fair value gap
+00:05:27.840 here. Here you can see this is an ideal
+00:05:30.240 formation as we're forming a swing point
+00:05:32.400 and also forming a protected swing. So
+00:05:34.160 that's a nice V-shaped recovery. And
+00:05:36.000 this is also ideal as we have not taken
+00:05:37.520 out our previous high and we can get
+00:05:39.680 another expansion higher. So this is
+00:05:42.080 ideally what I want to see out of
+00:05:44.000 continuations. But like you guys know,
+00:05:46.479 they're not always that perfect, right?
+00:05:48.639 They're not always going to have a clean
+00:05:50.160 point of interest, a nice clean close
+00:05:51.919 over. And we're going to talk about a
+00:05:53.680 few scenarios where they aren't that
+00:05:55.360 clean. So here we have a nice V-shaped
+00:05:57.680 reversal. And if I was looking for a
+00:05:59.440 continuation, we have a fair value gap
+00:06:01.840 right here. And what would I be looking
+00:06:03.680 for? a closure through this down close
+00:06:06.400 candle. Now, I use a singular candle in
+00:06:08.400 this case because there's not more than
+00:06:09.759 one candle. Let's see if we get a
+00:06:11.520 closure through that level.
+00:06:14.160 And you can see here we do get that
+00:06:16.160 closure through this level. But what do
+00:06:17.840 we notice? You see how we didn't get the
+00:06:20.080 closure through in a nice Vshape right
+00:06:22.160 here where we don't have a swift price
+00:06:23.840 action to close over and continue. This
+00:06:26.160 is showing that it is forming a
+00:06:27.600 consolidation. When price does go close
+00:06:30.560 over this level here, what is it also
+00:06:32.639 doing? It's actually just sweeping out
+00:06:34.560 the high in the consolidation range to
+00:06:36.960 do what? Go and trade lower. So, you
+00:06:39.520 notice how it's taking out the high and
+00:06:41.120 now we're just in a range and it can go
+00:06:43.280 ahead and trade lower and that is how we
+00:06:45.600 save ourselves from a loss because
+00:06:47.440 instead of looking to try to trade this
+00:06:49.120 as a continuation, we identify that it
+00:06:51.600 is consolidation and we can stay
+00:06:53.759 sidelined, right? And that's how we save
+00:06:55.600 ourselves from these type of losses. So,
+00:06:58.000 let's take a look at this continuation
+00:07:00.000 here. We have expansion up and we
+00:07:02.160 retrace into a fair value gap. But where
+00:07:04.720 are we looking to determine if we have a
+00:07:06.560 continuation the series of downcloed
+00:07:08.639 candles into that important level? Let's
+00:07:10.800 see if we get a closure through that
+00:07:12.160 level.
+00:07:14.000 And you can see we cannot close above
+00:07:15.680 this here. So what is this turning into?
+00:07:18.639 This is now turning into a consolidation
+00:07:21.440 in which this isn't a retracement
+00:07:23.199 anymore. This is a consolidation and
+00:07:25.599 then we'd be focused on the highs and
+00:07:27.360 the lows of the range. Instead of
+00:07:29.360 anticipating this low to hold, this
+00:07:30.800 becomes an entry point or where you're
+00:07:32.319 looking for price to reach into, in
+00:07:34.000 which case you can look for an entry or
+00:07:35.520 save yourself from a loss. And here you
+00:07:38.080 can see now we're just consolidating
+00:07:39.520 pretty clearly.
+00:07:42.000 And why would you not anticipate this to
+00:07:44.080 be a continuation? Well, we're just
+00:07:46.000 inside a range, right? So, this is how
+00:07:48.479 it's going to save you from some losses
+00:07:50.720 because you're not interested in
+00:07:52.479 closures over this level or any closures
+00:07:54.879 over down close candles in here because
+00:07:56.560 you identify it as a consolidation
+00:07:59.199 instead of looking long. It saves you
+00:08:01.360 from a loss and you're not going to get
+00:08:02.879 caught in this loss down here. So, this
+00:08:05.440 is reason number one and this is an
+00:08:07.520 example of where it just keeps you from
+00:08:09.440 taking a loss. But now you know what
+00:08:11.599 reason number one looks like and it's
+00:08:13.599 forming a consolidation. How do we
+00:08:15.520 actually get on side with something like
+00:08:17.039 this? And there are two ways. We can
+00:08:18.720 either trade the breakout with a
+00:08:20.000 continuation or wait for a new
+00:08:21.759 manipulation. So here you can see we
+00:08:24.000 have a bullish trend. We have a point of
+00:08:26.160 interest. Let's see if we get a
+00:08:27.599 continuation in here. And you can see
+00:08:30.240 what do we see? A series of downlosed
+00:08:32.320 candles. We can't go close back over
+00:08:34.320 that level. That levels used as the
+00:08:36.320 point of interest to trade back lower.
+00:08:38.799 Now we have made a new low into a fair
+00:08:40.719 value up. We have a new series of
+00:08:42.479 downclo candles. Let's see if we get a
+00:08:44.720 nice V-shaped reversal back over this
+00:08:46.640 one. And you can see how long it's
+00:08:49.279 taking to return up. Two candles down
+00:08:51.600 and we have six candles up and we can't
+00:08:53.440 even get back to this level. That is not
+00:08:55.680 fast or V-shaped. So, let's see what
+00:08:58.480 happens. We don't go close over this
+00:09:00.640 level. But even if we did close over
+00:09:02.399 this level at that point, what is this?
+00:09:04.480 This is just a big consolidation range.
+00:09:07.040 So, if we are bullish, we are no longer
+00:09:09.040 looking for this level. We're looking at
+00:09:11.200 it as a consolidation. in which case
+00:09:13.600 we're using the low as a point of
+00:09:15.440 interest looking for a manipulation.
+00:09:19.440 So why would I not care about this
+00:09:20.880 manipulation right here in this
+00:09:22.320 continuation? That's just internal to
+00:09:24.240 the range and you're trading a
+00:09:25.600 consolidation. You want to avoid that.
+00:09:28.240 So let's see what happens
+00:09:30.640 right here. Even if we got a closure
+00:09:32.880 over, would we be interested in that?
+00:09:34.880 No, because it does not reach our point
+00:09:36.720 of interest. Now we sweep out the low.
+00:09:39.120 Now we can look to see if we form a
+00:09:41.360 continuation. So, what are we wanting to
+00:09:43.440 see? A nice V-shaped reversal that
+00:09:46.000 recovers and then closes over this.
+00:09:51.760 And you can see how we get a pretty
+00:09:53.279 swift closure over. It only takes a
+00:09:55.600 couple candles. Now, I prefer 1 2 maybe
+00:09:58.320 three. If it takes longer than that, a
+00:10:00.320 lot of times it's just taking too long.
+00:10:02.160 So, now we have a reversal. We have a
+00:10:03.839 low we can trust. So, that is expected
+00:10:06.480 to be a continuation of this higher time
+00:10:08.320 frame trend. We could also look for
+00:10:10.160 another continuation to form.
+00:10:13.440 And here you can see we run out highs.
+00:10:16.480 So this is getting into scenario two
+00:10:19.440 where we run out short-term highs. Am I
+00:10:21.839 going to want to long at these highs?
+00:10:23.760 No. I'm going to want to wait for a new
+00:10:25.440 phase of price and a new continuation to
+00:10:27.680 form. What do we have here? We reach
+00:10:30.399 into a fair value gap and then we want
+00:10:32.720 to see what a nice swift fast closure
+00:10:36.480 through this area, right? because that
+00:10:38.880 is going to tell us we've formed a
+00:10:40.240 continuation and we can trade higher
+00:10:42.240 which there we go and do if we go ahead
+00:10:44.560 and follow this let's see what happens
+00:10:47.279 here we reach lower is this a
+00:10:49.120 continuation I would consider personally
+00:10:51.600 no because we don't reach into a point
+00:10:53.839 of interest now if you use correlated
+00:10:55.920 assets and we have an SMT here sure you
+00:10:58.160 can use that but I would not consider
+00:10:59.760 that because we don't have a point of
+00:11:01.519 interest so this is just an example of
+00:11:03.440 being patient right when we have that
+00:11:05.120 consolidation wait for the manipulation
+00:11:07.519 if If we break out through the highs,
+00:11:09.200 wait for a continuation to make sure
+00:11:10.800 that this is not a reversal to trade it
+00:11:12.959 the other way. So, here we are with
+00:11:14.640 another example. You can see we have a
+00:11:16.079 nice aggressive move higher and then a
+00:11:17.839 consolidation. So, if we see a
+00:11:20.000 consolidation and we're looking for a
+00:11:21.440 continuation, what do we want to see? We
+00:11:23.760 either want to see a manipulation of the
+00:11:25.440 low or a breakout of the high. So, we're
+00:11:28.560 not going to trade the breakout unless
+00:11:29.839 we have a continuation. Let's see what
+00:11:31.760 happens here. We trade into the high. Am
+00:11:35.279 I going to trust this? No, because we
+00:11:37.519 could just as easily form a move to the
+00:11:39.839 downside and then back up, right? I need
+00:11:42.640 to see a continuation or a new swing
+00:11:44.800 point form off of these highs. So, what
+00:11:47.839 do we have? Price reaching lower reaches
+00:11:50.560 into a point of interest or this swing
+00:11:52.320 point. Now, do we get a closure through
+00:11:54.240 this level? Let's see. And you can see
+00:11:56.640 we do. And you see how that is quick,
+00:11:58.480 right? We have a nice move lower,
+00:12:00.240 shallow, and slow. Nice closure over.
+00:12:02.720 You can see we are taking out this
+00:12:04.000 short-term high. So if I trust this, I
+00:12:06.240 could just take an entry like this right
+00:12:08.079 on the closure through my stop there. If
+00:12:10.800 I don't, as I'm taking out this little
+00:12:12.560 high here, I can see if we get a
+00:12:14.000 continuation move, right? If I want more
+00:12:16.720 confirmation, you can always demand
+00:12:18.399 more. Right? Do we reach into this?
+00:12:22.720 No, we do not. Right? So that does
+00:12:24.720 lacking the point of interest here. So
+00:12:26.880 this would not be a valid continuation
+00:12:28.320 for me. So if I did trust it, I could
+00:12:30.800 get on side here. There was no further
+00:12:32.639 continuation for this move to the upside
+00:12:34.480 there. But does that make sense on how
+00:12:37.519 to trade a consolidation? If I'm trading
+00:12:39.600 a consolidation and a breakout, I'm
+00:12:41.360 trading the failure to manipulate this
+00:12:43.440 level. I can't form a manipulation to
+00:12:45.519 trade the other way. So, I can trade it
+00:12:47.200 to the upside. So, in this next example,
+00:12:49.680 what do we have? We have some failure
+00:12:51.360 swings on the high here. We have a nice
+00:12:54.000 V-shaped reversal, right? And then we'd
+00:12:56.320 be looking for continuations.
+00:12:58.480 One thing you note is when we have this
+00:13:00.560 candle that doesn't form a swing,
+00:13:02.079 generally I ignore it. So a lot of times
+00:13:03.680 I'm not going to use this lower candle,
+00:13:05.600 I'm going to use this as the
+00:13:07.200 continuation. So here you can see I
+00:13:09.440 could be looking for a continuation
+00:13:11.120 higher. I want to see if we can get a
+00:13:13.040 closure over this level here. Let's see
+00:13:15.680 what happens. And what do we notice?
+00:13:17.760 This candle not only closes over, it
+00:13:20.000 takes out this high as well as all the
+00:13:21.839 highs on the left here. So, this is what
+00:13:24.320 I'm talking about when I'm saying price
+00:13:26.240 is taking out short-term highs. It can
+00:13:28.560 be this high, but when it's more
+00:13:30.240 significant highs like buyside liquidity
+00:13:32.399 or sellside liquidity, this is when I
+00:13:34.639 want to be looking for a continuation.
+00:13:36.880 And the reason for that is if a bearish
+00:13:38.959 setup is going to form, this is where a
+00:13:41.120 bearish setup will form and a bearish
+00:13:43.200 change in the state of delivery. Let's
+00:13:44.880 see if we form a continuation.
+00:13:47.760 And what do we notice? We don't. We're
+00:13:49.360 forming a bearish change in the state of
+00:13:51.360 delivery. And what happens? That's where
+00:13:53.600 we get a move lower. So if we go ahead
+00:13:56.480 and add my indicator back onto this,
+00:13:58.800 right, and we go take a look, you'll
+00:14:00.639 notice this is where it is forming a
+00:14:02.240 bearish setup at a point of interest, a
+00:14:04.320 bearish swing. So that is why I want to
+00:14:06.800 be careful of taking setups when we are
+00:14:10.000 over short-term highs or lows because
+00:14:12.000 that is a lot of time the manipulation
+00:14:14.000 that forms the higher time frame wicks.
+00:14:16.160 So here we are in another example, and
+00:14:18.079 what do we have? We have a nice V-shaped
+00:14:20.079 reversal here. We took out these highs
+00:14:22.399 here. You'd want to see if we form a
+00:14:24.240 continuation. What do we have? A failure
+00:14:26.880 to form a continuation here, right? We
+00:14:29.040 reach into a fair value up. We can't
+00:14:30.320 close over. We sweep out the high. Do
+00:14:32.160 you expect this low to get taken out?
+00:14:34.320 Now, what do we form a continuation
+00:14:36.240 here, right? To see a move higher. Well,
+00:14:38.800 let's see. And what do we notice? We
+00:14:40.880 have a very strong closure through, but
+00:14:43.040 we also have taken out all these highs
+00:14:44.800 here. Now, this doesn't really give me
+00:14:46.560 the best risk-to-reward on a protected
+00:14:48.240 swing. So that's another reason to wait.
+00:14:50.720 Do we form a continuation or do we come
+00:14:53.680 back across the range? Let's give it one
+00:14:55.600 more candle and we come back across the
+00:14:58.160 range aggressively. So this is a good
+00:15:00.160 example of when we run out short-term
+00:15:02.160 highs or the range highs, I want to see
+00:15:04.560 are we going to form a continuation to
+00:15:06.399 break out or is this the manipulation to
+00:15:08.959 trade to the other side of the range. So
+00:15:11.360 in this next example, let's take a look
+00:15:12.959 at this price action here. We had a
+00:15:14.720 little bit of a range. We had a move
+00:15:16.639 lower with a V-shaped recovery. It's not
+00:15:19.120 great. This is quite slow, but we do
+00:15:20.800 have the closure over there. So, I could
+00:15:22.880 be looking for a continuation. We reach
+00:15:24.880 into a fair value gap and we do close
+00:15:27.040 over here. Now, if you remember back to
+00:15:29.199 the PDF, what are we noticing about this
+00:15:31.279 closure here? Well, that would be
+00:15:33.519 scenario two where we're taking out that
+00:15:35.279 short-term high at the same time. And
+00:15:37.279 I'm not just talking about the candle
+00:15:38.560 next to it, right? This is actually a
+00:15:40.000 high. So, there's two things you can do
+00:15:42.320 here. one, if you have enough trust, you
+00:15:44.480 could take this expecting this low to
+00:15:46.160 hold and reach for the highs. Now, what
+00:15:48.000 I personally like to do is I like to
+00:15:49.839 wait and see. Are we going to get a move
+00:15:51.519 lower that takes me out or are we going
+00:15:53.839 to make a swing and trade higher? I
+00:15:56.079 don't know which. So, I prefer to let
+00:15:57.839 this next price action happen and let me
+00:16:00.240 know what is going to occur, right? And
+00:16:02.639 you can see that saves us from a loss
+00:16:04.399 there. And now, if you wanted to trade
+00:16:06.320 it higher, what would you be waiting
+00:16:07.519 for? You know, a nice V-shaped recovery.
+00:16:10.079 and to trade that in the other
+00:16:11.279 direction. You can see we're not getting
+00:16:13.199 that and this is a consolidation. So, as
+00:16:16.880 you can see here, when we run out
+00:16:18.399 short-term highs, depending on how
+00:16:20.399 strong your bias is and how aggressive
+00:16:22.320 you want to be with entries, many times
+00:16:24.320 I wait for another continuation to form.
+00:16:26.959 So, here we are in our next example, and
+00:16:28.800 you can see we have a T-spot in here,
+00:16:31.120 looking for a continuation lower. Let's
+00:16:33.600 see if we can form a continuation. What
+00:16:36.079 do we notice here? price reaches up into
+00:16:38.240 the T-spot area and are we going to form
+00:16:40.720 a continuation? You can see this is
+00:16:42.880 quite a move up. So, we can allow for a
+00:16:45.040 few more candles and this is still a
+00:16:46.720 V-shaped reversal. But what do we notice
+00:16:49.040 about this closure through we are also
+00:16:51.120 taking out this short-term low. So, what
+00:16:53.440 could we wait for? Because this is where
+00:16:55.600 price could form the bullish setup,
+00:16:58.079 right? If we get that, this is why I
+00:17:00.000 want to wait. Does that form or do we
+00:17:02.240 form a new continuation? So, let's see.
+00:17:06.240 Give it a couple candles. We want to see
+00:17:08.160 is this a retracement or a reversal,
+00:17:10.640 right? We want to see a retracement or a
+00:17:12.160 consolidation for continuation. And
+00:17:14.319 let's see, do we get a closure back
+00:17:16.000 through that level? And we do. You can
+00:17:18.720 see how that is a nice V-shaped
+00:17:20.319 reversal. Two candles up. Takes two
+00:17:22.400 candles to come back down. And this is
+00:17:24.160 where we could look to get on side if
+00:17:25.599 we're trading a continuation. You can
+00:17:27.599 see how we get that expansion lower. So,
+00:17:30.000 really pay attention to when we take out
+00:17:31.840 short-term highs and lows. Do we form a
+00:17:34.160 reaction there or do we get a
+00:17:35.520 retracement or a consolidation? In this
+00:17:37.840 next example, we're going to blend
+00:17:39.679 solution one and two together. So, you
+00:17:41.919 can see we have expansion over these
+00:17:43.600 highs. We'd be waiting for a
+00:17:45.039 continuation. Do we get that
+00:17:46.799 continuation? Well, looking at the
+00:17:48.559 series of down close candles, have we
+00:17:50.000 closed over it? Yes. But what do we
+00:17:52.320 notice? We notice that it struggled to
+00:17:54.160 close over and then it also wicked this
+00:17:56.320 high. Not only are we forming a
+00:17:58.320 consolidation, but we've also taken out
+00:18:00.160 a short-term high. This is a very hard
+00:18:02.640 continuation to trust. This is generally
+00:18:04.960 where I want to see a breakout of this
+00:18:07.360 high, right? So, a breakout and a new
+00:18:09.360 continuation to form or this is the
+00:18:11.760 manipulation to run out this low and
+00:18:14.559 then trade that back higher. Let's see
+00:18:16.880 what happens
+00:18:19.039 here. You can see we run out the low. Do
+00:18:20.960 we get this bot back up? Right? We want
+00:18:22.559 to see a nice V-shaped reversal. You can
+00:18:24.799 also use inversions to see that. You can
+00:18:26.960 see we have a nice V-shaped reversal and
+00:18:29.120 that is taking a few candles to close
+00:18:31.120 over. But what do we have? We have
+00:18:33.120 another continuation inside of that with
+00:18:35.120 a nice candle to closure. So the
+00:18:36.960 inversion, you can also use inversions
+00:18:39.039 as a form of the change in the state of
+00:18:40.880 delivery when you have an extremely
+00:18:42.799 large candle range. But that is just an
+00:18:45.200 example of blending those two together.
+00:18:47.600 So here we are in our next example and
+00:18:49.360 you can see we have a nice change in the
+00:18:51.280 state of delivery here respecting this
+00:18:53.520 large wick right here. Now I want to see
+00:18:55.760 if we get a continuation here. And do we
+00:18:58.400 get that? Yes. And you can see how this
+00:19:00.000 is pretty ideal. We reach into a fair
+00:19:01.679 value gap. We have a nice quick closure
+00:19:03.440 over. So I could be looking for this to
+00:19:05.679 make a move higher. As we let this trade
+00:19:08.240 higher, what do we have? We have another
+00:19:10.720 little continuation here. And that's
+00:19:12.400 pretty ideal. Reaching into a fair value
+00:19:14.400 gap. Nice quick closure over and we get
+00:19:16.640 a continuation, right? Those are ideal
+00:19:18.799 scenarios to see. Now, what do we notice
+00:19:20.559 about this? This is where it's starting
+00:19:21.919 to get a bit choppy, right? And it makes
+00:19:23.600 sense at the end of a trend. So what do
+00:19:25.679 we have? We have a consolidation. So
+00:19:28.240 what do we be looking for in a
+00:19:29.520 consolidation? A manipulation, right?
+00:19:32.559 And what do we see? Do we have any
+00:19:34.000 manipulation? No. But let's say for
+00:19:36.320 instance, you were looking at this level
+00:19:38.320 as a continuation, right? Because you're
+00:19:40.559 saying this is a swing. There's no fair
+00:19:42.559 value gaps, nothing below. This should
+00:19:44.160 remain protected. So what would you be
+00:19:46.480 looking for? A quick closure over here.
+00:19:48.960 Not only does it take too long to close
+00:19:50.880 over this level, but it also takes out
+00:19:52.960 our short-term high. So, you can see how
+00:19:55.039 both of those reasons that we are
+00:19:56.720 looking for to avoid continuations are
+00:19:59.120 present. It has a consolidation and it's
+00:20:01.200 also sweeping out. So, when we sweep out
+00:20:03.520 like this, if I do want to trade it,
+00:20:04.960 sure, that's fine. I need to wait for
+00:20:07.280 another continuation. Do we form another
+00:20:09.760 continuation here? No, not before
+00:20:12.080 sweeping out the low. Now, we sweep out
+00:20:14.080 the low. Do we have a continuation that
+00:20:15.919 forms? Well, we want to see if we have a
+00:20:17.520 nice closure through that area.
+00:20:21.039 And what do we have? Price is failing to
+00:20:23.360 close through that area, which usually
+00:20:25.200 means what? It's once again a
+00:20:26.720 consolidation. I'd want to see the low
+00:20:28.480 ran out or what do we have? We can't
+00:20:32.080 close over this level. We can't close
+00:20:33.360 over this level. It's just a
+00:20:34.559 consolidation. Let's see if there's
+00:20:36.080 anything else that happens. And we run
+00:20:38.240 out the low. So, you can see how you can
+00:20:40.000 save yourself some losses by just being
+00:20:42.080 patient and seeing if you get that ideal
+00:20:44.480 continuation. And this is a good example
+00:20:46.559 of this is what ideal continuations look
+00:20:49.120 like. And these are what ideal
+00:20:50.720 continuations do not look like. Even
+00:20:52.880 with this closure here, it's not as
+00:20:55.120 ideal because we're at the highs. We're
+00:20:56.880 taking out highs. We want to see another
+00:20:58.320 continuation form. So, as we continue
+00:21:00.240 this here, you can see we have broken
+00:21:02.320 out of this consolidation. So, I want to
+00:21:05.120 see if we have this consolidation here.
+00:21:07.919 Are we going to manipulate and trade
+00:21:09.520 higher or can we break down? Now, if we
+00:21:11.840 want to trade the breakout of a range,
+00:21:13.679 so this is reason number one with the
+00:21:15.840 consolidation. If we want to trade this
+00:21:17.520 breakout to the downside, what do we
+00:21:19.280 need? We need a continuation. Let's see
+00:21:22.240 if we can form that. We have price trade
+00:21:24.400 higher into a point of interest. Now, if
+00:21:26.559 this is going to form, we want to see a
+00:21:27.919 nice closure through it. And we have. So
+00:21:30.480 now we have this high. We anticipate to
+00:21:32.640 hold. And this is how if you want to
+00:21:34.480 trade a breakout of a consolidation or a
+00:21:36.960 reversal from a consolidation, that's
+00:21:39.039 how you do it. So now we have covered
+00:21:40.559 all of reason number one. When we have a
+00:21:42.880 consolidation, if I want to trade it,
+00:21:45.039 I'm either going to wait for a
+00:21:46.320 manipulation of that consolidation or a
+00:21:48.880 breakout to trade it lower. Now, as we
+00:21:51.360 look for further continuations here,
+00:21:53.200 what are we looking for? Well, we have a
+00:21:55.200 protected high. Is this a retracement or
+00:21:57.440 a consolidation? A consolidation. We
+00:22:00.240 remain internal. So inside this little
+00:22:02.559 consolidation here, what do we want to
+00:22:04.080 see? Do we manipulate this side of the
+00:22:06.320 range to trade lower while respecting
+00:22:07.919 this or do we break out to the upside?
+00:22:12.559 And there you can see we have a nice
+00:22:14.640 candle three closure. But have we formed
+00:22:16.880 this continuation?
+00:22:18.960 Not yet. So let's see if we do form
+00:22:20.640 that. And we do. And here is an example
+00:22:24.159 of what we are breaking out. We are
+00:22:26.240 forming this continuation, but we're
+00:22:28.000 also closing below this. We're taking a
+00:22:29.679 short-term low. If we were taking a
+00:22:31.520 short-term low and we still want to
+00:22:32.799 trade it lower, that's when we want to
+00:22:34.640 wait for another continuation. It's the
+00:22:36.799 same scenario as up here. Here is a
+00:22:39.120 consolidation. We break out lower. We
+00:22:41.600 want to see if we form a continuation.
+00:22:43.520 Here is a consolidation. We break out
+00:22:45.600 lower. Do we form a continuation? Well,
+00:22:47.679 let's see.
+00:22:50.480 So, here you can see we reach into a
+00:22:52.480 fair value gap. We have a nice candle to
+00:22:54.400 closure. Let's see if we can form a
+00:22:55.919 continuation.
+00:22:59.039 No, we cannot. So what is this doing? By
+00:23:01.520 waiting for this continuation, we're not
+00:23:03.280 shorting the lows, right? We're not
+00:23:05.039 getting caught in this price action,
+00:23:06.240 which is actually just a reversal,
+00:23:08.559 right? And so if we let this continue,
+00:23:11.360 you know, we could trade this if we
+00:23:13.280 wanted to, right? Because this is our
+00:23:14.880 protected swing right here, right? It
+00:23:17.679 hasn't been taken. This keeps us from
+00:23:19.840 taking a loss here. We run out the high
+00:23:21.919 and then we trade lower. Once again,
+00:23:24.159 this is a bit more difficult as what are
+00:23:26.240 we doing? We are running lower. We're
+00:23:28.000 taking out short-term lows. So, I'd want
+00:23:29.600 to see a further continuation. And you
+00:23:32.080 can see price comes up, retest that
+00:23:34.080 level, and then we do continue lower.
+00:23:36.559 But that kind of puts all those examples
+00:23:38.880 together, right? If you have a
+00:23:40.960 consolidation, you either wait for a
+00:23:42.880 manipulation or for a breakout. And when
+00:23:44.960 you take out short-term highs or lows
+00:23:46.960 and you're still seeking a continuation,
+00:23:49.039 you want to wait for a continuation move
+00:23:51.039 off of those levels. Now, let's get into
+00:23:53.360 another example. And this is from
+00:23:54.799 someone on Twitter that tagged me in
+00:23:56.640 their post asking why this continuation
+00:23:59.200 failed. So, let's take a look at it. If
+00:24:01.440 you notice here, we do have a nice
+00:24:02.799 V-shaped reversal forming this wick. And
+00:24:05.200 we do have a point of interest, a fair
+00:24:07.039 value gap. So, if we're looking for a
+00:24:08.400 continuation here, what do we want to
+00:24:09.840 see? We want to see a nice quick move
+00:24:12.400 lower, closing below here, and then
+00:24:15.039 continuing lower. Now, if we do take out
+00:24:17.039 this low, we ideally want to see a
+00:24:18.640 closure below it, and then we can wait
+00:24:19.840 for a continuation. So, let's see what
+00:24:22.240 happens.
+00:24:23.840 And what do we notice about this? It
+00:24:25.760 takes one, two, three candles and we're
+00:24:28.400 struggling to close below this level. On
+00:24:30.400 the fourth candle, we take out this low.
+00:24:33.039 So instead of really treating this like
+00:24:35.120 a continuation, I'm more so viewing it
+00:24:37.760 as a consolidation, in which case we run
+00:24:39.679 out this low. So it's not that I'm not
+00:24:42.400 bearish biased anymore. It's just we
+00:24:44.320 have these failure swings here. I want
+00:24:46.240 to see do we form a continuation that I
+00:24:48.720 can trust or are we going to fail and
+00:24:51.520 trade back against the range. Let's see
+00:24:53.520 what happens here. You can see this is
+00:24:56.000 candle 3. You can see we do get the
+00:24:58.640 start of a continuation. I don't like
+00:25:00.080 that we're leaving these failure swings.
+00:25:01.600 But what else do we notice? Even on this
+00:25:03.679 retracement back up, we're struggling or
+00:25:06.000 failing to close below this level. So
+00:25:08.640 there's really no way to trade this for
+00:25:10.400 me. And what do we notice now? Now we
+00:25:12.559 take out the low, we manipulate the low
+00:25:14.320 and we're trading in the other
+00:25:15.760 direction. So now this is bullish to me,
+00:25:18.400 right? And you can see we traded a bit
+00:25:20.320 higher. So the one thing to pick out of
+00:25:22.400 this, and this is for JD on Twitter who
+00:25:24.320 tagged me in his post, is it just takes
+00:25:27.520 too long to form this continuation. Once
+00:25:30.000 we do get the closure, this is now just
+00:25:32.240 a consolidation and we can't really form
+00:25:34.400 a continuation. You can see we never get
+00:25:36.080 the closure below this level. So that is
+00:25:38.559 why I would personally avoid that price
+00:25:40.320 action in there. Now, here we are in our
+00:25:42.799 next example, and this is another one
+00:25:44.480 from someone on Twitter that tagged me
+00:25:46.400 in it wondering why it failed. So, let's
+00:25:48.960 take a look. We do have expansion up and
+00:25:51.679 then I would treat this as a
+00:25:53.039 retracement. Yes. So, I would be looking
+00:25:55.120 for what? A closure through this level.
+00:25:57.760 Do we get that?
+00:25:59.919 Yes. And we have a nice and quick move
+00:26:01.679 through that level. But what do we
+00:26:03.200 notice? We're taking out this high here.
+00:26:05.520 Now, if we add a little more context, I
+00:26:07.919 could be looking for a retracement,
+00:26:09.520 right? just because we've taken out the
+00:26:11.039 high. But now if we go into what my
+00:26:12.960 fractal model actually uses, right? I'm
+00:26:15.440 waiting for this closure on the higher
+00:26:17.120 time frame. So this could simply be
+00:26:19.039 avoided by one, if I'm taking out a high
+00:26:21.840 into my entry, I can give it another
+00:26:23.600 candle or two to see if we're getting a
+00:26:25.200 continuation or if we're coming back
+00:26:26.720 across the range. But also within my
+00:26:28.960 fractal model, I am waiting for this
+00:26:31.039 next candle. This candle has already
+00:26:33.200 expanded and I want to let the next
+00:26:34.880 candle form form its wick and then trade
+00:26:37.520 it away. So, if we give it another
+00:26:39.120 candle here,
+00:26:41.520 you can see, do we form a continuation
+00:26:43.279 out of this fair value gap area here?
+00:26:45.919 No, we do not. And we fall lower. Now,
+00:26:48.159 if I still wanted to trade this, you see
+00:26:50.159 now that we have this candle closure, my
+00:26:52.400 model will print. And then what do we
+00:26:54.320 have? Well, we're sweeping out a low at
+00:26:56.960 a point of interest, right, in a fair
+00:26:59.200 value. Yep. So, I could be looking for
+00:27:01.039 another continuation up here. But, do we
+00:27:02.960 go ahead and get that? Oh, we take out
+00:27:04.559 the low first, right? So now we have a
+00:27:06.240 new series of downclosed candles. I'm
+00:27:08.559 not looking at this anymore. I'm looking
+00:27:10.159 at this one. Do we form a continuation?
+00:27:13.039 We do. And this is a pretty aggressive
+00:27:15.760 move. So I could look to get on side
+00:27:17.120 with that. Or I could also look for
+00:27:18.799 what? Another continuation. Now for me,
+00:27:21.520 if I'm going to be trading this, this is
+00:27:23.360 already the continuation of this
+00:27:25.120 reversal. I haven't taken out any highs.
+00:27:27.840 I can look to get on side with this on
+00:27:29.679 the closure through, put my stop on the
+00:27:31.840 low, and then look for 2 R. Let's see
+00:27:34.320 how that works out.
+00:27:37.120 You see, we almost get stopped out and
+00:27:39.360 then we do end up going right now. One
+00:27:41.840 thing I want to talk about, this is not
+00:27:43.440 ideal structure as well. So, this would
+00:27:45.440 be a bit more of an advanced trade based
+00:27:47.360 off higher time frames, but that is how
+00:27:49.360 I would approach it. I would be focused
+00:27:51.039 on letting the higher time frame wick
+00:27:53.200 form. That's where I'm looking for the
+00:27:54.880 continuation. If you get one thing from
+00:27:56.799 that video, that will probably help you
+00:27:58.320 a lot with your entries. Frame your
+00:28:00.240 entries when it is forming the higher
+00:28:02.240 time frame wick. you're looking for
+00:28:03.840 random continuations. A lot of times
+00:28:05.760 that is going to happen to you. Now, in
+00:28:07.919 our last example here, we have what
+00:28:09.760 looks to be a pretty ideal continuation,
+00:28:12.080 right? We have expansion away,
+00:28:14.000 expansion, a retracement into a fair
+00:28:16.159 value up, and it is bought right back up
+00:28:18.080 and closed over. Let's see if this works
+00:28:20.320 out.
+00:28:22.159 And what do we notice? It fails pretty
+00:28:23.840 hard. So, what would be the reason for
+00:28:26.000 this? Well, let's zoom out to the higher
+00:28:27.760 time frames at this level here. You can
+00:28:30.399 see on NQ here, we just run out all of
+00:28:33.200 these previous highs. I do not want to
+00:28:36.080 be longing after price has already made
+00:28:38.559 it expansion. 1 2 three candles of
+00:28:41.520 expansion and hitting a significant
+00:28:43.919 high. We go back to that on the hourly
+00:28:46.320 chart. This is not the area that I want
+00:28:48.399 to be longing price because that is
+00:28:50.640 where you can get caught up in the new
+00:28:52.559 phase of price. I don't look for
+00:28:54.559 continuations after we've already hit a
+00:28:57.039 higher time frame objective or had
+00:28:59.120 multiple candles of expansion. Now, I
+00:29:01.679 hope this video helps. It's not really
+00:29:03.440 going to make a ton of sense until you
+00:29:05.039 go and do it for yourself. You need to
+00:29:07.039 go into the charts and practice finding
+00:29:09.120 continuations that work and those that
+00:29:11.360 don't that align with your model. Go
+00:29:13.520 back to your journal and see which
+00:29:14.960 trades you could have avoided losses in
+00:29:17.279 if you understood these things. But if
+00:29:19.440 you did enjoy this video, please give it
+00:29:21.279 a like and a subscribe, and I'll see you
+00:29:23.039 guys in the next one. Have a good one.

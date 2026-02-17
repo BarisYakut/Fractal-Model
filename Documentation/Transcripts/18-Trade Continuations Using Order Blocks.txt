@@ -1,0 +1,424 @@
+# tactiq.io free youtube transcript
+# Trade Continuations Using Order Blocks
+# https://www.youtube.com/watch/IJcfC6wAPZU
+
+00:00:05.490 [Music]
+00:00:10.960 how's it going everyone this video is
+00:00:12.599 going to be over using order blocks for
+00:00:15.119 continuations now if you've seen my
+00:00:16.760 reversal sequence video you know how I
+00:00:18.720 look at reversals and many think that if
+00:00:21.320 they miss the reversal entry they are
+00:00:23.640 left behind and that is simply not true
+00:00:26.679 that just means the reversal is
+00:00:28.199 confirmed and then I can look for
+00:00:29.960 continuation entries so how do I do that
+00:00:32.759 so the first thing we got to look for is
+00:00:34.239 the reversal so here you can see the
+00:00:36.000 reversal sequence has formed with the
+00:00:38.040 purge we have the change in the state of
+00:00:40.559 delivery so we have an invalidation at
+00:00:43.039 this low now if I miss this first entry
+00:00:45.680 here off the order block or I want to
+00:00:47.719 wait for more confirmation I just need
+00:00:49.760 to let some structure form and
+00:00:51.680 essentially waiting for that higher low
+00:00:53.399 to form now you can see here with a fair
+00:00:56.359 value Gap price trades back lower into a
+00:00:59.239 point of Interest
+00:01:00.519 and then when we get the close through
+00:01:02.440 the down close or series of down close
+00:01:04.640 candles into that point of Interest we
+00:01:07.040 have a new invalidation using that
+00:01:09.720 invalidation I can then position myself
+00:01:12.119 with my stop on this low instead of the
+00:01:14.520 reversal low allowing me for better risk
+00:01:16.920 to reward to catch this expansion move
+00:01:20.360 now there are two types of entries I
+00:01:22.200 look for when seeking a continuation
+00:01:24.360 entry and that is a reaction out of a
+00:01:26.759 fair value gap or a sweep of a low so so
+00:01:30.040 you can see here as shown in the first
+00:01:32.240 example when price retraces into a fair
+00:01:34.880 value Gap that will be used as the
+00:01:36.680 important level then when the series of
+00:01:39.200 down Clos candles is closed through I
+00:01:42.119 can then look to get on side with that
+00:01:44.280 with my stop at the low and then the
+00:01:46.560 next way I will look to frame entries in
+00:01:48.439 a continuation is when we sweep out a
+00:01:51.079 low and then close through the series of
+00:01:53.560 down closed candles that swept out that
+00:01:55.680 low looking to get on side with the
+00:01:58.000 continuation following now the only time
+00:02:01.039 price does not need to sweep out a low
+00:02:02.960 or reach into a fair value Gap is if we
+00:02:05.240 are using correlated assets and have an
+00:02:07.479 smt with that so you can see here with
+00:02:10.239 two correlated assets one sweeps out the
+00:02:12.840 low while the other doesn't I can then
+00:02:15.319 still consider this an opposing candle
+00:02:17.560 or an order block because it is paired
+00:02:19.480 with smt so let's hop into trading view
+00:02:22.440 for some examples so here we are in our
+00:02:25.480 first example and you can see on the
+00:02:27.120 daily chart we have had multiple days of
+00:02:29.400 expansion
+00:02:30.400 and then we have a nice large Wick here
+00:02:32.840 if you've seen my Wick video you can see
+00:02:34.920 we can use this to frame a reversal if
+00:02:37.400 price respects the lower half of this to
+00:02:39.720 trade lower you can see we fall just shy
+00:02:42.640 of that previous day low creating equal
+00:02:46.080 lows so with this we have an hourly
+00:02:49.319 change in the state of delivery here and
+00:02:51.879 going into the next day we come into the
+00:02:54.159 New York session and we sweep out this
+00:02:56.280 High which is also paired with smt
+00:03:00.000 so all things combined we have a bias to
+00:03:03.840 look lower and we have just swept out a
+00:03:06.280 high still respecting the wick of this
+00:03:08.480 higher time frame candle now if you've
+00:03:10.400 seen my daily bias video you can see
+00:03:13.080 with closing back inside the range here
+00:03:15.400 on the hourly candle I can look to trade
+00:03:17.760 this lower from here so going to the 5
+00:03:21.560 minute so down here on the 5 minute I
+00:03:24.200 have also added my indicator so you can
+00:03:26.360 visualize the hourly candles and you can
+00:03:29.000 see our draw in liquidity which is that
+00:03:31.239 previous day low marked out there which
+00:03:33.640 also lines up with our standard
+00:03:35.120 deviation projections so you can see we
+00:03:37.519 have now had that change in the state of
+00:03:39.439 delivery so I can look to get on side
+00:03:41.519 with this move here now as it starts to
+00:03:43.920 trade lower here I might think that I've
+00:03:46.159 missed the move when in reality that is
+00:03:48.760 not the case all I have to do is wait
+00:03:51.000 for a new order block to form right so
+00:03:54.040 instead of trying to chase this I'm just
+00:03:56.120 going to wait for a point of Interest
+00:03:57.959 which is either going to be a high high
+00:04:00.280 or a fair value Gap if you notice we
+00:04:02.680 don't have any highs in here in the area
+00:04:04.840 I'm looking to see respected so marking
+00:04:07.439 out these fair value gaps here there's
+00:04:10.200 one there's one and even one above how
+00:04:13.959 do I know which one to look for and the
+00:04:16.560 reality is I don't need to know which
+00:04:18.560 one forms the high because I'm not
+00:04:20.918 looking to trade the high I'm going to
+00:04:22.840 let the high form and then trade the
+00:04:25.080 continuation off of it or the order
+00:04:26.840 block
+00:04:27.759 formation so let's see if we we get a
+00:04:30.520 continuation you can see it does reach
+00:04:32.840 up all the way into that last one I'm
+00:04:35.080 not interested in trying to take a
+00:04:36.440 position until tell what occurs we get a
+00:04:39.240 closure through the series of up closed
+00:04:41.600 candles into an important level so to
+00:04:44.280 clean things up I can remove those fair
+00:04:46.400 value gaps as we did tag this one and
+00:04:49.080 wait for a closure
+00:04:51.919 through we have yet to get the closure
+00:04:54.639 through so I'm just waiting
+00:05:01.440 now if this is paired with smt I can
+00:05:03.919 also consider this level here but
+00:05:06.440 without smt I'm still using this level
+00:05:09.440 now with the closure through I can look
+00:05:11.400 to get on side with that position My
+00:05:14.560 Stop on that high and then looking for
+00:05:17.199 that previous day low so let's see how
+00:05:20.319 this works
+00:05:22.160 out there we go we open a new
+00:05:26.840 candle we trade a bit higher here now if
+00:05:29.919 we're going to get a continuation lower
+00:05:31.319 here where do we want to see a closure
+00:05:33.479 below this level here that would now
+00:05:35.919 validate a new
+00:05:38.600 high and there we go we go and take out
+00:05:41.960 that previous day low or our Target so
+00:05:44.960 just to review I don't need to capture
+00:05:47.600 the initial move here I can wait for
+00:05:49.560 these continuation entries which I'm
+00:05:52.199 looking for order blocks to form or for
+00:05:54.639 price to reach into an important level
+00:05:56.479 and then close through the series of up
+00:05:58.400 close candles that did that to me this
+00:06:00.759 is a higher probability entry as this
+00:06:03.160 High has already been confirmed and I'm
+00:06:05.039 not trying to get the lowrisk sell but
+00:06:07.599 instead the first or second stage of
+00:06:10.280 distribution so let's get into another
+00:06:12.599 example so here we are in our next
+00:06:14.840 example and you can see we have had a
+00:06:16.400 nice expansion on the previous day so if
+00:06:19.400 this is going to get a continuation we'd
+00:06:21.319 want to see a shallow retracement to
+00:06:23.199 continue higher so you can see we are
+00:06:26.240 getting a shallow retracement these are
+00:06:28.400 not aggressive candles showing a
+00:06:30.400 reversal we retrace into a fair value
+00:06:33.400 Gap here with a small little tag so
+00:06:35.680 let's drop down to a lower time frame
+00:06:38.720 now since we were using the 4our chart
+00:06:40.880 we'll hop down to the 15minute time
+00:06:43.000 frame so you can see here we open a new
+00:06:45.840 4-Hour candle and we sweep out the low
+00:06:48.759 here so if we are going to reverse off
+00:06:51.599 this previous candle and expand higher
+00:06:54.160 I'd want to see a change in the state of
+00:06:56.039 delivery or that reversal
+00:06:58.520 sequence so you can see we are forming
+00:07:00.960 down close candles here and one thing to
+00:07:03.919 note is you notice how this is also the
+00:07:06.039 same as the opening price that sometimes
+00:07:12.160 occurs you can see we get another little
+00:07:15.000 sweep here of those lower time frame
+00:07:17.560 equal lows and now we have that change
+00:07:19.759 in the state of delivery so this would
+00:07:21.960 be the first reversal entry however if I
+00:07:24.520 want more confirmation or if I miss that
+00:07:27.639 and I want to wait for a continuation
+00:07:30.080 I'm just going to wait for an important
+00:07:31.919 level and then for price to form an
+00:07:34.280 opposing candle so you can see here we
+00:07:38.240 have a fair value Gap that price is
+00:07:41.080 reaching back into and now we have a
+00:07:43.759 down close candle into it so if we close
+00:07:47.240 through this down close candle we can
+00:07:49.919 then look to get on side with the move
+00:07:52.960 higher and that's fine if it digs a
+00:07:55.159 little bit deeper just want to wait for
+00:07:57.639 the closure over that
+00:08:00.120 and there we get the closure over it so
+00:08:02.360 now if I was going to get on side with
+00:08:03.919 this I could take an entry My Stop on
+00:08:06.120 this low and looking for 2 r or that
+00:08:09.639 high there so as we let this
+00:08:12.800 continue you can see it retests now with
+00:08:16.360 a retest of this order block we now have
+00:08:19.440 another down close candle into an
+00:08:21.080 important level so this low should then
+00:08:23.280 be
+00:08:24.560 respected which you can see it retests
+00:08:27.159 it is respected and then we trade higher
+00:08:29.520 hitting this previous high and 2 r or
+00:08:32.719 completing the 15-minute Market maker
+00:08:34.839 buy model so just to review we have the
+00:08:37.679 4-Hour fair value Gap is our important
+00:08:39.519 level I let the change in the state of
+00:08:41.799 delivery occur not looking to get on
+00:08:43.958 side with it or if I just miss it and
+00:08:46.720 then using the continuations following
+00:08:49.560 this to get on the side with the move
+00:08:51.640 and what I am doing is I'm actually
+00:08:53.080 allowing all the time frames to align in
+00:08:55.080 one direction to have expansion occur so
+00:08:58.519 let's get into another example example
+00:09:00.560 so here we are with our next example on
+00:09:02.279 the oil daily and hourly chart you can
+00:09:05.040 see on the daily we have swept out our
+00:09:07.040 previous day we have closed back inside
+00:09:09.680 and we have that hourly change in the
+00:09:11.440 state of delivery now one thing I'll
+00:09:13.440 talk about with projections here is when
+00:09:15.519 you have a very large manipulation move
+00:09:18.680 and the projections do not make sense
+00:09:20.519 within the range that is when I
+00:09:22.240 generally will look to Target than ne1
+00:09:25.200 but you can see here we have marked out
+00:09:26.920 our previous day's lows via the
+00:09:28.920 indicator
+00:09:29.920 and that is what we will look to Target
+00:09:32.480 so you can see the reversal has formed
+00:09:35.880 let's see if we get a
+00:09:38.240 continuation and you can see we just
+00:09:39.920 start to trade lower and in this case I
+00:09:42.800 don't really trust this High generally
+00:09:44.480 to stay intact so I can just wait and
+00:09:48.720 that is more of a convincing run we get
+00:09:50.800 this move higher and then an aggressive
+00:09:53.120 displacement lower you can see we fall
+00:09:56.040 just shy of that previous day low and we
+00:09:58.720 have now this series of up closed
+00:10:01.120 candles into an important level what is
+00:10:03.640 that important level it is sweeping out
+00:10:05.480 that high to the left and so then now I
+00:10:08.000 could look to get on side with this move
+00:10:10.360 now in the case that we have such an
+00:10:12.160 aggressive displacement doesn't really
+00:10:14.040 make sense for my final Target or my
+00:10:16.240 first Target to enter on the market with
+00:10:18.480 my stop on the high and that is when I
+00:10:20.800 will look for a retest entry there so
+00:10:24.160 let's see what
+00:10:25.560 happens we get tagged in we then get
+00:10:28.560 another closure below so I would not
+00:10:31.079 want to see this High get hit or this
+00:10:34.600 gives me another entry and let's see
+00:10:36.920 what
+00:10:38.000 happens and there we get the
+00:10:39.720 continuation lower so just to review we
+00:10:42.920 have the change in the state of delivery
+00:10:44.519 we have that reversal and then I can
+00:10:46.480 look for a continuation entry by looking
+00:10:48.760 for price to trade into a fair value Gap
+00:10:51.279 or sweep out a high and then look for
+00:10:53.320 the order block that forms there now
+00:10:55.959 let's get into another example so here
+00:10:58.839 we are with our next example and you can
+00:11:00.639 see we have a consolidation range here
+00:11:03.720 in this consolidation range we have
+00:11:05.440 swept out the low and we have a nice
+00:11:07.760 aggressive move lower and then back into
+00:11:10.240 the range as well as closing inside the
+00:11:13.079 previous candle so with this I can be
+00:11:15.279 looking to trade back into the range or
+00:11:17.440 higher so I'll go from my hourly chart
+00:11:19.959 down to my 5 minute chart using my time
+00:11:22.360 frame alignment and you can see here
+00:11:25.000 this is one where I may catch the
+00:11:27.200 reversal candle however if I don't is
+00:11:30.279 there a continuation entry so here I
+00:11:32.880 want to talk about one thing if I'm
+00:11:34.480 looking for a low to get swept out or a
+00:11:36.720 fair value Gap to get wretch into to
+00:11:39.360 form a valid opposing candle or order
+00:11:41.639 block I need that in this area here
+00:11:44.760 which I do not have so that either means
+00:11:47.959 that I do not get a setup until we form
+00:11:50.399 some more structure that I can trade off
+00:11:52.160 of or I can be more discretionary with
+00:11:54.480 it but mechanically speaking there is
+00:11:56.600 nothing here for me yet so as we start
+00:11:59.000 to trade higher we get this expansion
+00:12:01.480 away which makes me think we do not come
+00:12:04.040 back to revisit this low and if we
+00:12:06.360 continue to trade away without sweeping
+00:12:08.480 out any lows or reaching back into a
+00:12:11.160 fair value Gap this is just a move that
+00:12:13.720 I am going to miss so you can see here
+00:12:16.680 we do sweep out some lows but we don't
+00:12:18.959 sweep out this low yet so let's see if
+00:12:21.320 we
+00:12:24.600 do we don't and we just trade this
+00:12:27.800 higher so this is an example example of
+00:12:29.519 a move that kind of grinds up and it's
+00:12:31.279 not one that I would be able to
+00:12:32.680 participate in because mechanically how
+00:12:35.519 I Define my order blocks to form there
+00:12:38.839 are no opportunities in here so let's
+00:12:41.399 get into another
+00:12:42.839 example so here we are with our next
+00:12:45.240 example and you can see we have taken
+00:12:47.360 out this side of the range closed back
+00:12:49.560 in so I'd be looking for a continuation
+00:12:51.639 lower in this day now you can see we
+00:12:54.360 just kind of open and fall off so not
+00:12:57.199 wanting to chase I'm going to let a
+00:12:59.320 lower high form or look for some
+00:13:01.399 structure now reaching back into this
+00:13:04.480 fair value Gap here and then forming a
+00:13:08.199 nice closure here I could anticipate
+00:13:11.120 price to reverse here and I can look on
+00:13:12.800 the lower time frame what I'm
+00:13:14.639 anticipating is the formation of these
+00:13:16.800 opposing candles or a continuation on
+00:13:19.120 this time frame so let's go down to the
+00:13:21.120 5
+00:13:22.000 minute so down here on the 5 minute you
+00:13:24.920 can see we have this reversal here it is
+00:13:27.480 a bit messy so if I don't want to catch
+00:13:30.079 the reversal I can let some more
+00:13:31.920 structure form and look for a
+00:13:34.959 continuation see a bit messy here I'd
+00:13:37.680 want to see a high taken out and then
+00:13:40.440 this is the first possible entry for a
+00:13:43.760 continuation as it has wretched into an
+00:13:46.519 important level swept out a high closed
+00:13:49.160 below the up Clos candles in this case
+00:13:51.519 it's a singular one so I could look to
+00:13:54.440 get on side with this move here
+00:13:56.199 targeting the lows let's see what
+00:13:57.839 happens
+00:14:00.480 that is the first possible entry now
+00:14:02.560 let's see if there's more continuations
+00:14:04.399 that follow this now some will consider
+00:14:06.800 this a continuation candle if we get
+00:14:09.199 closure below this now I do not because
+00:14:11.800 I needed to reach into a fair value Gap
+00:14:13.759 or sweep out a high and it fell short of
+00:14:16.079 this fair value G here let's see we do
+00:14:19.639 get the closure blow it I don't consider
+00:14:21.720 it now I'd be looking for another
+00:14:25.560 continuation if I don't think I am
+00:14:27.360 chasing it as I have further Downs side
+00:14:29.639 objectives here we're anticipating a
+00:14:31.880 continuation in this candle here we have
+00:14:34.880 price reach up into a fair value Gap
+00:14:38.560 that is meeting our requirements and
+00:14:40.720 then price closes through the up close
+00:14:43.279 candles into that area so if I wanted a
+00:14:46.120 later continuation this could be an
+00:14:48.759 attempt let's see if we can get to R out
+00:14:51.199 of
+00:14:53.600 this and you can see another
+00:14:57.040 continuation entry here
+00:14:59.600 and there we go we get two R now
+00:15:01.639 obviously I prefer the entries before
+00:15:03.600 our short-term targets are taking out
+00:15:06.040 but I hope you can see that when price
+00:15:07.759 is trending it's going to respect up
+00:15:10.040 Clos candles or if it is trending higher
+00:15:12.720 down close candles so let's get into one
+00:15:15.160 more
+00:15:16.079 example now in our last example here I
+00:15:18.720 want to go to the higher time frames
+00:15:20.759 just like most Concepts shown on this
+00:15:22.320 channel it is fractal so what we were
+00:15:24.959 applying on the lower time frames we can
+00:15:26.680 also do on the higher time frames so
+00:15:28.600 here we are on The Daily and monthly
+00:15:30.440 chart of gpp USD we are trading within a
+00:15:34.160 range and you can see we have equal
+00:15:36.560 highs up here we have swept out the low
+00:15:39.120 of the range and if you know my reversal
+00:15:41.279 sequence video we have this purge or the
+00:15:43.720 turtle soup we have an inversion and
+00:15:46.160 then we have the change in the state of
+00:15:47.920 delivery and if you don't know what I'm
+00:15:49.959 talking about check out that video but
+00:15:52.480 this would be the reversal now if I
+00:15:54.600 expect this to hold we'd want to see a
+00:15:56.839 continuation let's see if anything is
+00:15:59.839 offered so here we get that displacement
+00:16:02.600 higher we reach back into this fair
+00:16:05.160 value Gap here we have down closed
+00:16:08.120 candles so if we close over these series
+00:16:11.240 of down closed candles into an important
+00:16:13.360 level that would form a new opposing
+00:16:15.880 candle or order block and there we do
+00:16:18.800 get that closure so now I don't
+00:16:20.680 anticipate this low to be hit let's see
+00:16:23.160 if we get another
+00:16:25.199 continuation can see we retest that
+00:16:27.680 opposing candle
+00:16:29.759 and one thing I will consider are volume
+00:16:32.319 and balances as another Gap or an
+00:16:34.880 important level when paired with
+00:16:36.639 something like reaching into another
+00:16:38.199 opposing
+00:16:39.199 candle so now as we trade this
+00:16:45.360 higher and as we let this play out you
+00:16:47.959 can see we go and take the other side of
+00:16:50.120 the range so you can see I don't need to
+00:16:52.959 catch the very first entry to still have
+00:16:55.319 a directional bias or get on side with a
+00:16:58.160 move higher
+00:16:59.600 now I hope you enjoyed this video if you
+00:17:01.600 did learn something please consider
+00:17:03.399 liking and subscribing and I'll see you
+00:17:05.199 guys in the next one have a good one

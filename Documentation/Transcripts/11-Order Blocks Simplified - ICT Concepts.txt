@@ -1,0 +1,395 @@
+# tactiq.io free youtube transcript
+# Order Blocks Simplified - ICT Concepts
+# https://www.youtube.com/watch/DMUiDBnTYc8
+
+00:00:04.340 [Music]
+00:00:10.400 how's it going everyone this video is
+00:00:12.120 going to be over order blocks we are
+00:00:13.920 first going to cover order blocks at the
+00:00:15.519 Smart money reversal before talking
+00:00:17.320 about order blocks on the buy side and
+00:00:19.080 sell side of the curve I'll also be
+00:00:20.760 talking about the main threshold of
+00:00:22.119 order blocks what it looks like when
+00:00:23.760 price is respecting an order Block
+00:00:25.480 versus invalidating an order block and
+00:00:27.519 then finally I'll be taking a look at
+00:00:29.199 stop losses for order blocks so let's
+00:00:31.320 hop into the PDF and get started so here
+00:00:33.559 we are on the order block slide and if
+00:00:35.719 you notice we reach into an important
+00:00:37.480 level we create a high or buy side
+00:00:40.000 liquidity we sweep that high and then
+00:00:42.559 displace and close below the opening
+00:00:45.079 price of the single or series of up Clos
+00:00:47.520 candles into this important level this
+00:00:49.680 candle here displaces and closes below
+00:00:51.960 the opening price here validating it as
+00:00:54.120 an order block then when price retraces
+00:00:56.359 back into the order block it is used as
+00:00:58.519 resistance to continue low lower
+00:01:00.480 similarly down here price reaches
+00:01:02.559 towards an important level creates
+00:01:04.159 sell-side liquidity it then sweeps that
+00:01:06.400 sells side liquidity before displacing
+00:01:08.560 and closing over the opening price of
+00:01:10.600 the single or series of down Clos
+00:01:12.600 candles once this occurs price then uses
+00:01:15.320 this level as support to continue higher
+00:01:17.799 now order blocks don't necessarily need
+00:01:19.600 a sweep before this closure below
+00:01:21.799 creating a high low higher high lower
+00:01:24.240 low but I do prefer that and so I always
+00:01:26.759 wait for a sweep now the most important
+00:01:28.880 part on this slide is waiting for an
+00:01:30.759 important level if we get this pattern
+00:01:32.840 at a random spot in a chart it doesn't
+00:01:34.759 mean anything that's not an order block
+00:01:36.479 it needs to be off a higher time frame
+00:01:38.479 PD array or important level so here we
+00:01:41.079 are with our first example if you notice
+00:01:43.240 we have buy side liquidity resting here
+00:01:45.600 or buy
+00:01:48.600 stops here you can see we sweep those
+00:01:50.920 buy stops right here now if we get a
+00:01:53.119 close and displacement below the series
+00:01:55.399 of up Clos candles here this opening
+00:01:57.640 price we now have an order block
+00:02:00.399 let's see if that
+00:02:02.079 forms so right here we get displacement
+00:02:04.799 and closure below that so looking to
+00:02:07.079 enter on a retest of the order block my
+00:02:09.318 stop on this high and looking for 2 R
+00:02:12.040 let's see how this works out so here we
+00:02:14.720 get tagged
+00:02:19.000 in and there we get stopped out so now
+00:02:21.800 why did we get stopped out now if you
+00:02:23.959 remember back to the slides I'm looking
+00:02:26.040 for the series of up closed candles into
+00:02:28.160 what an important level do we have an
+00:02:30.760 important level here well if we're on
+00:02:32.879 the 5 minute let's zoom out to the
+00:02:35.800 hour here we have our buy side liquidity
+00:02:38.800 resting right here so zooming back into
+00:02:41.480 the 5 minute now you can see in the
+00:02:44.000 absence of a higher time frame level
+00:02:46.080 these up closed candles just created
+00:02:47.840 equal highs and this is a retracement to
+00:02:50.000 move higher now let's go back to the
+00:02:51.680 hourly chart and see how we could frame
+00:02:53.239 this in the other direction so back out
+00:02:55.159 here on the hourly chart knowing we have
+00:02:57.000 buy side liquidity resting above us what
+00:02:59.120 do we have right here we have a fair
+00:03:00.959 value Gap so with an hourly fair value
+00:03:02.920 Gap dropping down to the 5 minute chart
+00:03:04.840 now now we are waiting for price to
+00:03:06.920 reach into the fair value
+00:03:09.760 Gap here we get a reach into the fair
+00:03:12.159 value Gap so now what do we have checked
+00:03:13.760 off we have an important level so now
+00:03:15.799 I'm waiting for a
+00:03:17.560 sweep here we get a sweep now if we're
+00:03:20.040 going to validate this down close candle
+00:03:22.519 into an important level and sweeping
+00:03:24.760 liquidity where do we need to close I
+00:03:26.799 want to see a closure over the opening
+00:03:28.959 price of this down closed
+00:03:33.840 candle and here we get that closure but
+00:03:36.280 once again looking to take an entry on
+00:03:38.360 the retest of this opening price my stop
+00:03:40.879 on the low and then looking for buy side
+00:03:43.400 liquidity or 2 R let's see how this
+00:03:46.239 works
+00:03:49.760 out and you can see we hit RTP so you
+00:03:52.959 can see this is not a valid order block
+00:03:54.680 because it is lacking a higher time
+00:03:56.239 frame level while this order block
+00:03:58.239 reaches into a higher time frame level
+00:04:00.120 or an hourly fair value Gap and is going
+00:04:02.280 with the trend now let's hop back into
+00:04:04.560 the PDF to learn about the mean
+00:04:06.079 threshold of an order block as well as
+00:04:07.799 the order blocks on the buy side and
+00:04:09.519 sell side of the curve so what is the
+00:04:11.519 mean threshold of an order block well
+00:04:13.360 you just learned what an order block was
+00:04:14.920 in the previous section so taking a look
+00:04:16.680 at the order block the single or serious
+00:04:18.759 candles I'm going to take my 0.5 Fib
+00:04:21.320 from the body low to body high and Mark
+00:04:23.919 out 50% of that order block that is our
+00:04:26.199 mean threshold ideally if price is going
+00:04:28.360 to respect this order block I don't want
+00:04:30.160 to see any closes below the mean
+00:04:31.880 threshold or 50% of this order block so
+00:04:34.639 you can see here once we validate this
+00:04:36.520 order block the 50% level of the order
+00:04:38.639 block is respected to move higher now
+00:04:41.280 lots of times I will focus on using the
+00:04:43.199 mean threshold of an order block when we
+00:04:44.880 have a larger series of candles in which
+00:04:46.960 the opening price does not make sense
+00:04:48.720 for an entry let's hop into an example
+00:04:50.759 of that so here we are on oil 5 minute
+00:04:53.160 chart and you can see we're reaching
+00:04:54.800 into an hourly fair value Gap here
+00:04:56.880 although we do have a little sweep here
+00:04:58.800 I prefer a nice ni swing low to be swept
+00:05:01.199 let's see if we can close over this down
+00:05:03.440 close
+00:05:06.639 candle you can see we do not get a close
+00:05:09.680 below and then now what are we getting
+00:05:12.440 another lower time frame
+00:05:17.639 sweep here we get an extra little
+00:05:20.319 sweep and now what I would be looking
+00:05:22.520 for is where is the series of down Clos
+00:05:25.919 candles right here I want to see price
+00:05:28.960 close over over these candles
+00:05:36.240 here and there we get a close over those
+00:05:38.759 candles this is our order block here or
+00:05:41.639 the series of down Clos candles before
+00:05:44.160 the change in the state of delivery my
+00:05:46.360 eyes are drawn to these failure swings
+00:05:48.120 up here so if I was looking to take an
+00:05:50.120 entry off of this order block I'd need
+00:05:52.000 my stop on this low or that is how I do
+00:05:54.319 it and then targeting the failure swings
+00:05:56.880 at the high however that gives a risk to
+00:05:58.919 reward ratio ratio of 1.3 so this is
+00:06:01.680 when I would go from body high to body
+00:06:04.800 low and Mark out 50% of that order block
+00:06:08.280 now I can look for the mean threshold to
+00:06:10.000 be an entry point and you can see how my
+00:06:11.720 rist reward goes from 1.3 to 2.6 almost
+00:06:15.639 let's see how this plays
+00:06:20.080 out you can see it takes a good while
+00:06:23.120 but we do reach those failure swings up
+00:06:25.039 there you can see from this example it's
+00:06:26.840 not always going to be super clean and
+00:06:28.440 picture perfect but when I have a larger
+00:06:30.360 order block or larger series of down
+00:06:32.360 Clos candles where it doesn't make sense
+00:06:34.000 to enter off the opening price that is
+00:06:36.039 when I will look to enter off the mean
+00:06:37.720 threshold and zooming out quickly to
+00:06:39.840 look at the hourly chart you can see how
+00:06:41.560 the bodies respect the fair value Gap
+00:06:43.400 here and the Wicks do the damage so now
+00:06:45.800 taking a look at order blocks on the buy
+00:06:47.840 side or sell side of the curve in this
+00:06:49.639 case we'll be focusing on the buy side
+00:06:51.199 of the curve for the PDF now when we
+00:06:53.240 switch from bearish to bullish and we
+00:06:55.440 have our smart money reversal I will
+00:06:57.400 still be looking for entries after the
+00:06:59.400 smart money reversal and the way I do
+00:07:01.120 that is I look for an order block on the
+00:07:03.160 buy side of the curve now what am I
+00:07:04.759 looking for I'm looking for a down Clos
+00:07:06.840 candle into an important level now those
+00:07:09.160 important levels are a previous order
+00:07:10.919 block a fair value Gap or a sweep let's
+00:07:13.680 go over those so you can see here this
+00:07:16.000 would be our smart money reversal we
+00:07:17.800 have an order block we get a down close
+00:07:19.919 candle into that order block we close
+00:07:22.440 over this down close candle validating
+00:07:24.960 it as an order block and then price
+00:07:27.039 continues higher the next one I look for
+00:07:29.160 the down Clos candle into the fair value
+00:07:31.440 Gap when the opening price of that or
+00:07:33.680 the series of those candles gets closed
+00:07:35.560 over validating it as an order block
+00:07:37.840 I'll look for an entry higher from there
+00:07:40.039 and the last one I look for is similar
+00:07:41.960 to the smart money reversal but in a
+00:07:43.759 continuation of a trend we have a swing
+00:07:45.919 low which is swept and then the down
+00:07:48.400 Clos candle that swept this low gets
+00:07:50.759 closed over validating it is an order
+00:07:53.039 block to continue higher let's hop into
+00:07:55.240 the chart and go over a few examples of
+00:07:57.039 these so in this next example you can
+00:07:58.759 see that price price has mostly
+00:08:00.120 Consolidated through Asia and London so
+00:08:02.599 let's see what happens as we near New
+00:08:04.080 York
+00:08:06.479 open you can see here we sweep these
+00:08:09.759 lows over here or these sell stops
+00:08:11.919 resting below the Asia lows now if these
+00:08:14.240 down Clos candles are going to become an
+00:08:15.919 order block what do we have to do we
+00:08:18.400 have to close over the series of down
+00:08:20.479 Clos candles right here so let's see if
+00:08:23.680 that
+00:08:25.680 occurs so we do get that close now if
+00:08:28.639 I'm looking for order block entry I
+00:08:30.479 would look to enter here my stop on the
+00:08:32.559 low however with this current range if I
+00:08:35.159 was just targeting these highs here
+00:08:36.919 that's 1.4 risk to reward now there's a
+00:08:39.360 few ways I can go about this I can look
+00:08:41.159 for a fair value Gap entry which should
+00:08:43.479 give me just about 2 R which I'd be
+00:08:45.560 looking to do let's see if price
+00:08:47.320 confirms the smart money reversal and
+00:08:49.120 then we can find another order
+00:08:51.959 block so here price reaches into an
+00:08:54.640 important level or a fair value Gap so
+00:08:56.760 if it's going to close over the bodies
+00:08:58.279 of these series of up closed candles
+00:09:00.279 this is now an order
+00:09:03.279 block we cannot close over those bodies
+00:09:06.120 yet and what do we get we get a sweep of
+00:09:09.040 a low now if we're looking for the
+00:09:10.760 lowest body down close candle it would
+00:09:13.279 be this candle here I'm waiting for
+00:09:15.600 price to close over that
+00:09:18.279 candle we do not get a close
+00:09:21.399 yet and there we get a close so now if
+00:09:24.600 I'm looking to take an entry I can enter
+00:09:26.600 on the opening price of this down close
+00:09:28.680 candle My Stop on that low and then
+00:09:30.720 targeting the highs for just about 2 R
+00:09:33.560 so you can see it's about the same as
+00:09:35.160 that fair value Gap
+00:09:39.560 entry and there it goes now if we're
+00:09:42.240 going to look a little bit deeper at
+00:09:43.640 this price action and use what we
+00:09:45.160 learned in the last section we can Mark
+00:09:47.040 out the mean threshold of this order
+00:09:48.480 block right here you can see that the
+00:09:50.200 candles respect this mean threshold now
+00:09:52.399 what I can do is look to take an entry
+00:09:54.200 on this mean threshold with my stop in
+00:09:56.360 the same spot and you can see how the
+00:09:57.920 risk to reward significantly increases
+00:10:01.000 however with this technique I also risk
+00:10:02.760 the chance of not getting filled on this
+00:10:04.560 trade now you're probably wondering can
+00:10:06.519 we do the same thing with this order
+00:10:08.279 block down here at the Smart money
+00:10:10.079 reversal and of course we can so marking
+00:10:12.440 out from the high to the low of the
+00:10:14.720 bodies and dragging it over let's see
+00:10:16.839 how this risk reward would be entering
+00:10:19.120 at the main threshold my stop on the low
+00:10:21.920 and targeting the same highs it would be
+00:10:24.440 just about 2.6 when compared to the fair
+00:10:27.240 value Gap entry at 1 .95 let's go over
+00:10:30.760 one more example of using order blocks
+00:10:32.560 as a continuation of trend we have
+00:10:34.720 previous month's high sitting here you
+00:10:36.399 can see we create equal highs and then
+00:10:38.240 we have a series of up Clos candles into
+00:10:40.560 the equal highs which then get displaced
+00:10:43.120 and closed below validating it as an
+00:10:45.320 order block price then retraces back up
+00:10:47.720 into the order block as well as into
+00:10:50.160 this small inefficiency here or fair
+00:10:52.519 value Gap now we have a series of up
+00:10:54.480 closed candles into an order block and
+00:10:56.839 fair value gap or important levels
+00:10:59.959 so now if price is going to displace and
+00:11:02.320 close below these up closed candles we
+00:11:04.399 now have another order
+00:11:07.200 block here we displace and get a close
+00:11:11.639 below now let's see if we reach back up
+00:11:14.079 into that important
+00:11:16.800 level here we reach up into this
+00:11:19.240 important level so now I can look for
+00:11:21.360 this to displace and close
+00:11:25.079 below we do validate this as an order
+00:11:27.560 block so now I can look at this as
+00:11:29.240 another point of interest for a
+00:11:30.519 continuation of
+00:11:33.760 trend and there we reach into this so
+00:11:36.639 now what do we have the up close candles
+00:11:38.839 into an important level and let's see if
+00:11:41.120 we get a move lower
+00:11:43.639 here and we do so you can see how these
+00:11:46.720 order blocks are formed when they reach
+00:11:48.360 into an important level and then
+00:11:49.920 displace and close below them now you're
+00:11:52.760 wondering why didn't I choose this
+00:11:54.279 candle as an order block well it never
+00:11:56.320 reached up into an important level for
+00:11:58.079 me I wanted price to reach back into
+00:12:00.399 this order block which it did here so
+00:12:03.240 although we close below the opening
+00:12:04.680 price here it doesn't validate it as an
+00:12:06.560 order block for me because it's missing
+00:12:08.279 that important level now the last thing
+00:12:10.120 I'm going to talk about prior to our
+00:12:11.800 final example are stop losses with order
+00:12:14.040 blocks generally I'm looking to place my
+00:12:16.199 stop loss on a swing high or low or the
+00:12:19.000 other end of the order block now
+00:12:20.880 obviously a stop loss on the other end
+00:12:22.920 of the order block will provide higher
+00:12:24.519 risk to reward than the swing low but
+00:12:27.160 there is the chance that price will Wick
+00:12:28.560 the stock stop loss even when the trade
+00:12:30.160 is not invalidated let's hop into our
+00:12:32.560 final example so let's take a look at
+00:12:34.680 this example and work through it if we
+00:12:36.680 are looking for a continuation of trend
+00:12:38.880 what is our draw on liquidity well it
+00:12:40.959 would be this high up here or buy side
+00:12:43.279 liquidity now if I'm looking for a
+00:12:45.320 continuation Trend I'm looking for
+00:12:47.120 either a return to an order block a fair
+00:12:49.279 value gap or a sweep of a low well if
+00:12:51.519 you notice over here we have these down
+00:12:53.600 Clos candles that swept all these lows
+00:12:55.839 down here so this also creates an order
+00:12:58.320 block and it has displacement following
+00:13:00.399 it with a fair value Gap with that idea
+00:13:02.519 in mind to run lower to go higher what
+00:13:05.199 else do we see well we have lows resting
+00:13:07.720 here or sell stops so let's see what
+00:13:10.240 happens after open now I don't need to
+00:13:12.480 catch this first entry and I'll show you
+00:13:17.680 this so here you see that first entry we
+00:13:20.519 never violate this low over here but
+00:13:22.600 what do you notice we have down Clos
+00:13:24.639 candles into order block fair value Gap
+00:13:27.839 and sweeping lows before displacement
+00:13:30.079 and a close over these down Clos
+00:13:33.000 candles so what is this that is an order
+00:13:35.560 block so now I can look to take an entry
+00:13:38.120 here I stop on the low and we created
+00:13:40.959 equal highs up here and that is only 1.5
+00:13:43.880 R now although that is great what can we
+00:13:46.320 do well we could Mark out the mean
+00:13:48.480 threshold of this order block and if you
+00:13:50.279 notice that also lines up with this
+00:13:51.800 little inversion here but if we're going
+00:13:53.560 to take an entry here that is 2.5r so
+00:13:56.759 let's see how that works out
+00:14:00.079 and there you go we get a move higher
+00:14:02.320 and hit our take profit so you can see
+00:14:04.480 even if I don't catch this first initial
+00:14:06.399 buy this order block is a secondary
+00:14:08.519 entry to move higher now this isn't the
+00:14:11.240 best example but if I was to have my
+00:14:12.920 stop on the order block low here and
+00:14:15.320 this moved just one point lower it would
+00:14:17.720 have stopped me out even if the trade
+00:14:19.600 was still valid and didn't violate this
+00:14:21.800 low that's why I personally prefer to
+00:14:23.839 have my stop on the swing low and adjust
+00:14:26.040 my entry to get closer to my
+00:14:27.480 invalidation point right rather than
+00:14:29.160 adjust my invalidation to get closer to
+00:14:31.360 my entry I hope you found this video
+00:14:33.440 helpful if you did please consider
+00:14:35.320 liking and subscribing and let me know
+00:14:37.360 in the comments below which video You'
+00:14:39.120 prefer between mitigation breaker and
+00:14:41.639 propulsion blocks as those are the
+00:14:43.240 videos I will be looking to do next in
+00:14:45.120 this series I hope you guys had a great
+00:14:46.839 holiday and I'll see you guys in the new
+00:14:56.279 year

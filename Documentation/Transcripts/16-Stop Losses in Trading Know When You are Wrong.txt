@@ -1,0 +1,446 @@
+# tactiq.io free youtube transcript
+# Stop Losses in Trading: Know When You're Wrong
+# https://www.youtube.com/watch/JHVaSKtE1Ys
+
+00:00:05.490 [Music]
+00:00:11.040 How's it going everyone? In this video,
+00:00:12.880 we will be covering stop- losses. Now,
+00:00:15.040 if you haven't already seen my video on
+00:00:16.560 protected swings, go ahead and check
+00:00:18.240 that out first as it is a requirement to
+00:00:20.560 understand this video. So, the first
+00:00:22.720 thing to understand is what a protected
+00:00:24.800 swing is, and that is what I covered in
+00:00:26.480 my previous video. But to review, a
+00:00:28.800 protected swing must reach into an
+00:00:30.560 important level, which is sweeping out a
+00:00:32.479 low or reaching into a fair value gap.
+00:00:34.800 And then when price closes over the
+00:00:36.800 series of downcloed candles that swept
+00:00:38.640 out that low or into the fair value gap.
+00:00:41.040 So the closeover right here. Now that is
+00:00:43.520 considered a protected swing and I can
+00:00:45.520 trade away from that. So by
+00:00:47.520 understanding what a protected swing is,
+00:00:49.600 where can I place my invalidation? Well,
+00:00:51.680 I can place my invalidation on that
+00:00:53.600 protected swing because if I'm
+00:00:55.360 anticipating price to trade higher and
+00:00:57.360 not go to this low, that is where it
+00:00:59.359 makes sense to have my invalidation or
+00:01:01.680 my stop-loss. Now, in terms of
+00:01:04.239 risk-to-reward, if I cannot get the
+00:01:06.159 risk-to-reward that I want out of this
+00:01:08.000 trade, what do I know about change in
+00:01:10.000 the state of delivery or opposing
+00:01:11.520 candles or order blocks here? That I
+00:01:13.439 want to see the mean threshold of those
+00:01:15.040 be respected or 50%. So, if I want to
+00:01:17.920 manipulate the risk-to-reward, what I'll
+00:01:19.840 go ahead and do is place my stop loss at
+00:01:22.159 the body, and you can see I can get 2 R
+00:01:24.720 a bit quicker doing this. However, I do
+00:01:27.439 have to accept the fact that sometimes
+00:01:29.280 it will come sweep me out and then go
+00:01:32.079 and hit my TP with this type of
+00:01:34.400 stop-loss placement. Now for a final
+00:01:37.040 note in the intro and this presentation
+00:01:39.600 is that this invalidation presentation
+00:01:41.840 is built off of my model which is using
+00:01:44.320 change in the state of delivery and
+00:01:45.600 order blocks. Other people may use
+00:01:47.759 different PD arrays such as breaker
+00:01:49.520 blocks, fair value gaps, inversions. And
+00:01:52.799 with this you have to decide where is
+00:01:54.720 your invalidation. Is it a close back
+00:01:57.119 above the inversion? Is it right above
+00:01:59.680 the fair value gap candle? This video is
+00:02:02.640 just over my invalidations. But if you
+00:02:04.960 use a different PD array, this is
+00:02:06.640 something you have to decide for
+00:02:08.840 yourself. So, let's get into Trading
+00:02:10.959 View and go over a few examples of
+00:02:13.200 finding protected swings and their
+00:02:15.560 invalidation. So, you can see here we
+00:02:17.680 have a nice V-shaped reversal here
+00:02:19.760 forming a reversal in a consolidation,
+00:02:22.239 which is a continuation signature. We
+00:02:24.720 run out the low in this consolidation.
+00:02:27.040 We have a closure back inside the range.
+00:02:29.760 see this previous candle closing like
+00:02:31.520 this. So with this, we could go down to
+00:02:33.680 the 5-minut time frame since I am on the
+00:02:35.599 hourly and look for that aligned fractal
+00:02:38.319 model to the
+00:02:39.720 upside. So down here on the 5-minute
+00:02:42.239 chart, do we have a change in the state
+00:02:44.400 of delivery yet? We do not because we
+00:02:46.800 have yet to close over the series of
+00:02:49.120 downclo candles that made the low. So
+00:02:51.840 marking out that level, we'd need to
+00:02:53.680 wait for that to be closed over to form
+00:02:56.239 a protected low right here. So, let's
+00:02:59.280 let that play out. We do get the closure
+00:03:01.760 over. So, now we have a protected low
+00:03:03.760 here. And so, zooming out here on the
+00:03:05.920 5minute, if we're looking to trade to
+00:03:07.599 that previous day's highs, right? So, we
+00:03:09.599 have the Friday high over there. We
+00:03:12.000 could be looking for entries long until
+00:03:14.480 then. So, what I could do is look to
+00:03:16.800 take an entry anywhere in here. But
+00:03:18.640 where would I need my stop? Well,
+00:03:20.159 technically on the protected low and
+00:03:22.560 then looking for that high. So that does
+00:03:25.840 give more than 2 hour which would be
+00:03:27.680 valid or I could look to put it on the
+00:03:29.920 bodies low right. So from these bodies
+00:03:33.040 find that low in there and do something
+00:03:35.840 like that or what I can do is wait for a
+00:03:38.760 continuation. Now what does that look
+00:03:40.640 like? Well I'm just going to wait for a
+00:03:42.400 new protected swing to form. So let's
+00:03:45.360 zoom out a little. Let this play forward
+00:03:47.840 and see if we can find a new one. Is
+00:03:49.920 this a protected swing? not by how I
+00:03:52.560 define it because I needs to reach into
+00:03:54.319 an important level. So letting this
+00:03:57.319 continue here, we go ahead and we're
+00:03:59.519 reaching into an important level which
+00:04:01.680 is a fair value gap and then we are
+00:04:03.680 closing over the down close candles into
+00:04:05.840 that important level. So then this would
+00:04:08.080 be a valid entry putting my stop on the
+00:04:10.640 protected low and from here I can look
+00:04:12.560 for 2 R or to trade to that high. And
+00:04:15.439 you can see with this continuation
+00:04:17.120 entry, I get better risk-to-reward than
+00:04:19.199 I would with that reversal entry. So,
+00:04:21.279 let's see if this works out or if
+00:04:22.560 there's another
+00:04:24.440 entry. And you can see what happens
+00:04:26.840 here. We reach into another important
+00:04:29.520 level or a fair value gap. Do we close
+00:04:31.919 over the down closed candles? No, not
+00:04:34.240 yet. So, this is not a valid entry until
+00:04:37.040 we get the closure over that
+00:04:39.560 level. Now that we have failed to close
+00:04:42.080 over this level, we have made a new low.
+00:04:45.440 I'm not looking for a closure over this
+00:04:47.120 level anymore to validate this. We've
+00:04:49.440 now swept a low, which is an important
+00:04:50.880 level. Now, we have a new series of
+00:04:53.040 downclo candles. And you see how this is
+00:04:54.880 also aligning with my continuation with
+00:04:57.520 the candle 4 in the fractal model. Let's
+00:04:59.919 see what
+00:05:02.360 happens. And right there, we get that.
+00:05:04.720 And you can see this is one where if I
+00:05:07.280 have my stop at the low, which is the
+00:05:09.280 protected low, I can't get too R to
+00:05:11.360 that. So that is when I could manipulate
+00:05:13.039 it to the bodies. Or if I can't get 2 R
+00:05:16.000 out of that, I'm going to look to make
+00:05:17.840 2R by taking a limit entry or looking
+00:05:20.720 for a
+00:05:22.680 retest. See, get tagged
+00:05:25.880 in and then it goes and hits that level.
+00:05:29.680 So hopefully that makes sense for
+00:05:30.960 viewing this real quick. We form a
+00:05:32.720 protected low. That means I'm expecting
+00:05:34.960 price to trend higher and not return to
+00:05:37.199 this low. However, it didn't provide
+00:05:38.880 great risk-to-reward to this high. So I
+00:05:41.039 can look for continuation entries. Those
+00:05:43.120 will form as we reach into a fair value
+00:05:45.120 gap or sweep out a low and then close
+00:05:47.280 over those down close candles. So you
+00:05:49.360 can see this is our protected low. Then
+00:05:51.600 we form a new protected low right here.
+00:05:54.400 We retrace back into the range. Close
+00:05:57.120 over new protected low. And we can talk
+00:06:00.479 quickly about this. Why would this be
+00:06:02.800 considered into a point of interest?
+00:06:04.319 Well, it has a fair value up here. But
+00:06:05.840 even if it didn't have a fair value gap,
+00:06:07.680 I'm expecting this low to hold. So, if
+00:06:10.080 I'm expecting that low to hold and
+00:06:11.440 there's no point of interest in here,
+00:06:12.720 that's when I can use this level here.
+00:06:15.120 So, continuing to track that, what do we
+00:06:17.280 have here? Price reaches into this fair
+00:06:19.360 value gap, closes over here. This is now
+00:06:23.039 a protected low and we continue higher
+00:06:25.840 into those highs. And that is how you
+00:06:28.000 track a trend when it is trending. Let's
+00:06:30.960 get into another example. So, here we
+00:06:33.280 are in our next example. We are on ES on
+00:06:35.600 the hourly chart. And you can see I have
+00:06:37.280 our daily candles up here. Now, if
+00:06:39.280 you've used what we've learned in my
+00:06:40.800 previous videos, if we're expecting
+00:06:42.400 price to form a continuation, right,
+00:06:44.800 because we have a consolidation and we
+00:06:46.639 leave this consolidation, where do we
+00:06:48.639 want to see that form? Around or above
+00:06:51.199 50% of the previous candle. So, let's
+00:06:53.840 see if we form a reversal in here. Let
+00:06:56.560 this play
+00:06:57.400 ahead. And you can see we have
+00:06:59.599 expansion. We're consolidating. So, if
+00:07:02.319 we're going to consolidate, we want
+00:07:03.520 another run of this low and then to form
+00:07:06.080 a swing here. So you can see we run out
+00:07:08.400 that low and we have a very bullish
+00:07:10.319 close here. So from this we can go to
+00:07:12.479 the 5minut which is our aligned time
+00:07:14.080 frame with the hourly. Now down here on
+00:07:16.639 the 5minut you can see we have those
+00:07:18.240 failure swings at the high which is our
+00:07:20.319 target and we have a nice aggressive
+00:07:22.880 move down and aggressive move back up.
+00:07:25.199 So this is expansion met with expansion
+00:07:27.840 which is a reversal. So if we're looking
+00:07:29.680 for a protected swing, what would make
+00:07:31.840 this a protected swing? We need a
+00:07:33.840 closure through the series of downclo
+00:07:35.759 candles. So, waiting for that to occur.
+00:07:38.160 Let's see if it does
+00:07:39.720 occur. And you can see it does occur as
+00:07:42.560 we get the closure over. Zooming back
+00:07:44.800 in. Now, this doesn't really make as
+00:07:47.039 much sense. Like I showed previous, if I
+00:07:49.440 want to have my stop all the way on this
+00:07:50.960 low, looking to target these highs,
+00:07:54.319 right? Cuz even with targeting these
+00:07:57.000 highs, we can't even get two R out of
+00:07:59.680 that. So, I'm going to wait for a
+00:08:02.000 continuation entry. Now you can see if I
+00:08:05.280 want to have a continuation, it means
+00:08:07.360 I'm expecting a higher low to form. Now
+00:08:11.360 where would be the point of interest for
+00:08:12.800 that? Well, I don't have a fair value
+00:08:14.800 gap. I don't have a low yet. So with
+00:08:16.720 that, I can mark out.5 of this down
+00:08:20.080 close candles and that would be the area
+00:08:22.560 I'm looking to see respected. So you see
+00:08:25.919 price comes back down into here. This is
+00:08:28.400 valid. That is in the T-spot. And so
+00:08:30.560 this is when I could look for this as a
+00:08:32.320 continuation
+00:08:35.640 signature. And you can see we get the
+00:08:37.760 close over. Now, why don't I consider
+00:08:39.760 this candle here? Well, I just view this
+00:08:41.679 as the move down and a consolidation.
+00:08:43.760 So, I don't really trust a close just
+00:08:45.600 over that candle. I want to see a close
+00:08:47.600 over that candle. So, with that, I could
+00:08:49.839 look to take an entry. I stop on this
+00:08:52.000 low. And that gives me two R to those
+00:08:54.760 highs. Now, let's say I miss this. Do we
+00:08:57.680 have any points of interest? We do have
+00:08:59.519 a fair value gap in here. If we're going
+00:09:01.760 to get a new entry to
+00:09:04.120 form here, we reach into a fair value
+00:09:07.320 gap. We close through the series of down
+00:09:10.240 close candles into that fair value gap.
+00:09:12.160 And that would be a better continuation
+00:09:14.160 entry there and just give a little
+00:09:16.160 better risk-to-reward. You can see 3.17R
+00:09:19.920 versus 2.38. Either are valid. And then
+00:09:23.440 we get our candle for
+00:09:25.160 continuation. You can see we drop back
+00:09:27.200 down. There is no point of interest in
+00:09:29.040 here. So just using the T-spot as the
+00:09:31.360 valid point of interest. Want to see if
+00:09:34.000 we can close over that
+00:09:35.640 level. We do. And then we get a
+00:09:38.399 continuation higher. You can see that
+00:09:40.640 last little protected swing in there. If
+00:09:42.640 we clean this up right here. Why is that
+00:09:45.680 one? Well, we reach into a fair value
+00:09:48.000 gap. We close over those down close
+00:09:50.000 candles, which is just one in this case.
+00:09:51.839 And then we take out the high. So just
+00:09:53.920 reviewing this, we had our protected
+00:09:55.440 swing. we form a new one. And then we
+00:09:58.080 are just going to track that higher
+00:10:00.640 until we hit our objective. Right now, I
+00:10:03.519 don't want to be looking to take entries
+00:10:04.959 after my objective is hit because when
+00:10:06.880 are we going to enter a new phase of
+00:10:08.160 price? Well, it would be at highs and
+00:10:10.160 lows. That's where we can form those
+00:10:11.519 reversals. Let's get into another
+00:10:13.399 example. So, here we are with our next
+00:10:15.519 example. You can see we've had a
+00:10:17.040 consolidation. We expand out of the
+00:10:18.959 consolidation and then back in. Right?
+00:10:21.200 So, if I'm marking that out, have these
+00:10:23.040 equal lows right here. We expand over
+00:10:26.000 this high and then we expand back in.
+00:10:28.480 We're currently retesting that previous
+00:10:30.320 range high and reaching into this fair
+00:10:32.800 value gap. So, if we're anticipating
+00:10:34.640 price to trade lower here, what do we
+00:10:36.800 want to look for on this lower time
+00:10:38.079 frame? Well, since I'm on the 4 hour, I
+00:10:40.000 can go to the 15 and look for a
+00:10:42.160 protected swing to form. So, here we are
+00:10:45.040 on the 15-minute chart. In relation to
+00:10:47.519 the 4 hour, we have our drawn liquidity
+00:10:49.440 down here. We're into that fair value
+00:10:51.279 gap here. We're sweeping out this
+00:10:52.720 previous high as well. Now, if we're
+00:10:55.120 looking for a protected swing, we want
+00:10:56.560 to see the series of up close candles
+00:10:58.160 that made this high and see if that gets
+00:11:00.880 closed below. Now, you see how this is a
+00:11:02.800 bit messy in here. That is when I'm
+00:11:04.480 going to ignore those small candles and
+00:11:06.000 I'm just going to take this whole move
+00:11:07.440 up. So, with that, I'm going to focus on
+00:11:09.519 this whole series of candles up and then
+00:11:12.000 looking for a close below there. Let's
+00:11:14.720 see. Do we get a close
+00:11:17.240 below? Oh, we made a new high. So, with
+00:11:20.560 this, right, we're not focused on this
+00:11:22.560 high anymore. We failed to close below
+00:11:24.560 this level before making a new high. So
+00:11:26.959 now we have a sweep of this high. Where
+00:11:29.680 are the series of candles that made that
+00:11:31.519 right here? Have we closed below it?
+00:11:33.920 Yes. So now I have a protected swing
+00:11:37.120 which gives me an invalidation. So I'm
+00:11:39.200 expecting this high to hold if we are
+00:11:41.600 going to continue to trade and trend
+00:11:43.440 lower to here. So that would give me an
+00:11:45.959 invalidation. Can look to enter on the
+00:11:48.000 close and do something like that. Now,
+00:11:51.920 that would be the reversal entry. If I'm
+00:11:54.160 looking for a continuation, I want to
+00:11:55.839 see what I want to see an open, high,
+00:11:58.480 low, close, or price reach into a point
+00:12:01.440 of interest, form an opposing candle,
+00:12:03.360 and then trade lower. Now, if you notice
+00:12:05.839 here, why wouldn't I consider this an
+00:12:07.920 opposing candle? Well, we never reach
+00:12:10.160 into a fair value gap here or into a
+00:12:12.399 point of interest. It would have had to
+00:12:14.160 do something like this and then I would
+00:12:15.760 have considered it. But since it didn't
+00:12:17.760 do that, unless it is paired with SMT
+00:12:20.160 here, it's not something I'm going to
+00:12:21.680 consider and I will miss it. So, let's
+00:12:24.160 see if any other continuation forms.
+00:12:26.399 Once again, we're leaving just shy of
+00:12:28.399 this fair value gap. Let's see if we
+00:12:29.839 retrace into
+00:12:32.440 it. And we don't before taking out this
+00:12:35.120 low. So, this is an example of the
+00:12:37.600 reversal does provide an entry, but
+00:12:39.440 there are no continuations within my
+00:12:41.519 model for a proper framework. And that
+00:12:43.839 is going to happen. You are going to
+00:12:45.760 miss setups. you are going to miss
+00:12:47.200 trades even if you know where it is
+00:12:48.720 going. Let's get into another
+00:12:51.079 example. So here we are on oil on the
+00:12:53.920 hourly chart and you can see we have had
+00:12:55.920 a nice expansion day and we have been
+00:12:58.440 consolidating. So if we are going to
+00:13:00.240 form a reversal off previous day high
+00:13:02.160 that would be the relevant level to see
+00:13:03.839 a retracement back into the range. So
+00:13:06.480 you can see here let's see what happens.
+00:13:08.880 We have a sweep of that and a closure.
+00:13:11.519 Now, if you remember from my protected
+00:13:13.040 swings video, we can anticipate this to
+00:13:15.600 form a high, but it isn't confirmed
+00:13:17.839 until when till we get the closure
+00:13:20.000 through here. So, we could drop down to
+00:13:22.320 the 5minut in here and look for an entry
+00:13:24.639 or we can wait for this closure through.
+00:13:26.480 Let's go ahead and do both. Let's drop
+00:13:28.240 down to the 5minut here. So, here we are
+00:13:30.160 on the 5minut and you can see we print a
+00:13:32.959 continuation here. So, I could look for
+00:13:35.360 an entry in here. Do I have a protected
+00:13:37.600 swing? Well, I have this high being
+00:13:39.920 protected as we've closed through here.
+00:13:41.760 We've reached into this fair value gap.
+00:13:43.839 We have up close candles that are then
+00:13:46.160 supported, right? With oil likes to have
+00:13:49.040 these equal highs sometimes. So, if I'm
+00:13:50.639 going to take an entry somewhere in
+00:13:52.079 here, I would sometimes give it a little
+00:13:54.480 bit more room than normal. And let's see
+00:13:56.560 if we can get 2 R right down into
+00:14:00.279 here. So, let's
+00:14:02.920 see. We do go hit our 2R right. And
+00:14:06.399 that's a little bit wider of a stop
+00:14:07.680 loss. That's just something with oil.
+00:14:09.600 Sometimes it will come back, sweep out,
+00:14:11.839 and then go. And I just want it to be in
+00:14:14.000 the trade. So you can see that reversal
+00:14:15.920 off previous day high does work. Let's
+00:14:18.240 go back to our hour here and see what it
+00:14:20.320 shows. So here on the hourly, what do we
+00:14:22.880 notice? We have closed below there. So
+00:14:25.279 do I want to enter right away in here?
+00:14:27.760 No. Cuz we've just had expansion. We're
+00:14:29.600 below lows. That can set up either a
+00:14:31.839 retracement, a consolidation, or a
+00:14:34.240 reversal. I'm going to let another
+00:14:35.920 candle pass. See what happens. We're
+00:14:38.480 coming back into the range here. We've
+00:14:40.320 closed back inside this previous. So, I
+00:14:42.079 can anticipate this high to be taken.
+00:14:44.320 Let's give it another
+00:14:45.880 candle. And here you see we retrace back
+00:14:48.399 into that range. We respect the mean
+00:14:50.480 threshold here. And what else do we
+00:14:52.880 notice? We close back inside the
+00:14:54.880 previous candles range. So, with this, I
+00:14:57.199 could anticipate a move back lower. So,
+00:14:59.680 with this, I'll go back down to the
+00:15:01.120 5minute chart. So rewinding a little,
+00:15:04.079 what do we have here on the 5-minute? We
+00:15:06.800 have that protected high. Why is that a
+00:15:08.880 protected high? It reaches into that
+00:15:10.560 important level on the hourly, which is
+00:15:12.480 this fair value gap here. And then we
+00:15:14.720 sweep out this short-term high. And we
+00:15:16.959 close through the series of up close
+00:15:18.399 candles, right? So this is somewhere
+00:15:19.680 where I could look to take an entry,
+00:15:21.279 right? Either on the close or on the
+00:15:23.839 retest. And once again, if I can't
+00:15:26.240 really get to R here, right, without
+00:15:28.639 quite a move below the lows, this is
+00:15:30.639 where I could manipulate it. If I have a
+00:15:32.399 very aggressive Vshape here, I don't
+00:15:34.000 want to see it return back to the body.
+00:15:35.600 If it returns up to here, it's likely to
+00:15:37.360 take this high as well. And you can see
+00:15:39.199 how I can manipulate that to give me a
+00:15:40.800 2R that is just below these lows. So,
+00:15:43.440 let's let this play
+00:15:45.720 out. There we go. And we also are seeing
+00:15:49.120 a continuation
+00:15:52.600 entry. And there it hits R just to the
+00:15:56.639 dot. So, that is an example of going
+00:15:59.360 back to our hour here. I can anticipate
+00:16:01.680 this to be a protected swing and look
+00:16:03.120 for an entry. But even if I miss that, I
+00:16:05.279 can let it confirm and then look for new
+00:16:07.279 swing points that form in that
+00:16:09.000 direction. So, I hope you enjoyed this
+00:16:11.199 video on stop losses and the review on
+00:16:13.600 protected swings. If you do use
+00:16:15.680 different PDAs, you may have to adjust
+00:16:17.519 your invalidations, but protected swings
+00:16:19.839 do apply to all of them. So, with that,
+00:16:22.160 I hope you have a great rest of your day
+00:16:23.440 and I'll see you guys next time. Have a
+00:16:24.959 good one.
