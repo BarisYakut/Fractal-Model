@@ -1,39 +1,19 @@
 # Fractal Model Pro (TTrades) - Requirements Document
 
-## 1. Executive Summary
-
-This document outlines the requirements for developing a Pinescript indicator that replicates the **Fractal Model Pro (TTrades)** indicator. The indicator is designed to identify Algorithmic Price Delivery patterns by analyzing price movements across multiple timeframes, detecting momentum shifts, swing formations, and orderflow continuations.
-
-**Documentation sources:** Requirements and mechanics in this document are derived from a full review of the 35 video transcripts in `Documentation/Transcripts`. Only behavior relevant to how the indicator works (detection rules, settings, visuals) is included; trading opinions and general methodology are omitted.
-
-**Key Characteristics:**
-- Non-repainting and stable within the given time period
-- Multi-timeframe analysis (Higher Timeframe / Lower Timeframe pairing)
-- Automated detection of price delivery patterns
-- Customizable visualization and alert system
-- **Complete automation:** Automates the entire fractal model sequence, highlights candle rates, plots the change in state of delivery, and overlays higher timeframe context directly onto lower timeframe charts
-- **Structured tool:** One of the most structured tools for understanding algorithmic delivery
-- **Mechanical structure:** Brings mechanical structure, clarity, and consistency to charting process
-
-**Document Structure:**
-This requirements document is designed to be reviewed and understood by both technical and non-technical stakeholders. All algorithm flows, calculation processes, and system behaviors are explained in plain English with step-by-step procedures. Technical implementation details are presented as clear, narrative explanations that describe "what happens" and "how it works" rather than "how to code it." This ensures that the customer can fully understand the indicator's mechanics and verify that all requirements are met.
-
----
-
-## 2. Inputs & Parameters
+## 1. Inputs & Parameters
 
 This section details all user-configurable inputs/parameters for the indicator. Each input is explained with its purpose, valid range, default value, and impact on indicator behavior.
 
-### 2.1 General Settings
+### 1.1 General Settings
 
-#### 2.1.1 Alerts Toggle
+#### 1.1.1 Alerts Toggle
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
 - **Purpose:** Master switch to enable/disable all alert functionality
 - **Behavior:** When OFF, no alerts will trigger regardless of individual alert settings. When ON, individual alert conditions can be enabled/disabled separately.
 - **Impact:** Does not affect indicator calculations, only alert triggering.
 
-#### 2.1.2 History Setups
+#### 1.1.2 History Setups
 - **Type:** Integer (slider or input)
 - **Range:** 0 to 40
 - **Default:** 0 (current setup only)
@@ -45,30 +25,29 @@ This section details all user-configurable inputs/parameters for the indicator. 
   - Higher values provide more historical context but may clutter chart
   - Lower values keep focus on current setup
   - Affects performance: more setups = more calculations and rendering
-- **Use Case:** 
-  - 0: Clean chart, focus on current opportunity
-  - 5-10: Moderate historical context
-  - 20-40: Extensive historical analysis, pattern recognition
 
-#### 2.1.3 Fractal Pairing Mode
+#### 1.1.3 Fractal Pairing Mode
 - **Type:** Enum (dropdown)
 - **Options:** 
-  - "Automatic" - System selects HTF automatically
-  - "Custom" - User defines HTF manually
+  - "Automatic": System selects HTF automatically
+  - "Custom": User defines HTF manually
+  - "1s-1m":1 second - 1 minute timeframe pair
+  - "15s-5m": 15 seconds - 5 minutes timeframe pair
+  - "1m-15m": 1 minute - 15 minutes timeframe pair
+  - "3m-30m": 3minutes - 30 minutes timeframe pair
+  - "5m-1H": 5 minutes - 1 hour timeframe pair
+  - "15m-4H": 15 minutes - 4 hours timeframe pair
+  - "1H-1D": 1 hour - 1 day timeframe pair
+  - "4H-1W": 4 hours - 1 week timeframe pair
+  - "1D-1M": 1 day - 1 month timeframe pair
 - **Default:** "Automatic"
 - **Purpose:** Determines how the Higher Timeframe is selected
 - **Behavior:**
   - **Automatic:** Uses predefined rules based on current chart timeframe
-    - 1m chart → 5m HTF
-    - 5m chart → 15m or 1H HTF
-    - 15m chart → 1H or 4H HTF
-    - 1H chart → 4H or 1D HTF
-    - 4H chart → 1D HTF
-    - 1D chart → 1W HTF
   - **Custom:** User must specify HTF timeframe in separate input
 - **Impact:** Affects all HTF-dependent calculations and visualizations
 
-#### 2.1.4 Custom Higher Timeframe
+#### 1.1.4 Custom Higher Timeframe
 - **Type:** Timeframe (dropdown)
 - **Options:** All TradingView supported timeframes
 - **Default:** "1H" (when Custom mode selected)
@@ -77,7 +56,7 @@ This section details all user-configurable inputs/parameters for the indicator. 
 - **Validation:** Must be greater than current chart timeframe, otherwise warning displayed
 - **Impact:** Determines structural context for all fractal model calculations
 
-#### 2.1.5 Bias Selection
+#### 1.1.5 Bias Selection
 - **Type:** Enum (dropdown)
 - **Options:**
   - "Neutral" - Show both bullish and bearish setups
@@ -98,126 +77,10 @@ This section details all user-configurable inputs/parameters for the indicator. 
   - Reduces chart clutter when focusing on one direction
   - Auto modes adapt to higher timeframe context
 
-#### 2.1.6 Time Filter Threshold
-- **Type:** Timeframe (dropdown)
-- **Options:** All TradingView supported timeframes
-- **Default:** "1H"
-- **Purpose:** Specifies the maximum chart timeframe where time filters will be applied (“choose below period”)
-- **Behavior:**
-  - If current chart timeframe ≤ threshold: Time filters are active
-  - If current chart timeframe > threshold: Time filters are ignored
-- **Logic:** Time filters apply only on the selected period or **below** (e.g. threshold 30m → filter applies on 30m, 15m, 5m, 1m). If the user is on a higher timeframe (e.g. 1H), the filter does not apply unless the user adjusts the threshold to include that period.
-- **Impact:** Determines whether time filter windows are enforced
+### 1.2 HTF Candles Settings
 
-#### 2.1.7 Time Filter 1 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Enable/disable first custom time filter window
-- **Behavior:** When enabled, setups are only shown if they occur within Time Filter 1 window
-- **Impact:** Filters setup detection based on time of day
-
-#### 2.1.8 Time Filter 1 Start
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "02:00"
-- **Purpose:** Start time for first time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting
-- **Impact:** Defines beginning of first allowed time window
-
-#### 2.1.9 Time Filter 1 End
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "05:00"
-- **Purpose:** End time for first time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting. Can wrap around midnight (e.g., 22:00 to 02:00).
-- **Impact:** Defines end of first allowed time window
-
-#### 2.1.10 Time Filter 2 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Enable/disable second custom time filter window
-- **Behavior:** When enabled, setups are only shown if they occur within Time Filter 2 window (or Time Filter 1 if both enabled)
-- **Impact:** Allows multiple trading session windows
-
-#### 2.1.11 Time Filter 2 Start
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "08:00"
-- **Purpose:** Start time for second time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting
-- **Impact:** Defines beginning of second allowed time window
-
-#### 2.1.12 Time Filter 2 End
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "11:00"
-- **Purpose:** End time for second time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting
-- **Impact:** Defines end of second allowed time window
-
-#### 2.1.13 Time Filter 3 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Enable/disable third custom time filter window
-- **Behavior:** When enabled, setups are only shown if they occur within Time Filter 3 window (or Time Filter 1/2 if multiple enabled)
-- **Impact:** Allows up to three distinct trading session windows
-
-#### 2.1.14 Time Filter 3 Start
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "14:00"
-- **Purpose:** Start time for third time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting
-- **Impact:** Defines beginning of third allowed time window
-
-#### 2.1.15 Time Filter 3 End
-- **Type:** Time (HH:MM format)
-- **Range:** 00:00 to 23:59
-- **Default:** "17:00"
-- **Purpose:** End time for third time filter window
-- **Behavior:** Uses timezone specified in Custom Timezone setting
-- **Impact:** Defines end of third allowed time window
-
-#### 2.1.16 Custom Timezone
-- **Type:** Integer (UTC offset in hours)
-- **Range:** -12 to +14
-- **Default:** -5 (New York Eastern Time, UTC-5)
-- **Purpose:** Defines timezone for time filter calculations
-- **Behavior:** 
-  - Positive values = UTC+X (e.g., +2 for Central European Time)
-  - Negative values = UTC-X (e.g., -5 for Eastern Time)
-  - Accounts for daylight saving time if applicable
-- **Impact:** All time filter windows use this timezone for start/end times
-
-### 2.2 HTF Candles Settings
-
-#### 2.2.1 HTF Candle Visibility
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide higher timeframe candles on chart
-- **Behavior:** When OFF, HTF candles are not plotted but calculations still occur
-- **Impact:** Affects visual display only, not calculations
-
-#### 2.2.2 HTF Candle Size
-- **Type:** Integer (slider)
-- **Range:** 1 to 10
-- **Default:** 5
-- **Purpose:** Controls the width/thickness of HTF candles
-- **Behavior:** Higher values = thicker candles, easier to see but may overlap
-- **Impact:** Visual only, affects readability
-
-#### 2.2.3 HTF Candle Offset
-- **Type:** Integer (input)
-- **Range:** -50 to +50 (bars)
-- **Default:** 0
-- **Purpose:** Shifts HTF candles left (negative) or right (positive) relative to price bars
-- **Behavior:**
-  - Positive values: Shift candles to the right (future direction)
-  - Negative values: Shift candles to the left (past direction)
-- **Impact:** Helps align HTF structure with LTF price action for better visualization
-
-#### 2.2.4 HTF Candle Lookback History
-- **Type:** Integer (slider or input)
+#### 1.2.1 HTF Candles
+- **Type:** Integer
 - **Range:** 1 to 40
 - **Default:** 4 (or as specified)
 - **Purpose:** Controls how many HTF candles are plotted on chart
@@ -225,175 +88,187 @@ This section details all user-configurable inputs/parameters for the indicator. 
   - Lower values: Focus on recent structure
   - Higher values: More historical context and extended visibility of swing development
   - When changed, the indicator plots additional HTF candles and marks vertical lines on the chart
-  - Example: Setting to 4 displays 4 HTF candles; changing to 8 plots 4 additional candles
 - **Impact:** 
   - Affects chart clarity vs. historical depth
   - Provides equilibrium tracking and cleaner framework recognition
   - Higher values may impact performance
 
-#### 2.2.5 HTF Candle Body Color (Bullish)
-- **Type:** Color picker
-- **Default:** Green/Blue
-- **Purpose:** Color for HTF candle body when bullish (close > open)
-- **Impact:** Visual customization
+#### 1.2.2 HTF Candle Size
+- **Type:** Enum (dropdown)
+- **Options:**
+  - "Small"
+  - "Medium"
+  - "Large"
+- **Default:** Small
+- **Purpose:** Controls the size of HTF candles
+- **Impact:** Visual only, affects readability
 
-#### 2.2.6 HTF Candle Body Color (Bearish)
-- **Type:** Color picker
-- **Default:** Red
-- **Purpose:** Color for HTF candle body when bearish (close < open)
-- **Impact:** Visual customization
+#### 1.2.3 HTF Candle Visibility
+- **Type:** Boolean (checkbox)
+- **Default:** ON
+- **Purpose:** Show/hide higher timeframe candles on chart
+- **Behavior:** When OFF, HTF candles are not plotted but calculations still occur
+- **Impact:** Affects visual display only, not calculations
 
-#### 2.2.7 HTF Candle Border Color
+#### 1.2.4 HTF Candle Offset
+- **Type:** Integer
+- **Range:** -50 to +50 (bars)
+- **Default:** 0
+- **Purpose:** Shifts HTF candles left (negative) or right (positive) relative to price bars
+- **Behavior:**
+  - Positive values: Shift candles to the right (future direction)
+  - Negative values: Shift candles to the left (past direction)
+
+#### 1.2.5 HTF Candle Body Color
+- **Type:** Color picker
+- **Default:** Green/Red
+- **Purpose:** Color for HTF candle body
+
+#### 1.2.6 HTF Candle Border Color
 - **Type:** Color picker
 - **Default:** Same as body or contrasting color
 - **Purpose:** Border/outline color for HTF candles
-- **Impact:** Visual customization, helps distinguish HTF from LTF candles
 
-#### 2.2.8 HTF Candle Wick Color
+#### 1.2.7 HTF Candle Wick Color
 - **Type:** Color picker
 - **Default:** Same as body or gray
 - **Purpose:** Color for HTF candle wicks (high/low lines)
-- **Impact:** Visual customization
 
-#### 2.2.9 Show HTF Open/Close Markers
+#### 1.2.8 Show HTF Open Lines
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
-- **Purpose:** Display markers at HTF candle open and close prices
-- **Behavior:** Small markers or lines indicating exact open/close levels
-- **Impact:** Helps identify exact HTF candle boundaries
+- **Purpose:** Display horizontal line at the last HTF candle open
 
-#### 2.2.10 HTF Open/Close Marker Style
+#### 1.2.9 HTF Open Line Style
 - **Type:** Enum (dropdown)
-- **Options:** "Circle", "Square", "Diamond", "Cross", "Line"
-- **Default:** "Circle"
-- **Purpose:** Visual style for open/close markers
-- **Impact:** Visual customization
+- **Options:** "Dashed", "Dotted", "Solid"
+- **Default:** "Solid"
 
-#### 2.2.11 HTF Open/Close Marker Size
-- **Type:** Integer (slider)
-- **Range:** 1 to 10
-- **Default:** 3
-- **Purpose:** Size of open/close markers
-- **Impact:** Visibility and chart clutter
-
-#### 2.2.12 Show HTF High/Low Lines
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Display horizontal lines at HTF candle high and low
-- **Behavior:** Extends lines across the HTF candle period
-- **Impact:** Clearly marks HTF range boundaries
-
-#### 2.2.13 HTF High/Low Line Style
-- **Type:** Enum (dropdown)
-- **Options:** "Solid", "Dotted", "Dashed"
-- **Default:** "Dotted"
-- **Purpose:** Line style for high/low lines
-- **Impact:** Visual customization
-
-#### 2.2.14 HTF High/Low Line Width
+#### 1.2.10 HTF Open Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
 - **Default:** 1
 - **Purpose:** Thickness of high/low lines
-- **Impact:** Visibility
 
-#### 2.2.15 Show Previous Candle EQ
+#### 1.2.11 Show HTF Vertical Lines
+- **Type:** Boolean (checkbox)
+- **Default:** OFF
+- **Purpose:** Display vertical lines at each new HTF timeframe start
+
+#### 1.2.12 HTF Vertical Line Style
+- **Type:** Enum (dropdown)
+- **Options:** "Solid", "Dotted", "Dashed"
+- **Default:** "Solid"
+
+#### 1.2.13 HTF Vertical Line Width
+- **Type:** Integer
+- **Range:** 1 to 5
+- **Default:** 1
+- **Purpose:** Thickness of vertical lines
+
+#### 1.2.14 Show HTF High/Low Lines
+- **Type:** Boolean (checkbox)
+- **Default:** OFF
+- **Purpose:** Display horizontal lines at HTF candle high and low
+
+#### 1.2.15 HTF High/Low Line Style
+- **Type:** Enum (dropdown)
+- **Options:** "Solid", "Dotted", "Dashed"
+- **Default:** "Solid"
+
+#### 1.2.16 HTF High/Low Line Width
+- **Type:** Integer
+- **Range:** 1 to 5
+- **Default:** 1
+- **Purpose:** Thickness of high/low lines
+
+#### 1.2.17 Show Previous Candle EQ
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display equilibrium (50% level) of previous HTF candle
 - **Behavior:** Shows horizontal line at previous HTF candle midpoint
-- **Impact:** Provides reference for premium/discount zones
 
-#### 2.2.16 Previous Candle EQ Color
+#### 1.2.18 Previous Candle EQ Color
 - **Type:** Color picker
 - **Default:** Gray or light blue
 - **Purpose:** Color for previous candle equilibrium line
-- **Impact:** Visual customization
 
-#### 2.2.17 Previous Candle EQ Style
+#### 1.2.19 Previous Candle EQ Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Dotted"
 - **Purpose:** Line style for previous candle EQ
-- **Impact:** Visual customization
 
-### 2.3 Model Style Settings
+### 1.3 Model Style Settings
 
-#### 2.3.1 Show TTrades Fractal Model Labels
+#### 1.3.1 Show TTFM Labels
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display C2, C3, C4 labels on chart
 - **Behavior:** When OFF, labels are hidden but calculations continue
 - **Impact:** Visual only, affects chart clarity
 
-#### 2.3.2 Label Size
+#### 1.3.2 Label Size
 - **Type:** Enum (dropdown)
 - **Options:** "Tiny", "Small", "Normal", "Large", "Huge"
 - **Default:** "Normal"
 - **Purpose:** Size of C2/C3/C4 labels
 - **Impact:** Visibility and chart clutter
 
-#### 2.3.3 Show Candle 1 Sweep
+#### 1.3.3 Show Candle 1 Sweep
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display liquidity sweep markers at Candle 1 (initial swing point)
 - **Behavior:** Horizontal rays marking liquidity levels
 - **Impact:** Visual identification of liquidity zones
 
-#### 2.3.4 Candle 1 Sweep Line Style
+#### 1.3.4 Candle 1 Sweep Line Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Solid"
 - **Purpose:** Line style for Candle 1 sweep markers
-- **Impact:** Visual customization
 
-#### 2.3.5 Candle 1 Sweep Line Width
+#### 1.3.5 Candle 1 Sweep Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
-- **Default:** 2
+- **Default:** 1
 - **Purpose:** Thickness of Candle 1 sweep lines
-- **Impact:** Visibility
 
-#### 2.3.6 Candle 1 Sweep Color
+#### 1.3.6 Candle 1 Sweep Color
 - **Type:** Color picker
 - **Default:** Yellow or orange
 - **Purpose:** Color for Candle 1 sweep markers
-- **Impact:** Visual customization
 
-#### 2.3.7 Show CISD (Change in State of Delivery)
+#### 1.3.7 Show CISD (Change in State of Delivery)
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display CISD lines marking orderflow changes
 - **Behavior:** Highlights candles where delivery state changes
 - **Impact:** Critical for setup identification
 
-#### 2.3.8 CISD Line Style
+#### 1.3.8 CISD Line Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Solid"
 - **Purpose:** Line style for CISD markers
-- **Impact:** Visual customization
 
-#### 2.3.9 CISD Line Width
+#### 1.3.9 CISD Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
 - **Default:** 2
 - **Purpose:** Thickness of CISD lines
-- **Impact:** Visibility
 
-#### 2.3.10 CISD Color (Bullish)
+#### 1.3.10 CISD Color (Bullish)
 - **Type:** Color picker
 - **Default:** Green or blue
 - **Purpose:** Color for bullish CISD (bearish to bullish change)
-- **Impact:** Visual identification of direction
 
-#### 2.3.11 CISD Color (Bearish)
+#### 1.3.11 CISD Color (Bearish)
 - **Type:** Color picker
 - **Default:** Red
 - **Purpose:** Color for bearish CISD (bullish to bearish change)
-- **Impact:** Visual identification of direction
 
-#### 2.3.12 Show Early CISD (Early C2 CISD)
+#### 1.3.12 Show Early CISD (Early C2 CISD)
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
 - **Purpose:** Highlight early CISD within C2 candle for earlier detection
@@ -403,76 +278,79 @@ This section details all user-configurable inputs/parameters for the indicator. 
   - Also referred to as "Early C2 CISD" in documentation
 - **Impact:** Earlier setup identification, may have lower reliability, but provides earlier warning of potential setup formation
 
-#### 2.3.13 Early CISD Color
+#### 1.3.13 Early CISD Color
 - **Type:** Color picker
 - **Default:** Light blue or cyan
 - **Purpose:** Color for early CISD markers (distinct from confirmed CISD)
-- **Impact:** Visual distinction between early and confirmed CISD
 
-#### 2.3.14 Show Candle Equilibrium
+#### 1.3.14 Show Candle Equilibrium
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display 50% equilibrium level of HTF candles
 - **Behavior:** Horizontal line at midpoint of HTF candle range
-- **Impact:** Identifies premium/discount zones
 
-#### 2.3.15 Equilibrium Line Style
+#### 1.3.15 Equilibrium Line Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Dotted"
 - **Purpose:** Line style for equilibrium lines
-- **Impact:** Visual customization
 
-#### 2.3.16 Equilibrium Line Width
+#### 1.3.16 Equilibrium Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
 - **Default:** 1
 - **Purpose:** Thickness of equilibrium lines
-- **Impact:** Visibility
 
-#### 2.3.17 Equilibrium Color
+#### 1.3.17 Equilibrium Color
 - **Type:** Color picker
 - **Default:** Gray or white
 - **Purpose:** Color for equilibrium lines
-- **Impact:** Visual customization
 
-#### 2.3.18 Show T-Spot
+#### 1.3.18 Show T-Spot
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display T-Spot markers indicating anticipated wick formation areas
 - **Behavior:** Marks projected areas where HTF candle wicks may form
-- **Impact:** Identifies high-probability reversal/continuation zones
 
-#### 2.3.19 T-Spot Marker Style
+#### 1.3.19 T-Spot Marker Style
 - **Type:** Enum (dropdown)
 - **Options:** "Circle", "Square", "Diamond", "Cross", "Arrow"
 - **Default:** "Circle"
 - **Purpose:** Visual style for T-Spot markers
-- **Impact:** Visual customization
 
-#### 2.3.20 T-Spot Marker Size
+#### 1.3.20 T-Spot Marker Size
 - **Type:** Integer (slider)
 - **Range:** 1 to 10
 - **Default:** 5
 - **Purpose:** Size of T-Spot markers
-- **Impact:** Visibility
 
-#### 2.3.21 T-Spot Color
+#### 1.3.21 T-Spot Color
 - **Type:** Color picker
 - **Default:** Purple or magenta
 - **Purpose:** Color for T-Spot markers
-- **Impact:** Visual customization
 
-### 2.4 Projections Settings
+### 1.4 Standard Deviation Projections Settings
 
-#### 2.4.1 Show Projections
+#### 1.4.1 Show Projections
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Master switch for all projection levels
 - **Behavior:** When OFF, no projections displayed regardless of individual settings
 - **Impact:** Visual only
 
-#### 2.4.2 Projection Type
+#### 1.4.2 Show Projection Labels
+- **Type:** Boolean (checkbox)
+- **Default:** ON
+- **Purpose:** Display text labels on projection lines showing multiplier values
+- **Impact:** Helps identify which projection is which
+
+#### 1.4.3 Projection Label Size
+- **Type:** Enum (dropdown)
+- **Options:** "Tiny", "Small", "Normal", "Large"
+- **Default:** "Small"
+- **Purpose:** Size of projection labels
+
+#### 1.4.4 Projection Type
 - **Type:** Enum (dropdown)
 - **Options:** "Body Projections", "Wick Projections", "Both"
 - **Default:** "Both"
@@ -480,342 +358,194 @@ This section details all user-configurable inputs/parameters for the indicator. 
 - **Behavior:**
   - **Body Projections:** Based on HTF candle body size
   - **Wick Projections:** Based on HTF candle wick extremes
-  - **Both:** Display both types
 - **Impact:** Affects calculation method and visual display
 
-#### 2.4.3 Projection Level 1 Multiplier
-- **Type:** Float (input)
-- **Range:** -10.0 to +10.0
-- **Default:** -1.0
-- **Purpose:** First projection level multiplier
+#### 1.4.5 Projection Standard Deviation
+- **Type:** Text
+- **Default:** -1, -2, -2.5, -4, -4.5
+- **Purpose:** Standard deviations for the projections
 - **Behavior:** Multiplies reference range to calculate projection distance
-- **Impact:** Defines first target level
+- **Important:** Input must be comma separated
 
-#### 2.4.4 Projection Level 1 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide first projection level
-- **Impact:** Visual only
-
-#### 2.4.5 Projection Level 2 Multiplier
-- **Type:** Float (input)
-- **Range:** -10.0 to +10.0
-- **Default:** -2.0
-- **Purpose:** Second projection level multiplier
-- **Impact:** Defines second target level
-
-#### 2.4.6 Projection Level 2 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide second projection level
-- **Impact:** Visual only
-
-#### 2.4.7 Projection Level 3 Multiplier
-- **Type:** Float (input)
-- **Range:** -10.0 to +10.0
-- **Default:** -2.5
-- **Purpose:** Third projection level multiplier
-- **Impact:** Defines third target level
-
-#### 2.4.8 Projection Level 3 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide third projection level
-- **Impact:** Visual only
-
-#### 2.4.9 Projection Level 4 Multiplier
-- **Type:** Float (input)
-- **Range:** -10.0 to +10.0
-- **Default:** -4.0
-- **Purpose:** Fourth projection level multiplier
-- **Impact:** Defines fourth target level
-
-#### 2.4.10 Projection Level 4 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide fourth projection level
-- **Impact:** Visual only
-
-#### 2.4.11 Projection Level 5 Multiplier
-- **Type:** Float (input)
-- **Range:** -10.0 to +10.0
-- **Default:** -4.5
-- **Purpose:** Fifth projection level multiplier
-- **Impact:** Defines fifth target level
-
-#### 2.4.12 Projection Level 5 Enable
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Show/hide fifth projection level
-- **Impact:** Visual only
-
-#### 2.4.13 Show Projection Labels
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Display text labels on projection lines showing multiplier values
-- **Impact:** Helps identify which projection is which
-
-#### 2.4.14 Projection Label Size
-- **Type:** Enum (dropdown)
-- **Options:** "Tiny", "Small", "Normal", "Large"
-- **Default:** "Small"
-- **Purpose:** Size of projection labels
-- **Impact:** Visibility and chart clutter
-
-#### 2.4.15 Projection Label Color
+#### 1.4.6 Projection Color
 - **Type:** Color picker
 - **Default:** White or gray
-- **Purpose:** Color for projection labels
-- **Impact:** Visual customization
+- **Purpose:** Color for projection drawings
 
-#### 2.4.16 Projection Line Style
+#### 1.4.7 Projection Line Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Dotted"
 - **Purpose:** Line style for all projection lines
-- **Impact:** Visual customization
 
-#### 2.4.17 Projection Line Width
+#### 1.4.8 Projection Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
 - **Default:** 1
 - **Purpose:** Thickness of projection lines
-- **Impact:** Visibility
 
-#### 2.4.18 Projection Line Color
-- **Type:** Color picker
-- **Default:** Blue or cyan
-- **Purpose:** Color for projection lines
-- **Impact:** Visual customization
+### 1.5 Formation Liquidity Settings
 
-### 2.5 Formation Liquidity Settings
-
-#### 2.5.1 Show Formation Liquidity
+#### 1.5.1 Show Formation Liquidity
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display liquidity markers from previous candles
 - **Behavior:** Marks previous swing highs and lows as liquidity zones
-- **Impact:** Identifies engineered liquidity pools
 
-#### 2.5.2 Formation Liquidity Line Style
+#### 1.5.2 Formation Liquidity Line Style
 - **Type:** Enum (dropdown)
 - **Options:** "Solid", "Dotted", "Dashed"
 - **Default:** "Dotted"
 - **Purpose:** Line style for liquidity markers
-- **Impact:** Visual customization
 
-#### 2.5.3 Formation Liquidity Line Width
+#### 1.5.3 Formation Liquidity Line Width
 - **Type:** Integer (slider)
 - **Range:** 1 to 5
 - **Default:** 1
 - **Purpose:** Thickness of liquidity marker lines
-- **Impact:** Visibility
 
-#### 2.5.4 Formation Liquidity Color
+#### 1.5.4 Formation Liquidity Color
 - **Type:** Color picker
 - **Default:** Yellow or light orange
 - **Purpose:** Color for liquidity markers
-- **Impact:** Visual customization
 
-### 2.6 SMT Divergence Settings
+### 1.6 Time Filter Settings
 
-#### 2.6.1 Show SMT Divergence
+#### 1.6.1 Time Filter Enable
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
-- **Purpose:** Enable SMT (Smart Money Tool) divergence detection
-- **Behavior:** Compares price action between correlated markets
-- **Impact:** Adds divergence analysis to fractal model
+- **Purpose:** Enable/disable all time filters
 
-#### 2.6.2 SMT Mode
+#### 1.6.2 Apply Below
 - **Type:** Enum (dropdown)
-- **Options:** "Automatic", "Manual"
-- **Default:** "Automatic"
-- **Purpose:** How SMT pair is selected
-- **Behavior:**
-  - **Automatic:** System selects most relevant pair for current asset
-  - **Manual:** User specifies both markets
-- **Impact:** Determines which markets are compared
+- **Default:** 1 hour
+- **Purpose:** Time filters will only be applied if the current chart's timeframe is below or equal to the selected timeframe
 
-#### 2.6.3 SMT Pair 1 (Manual Mode)
-- **Type:** String (symbol input) or Symbol Selector
-- **Default:** ""
-- **Purpose:** First market symbol for manual SMT pair
-- **Example:** "CME_MINI:ES1!" (E-mini S&P 500)
-- **Selection Method:** User can select the asset from the "Change Symbol" tab/interface
-- **Validation:** Must be valid TradingView symbol
-- **Impact:** Only used when SMT Mode = "Manual"
-
-#### 2.6.4 SMT Pair 2 (Manual Mode)
-- **Type:** String (symbol input) or Symbol Selector
-- **Default:** ""
-- **Purpose:** Second market symbol for manual SMT pair
-- **Example:** "CME_MINI:YM1!" (E-mini Dow)
-- **Selection Method:** User can select the asset from the "Change Symbol" tab/interface
-- **Note:** It's possible to add and configure a second SMT pair for additional correlation analysis
-- **Validation:** Must be valid TradingView symbol
-- **Impact:** Only used when SMT Mode = "Manual"
-
-#### 2.6.5 SMT Inverse Correlation
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Indicates if SMT pair has inverse correlation
+#### 1.6.3 Custom Timezone
+- **Type:** Integer (UTC offset in hours)
+- **Range:** -12 to +14
+- **Default:** -5 (New York Eastern Time, UTC-5)
+- **Purpose:** Defines timezone for time filter calculations
 - **Behavior:** 
-  - When ON, divergence detection accounts for inverse relationship
-  - Ignored if SMT Mode = "Automatic"
-- **Impact:** Affects divergence calculation logic
+  - Positive values = UTC+X (e.g., +2 for Central European Time)
+  - Negative values = UTC-X (e.g., -5 for Eastern Time)
+- **Impact:** All time filter windows use this timezone for start/end times
 
-#### 2.6.6 SMT Line Style
-- **Type:** Enum (dropdown)
-- **Options:** "Solid", "Dotted", "Dashed"
-- **Default:** "Solid"
-- **Purpose:** Line style for SMT divergence lines
-- **Impact:** Visual customization
-
-#### 2.6.7 SMT Line Width
-- **Type:** Integer (slider)
-- **Range:** 1 to 5
-- **Default:** 2
-- **Purpose:** Thickness of SMT lines
-- **Impact:** Visibility
-
-#### 2.6.8 SMT Line Color
-- **Type:** Color picker
-- **Default:** Cyan or teal
-- **Purpose:** Color for SMT divergence lines
-- **Impact:** Visual customization
-
-#### 2.6.9 Show SMT Labels
-- **Type:** Boolean (checkbox)
-- **Default:** ON
-- **Purpose:** Display divergence labels on chart
-- **Impact:** Visual identification of divergence events
-
-#### 2.6.10 SMT Label Size
-- **Type:** Enum (dropdown)
-- **Options:** "Tiny", "Small", "Normal", "Large", "Huge"
-- **Default:** "Normal"
-- **Purpose:** Size of SMT divergence labels
-- **Impact:** Visibility
-
-#### 2.6.11 SMT Alerts Enable
+#### 1.6.4 Time Filter 1 Enable
 - **Type:** Boolean (checkbox)
 - **Default:** OFF
-- **Purpose:** Enable alerts when SMT divergence is detected
-- **Behavior:** Requires main Alerts toggle to be ON
-- **Impact:** Notification when divergence occurs
+- **Purpose:** Enable/disable first custom time filter window
+- **Behavior:** When enabled, setups are only shown if they occur within Time Filter 1 window
 
-### 2.7 Info Table Settings
+#### 1.6.5 Time Filter 1 Start
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "02:00"
+- **Purpose:** Start time for first time filter window
 
-#### 2.7.1 Show Info Table
+#### 1.6.6 Time Filter 1 End
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "05:00"
+- **Purpose:** End time for first time filter window
+
+#### 1.6.7 Time Filter 2 Enable
+- **Type:** Boolean (checkbox)
+- **Default:** OFF
+- **Purpose:** Enable/disable second custom time filter window
+- **Behavior:** When enabled, setups are only shown if they occur within Time Filter 2 window (or Time Filter 1 if both enabled)
+
+#### 1.6.8 Time Filter 2 Start
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "08:00"
+- **Purpose:** Start time for second time filter window
+
+#### 1.6.9 Time Filter 2 End
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "11:00"
+- **Purpose:** End time for second time filter window
+
+#### 1.6.10 Time Filter 3 Enable
+- **Type:** Boolean (checkbox)
+- **Default:** OFF
+- **Purpose:** Enable/disable third custom time filter window
+
+#### 1.6.11 Time Filter 3 Start
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "14:00"
+- **Purpose:** Start time for third time filter window
+
+#### 1.6.12 Time Filter 3 End
+- **Type:** Time (HH:MM format)
+- **Range:** 00:00 to 23:59
+- **Default:** "17:00"
+- **Purpose:** End time for third time filter window
+
+### 1.7 Info Table Settings
+
+#### 1.7.1 Show Info Table
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display information table on chart
 - **Behavior:** Shows current fractal model state and settings
 - **Impact:** Provides quick reference information
 
-#### 2.7.2 Info Table Position
+#### 1.7.2 Info Table Position
 - **Type:** Enum (dropdown)
 - **Options:** "Top Left", "Top Right", "Top Center", "Bottom Left", "Bottom Right", "Bottom Center", "On Chart"
 - **Default:** "Top Left"
 - **Purpose:** Location of info table on chart
-- **Behavior:** 
-  - Corner positions: Fixed table overlay
-  - "On Chart": Displays below HTF candles
-- **Impact:** Chart layout and readability
 
-#### 2.7.3 Info Table Size
+#### 1.7.3 Info Table Size
 - **Type:** Enum (dropdown)
 - **Options:** "Small", "Normal", "Large"
 - **Default:** "Normal"
 - **Purpose:** Size of info table text and cells
-- **Impact:** Readability vs. chart space
 
-#### 2.7.4 Show Table Borders
+#### 1.7.4 Show Table Borders
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display borders around table cells
-- **Impact:** Visual clarity
 
-#### 2.7.5 Show Fractal Pairing Info
+#### 1.7.5 Show Asset Info
+- **Type:** Boolean (checkbox)
+- **Default:** ON
+- **Purpose:** Display current ticker info in table
+
+#### 1.7.6 Show Chart Timeframe Info
+- **Type:** Boolean (checkbox)
+- **Default:** ON
+- **Purpose:** Display current chart's timeframe in table
+
+#### 1.7.7 Show Fractal Pairing Info
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display current HTF-LTF pairing in table
-- **Impact:** Quick reference for active timeframe relationship
 
-#### 2.7.6 Show Time to Close
+#### 1.7.8 Show Time to Close
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display countdown to next HTF candle close
 - **Behavior:** Shows time remaining until current HTF candle closes
-- **Impact:** Helps time entries/exits relative to HTF structure
 
-#### 2.7.7 Show Bias Info
+#### 1.7.9 Show Bias Info
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display current bias setting in table
-- **Impact:** Quick reference for active bias filter
 
-#### 2.7.8 Show Time Filter Info
+#### 1.7.10 Show Time Filter Info
 - **Type:** Boolean (checkbox)
 - **Default:** ON
 - **Purpose:** Display active time filter windows in table
 - **Behavior:** Shows which time filters are enabled and their windows
-- **Impact:** Confirms time filter settings
 
-### 2.8 Alert Settings
-
-#### 2.8.1 Alert: Setup Formation
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when new setup is detected
-- **Behavior:** Triggers when valid C2/C3/C4 formation is confirmed
-- **Impact:** Notification of new trading opportunity
-
-#### 2.8.2 Alert: Setup Failure
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when setup fails (label turns red)
-- **Behavior:** Triggers when price returns to initial high/low without HTF swing
-- **Impact:** Notification of invalidated setup
-
-#### 2.8.3 Alert: Setup Consolidation
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when setup fails in second candle (label turns orange)
-- **Behavior:** Triggers when setup doesn't progress within next HTF candle
-- **Impact:** Notification of potential range-bound market
-
-#### 2.8.4 Alert: CISD Confirmation
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when CISD is confirmed
-- **Behavior:** Triggers when change in state of delivery is detected
-- **Impact:** Early notification of potential setup formation
-
-#### 2.8.5 Alert: T-Spot Reached
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when price reaches T-Spot level
-- **Behavior:** Triggers when price touches projected T-Spot area
-- **Impact:** Notification of high-probability reversal/continuation zone
-
-#### 2.8.6 Alert: Projection Level Reached
-- **Type:** Boolean (checkbox)
-- **Default:** OFF
-- **Purpose:** Alert when price reaches any enabled projection level
-- **Behavior:** Triggers when price touches projection line
-- **Impact:** Notification of target level reached
-
-#### 2.8.7 Alert: Projection Level (Specific)
-- **Type:** Boolean (checkbox) - One for each projection level
-- **Default:** OFF
-- **Purpose:** Alert when specific projection level is reached
-- **Behavior:** Allows selective alerts for specific projections
-- **Impact:** Granular control over projection alerts
 
 ---
 
-## 3. Core Concept & Framework
+## 2. Core Concept & Framework
 
 ### 2.1 Fundamental Principle
 
@@ -919,11 +649,6 @@ The indicator operates on a **fractal pairing** concept where:
 - **Standard pairings:** Pre-defined common combinations
   - 1m-5m, 3m-30m, 5m-15m, 5m-1H, 15m-1H, 15m-4H, 1H-4H, 1H-1D, 4H-1D, 1D-1W
   - These represent typical fractal relationships where HTF is 3-12x the LTF
-  - Examples from documentation: 3m-30m (10x ratio), 5m-1H (12x ratio), 1H-1D (24x ratio)
-- **Explicit methodology pairings (from documentation):**
-  - Weekly with 4H; Daily with 1H; 4H with 15m; 1H with 5m; 30m with 3m; 15m with 1m
-  - Used for bias (HTF) → structure (middle TF) → entry (LTF) alignment
-- **Preferred three-timeframe combos (from documentation):** Daily + 4H + 15m; Daily + 1H + 5m; 1H + 15m + 1m (scalping).
 - **Custom pairings:** User-defined HTF-LTF combinations
   - Any valid timeframe combination where HTF > LTF
   - Examples: 1H-3m, 1D-15m (allows flexibility for personal framework preferences)
@@ -932,12 +657,6 @@ The indicator operates on a **fractal pairing** concept where:
   - Uses predefined rules to select optimal HTF
   - Ensures proper fractal relationship
   - Can be overridden with custom pairing if desired
-
-**Fractal Relationship Rules:**
-- HTF should typically be 3-12x the LTF timeframe
-- Common ratios: 3x, 4x, 5x, 6x, 12x
-- Example: 5m chart with 1H HTF = 12x ratio
-- Example: 15m chart with 1H HTF = 4x ratio
 
 **Important Limitation:**
 - If viewing a chart timeframe **greater than the LTF** (e.g. 5m–15m model but chart is on 5m or above LTF; or 1m–15m model on 5m chart), the indicator should display a warning/error (e.g. in the info table): chart must be at or below the model’s LTF
@@ -1009,7 +728,7 @@ This framework helps identify critical turning points and aligns with the fracta
   - **Bullish CISD:** Down-close candle(s) get closed above → use the **opening price of the first** down-close candle in the series as the CISD level
   - When there is a **series** of such candles (multiple up-close or down-close in a row), the CISD level is always the **opening price of the first candle** in that series
 - This confirms a trend reversal and is a form of orderblock
-- **Early C2 CISD (NEW):** Option to highlight early CISD within the C2 candle for earlier detection
+- **Early C2 CISD:** Option to highlight early CISD within the C2 candle for earlier detection
   - Plots the CISD before the candle has closed, allowing you to see the developing change in state of delivery
   - Provides earlier warning of potential setup formation
   - Becomes confirmed CISD when the candle closes and full criteria are met
@@ -1018,11 +737,7 @@ This framework helps identify critical turning points and aligns with the fracta
 - Customizable line style and width
 - Clear marking of CISD candles on the chart
 
-**Related concepts (from documentation):**
-- **Protected swing:** When CISD occurs at a swept high or low (sweep then close through the series of candles that made that level), that level is treated as "protected" and expected to hold if the trend is to continue.
-- **Inversion Fair Value Gap (IFVG):** A fair value gap that is swiftly closed over (inversion); prior resistance becomes support and vice versa. Within the fractal model, a valid IFVG confluence requires: C2 that supports expansion (small wick), sweep of C1's high or low, then the FVG inverted.
-
-### 3.3 TTrades Framework Labels (C2/C3/C4)
+### 3.3 TTFM Labels (C2/C3/C4)
 
 **Purpose:** Identify key structural points in the fractal formation.
 
@@ -1092,7 +807,6 @@ This framework helps identify critical turning points and aligns with the fracta
 **Purpose:** Mark anticipated points where HTF candle wicks are expected to form.
 
 **Mechanics:**
-- Based on TTrades' refined analysis and methodology
 - Projects potential area where wick of new HTF candle will form
 - Identifies high-probability reversal or continuation points within lower timeframes
 - Remains aligned with higher timeframe narrative
@@ -1120,7 +834,6 @@ This framework helps identify critical turning points and aligns with the fracta
 - Projections extend from key reference points (likely C2, C3, C4 or CISD points)
 - Multipliers determine distance from reference (e.g., -1 = 1x range, -2 = 2x range)
 - Negative values suggest extension in opposite direction of trend
-- Projections can target order block levels (e.g., second standard deviation projection from the order block)
 
 **Customization:**
 - Add or remove projection levels dynamically
@@ -1149,63 +862,6 @@ This framework helps identify critical turning points and aligns with the fracta
 
 ---
 
-## 3.9 Practical Examples - How the Fractal Model Works in Real Trading
-
-### Example 1: Higher Timeframe Bearish Setup
-
-**Scenario:** A swing forms on the hourly (1H) timeframe, and the fractal model identifies the sequence:
-
-1. **Candle 1 (C1):** Sets the initial liquidity
-   - Forms a high that becomes the target for the next candle
-   - This is the engineered liquidity pool
-
-2. **Candle 2 (C2):** Performs the sweep and produces CISD
-   - Takes out Candle 1's liquidity (sweeps the high)
-   - Closes back inside the previous range
-   - Produces the Change in State of Delivery (CISD)
-   - This confirms the reversal is unfolding
-
-3. **Candle 3 (C3):** The expansion phase
-   - Expands away from the CISD
-   - Continues the orderflow lower (in this bearish example)
-   - Targets any remaining liquidity left inside Candle 2 and Candle 1
-
-**Result:** The model successfully identifies a bearish reversal and expansion on the hourly timeframe, providing clear structure for lower timeframe execution.
-
-### Example 2: Lower Timeframe Bullish Setup (EUR/USD)
-
-**Scenario:** A bullish framework on EUR/USD (Euro vs. US Dollar) on a lower timeframe:
-
-1. **Candle 1 (C1):** Sets the initial liquidity
-   - Forms the initial low here
-   - Establishes the liquidity pool that will be targeted
-
-2. **Candle 2 (C2):** Rates the liquidity pool and produces CISD
-   - Takes out Candle 1's liquidity (sweeps the low)
-   - Closes back inside the range
-   - Produces the CISD (change from bearish to bullish delivery)
-
-3. **Candle 3 (C3):** Expands away from CISD
-   - Expands upward, confirming the bullish reversal
-   - Begins the new bullish orderflow
-
-4. **Candle 4 (C4):** Produces continuation
-   - Continues the expansion move
-   - Extends all the way until reaching the second standard deviation projection from the order block
-   - Shows the continuation of the bullish move
-
-**Result:** The complete four-candle sequence is identified, with price reaching projection targets, demonstrating how the fractal model tracks the full algorithmic delivery sequence.
-
-### Key Takeaways from Examples:
-
-- **Fractal Nature:** The same candle sequence process occurs on every timeframe
-- **Structure Recognition:** The model automatically labels C1, C2, C3, C4 as the sequence develops
-- **Projection Targeting:** Price often reaches projection levels (e.g., second standard deviation projection)
-- **Orderflow Continuation:** The model tracks how orderflow continues through the sequence
-- **Multi-Timeframe:** Higher timeframe swings follow the same pattern as lower timeframe execution
-
----
-
 ## 4. Setup Detection & Validation Logic
 
 ### 4.1 Setup Formation Process - Detailed Mechanics
@@ -1218,29 +874,18 @@ This framework helps identify critical turning points and aligns with the fracta
    - Monitor HTF timeframe using `request.security()` with `lookahead=barmerge.lookahead_off`
    - Wait for HTF candle to close (confirmed, non-repainting)
    - Extract HTF candle data:
-     - Open (O_HTF)
-     - High (H_HTF)
-     - Low (L_HTF)
-     - Close (C_HTF)
-     - Body size: `abs(C_HTF - O_HTF)`
-     - Range: `H_HTF - L_HTF`
-     - Body midpoint: `(O_HTF + C_HTF) / 2`
-     - Range midpoint (Equilibrium): `(H_HTF + L_HTF) / 2`
+     - Open
+     - High
+     - Low
+     - Close
+     - Body size
+     - Range
+     - Body midpoint
+     - Range midpoint (Equilibrium)
 
 2. **HTF Candle Classification:**
-   - **Bullish HTF Candle:** C_HTF > O_HTF (green/blue)
-   - **Bearish HTF Candle:** C_HTF < O_HTF (red)
-   - **Doji HTF Candle:** C_HTF ≈ O_HTF (small body, potential reversal)
-   - Determine HTF candle strength:
-     - Strong: Body > 60% of range
-     - Moderate: Body 40-60% of range
-     - Weak: Body < 40% of range
-
-3. **HTF Swing Point Identification:**
-   - Compare current HTF candle with previous HTF candles
-   - **Swing High:** HTF high is higher than previous N HTF highs (typically N=2)
-   - **Swing Low:** HTF low is lower than previous N HTF lows (typically N=2)
-   - These swing points become reference levels for setup validation
+   - **Bullish HTF Candle:** Close >= Open
+   - **Bearish HTF Candle:** Close < Open
 
 #### Phase 2: CISD Detection on Lower Timeframe
 
@@ -1806,273 +1451,6 @@ When multiple time filters are enabled, the system uses "OR" logic:
   - End: 16:00
   - Timezone: UTC+0 or UTC-5 (depending on which session you're tracking)
   - Purpose: Focus on highest volatility periods when multiple markets are active
-
----
-
-## 7. SMT Divergence Module (NEW Feature)
-
-### 7.1 Purpose
-
-Detect divergences between correlated or inversely correlated markets directly within the Fractal Model. SMT (Smart Money Tool) divergence helps identify when correlated markets are moving out of sync, which can signal potential reversals or continuations.
-
-**Key Characteristics:**
-- **SMT highlights when one asset makes a lower low while the correlated asset makes a higher high** (or vice versa)
-- This creates a divergence that often **marks exhaustion in delivery**
-- **SMT is NOT an entry trigger** - it is a **confirmation tool**
-- **Typical scenario example:** NASDAQ creating a higher high while ES (S&P 500) is creating a lower high - they're not moving in the same direction, thus creating SMT divergence
-- **When SMT aligns with a validated CISD, it strengthens the narrative and improves timing**
-- Provides multi-market confirmation to validate fractal model setups
-
-### 7.2 Mechanics - Detailed
-
-**SMT Pair Selection:**
-
-**How Automatic SMT Pair Selection Works:**
-
-The system automatically selects the most relevant SMT pair based on your current chart symbol. This requires a built-in database of known correlations between markets.
-
-**Step-by-Step Process:**
-
-1. **Normalize Your Symbol:**
-   - The system takes your current chart symbol
-   - Converts it to uppercase for matching
-   - Removes special characters to make matching easier
-   - Example: "ES1!" becomes "ES1" for matching
-
-2. **Search for Matching Correlations:**
-   - The system searches through its database of known market correlations
-   - It looks for symbols that match or contain your chart symbol
-   - When it finds a match, it selects the appropriate pair
-
-3. **Stock Index Futures Correlations:**
-
-   **S&P 500 Related Symbols (ES, SPX, SP500):**
-   - If your symbol contains "ES", "SPX", or "SP500":
-     - Pair 1: E-mini S&P 500 futures (CME_MINI:ES1!)
-     - Pair 2: E-mini Dow Jones futures (CME_MINI:YM1!)
-     - Correlation Type: Positive (they typically move together)
-     - Confidence Level: High
-   
-   **NASDAQ Related Symbols (NQ, NASDAQ, COMP):**
-   - If your symbol contains "NQ", "NASDAQ", or "COMP":
-     - Pair 1: E-mini NASDAQ futures (CME_MINI:NQ1!)
-     - Pair 2: E-mini S&P 500 futures (CME_MINI:ES1!)
-     - Correlation Type: Positive
-     - Confidence Level: High
-   
-   **Dow Jones Related Symbols (YM, DOW, DJI):**
-   - If your symbol contains "YM", "DOW", or "DJI":
-     - Pair 1: E-mini Dow futures (CME_MINI:YM1!)
-     - Pair 2: E-mini S&P 500 futures (CME_MINI:ES1!)
-     - Correlation Type: Positive
-     - Confidence Level: High
-   
-   **Russell 2000 (RTY, RUT):**
-   - If your symbol contains "RTY" or "RUT":
-     - Pair 1: E-mini Russell 2000 (CME_MINI:RTY1!)
-     - Pair 2: E-mini S&P 500 (CME_MINI:ES1!)
-     - Correlation Type: Positive
-     - Confidence Level: Medium
-
-4. **Forex Major Pairs Correlations:**
-
-   **EUR/USD:**
-   - If your symbol contains "EURUSD" or "EUR_USD":
-     - Pair 1: EUR/USD (FX:EURUSD)
-     - Pair 2: GBP/USD (FX:GBPUSD) - often correlated
-     - Correlation Type: Positive
-     - Confidence Level: Medium
-   
-   **GBP/USD:**
-   - If your symbol contains "GBPUSD" or "GBP_USD":
-     - Pair 1: GBP/USD (FX:GBPUSD)
-     - Pair 2: EUR/USD (FX:EURUSD)
-     - Correlation Type: Positive
-     - Confidence Level: Medium
-   
-   **USD/JPY:**
-   - If your symbol contains "USDJPY" or "USD_JPY":
-     - Pair 1: USD/JPY (FX:USDJPY)
-     - Pair 2: EUR/USD (FX:EURUSD) - often inversely correlated
-     - Correlation Type: Negative (inverse)
-     - Confidence Level: Low
-
-5. **Crypto Correlations:**
-
-   **Bitcoin (BTC):**
-   - If your symbol contains "BTC" or "BITCOIN":
-     - Pair 1: Bitcoin (BINANCE:BTCUSDT)
-     - Pair 2: Ethereum (BINANCE:ETHUSDT)
-     - Correlation Type: Positive
-     - Confidence Level: Medium
-
-6. **If No Match Found:**
-   - The system cannot find a suitable automatic pair
-   - Returns an error: "No automatic pair found for symbol: [your symbol]"
-   - You'll need to use Manual mode instead
-
-**How the System Validates Auto-Selected Pairs:**
-
-1. **Check if Pair 1 Data is Accessible:**
-   - The system tries to request price data for Pair 1
-   - Uses the same timeframe as your current chart
-   - Requests closing price data
-   - If data is unavailable or invalid:
-     - Validation fails
-     - SMT feature is disabled
-   
-2. **Check if Pair 2 Data is Accessible:**
-   - Same process as Pair 1
-   - Tries to request price data for Pair 2
-   - If data is unavailable or invalid:
-     - Validation fails
-     - SMT feature is disabled
-
-3. **If Both Pairs Are Valid:**
-   - SMT divergence feature is enabled
-   - The system can now compare the two markets
-
-**Manual Mode:**
-
-1. **User Provides Symbols:**
-   - You manually enter two symbol strings
-   - Example: Pair 1 = "CME_MINI:ES1!", Pair 2 = "CME_MINI:YM1!"
-   - You can select symbols from the "Change Symbol" tab/interface
-
-2. **System Validates:**
-   - The system checks if both symbols are valid and accessible
-   - Same validation process as automatic mode
-   - If either symbol is invalid:
-     - Display error message
-     - Disable SMT feature
-
-**How Inverse Correlation Works:**
-
-1. **What is Inverse Correlation:**
-   - Some markets move in opposite directions
-   - Example: When EUR/USD goes up, DXY (Dollar Index) goes down
-   - These markets are "inversely correlated"
-
-2. **How the System Handles It:**
-   - When inverse correlation is enabled (Manual mode only):
-     - The system finds a "base price" for Pair 2
-       - This could be an average price or the starting price value
-     - For each price point in Pair 2:
-       - Calculate the distance from the base price
-       - Example: If current price is 2 points above base
-       - Flip it: Make it 2 points below base instead
-       - This inverts the price action
-   
-3. **Why This Matters:**
-   - Allows comparison of markets that normally move in opposite directions
-   - The system can now detect divergence even when markets are inversely correlated
-   - Example: EUR/USD making higher highs while DXY makes lower lows (both showing bullish divergence, but in opposite directions)
-
-4. **Important Note:**
-   - Inverse setting only applies in Manual mode
-   - Auto mode already knows the correlation type (positive or negative)
-   - If Auto mode and Inverse are both enabled, the inverse setting is ignored
-
-**Divergence Detection Algorithm:**
-
-**SMT Divergence Detection Process - Step by Step:**
-
-1. **Get Price Data for Both Markets:**
-   - The system requests price data for Pair 1 (the charted symbol or related market)
-   - The system requests price data for Pair 2 (the correlated market)
-   - Both use the same timeframe as your current chart
-   - The system looks back at the last 50-100 price bars for analysis
-   - It collects: closing prices, high prices, and low prices for both markets
-
-2. **Validate Data Availability:**
-   - Check if data is available for both Pair 1 and Pair 2
-   - If data is missing for either market:
-     - Show a warning message: "SMT data unavailable"
-     - Disable the SMT divergence feature
-     - Stop the process here
-   - If data is available for both:
-     - Continue to step 3
-
-3. **Handle Inverse Correlation (if enabled):**
-   - Inverse correlation means: When Pair 1 goes up, Pair 2 goes down (and vice versa)
-   - This only applies if you're using Manual mode (Auto mode already knows the correlation type)
-   - If inverse correlation is enabled:
-     - The system finds a "base price" for Pair 2 (like an average or starting value)
-     - For each price point in Pair 2:
-       - Calculate how far it is from the base price
-       - Flip it to the opposite side of the base price
-       - Example: If price is 2 points above base, flip it to 2 points below base
-     - This allows the system to compare markets that move in opposite directions
-
-4. **Calculate Trends for Both Markets:**
-   - **For Pair 1:**
-     - Look at the most recent period (e.g., last 20 bars)
-     - Find the highest price and lowest price in that period
-     - Look at the more recent half of that period (e.g., last 10 bars)
-     - Find the highest and lowest in that recent half
-     - Compare:
-       - If recent highs are higher AND recent lows are higher → Trend is "Bullish"
-       - If recent highs are lower AND recent lows are lower → Trend is "Bearish"
-       - Otherwise → Trend is "Neutral"
-   
-   - **For Pair 2:**
-     - Do the same analysis as Pair 1
-     - Determine if trend is Bullish, Bearish, or Neutral
-
-5. **Detect Divergence:**
-   - **Bullish Divergence:**
-     - Pair 1 is making lower lows (Bearish trend)
-     - BUT Pair 2 is making higher lows (Bullish trend)
-     - This means: Pair 1 is weakening, but Pair 2 is strengthening
-     - This can signal a potential reversal upward in Pair 1
-   
-   - **Bearish Divergence:**
-     - Pair 1 is making higher highs (Bullish trend)
-     - BUT Pair 2 is making lower highs (Bearish trend)
-     - This means: Pair 1 is strengthening, but Pair 2 is weakening
-     - This can signal a potential reversal downward in Pair 1
-   
-   - **No Divergence:**
-     - Both markets are moving in the same direction
-     - Or both are neutral
-     - No divergence detected
-
-6. **Display Divergence on Chart:**
-   - If divergence is detected:
-     - Draw a line on your chart showing the divergence
-     - The line connects:
-       - Start point: Where the divergence began (earlier bar)
-       - End point: Current bar (where divergence is confirmed)
-     - Use the color, style, and width you specified in settings
-   
-   - If labels are enabled:
-     - Display a text label showing the divergence type
-     - Text will say either "Bullish Divergence" or "Bearish Divergence"
-     - Place it at the current price level
-     - Use the label size and color you specified
-
-### 7.3 Integration with Fractal Model
-
-**Divergence + Setup Interaction:**
-- SMT divergence can confirm or contradict fractal model setups
-- **Confirming:** Divergence aligns with setup direction (bullish divergence + bullish setup = stronger signal)
-- **Contradicting:** Divergence opposes setup direction (may indicate weaker setup or upcoming reversal)
-
-**Alert Integration:**
-- SMT divergence alerts can be combined with setup alerts
-- Alert when: Divergence detected AND setup formation occurs
-- Provides multi-confirmation signals
-
-### 7.4 Customization Options
-
-- **Show SMT Lines:** Toggle visibility of divergence lines
-- **SMT Alerts:** Enable alerts when divergence detected
-- **Line Style:** Solid, dotted, dashed
-- **Line Width:** 1-5 pixels
-- **Line Color:** Customizable color picker
-- **Show Labels:** Display divergence type labels
-- **Label Size:** Tiny, Small, Normal, Large, Huge
-- **Label Color:** Customizable
 
 ---
 
